@@ -48,14 +48,19 @@ def get_token():
     return resp.json()["access_token"]
 
 
-def search_page(token, filters, category_ids, offset, sort=None, q=None):
-    """One page of item summaries. `q` adds a keyword term to the filters."""
+def search_page(token, filters, category_ids, offset, sort=None, q=None,
+                limit=None):
+    """One page of item summaries.
+
+    `q` adds a keyword term. `limit` caps the page size, which a bounded
+    feasibility probe needs - the crawler always wants the full PAGE_SIZE.
+    """
     global request_count
     request_count += 1
     params = {
         "category_ids": category_ids,
         "filter": ",".join(filters),
-        "limit": PAGE_SIZE,
+        "limit": limit or PAGE_SIZE,
         "offset": offset,
     }
     if sort:

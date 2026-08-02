@@ -1,0 +1,319 @@
+{
+ "probed_at": "2026-08-02T16:59:06.468122+00:00",
+ "request": {
+  "endpoint": "buy/browse/v1/item_summary/search",
+  "category_ids": "212",
+  "filter": "buyingOptions:{AUCTION},priceCurrency:USD",
+  "sort": "endingSoonest",
+  "limit": 10,
+  "offset": 0,
+  "marketplace": "EBAY_US",
+  "method": "GET"
+ },
+ "search_requests_issued": 1,
+ "http_status": 200,
+ "total_reported": 2429379,
+ "items": [
+  {
+   "item_id": "v1|377371511454|0",
+   "title": "Upper Deck 2002 Run to History Ricky Williams Jersey Insert RHJ-RW",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "FIXED_PRICE",
+    "AUCTION"
+   ],
+   "price_value": "30.00",
+   "price_currency": "USD",
+   "current_bid_price": "20.00",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:06.000Z",
+   "bid_count": 0,
+   "seller": "kodo_auctions",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 1
+  },
+  {
+   "item_id": "v1|407099853711|0",
+   "title": "Carl Yastrzemski 1/1 Printing Plates 2014-2019 Panini Leaf 75 Anniversary SP",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "100.00",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:06.000Z",
+   "bid_count": 0,
+   "seller": "joske_99",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 2
+  },
+  {
+   "item_id": "v1|137543985491|0",
+   "title": "1995 Upper Deck Collector's Choice - You Crash the Game Redemptions Tim Brown...",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "1.25",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:07.000Z",
+   "bid_count": 0,
+   "seller": "hogsbreath1",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 3
+  },
+  {
+   "item_id": "v1|188698505364|0",
+   "title": "2024 Topps Archives - 1996 Wrecking Crew Brent Rooker #96WC-18",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "0.38",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:07.000Z",
+   "bid_count": 0,
+   "seller": "mc_far56",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 4
+  },
+  {
+   "item_id": "v1|398217174885|0",
+   "title": "2026 Topps Collectors Kit Exclusive #NBA-9 Egor Demin Wave Parallel Rookie Card",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "0.99",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:07.000Z",
+   "bid_count": 0,
+   "seller": "conlans_card_corner",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 5
+  },
+  {
+   "item_id": "v1|278210961070|0",
+   "title": "2022 Bowman Chrome Jordan Walker Teal Lava Refractor (RC) #ed 021/199 SP",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "13.99",
+   "current_bid_currency": "USD",
+   "shipping_cost": "5.99",
+   "shipping_cost_type": "FIXED",
+   "item_end_date": "2026-08-02T16:58:08.000Z",
+   "bid_count": 0,
+   "seller": "sfgiants770",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 6
+  },
+  {
+   "item_id": "v1|298534490028|0",
+   "title": "2026 Topps Heritage #194 Matt Olson Atlanta Braves",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "0.99",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:09.000Z",
+   "bid_count": 0,
+   "seller": "slz_cards",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 7
+  },
+  {
+   "item_id": "v1|298534490031|0",
+   "title": "2026 Topps Heritage #279 Jacob Young Washington Nationals",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "0.99",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:09.000Z",
+   "bid_count": 0,
+   "seller": "slz_cards",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 8
+  },
+  {
+   "item_id": "v1|127995064596|0",
+   "title": "2025 Panini Mosaic Football Yellow Reactive Michael Irvin #187 Dallas Cowboys",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "0.99",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:10.000Z",
+   "bid_count": 0,
+   "seller": "cloudkicker1170",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 9
+  },
+  {
+   "item_id": "v1|188698505470|0",
+   "title": "Topps 2022 Glover Glove Work Daulton Varsho Toronto Blue Jays Insert #GW-55",
+   "categories": [
+    "261328",
+    "212",
+    "64482"
+   ],
+   "leaf_category_ids": [
+    "261328"
+   ],
+   "buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "price_value": null,
+   "price_currency": null,
+   "current_bid_price": "1.69",
+   "current_bid_currency": "USD",
+   "shipping_cost": null,
+   "shipping_cost_type": "CALCULATED",
+   "item_end_date": "2026-08-02T16:58:10.000Z",
+   "bid_count": 0,
+   "seller": "dano1055",
+   "reserve_fields": [],
+   "is_genuine_auction": true,
+   "position": 10
+  }
+ ],
+ "field_paths": {
+  "end_time": "itemEndDate",
+  "bid_count": "bidCount",
+  "price_fixed": "price.value",
+  "price_auction": "currentBidPrice.value",
+  "buying_option": "buyingOptions[]",
+  "shipping": "shippingOptions[0].shippingCost.value",
+  "shipping_type": "shippingOptions[0].shippingCostType",
+  "reserve": "NOT EXPOSED"
+ },
+ "findings": {
+  "genuine_auctions": 10,
+  "end_time_populated": 10,
+  "bid_count_populated": 10,
+  "bid_count_values": [
+   0
+  ],
+  "ordering_monotonic": true,
+  "price_field_populated": 1,
+  "current_bid_price_populated": 10,
+  "shipping_value_populated": 1,
+  "reserve_exposed": false
+ }
+}

@@ -341,3 +341,23 @@ class TestSinglesOnly(unittest.TestCase):
     def test_the_singles_leaf_constant_is_stable(self):
         self.assertEqual(fl.SINGLES_LEAF, "261328")
         self.assertEqual(fl.EXPECTED_LEAF_CATEGORY, fl.SINGLES_LEAF)
+
+
+class TestSearchPageLimit(unittest.TestCase):
+    """A bounded probe must be able to cap the page size."""
+
+    def test_limit_defaults_to_the_full_page(self):
+        import ebay_api, inspect
+        sig = inspect.signature(ebay_api.search_page)
+        self.assertIn("limit", sig.parameters)
+        self.assertIsNone(sig.parameters["limit"].default)
+
+    def test_the_crawler_still_requests_full_pages(self):
+        """search_all never passes a limit, so crawling is unchanged."""
+        import ebay_api, inspect
+        src = inspect.getsource(ebay_api.search_all)
+        self.assertNotIn("limit", src)
+
+    def test_page_size_constant_is_unchanged(self):
+        import ebay_api
+        self.assertEqual(ebay_api.PAGE_SIZE, 200)

@@ -75,6 +75,49 @@ def band_filters(low, high, sellers):
     return [f"sellers:{{{names}}}", f"price:{price}", "priceCurrency:USD"]
 
 
+# --------------------------------------------------------------------------
+# Ending-window construction for auction discovery
+# --------------------------------------------------------------------------
+# `sort=endingSoonest` alone cannot define a 24-hour cohort: the probe's first
+# page was already ending within 60 seconds, and 2.4 million auctions match the
+# base filter, so shallow pagination would only ever see the next few seconds.
+# An absolute bounded range is required.
+#
+# NOT YET VERIFIED LIVE: the probe sent no itemEndDate filter, so the syntax
+# below follows the documented Browse contract but has not been observed to
+# work. Treat a Gate C pilot's first call as the verification.
+AUCTION_FILTER = "buyingOptions:{AUCTION}"
+ENDING_SOONEST = "endingSoonest"
+
+
+def iso_utc(moment):
+    """Browse-API timestamp: ISO-8601 UTC, milliseconds, trailing Z.
+
+    A naive datetime is rejected rather than assumed local: silently reading
+    17:00 as 14:00Z would shift the whole ending window by the machine's offset
+    and quietly research the wrong auctions.
+    """
+    if moment.tzinfo is None or moment.tzinfo.utcoffset(moment) is None:
+        raise ValueError("ending-window timestamps must be timezone-aware UTC")
+    return moment.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+
+
+def ending_window_filter(start, hours=24):
+    """`itemEndDate:[start..start+hours]` as the API documents ranges."""
+    end = start + dt.timedelta(hours=hours)
+    return f"itemEndDate:[{iso_utc(start)}..{iso_utc(end)}]"
+
+
+def auction_filters(start, hours=24, price_min=None, price_max=None):
+    """Every filter clause for one bounded ending-soon auction query."""
+    out = [AUCTION_FILTER, ending_window_filter(start, hours), "priceCurrency:USD"]
+    if price_min is not None or price_max is not None:
+        lo = 0 if price_min is None else price_min
+        out.append(f"price:[{lo}..{price_max}]" if price_max is not None
+                   else f"price:[{lo}]")
+    return out
+
+
 def label_for(low, high):
     return f"${low:g}-${high:g}" if high is not None else f"${low:g}+"
 

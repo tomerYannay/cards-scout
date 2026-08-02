@@ -27,6 +27,20 @@ CREATE TABLE IF NOT EXISTS listings (
     seller_feedback_pct  REAL,
     seller_feedback_score INTEGER,
     discovery_run_id   TEXT,
+    -- Auction representation. An auction states its price in currentBidPrice,
+    -- NOT in price, so `price` stays exactly what it has always been - the
+    -- fixed asking price - and every existing row keeps its meaning.
+    current_bid_price  REAL,
+    current_bid_currency TEXT,
+    fixed_asking_price REAL,
+    shipping_state     TEXT,      -- KNOWN | CALCULATED_UNKNOWN | NOT_RETURNED
+    acquisition_total  REAL,      -- only when a COMPLETED purchase price is known
+    acquisition_total_complete INTEGER,
+    provisional_bid_total REAL,   -- current bid + shipping; changes until close
+    raw_buying_options TEXT,
+    sale_format        TEXT,      -- AUCTION_ONLY | AUCTION_WITH_FIXED_PRICE_OPTION
+                                  -- | FIXED_PRICE_ONLY | UNKNOWN
+    reserve_state      TEXT,      -- KNOWN_MET | KNOWN_NOT_MET | UNKNOWN
     raw           TEXT NOT NULL
 );
 """
@@ -215,7 +229,17 @@ def connect(path=DB_PATH):
         conn.execute("ALTER TABLE listings ADD COLUMN active INTEGER NOT NULL DEFAULT 1")
     for col, kind in (("seller", "TEXT"), ("seller_feedback_pct", "REAL"),
                       ("seller_feedback_score", "INTEGER"),
-                      ("discovery_run_id", "TEXT")):
+                      ("discovery_run_id", "TEXT"),
+                      ("current_bid_price", "REAL"),
+                      ("current_bid_currency", "TEXT"),
+                      ("fixed_asking_price", "REAL"),
+                      ("shipping_state", "TEXT"),
+                      ("acquisition_total", "REAL"),
+                      ("acquisition_total_complete", "INTEGER"),
+                      ("provisional_bid_total", "REAL"),
+                      ("raw_buying_options", "TEXT"),
+                      ("sale_format", "TEXT"),
+                      ("reserve_state", "TEXT")):
         if col not in cols:
             conn.execute(f"ALTER TABLE listings ADD COLUMN {col} {kind}")
     pr = {r["name"] for r in conn.execute("PRAGMA table_info(pr_runs)")}
@@ -299,16 +323,77 @@ def upsert_listings(conn, rows):
            (item_id, title, price, currency, shipping_cost, buying_option,
             bid_count, end_time, category_id, condition, url, fetched_at,
             active, seller, seller_feedback_pct, seller_feedback_score,
-            discovery_run_id, raw)
+            discovery_run_id, current_bid_price, current_bid_currency,
+            fixed_asking_price, shipping_state, acquisition_total,
+            acquisition_total_complete, provisional_bid_total,
+            raw_buying_options, sale_format, reserve_state, raw)
            VALUES (:item_id, :title, :price, :currency, :shipping_cost,
                    :buying_option, :bid_count, :end_time, :category_id,
                    :condition, :url, :fetched_at, 1, :seller,
                    :seller_feedback_pct, :seller_feedback_score,
-                   :discovery_run_id, :raw)""",
+                   :discovery_run_id, :current_bid_price,
+                   :current_bid_currency, :fixed_asking_price, :shipping_state,
+                   :acquisition_total, :acquisition_total_complete,
+                   :provisional_bid_total, :raw_buying_options, :sale_format,
+                   :reserve_state, :raw)""",
         rows,
     )
     conn.commit()
     return len(rows)
+
+
+# --------------------------------------------------------------------------
+# Auction representation
+# --------------------------------------------------------------------------
+# The Gate C probe established these by observation over ten live auctions:
+#   * an auction states its price in currentBidPrice.value, never in price
+#   * price appears ONLY when the listing also offers a fixed Buy It Now
+#   * shippingCostType CALCULATED returns no shipping value at discovery
+#   * bidCount is always present and legitimately 0 - never absent
+#   * no reserve field is returned at all, on any item
+AUCTION_ONLY = "AUCTION_ONLY"
+AUCTION_WITH_FIXED = "AUCTION_WITH_FIXED_PRICE_OPTION"
+FIXED_PRICE_ONLY = "FIXED_PRICE_ONLY"
+FORMAT_UNKNOWN = "UNKNOWN"
+
+SHIPPING_KNOWN = "KNOWN"
+SHIPPING_CALCULATED_UNKNOWN = "CALCULATED_UNKNOWN"
+SHIPPING_NOT_RETURNED = "NOT_RETURNED"
+
+RESERVE_KNOWN_MET = "KNOWN_MET"
+RESERVE_KNOWN_NOT_MET = "KNOWN_NOT_MET"
+RESERVE_UNKNOWN = "UNKNOWN"
+
+
+def normalize_sale_format(buying_options):
+    """Observed buyingOptions -> one normalized format.
+
+    BEST_OFFER is an offer channel layered on another format, never a format in
+    its own right, so it never decides this. An empty or unrecognised list is
+    UNKNOWN rather than assumed fixed-price.
+    """
+    opts = {str(o).upper() for o in (buying_options or [])}
+    has_auction = "AUCTION" in opts
+    has_fixed = "FIXED_PRICE" in opts
+    if has_auction and has_fixed:
+        return AUCTION_WITH_FIXED
+    if has_auction:
+        return AUCTION_ONLY
+    if has_fixed:
+        return FIXED_PRICE_ONLY
+    return FORMAT_UNKNOWN
+
+
+def shipping_state_of(option):
+    """KNOWN / CALCULATED_UNKNOWN / NOT_RETURNED - never a zero substitute."""
+    if not option:
+        return SHIPPING_NOT_RETURNED, None
+    cost = (option.get("shippingCost") or {}).get("value")
+    if cost not in (None, ""):
+        return SHIPPING_KNOWN, _num(cost)
+    if str(option.get("shippingCostType") or "").upper() == "CALCULATED":
+        return SHIPPING_CALCULATED_UNKNOWN, None
+    return SHIPPING_NOT_RETURNED, None
 
 
 def to_row(item, fetched_at, run_id=None):
@@ -321,8 +406,25 @@ def to_row(item, fetched_at, run_id=None):
     """
     price = item.get("price") or {}
     seller = item.get("seller") or {}
-    shipping = (item.get("shippingOptions") or [{}])[0].get("shippingCost") or {}
+    ship_opt = (item.get("shippingOptions") or [{}])[0]
+    shipping = ship_opt.get("shippingCost") or {}
     options = item.get("buyingOptions") or []
+    bid = item.get("currentBidPrice") or {}
+    sale_format = normalize_sale_format(options)
+    ship_state, ship_value = shipping_state_of(ship_opt)
+    fixed_price = _num(price.get("value"))
+    bid_price = _num(bid.get("value"))
+    # A completed acquisition price exists only for a fixed-price purchase with
+    # known shipping. A current bid is a changing market state, not a price
+    # anyone has paid, so it never becomes an acquisition total.
+    if sale_format == FIXED_PRICE_ONLY and fixed_price is not None \
+            and ship_state == SHIPPING_KNOWN:
+        acq_total, acq_complete = fixed_price + (ship_value or 0.0), 1
+    else:
+        acq_total, acq_complete = None, 0
+    provisional = (bid_price + ship_value
+                   if bid_price is not None and ship_state == SHIPPING_KNOWN
+                   else None)
     return {
         "item_id": item.get("itemId"),
         "title": item.get("title", ""),
@@ -336,6 +438,18 @@ def to_row(item, fetched_at, run_id=None):
         "condition": item.get("condition"),
         "url": item.get("itemWebUrl"),
         "fetched_at": fetched_at,
+        "current_bid_price": bid_price,
+        "current_bid_currency": bid.get("currency"),
+        "fixed_asking_price": fixed_price,
+        "shipping_state": ship_state,
+        "acquisition_total": acq_total,
+        "acquisition_total_complete": acq_complete,
+        "provisional_bid_total": provisional,
+        "raw_buying_options": ",".join(str(o) for o in options),
+        "sale_format": sale_format,
+        # No reserve field is returned by item_summary/search on any item, so
+        # this is genuinely unknown - never "no reserve".
+        "reserve_state": RESERVE_UNKNOWN,
         "seller": seller.get("username"),
         "seller_feedback_pct": _num(seller.get("feedbackPercentage")),
         "seller_feedback_score": _int(seller.get("feedbackScore")),

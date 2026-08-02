@@ -1,0 +1,4520 @@
+{
+ "generated_at": "2026-08-02T15:43:32.801055+00:00",
+ "summary": {
+  "unchanged": 118201,
+  "still incomplete": 23838,
+  "newly completed identity": 1360,
+  "correction (stale stored slab, predates this change)": 501
+ },
+ "changes": [
+  {
+   "item_id": "v1|117136453146|0",
+   "seller": "psa",
+   "title": "2012 TOPPS GOLD SPARKLE #639 JUSTIN VERLANDER PSA 6",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3ef88b5aad8937fa",
+   "slab_after": "743d6b43fca50df3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117291937547|0",
+   "seller": "psa",
+   "title": "2019 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC180 JOSHUA MEARS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "465c6d5b421db7bb",
+   "slab_after": "785e6ddbfda371c8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297787212606|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #441 AUSTIN WELLS PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "eec997bab230bb60",
+   "slab_after": "04e66e6bfb36f9cc",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306282903303|0",
+   "seller": "psa",
+   "title": "2022 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #100 MIKE TROUT PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1f29bec9476a7456",
+   "slab_after": "650424e553ebe027",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306462837395|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #147 JAKE BLOSS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "884bee4119fe9990",
+   "slab_after": "0a7b5434a9555b4c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297272233483|0",
+   "seller": "psa",
+   "title": "2022 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #100 MIKE TROUT PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1f29bec9476a7456",
+   "slab_after": "650424e553ebe027",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306282903800|0",
+   "seller": "psa",
+   "title": "2022 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #88 FERNANDO TATIS JR. PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4a6dccd4f4d737fc",
+   "slab_after": "4c87edfa281d9234",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297886161004|0",
+   "seller": "psa",
+   "title": "2024 TOPPS PRO DEBUT AUTO-SPARKLE FOIL #PD67 JONNY FARMELO 14/199 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fb2716dd6da9b81c",
+   "slab_after": "f7608fe4f11ff06a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306500496352|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-PINK SPARKLE REFRACTOR #367 RONALD ACUNA JR. PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3ca97b38bc1d4910",
+   "slab_after": "530f6b67c8eee9b3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116773183769|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #76 FREDDY PERALTA PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2265b2f32ac784e6",
+   "slab_after": "1900f2eac62c5ef0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307069992750|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #260 JONATHAN MOGBO PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dc33fbb309bdebd0",
+   "slab_after": "529e09737bed7629",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297869007825|0",
+   "seller": "psa",
+   "title": "2024 TOPPS PRO DEBUT AUTO-SPARKLE FOIL #PD65 HOMER BUSH JR. 43/199 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b7879f7be1d90869",
+   "slab_after": "a25780b9f913c45f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306665157393|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #57 JULIUS RANDLE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "647c8c19ab0e25c0",
+   "slab_after": "e3d0e3b41cf72cf8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306706767500|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE #306 CARSON STRONG PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4408e5b76af2032a",
+   "slab_after": "6f77fe5b92ad74df",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306519863416|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-SILVER SPARKLE REFRACTOR #459 TYLER ANDERSON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "92c588d0285f45f8",
+   "slab_after": "b420be04de8b74da",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116781851864|0",
+   "seller": "psa",
+   "title": "2012 TOPPS GOLD SPARKLE #459 ERIC SURKAMP ROOKIE RC PSA 4",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cddf49d3165fe6a9",
+   "slab_after": "2ededac4a3b4cc69",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298430720488|0",
+   "seller": "psa",
+   "title": "2012 TOPPS GOLD SPARKLE #449 SHANE VICTORINO PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8ba54da39a434d07",
+   "slab_after": "6f09ddf2b8d7d29d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117244383792|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #341 JARED VERSE PSA 8.5",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4c63d5dd4cc1347c",
+   "slab_after": "cd75d160cccafc88",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298186971931|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HOLIDAY CHROME-BLUE SPARKLE #HC177 MATT CHAPMAN 13/199 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b4944c06686c53a1",
+   "slab_after": "c3cd1130bc656c21",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117134145787|0",
+   "seller": "psa",
+   "title": "2025 TOPPS PRO DEBUT AUTO-SPARKLE FOIL #6 JD DIX 21/175 PSA 6",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "db82e2b91eff0fd2",
+   "slab_after": "f9e1a1859741916b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297928423614|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM RED SPARKLE #9 OBI TOPPIN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7a367e3ea0fbfcba",
+   "slab_after": "10159d36e27749ee",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306737765470|0",
+   "seller": "psa",
+   "title": "2014 TOPPS NO SPARKLE ON BALL #133 XANDER BOGAERTS ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "eb7d38211cd0910c",
+   "slab_after": "053c0309db1c9c76",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298036341755|0",
+   "seller": "psa",
+   "title": "2022 BOWMAN DRAFT CHROME-GREEN SPARKLE REFRACTOR #BDC27 DYLAN LESKO 7/99 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "36d4256995e0dd49",
+   "slab_after": "299cd5c1040ecb9a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307091982227|0",
+   "seller": "psa",
+   "title": "2023 TOPPS PRO DEBUT SPARKLE FOIL #PD56 BEN JOYCE 39/175 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f5fa3fe46c5db794",
+   "slab_after": "21d5a3c3b9ec7acb",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116847772031|0",
+   "seller": "psa",
+   "title": "2014 TOPPS NO SPARKLE ON FINGER #24 MANNY MACHADO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3a7429290aeeea53",
+   "slab_after": "f8343346bb280c7d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297745596355|0",
+   "seller": "psa",
+   "title": "2014 TOPPS NO SPARKLE ON FINGER #24 MANNY MACHADO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3a7429290aeeea53",
+   "slab_after": "f8343346bb280c7d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116814222359|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-SILVER SPARKLE REFRACTOR #71 JACE JUNG PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f6323b379303c838",
+   "slab_after": "1820937b201644c9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297941854814|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WNBA WHITE SPARKLE #116 DEWANNA BONNER PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e20868d9767c065f",
+   "slab_after": "8edf46554d5b0f8c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117280390577|0",
+   "seller": "psa",
+   "title": "2022 BOWMAN DRAFT CHROME-GREEN SPARKLE REFRACTOR #BDC15 JACE JUNG 41/99 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2f1543432db03aab",
+   "slab_after": "260dad863c3c1da8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307066038799|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #164 DAVID NJOKU PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "82d3c7623616ed26",
+   "slab_after": "aa7481fb6942b178",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306778221920|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT LA LIGA WHITE SPARKLE #24 JAVI RODRIGUEZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9282cf679898eb9b",
+   "slab_after": "ad7a3dc9efeef197",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307009593828|0",
+   "seller": "psa",
+   "title": "2024-25 TOPPS UEFA CLUB COMPETITIONS PINK SPARKLE #62 MARTIN ODEGAARD PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "07905418ea9bbb1a",
+   "slab_after": "2917b0ab64718d07",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116987609059|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #149 JALEN SLAWSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e2f88c039563fb9f",
+   "slab_after": "bc19995c60f8c682",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307062088117|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #380 AARON JUDGE PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9e503dbfb05a1f83",
+   "slab_after": "cee8fe932cef4440",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116791135687|0",
+   "seller": "psa",
+   "title": "2021 PANINI PLAYBOOK SPARKLE #98 RYAN TANNEHILL PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dbf29b35aed276c6",
+   "slab_after": "90959c073bcb56d8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307074045313|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #117 DEMAR DEROZAN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e96ef59ebd520b5c",
+   "slab_after": "24794c343741bd36",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306013338432|0",
+   "seller": "psa",
+   "title": "2024 LEAF ELECTRUM PROSPECTS AUTO GREEN SPARKLE #PAMN1 MALACHI NELSON 2/5 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e8b87db53424df81",
+   "slab_after": "dcca1259916c2757",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306659490259|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #226 RODERICK ARIAS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "23e75e40140a9871",
+   "slab_after": "dc7f77b568266673",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298482800290|0",
+   "seller": "psa",
+   "title": "2015 TOPPS UPDATE NO SPARKLE UNDER GLOVE #US82 FRANCISCO LINDOR ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a2c5bbd0c944f007",
+   "slab_after": "b1ab609e0d5d9103",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297641747274|0",
+   "seller": "psa",
+   "title": "2024 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC125 DYLAN CREWS 68/200 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8f45cf44348bac35",
+   "slab_after": "10683dd5caf0ccb6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116779954850|0",
+   "seller": "psa",
+   "title": "2021 PANINI PLAYBOOK SPARKLE #102 ZACH WILSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d8840e7dbe5c3e31",
+   "slab_after": "3fd7acc40a41bbc8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297516839722|0",
+   "seller": "psa",
+   "title": "2024 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC27 BLAKE WRIGHT 142/200 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "72583e4d62b56f14",
+   "slab_after": "e0edddc6407cb995",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298474674562|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC WHITE SPARKLE #373 JALEN MCMILLAN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4511de339edf93aa",
+   "slab_after": "132c4e33332a8b56",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297869028201|0",
+   "seller": "psa",
+   "title": "2020 PANINI PRIZM DRAFT PICKS WHITE SPARKLE PRIZM #PDP116 WANDER FRANCO PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0d9dac81cc38383d",
+   "slab_after": "b4d5a98849c2c111",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297520114341|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #22 JUSTIN TUCKER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5323e9d22d75c511",
+   "slab_after": "8e52c7827396784c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116742267254|0",
+   "seller": "psa",
+   "title": "2014 TOPPS NO SPARKLE ON CLEAT #1 MIKE TROUT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4a60d6a13a051f95",
+   "slab_after": "e9e556c06241e796",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298303814668|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #547 TIM ELKO PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "530ca1ab40913292",
+   "slab_after": "80a857107c9dbb95",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306336730360|0",
+   "seller": "psa",
+   "title": "2023 UD INSTINCTIVE SPARKLE #IN21 THATCHER DEMKO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b11966fbc7d27084",
+   "slab_after": "a76b87cab13a8b0d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298102067023|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WHITE SPARKLE #391 JAQUAN BRISKER PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "506378ab736a0e8d",
+   "slab_after": "8567f2eb3ece50c1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306173082916|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #6 DE'AARON FOX PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "76ecd1367d3dcf90",
+   "slab_after": "b38fa444f023998a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117186053144|0",
+   "seller": "psa",
+   "title": "2025 TOPPS PRO DEBUT SPARKLE FOIL #12 ROMAN ANTHONY 175/175 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3772f5f9ecba15df",
+   "slab_after": "65b9d0174547d719",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117209386122|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-SILVER SPARKLE REFRACTOR #231 JAMES WOOD PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5edc8b0e3897dfdd",
+   "slab_after": "f5300afe13d42974",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306448550045|0",
+   "seller": "psa",
+   "title": "2021-2022 TOPPS CHAMPIONS LEAGUE SPARKLE FOIL #154 ANTHONY ELANGA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b724924a8b2058c2",
+   "slab_after": "6881423bdef9fe18",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117178470022|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #57 JA'MARR CHASE 94/96 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "412da5e7d06745f1",
+   "slab_after": "a2be8080618f7cb4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117064071382|0",
+   "seller": "psa",
+   "title": "2012 TOPPS GOLD SPARKLE #614 ANDRUW JONES PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "84399fb305310e05",
+   "slab_after": "a923cd71e9fbc8be",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116931160870|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #109 KYLE WALKER-PETERS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8b90dee93ce8672c",
+   "slab_after": "95cf56c79a511c5b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117279376126|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #161 TAYLOR HENDRICKS 108/144 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bf2ceb4c9f83ad0f",
+   "slab_after": "58cb2536b0b2a444",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297962399451|0",
+   "seller": "psa",
+   "title": "2018 PANINI SPECTRA WHITE SPARKLE #90 ALLONZO TRIER PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fc59f0f2b460b20f",
+   "slab_after": "f3001cd8106651f2",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116771592026|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #351 DERIUS DAVIS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "559d25d089ef41a6",
+   "slab_after": "2692885fbf0d419d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298528798074|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-AQUA SPARKLE REFRACTOR #263 ELLY DE LA CRUZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "50056a0550c0a700",
+   "slab_after": "5a3ac4de2e08a5bd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298522920412|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM BLUE SPARKLE #147 ALEX SMITH 49/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "58253c3df2649fdf",
+   "slab_after": "04811c84f63d33fa",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117318597335|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-AQUA SPARKLE REFRACTOR #224 ROKI SASAKI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2f57e6f58a83a1f7",
+   "slab_after": "09944167ddf344f8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298359367321|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #231 KEEGAN MURRAY PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b0f8ad570149727a",
+   "slab_after": "5c2aabfcb50c15f7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306293260724|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #179 MARCUS ALLEN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c9ffb600366afa8e",
+   "slab_after": "10b150db1a1b12e5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117132484360|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #39 RUSSELL WESTBROOK 33/144 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "83fc944f5570dac2",
+   "slab_after": "1f09f6d7222130d7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116867809269|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #3 TAUREAN PRINCE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d00de0cdc217afdf",
+   "slab_after": "f1b619088a4383f9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306996908103|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-SILVER SPARKLE REFRACTOR #380 AARON JUDGE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "13f7563dc6427dbb",
+   "slab_after": "4363cfb94060ffeb",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117280005153|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GOLD SPARKLE #203 NORMAN POWELL 5/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c4169dd125a95579",
+   "slab_after": "0f5c3d8048018f2f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116867794218|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #54 TREVOR ARIZA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4bb43509f63b2025",
+   "slab_after": "fd84dcb498ef5bcf",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306012629038|0",
+   "seller": "psa",
+   "title": "2018 PANINI PRIZM WHITE SPARKLE #92 ROBERT WOODS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3903b478b7109927",
+   "slab_after": "57f7437f24b8a789",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117179273657|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #333 DONTAYVION WICKS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "58fc7303257892df",
+   "slab_after": "28ad63a918dbc0ce",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298320692112|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #115 AMIR JOHNSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "77de1bcabcfdb061",
+   "slab_after": "028d17aac6fed20c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116710186508|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM BLUE SPARKLE #302 DESMOND RIDDER 28/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0e2ffe823db15614",
+   "slab_after": "2741456f4d93bc4b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307036955233|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #287 LOGAN GILBERT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6be4006706801a73",
+   "slab_after": "9dc88247448a4ded",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298353535350|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #353 QUENTIN JOHNSTON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ae9436a866d4ee1b",
+   "slab_after": "dd9a482e8e7e4b7c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306295275618|0",
+   "seller": "psa",
+   "title": "2023 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC20 MARCELO MAYER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "98c6705e42fe21f4",
+   "slab_after": "2cc9a61ce294c125",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297744864510|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #143 RODNEY HOOD PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "654e2dd48d381dc7",
+   "slab_after": "bc392df9a62d2b37",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298222597111|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #336 JADEN HICKS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "117759bdbd4cd0c0",
+   "slab_after": "acec47001cd14fa4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298537459306|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-PINK SPARKLE REFRACTOR #472 CAL RALEIGH PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0183df344d5b266d",
+   "slab_after": "79b9bbdf40ca97ad",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117186748805|0",
+   "seller": "psa",
+   "title": "2023 BOWMAN CHROME NATIONAL SPARKLE REFRACTOR #33 JACE JUNG 84/99 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7893332612199a27",
+   "slab_after": "4c873ced9d5e5539",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298343956699|0",
+   "seller": "psa",
+   "title": "2025 TOPPS PRO DEBUT SPARKLE FOIL #179 HYUN-SEOK JANG 173/175 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ae6077cff3359453",
+   "slab_after": "2f9f921904eb60f7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297909801988|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #177 MATS WIEFFER PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a31c8aa7b7227a91",
+   "slab_after": "d321843e843c8320",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298076976806|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC BLUE SPARKLE #128 KYREN WILLIAMS 27/96 PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "63c24b55d285ff9e",
+   "slab_after": "5472f3f15945ff77",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117061529793|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #243 GEORGE PICKENS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1c73df6b960ea51a",
+   "slab_after": "2abeb22bef6270cb",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117320619908|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #187 JUSTIN JEFFERSON 32/96 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "021238cec8036964",
+   "slab_after": "077c9c22efa7e7e4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298473879617|0",
+   "seller": "psa",
+   "title": "2015 PANINI PRIZM WHITE SPARKLE PRIZM #256 ROBERT HORRY PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "35b23fae80905e74",
+   "slab_after": "cc1f1921dfd9fb87",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117272543221|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #95 BILLY SIMS 1/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "de7426c12a114d9b",
+   "slab_after": "4bc716d088808d94",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298189884819|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HOLIDAY CHROME-GREEN SPARKLE #HC47 NATHAN EOVALDI 23/99 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3aed321f809a8840",
+   "slab_after": "32661c5a0ffe77a1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297644639846|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #371 MALIK WASHINGTON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e8baaf24a6dfc3a9",
+   "slab_after": "bf86734fe839f31b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298128437336|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC BLUE SPARKLE #348 BO MELTON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "709492ee9d30456c",
+   "slab_after": "5078df219fa3c623",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117269412897|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT LA LIGA WHITE SPARKLE #186 JUANLU SANCHEZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "39dcd80fcdf3e281",
+   "slab_after": "453c79b18030e2a3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117183797063|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #105 KAWHI LEONARD PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "49dd97aba28bf101",
+   "slab_after": "7e5fa0f9ce3523f2",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306512911797|0",
+   "seller": "psa",
+   "title": "2013 TOPPS SILVER SLATE BLUE SPARKLE  #519 ZACK GREINKE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "db8e476d918980db",
+   "slab_after": "06191d0e7dee013c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117156890398|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #159 PAUL GEORGE PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ffddfd131f148826",
+   "slab_after": "9decd7f9fa636722",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117168753696|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #203 RUSSELL WILSON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3cee1098d230fc61",
+   "slab_after": "8c4e7aff4c1f2936",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306935437415|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC WHITE SPARKLE #186 YADONG SONG PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5d953b92a2df6683",
+   "slab_after": "29dfff8a5a180d7a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117217770804|0",
+   "seller": "psa",
+   "title": "2024 TOPPS PRO DEBUT SPARKLE FOIL #PD40 JACOB WILSON 58/175 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bbae904ae5b516f2",
+   "slab_after": "7a9a883534f1c13f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297829719579|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #167 MAX AARONS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d22cdd4352a77e16",
+   "slab_after": "3dd15fe1f7d29fb1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307025873768|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT LA LIGA WHITE SPARKLE #186 JUANLU SANCHEZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "39dcd80fcdf3e281",
+   "slab_after": "453c79b18030e2a3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116971357407|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #291 JALEN MCDANIELS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ca4b76647ed9636d",
+   "slab_after": "f54571c1b2fdaa1a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298537625070|0",
+   "seller": "psa",
+   "title": "2025 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC-87 LEO DE VRIES PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "52944d57df0816fc",
+   "slab_after": "c9d9e92f1ea37ee6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306636225532|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY GOLD MONEY SHIMMER #25 CADE CUNNINGHAM 372/500 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1c7c0558b4235457",
+   "slab_after": "68290564747a795c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298069877678|0",
+   "seller": "psa",
+   "title": "2023 TOPPS CHROME MCDONALD'S ALL-AMERICAN AUTOGRAPHS #AS ANDREJ STOJAKOVIC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "178930f68cd5cdc2",
+   "slab_after": "f24dcc61b7a71e39",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306649243122|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #125 MATT TARGETT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "525f74b42d04a33a",
+   "slab_after": "02d1d029344e36b0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298343956888|0",
+   "seller": "psa",
+   "title": "2025 TOPPS PRO DEBUT AUTO-SPARKLE FOIL #99 KELLON LINDSEY 065/175 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "68f40cf74a839a64",
+   "slab_after": "9d835e627a0bcad0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306272237171|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #22 ZACH LAVINE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f1c822ce75788937",
+   "slab_after": "0ee5dcf75c9d6414",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306652198410|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #146 DANTE EXUM PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c9026cc3eb9bf21d",
+   "slab_after": "af24abe5fe957c10",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298127996155|0",
+   "seller": "psa",
+   "title": "2018 PANINI DONRUSS OPTIC WHITE SPARKLE #40 DIRK NOWITZKI PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7e752e1e25e32c35",
+   "slab_after": "bb5771511f9c4b30",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117094782268|0",
+   "seller": "psa",
+   "title": "2021-2022 TOPPS CHAMPIONS LEAGUE SPARKLE FOIL #154 ANTHONY ELANGA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b724924a8b2058c2",
+   "slab_after": "6881423bdef9fe18",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117192479495|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC WHITE SPARKLE #49 NIKITA KRYLOV PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "665f93f597f2292c",
+   "slab_after": "78534c8efa465331",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306932074345|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #62 TREY HENDRICKSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bf87b210127c3b79",
+   "slab_after": "34efdc1ae53e4026",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116754628025|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #358 STETSON BENNETT IV PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e33bd3551f921c6b",
+   "slab_after": "e3ec2dd97897070b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298200751938|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #380 AARON JUDGE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1c8ad3b3cecb73e6",
+   "slab_after": "4df6fabfda136027",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306963968048|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC RED SPARKLE #253 DAK PRESCOTT PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "14e91152a8462395",
+   "slab_after": "cea601469a830d8a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117216825368|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #140 NIKOLA JOKIC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ba5584d68c417950",
+   "slab_after": "a6b68ea12f375818",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298488717318|0",
+   "seller": "psa",
+   "title": "2025 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC-167 HAGEN SMITH PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "48ac9ce2526bee50",
+   "slab_after": "dcb2c88ae1221ff6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307029108924|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #276 BAKER MAYFIELD PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "713bf2405b5d7806",
+   "slab_after": "d0c4300d0fdfd71a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307065146566|0",
+   "seller": "psa",
+   "title": "2023 TOPPS ARCHIVES AQUA SPARKLE FOIL #289 KYLE SCHWARBER 69/75 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7994e5d0e471b9ee",
+   "slab_after": "8443a462240e3bc3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307029940729|0",
+   "seller": "psa",
+   "title": "2020 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BD122 HESTON KJERSTAD PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fd749db190707cdc",
+   "slab_after": "7d699b4507427df3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306563396615|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #139 ISIAH PACHECO PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8274f95816499337",
+   "slab_after": "1026e44ce48c46f6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116963374945|0",
+   "seller": "psa",
+   "title": "2023 PANINI DONRUSS OPTIC UFC WHITE SPARKLE #137 JOSIANE NUNES PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "31c802934fed43e8",
+   "slab_after": "5085dfadb0d28cc5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298436827130|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-PINK SPARKLE REFRACTOR #231 JAMES WOOD PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "21134530deff1643",
+   "slab_after": "a1fb0c129cf28fb3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297628247867|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM RED SPARKLE #40 CHRISTIAN MCCAFFREY PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4cdff5883abd426f",
+   "slab_after": "07121551dce3c0c7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298073478130|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-BURGUNDY SPARKLE REFRACTOR #286 JUAN SOTO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "63144dc42e0256f9",
+   "slab_after": "d7be5647b75d78f7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307017974934|0",
+   "seller": "psa",
+   "title": "2025 TOPPS PRO DEBUT SPARKLE FOIL #122 BRYCE RAINER 110/175 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d46f3ed76a3e3114",
+   "slab_after": "60738af021aa8708",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306753875430|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #19 JALEN WILLIAMS 83/144 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "994713c3430a7394",
+   "slab_after": "811853a36bfbdeec",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117330253819|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #89 LUKA DONCIC 76/144 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "53e6767b884c2110",
+   "slab_after": "b11375e6d0949e38",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117045346749|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #294 TROY FRANKLIN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "09e449e44f00fb35",
+   "slab_after": "03dee7726d1a245a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306859959024|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM RED SPARKLE #145 CHRIS JONES PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a38154066de1428a",
+   "slab_after": "c6b7a407284d8dcd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117042209905|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WNBA WHITE SPARKLE #30 LEONIE FIEBICH PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d09c52a7941a2098",
+   "slab_after": "a476c1f7b4a5f971",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117114044120|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-SILVER SPARKLE REFRACTOR #3 AARON JUDGE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "12425f88c78c0be3",
+   "slab_after": "53e71ff6273a8db4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297538962288|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #64 ALEXANDER ISAK PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ed46585a58948d3f",
+   "slab_after": "927b8c909f252243",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297910565818|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #63 RODRYGO PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "117632610c0cc75f",
+   "slab_after": "cd43cae2f8e0646f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116649517921|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #190 TUA TAGOVAILOA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1db419d230f00221",
+   "slab_after": "edefe8697afa7a22",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298066491591|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY RED MONEY SHIMMER #41 ANTHONY DAVIS 42/100 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dec36f99913a32cd",
+   "slab_after": "b25ebdcdd2283d47",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298266315496|0",
+   "seller": "psa",
+   "title": "2019 PANINI DONRUSS OPTIC WHITE SPARKLE #52 KEMBA WALKER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a3937fc39a4db72d",
+   "slab_after": "0c121fa329718aa2",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306904995904|0",
+   "seller": "psa",
+   "title": "2025 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC-15 GAVIN FIEN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9b7207441ec5aab4",
+   "slab_after": "618e8f5b4c804742",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117269957867|0",
+   "seller": "psa",
+   "title": "2022 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC123 MARCELO MAYER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0d49e4fe5c8f59a2",
+   "slab_after": "6ceebe0d298c874b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297523487767|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #252 NAJEE HARRIS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "77cefa6816a8ff97",
+   "slab_after": "df4c017ebf33897a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298464921095|0",
+   "seller": "psa",
+   "title": "2022-23 PANINI SELECT PREMIER LEAGUE WHITE SPARKLE #233 MASON MOUNT PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c3fceccce99c6b55",
+   "slab_after": "975a67df0fde2201",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306837995168|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC BLUE SPARKLE #327 CHRISTIAN WATSON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "569d8b761f5cd30e",
+   "slab_after": "9d605a775ee27978",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297935875515|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-SILVER SPARKLE REFRACTOR #231 JAMES WOOD PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f92e78ac2f9283c5",
+   "slab_after": "21f11ea8ebb12409",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307052528877|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #150 MATHIAS JENSEN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7cfefc9ef30f04b9",
+   "slab_after": "f1126e9606064df9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117273336973|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #82 ADRIAN PETERSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "536350fca31ebb94",
+   "slab_after": "1939eee2098d2842",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116960496649|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE #146 SAQUON BARKLEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c2756ac6424e1a2f",
+   "slab_after": "60f0a588fe2869be",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297897994303|0",
+   "seller": "psa",
+   "title": "2020 PANINI MOSAIC WHITE SPARKLE #217 LAVISKA SHENAULT JR. PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b6753cccd216a766",
+   "slab_after": "0cbcb903a3b3b750",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298471425721|0",
+   "seller": "psa",
+   "title": "2015 TOPPS UPDATE NO SPARKLE UNDER GLOVE #US82 FRANCISCO LINDOR ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "130151f12c0dffb1",
+   "slab_after": "56675873cd2a0570",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116985913417|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #380 AARON JUDGE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1c8ad3b3cecb73e6",
+   "slab_after": "4df6fabfda136027",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298382415571|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-PINK SPARKLE REFRACTOR #380 AARON JUDGE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "57e18e3404319864",
+   "slab_after": "7b41df75231c98e9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116686880221|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #327 MARVIN MIMS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f945029c26882ac6",
+   "slab_after": "5a4be6a7b54df7ae",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298327277128|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #380 AARON JUDGE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1c8ad3b3cecb73e6",
+   "slab_after": "4df6fabfda136027",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306711307331|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #231 JAMES WOOD PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1308ee3b4b6c7345",
+   "slab_after": "89fcd1127a3a4791",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116850074656|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #239 JALEN MCMILLAN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "803424ee5ff0ca70",
+   "slab_after": "623fd051b3b1bf5c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117258055570|0",
+   "seller": "psa",
+   "title": "2024 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC92 TREY YESAVAGE 183/200 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a77e177b90668d05",
+   "slab_after": "2e46ccfff02b2487",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117303841425|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #218 PHIL SIMMS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "39a277820d82c328",
+   "slab_after": "b30ef281346cb7e8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297282718326|0",
+   "seller": "psa",
+   "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #169 MIKE TROUT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "171fd64cfc88f5b1",
+   "slab_after": "40e56dd0026ebd65",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117052318741|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #137 JAIME JAQUEZ JR. PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f86d30ceee1d2554",
+   "slab_after": "8927a70b5c1ec1ab",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306201381998|0",
+   "seller": "psa",
+   "title": "2024 TOPPS PRO DEBUT AUTO-SPARKLE FOIL #PD87 DREW THORPE 89/199 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6e5c8c2898589587",
+   "slab_after": "06b56d4c39d0355c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117299770334|0",
+   "seller": "psa",
+   "title": "2022 PANINI DONRUSS OPTIC BLUE SPARKLE #160 LUKA DONCIC 175/180 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8723b55fe6098eb0",
+   "slab_after": "4bd268a4144ad686",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298491360706|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE #291 TOM BRADY PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8d1009772fea0476",
+   "slab_after": "af2a4379dd68d652",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307008559918|0",
+   "seller": "psa",
+   "title": "2012 TOPPS GOLD SPARKLE #291 DAVID FREESE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c270b317cb3627b7",
+   "slab_after": "3bed2bcefe781554",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298487985899|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #145 ANDY REID PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "64a79d927ac0c369",
+   "slab_after": "3ff8546db4820eff",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298469046046|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #146 L'JARIUS SNEED 17/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "54419c3f40415756",
+   "slab_after": "72c429cb3a79c118",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117234638943|0",
+   "seller": "psa",
+   "title": "2022 PANINI DONRUSS OPTIC UFC ALSO KNOWN AS WHITE SPARKLE #18 JON JONES PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "deeac55b11f7d13d",
+   "slab_after": "4d8376e5945cdfa4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298369467701|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #155 LEONARD MILLER 4/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ae637e2cde8528d7",
+   "slab_after": "7863064ae5093633",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306979248710|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC RED SPARKLE #334 LADD MCCONKEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4e7127f53f831735",
+   "slab_after": "6a5d6b777f11b30d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298435597811|0",
+   "seller": "psa",
+   "title": "1999 FINEST PEEL & REVEAL SPARKLE #PR4 KEN GRIFFEY JR. PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c2d1264023c1b29e",
+   "slab_after": "0292c8740ccc4426",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116759032486|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #192 RAY ALLEN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b3783bf76a587814",
+   "slab_after": "4392d56410868d3d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298348856365|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-BURGUNDY SPARKLE REFRACTOR #60 PAUL SKENES PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e30d67c5141fcc44",
+   "slab_after": "adba322ab645e7ad",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298390506885|0",
+   "seller": "psa",
+   "title": "2021 PANINI CHRONICLES UFC WHITE SPARKLE #288 JON JONES PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "773ab5462bf2eb52",
+   "slab_after": "c9b946a7b1f5d9e8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306797541467|0",
+   "seller": "psa",
+   "title": "2022 BOWMAN DRAFT CHROME-GREEN SPARKLE REFRACTOR #BDC18 ZACH NETO 8/99 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "69173ecb2308524a",
+   "slab_after": "bc76ec4986fed671",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298524813785|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC BLUE SPARKLE #313 CHRIS OLAVE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7cbd7cd75ce1d147",
+   "slab_after": "1c88840fb49855a3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|305990174644|0",
+   "seller": "psa",
+   "title": "2023 PANINI NATIONAL VIP GOLD PROSPECTS RED SPARKLE #QE QUINN EWERS /199 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f03e134fcdd009fd",
+   "slab_after": "df2acc7c657a3be6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298455250306|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE  #83 JONATHAN TAYLOR PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4200c747740a02a8",
+   "slab_after": "6dc36f81e2f0580a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117189938899|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #339 KENNETH GAINWELL PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "14d8e26af4a57aac",
+   "slab_after": "436d37edb38d1b07",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117216293939|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC RED SPARKLE #78 JORDAN LOVE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6002be5c8efb76e6",
+   "slab_after": "b27a9618c034cec6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306943650064|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WHITE SPARKLE #266 BRANDON AIYUK PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e4550554847a0815",
+   "slab_after": "982ed696c333ac8b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297923624081|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #239 JALEN MCMILLAN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "803424ee5ff0ca70",
+   "slab_after": "623fd051b3b1bf5c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306563393714|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #233 GARRETT WILSON 91/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f85fe00f315fe2f7",
+   "slab_after": "b74c31476de2aece",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298099698915|0",
+   "seller": "psa",
+   "title": "2018 TOPPS SPARKLE FOIL #339 PHILADELPHIA PHILLIES 161/190 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cecdd4bafd50b354",
+   "slab_after": "5fe1e565866f1b0a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117159704104|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #287 YUKI KAWAMURA PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "058e548e9ecae447",
+   "slab_after": "81e4d368f4e6d21b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306935177959|0",
+   "seller": "psa",
+   "title": "2022 PANINI DONRUSS OPTIC UFC WHITE SPARKLE #64 ALJAMAIN STERLING PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4a1eb28b41966015",
+   "slab_after": "d2b8ab302587c20e",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117133210434|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #286 KEVIN DURANT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "aa7f3847fb9ff727",
+   "slab_after": "e802c815bc6cb9d1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306616190931|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #201 KOBE BUFKIN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "21024e3d35ad162a",
+   "slab_after": "63422360f97c6b0d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116889031904|0",
+   "seller": "psa",
+   "title": "2014 TOPPS NO SPARKLE ON CLEAT #1 MIKE TROUT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4a60d6a13a051f95",
+   "slab_after": "e9e556c06241e796",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298312579683|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC ALL OUT WHITE SPARKLE #12 KAMARU USMAN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "52e030abe1300837",
+   "slab_after": "02aae582c21da208",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306695842135|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #242 GAVI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1409905d5be95a7f",
+   "slab_after": "4b22d77e854909f3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297910566713|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #241 OMAR MARMOUSH PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "34f2fa38ee113006",
+   "slab_after": "dfbb01d65c763f9b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306836945211|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #238 DALTON KNECHT PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6a30d55a16cecd76",
+   "slab_after": "bed461117f054785",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297950010995|0",
+   "seller": "psa",
+   "title": "2022 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #100 MIKE TROUT PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5bdd0f1df04d7a0f",
+   "slab_after": "1d2d92f63bfbdcd8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116635318225|0",
+   "seller": "psa",
+   "title": "2023 UD PC'S SPARKLE #PC19 LEON DRAISAITL PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9689e57ef2f29c6f",
+   "slab_after": "51cd1f2686f27ccd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306959908649|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM MONOPOLY WNBA MONEY BLAST BLACK #3 SABRINA IONESCU PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ec872a97705cc6d4",
+   "slab_after": "9d8ab3789e2a9c70",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298345639992|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-BURGUNDY SPARKLE REFRACTOR #148 SHOHEI OHTANI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "462578abc3234859",
+   "slab_after": "41d68ce148a28f66",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117163665379|0",
+   "seller": "psa",
+   "title": "2012 TOPPS UPDATE GOLD SPARKLE #US183 BRYCE HARPER ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f01687ebe30e1a50",
+   "slab_after": "e584da3648124ef4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306914794613|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #211 SAQUON BARKLEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5ec3563911220b04",
+   "slab_after": "fb4387ecde041cc0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298540638358|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #380 WILL MCDONALD IV 5/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "06d4ca66c1cb83b7",
+   "slab_after": "52b0c4c6edd54e51",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116773043924|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #43 JA'MARR CHASE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "75880c0e34892ccd",
+   "slab_after": "7a9c2ee0e8997820",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297978738749|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #129 FLORIAN WIRTZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cdced4e15a1ca407",
+   "slab_after": "ec38026d68c3e6d9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306682284043|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE #272 MALIK WILLIS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7e5a41256691f868",
+   "slab_after": "d63b05b34c5b4e37",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298311706492|0",
+   "seller": "psa",
+   "title": "2022 PANINI DONRUSS OPTIC UFC WHITE SPARKLE #27 ANDERSON SILVA PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1821758c1a525d42",
+   "slab_after": "08321ca79524a4c7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306855859188|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #110 LUKA DONCIC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "aa6d206dab28bc6e",
+   "slab_after": "d6c72101c9605809",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298420192234|0",
+   "seller": "psa",
+   "title": "2020 PANINI PRIZM WHITE SPARKLE #379 J.K. DOBBINS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "51ac857b0c6f8c07",
+   "slab_after": "b0052895b64d6d55",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297969618209|0",
+   "seller": "psa",
+   "title": "2021 PANINI DONRUSS OPTIC WHITE SPARKLE #171 ROB GRONKOWSKI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8086f451e111e6a5",
+   "slab_after": "2036cd5ddc9865c8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117192479518|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM UFC WHITE SPARKLE #186 KEVIN HOLLAND PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7abcd8d1f3b07a7c",
+   "slab_after": "5c400fec9adf7273",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117227457294|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #148 SHOHEI OHTANI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e2598f72f1b51a6",
+   "slab_after": "d2c97a50286df982",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306782387106|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #213 LEONARD MILLER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2bf94b214a87c952",
+   "slab_after": "d30c882b20a80747",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306790686993|0",
+   "seller": "psa",
+   "title": "2023 PANINI DONRUSS OPTIC WHITE SPARKLE #202 OLIVIER-MAXENCE PROSPER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f5ab450aa3a95f22",
+   "slab_after": "9ed2044f93b78cc3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298302779795|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #148 SHOHEI OHTANI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e2598f72f1b51a6",
+   "slab_after": "d2c97a50286df982",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307002717063|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WHITE SPARKLE #266 BRANDON AIYUK PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e4550554847a0815",
+   "slab_after": "982ed696c333ac8b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117001172253|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #109 JAIRE ALEXANDER 4/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8a90e562903d1247",
+   "slab_after": "d6e9880826103606",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297985301475|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #231 JAMES WOOD PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b60104f5909d1c8d",
+   "slab_after": "f525ff4467d544c7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306762677701|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY GOLD MONEY SHIMMER #23 JAMAL MURRAY 429/500 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ccc6accb62cc1f45",
+   "slab_after": "3a83897739a50ca9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297916899833|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #297 EARL CAMPBELL PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "baa08df6b125084a",
+   "slab_after": "874cbf921d5466e3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306910896974|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #148 SHOHEI OHTANI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e2598f72f1b51a6",
+   "slab_after": "d2c97a50286df982",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117279053606|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM CONMEBOL COPA AMERICA WHITE SPARKLE #136 EDSON ALVAREZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "449c5ebf368db2c4",
+   "slab_after": "b3e2fec9d4b011eb",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297916902745|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #10 RAHEEM STERLING PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "67769dd4a8d5a0b9",
+   "slab_after": "86624dd4a5b424ca",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306659491919|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT PREMIER LEAGUE WHITE SPARKLE #230 RAHEEM STERLING PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ccedd21fe6bbe4ff",
+   "slab_after": "7b7b915d53b573ce",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117327574307|0",
+   "seller": "psa",
+   "title": "2023 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #152 AARON JUDGE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a00f567112453d65",
+   "slab_after": "21722f84942be510",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117066249454|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GOLD SPARKLE #22 MARK ANDREWS 21/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6e87571cee1a31c3",
+   "slab_after": "175d38ea87e3b5ff",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297719052228|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #239 JALEN MCMILLAN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "803424ee5ff0ca70",
+   "slab_after": "623fd051b3b1bf5c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117057473810|0",
+   "seller": "psa",
+   "title": "2022 PANINI DONRUSS OPTIC WHITE SPARKLE #88 TREVOR LAWRENCE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "acb210b1832d8d7a",
+   "slab_after": "69c6374ba5b5c49f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306622428082|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT SERIE A WHITE SPARKLE #205 DUSAN VLAHOVIC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0d8715398a73692d",
+   "slab_after": "68d2810f970391d2",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298066512929|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY GOLD MONEY SHIMMER #29 KLAY THOMPSON 456/500 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "06febefa69ccf9c8",
+   "slab_after": "6f1b8f91160e3433",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298454362512|0",
+   "seller": "psa",
+   "title": "2022-23 PANINI SELECT PREMIER LEAGUE WHITE SPARKLE #222 WILLIAM SALIBA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cfd22f9d0dfe4734",
+   "slab_after": "a10c513aa2a8bede",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307081673395|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-LIGHT BLUE SPARKLE REFRACTOR #148 SHOHEI OHTANI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e2598f72f1b51a6",
+   "slab_after": "d2c97a50286df982",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307004786907|0",
+   "seller": "psa",
+   "title": "2023 PANINI NATIONAL VIP GOLD WHITE SPARKLE #2 WALTER PAYTON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "02bb70624ea0a285",
+   "slab_after": "22226fcd45e10e45",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307042429426|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #5 KEVIN DURANT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f92eed7e4b26eec4",
+   "slab_after": "6b59795cc2b2c272",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297672663930|0",
+   "seller": "psa",
+   "title": "2024 TOPPS PRO DEBUT AUTO-SPARKLE FOIL #PD104 JACKSON CHOURIO 112/199 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "47b1fe46cfb4ca22",
+   "slab_after": "f76c46d7a02b4553",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307004573876|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #213 VIKTOR GYOKERES PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0d6019d862e74f71",
+   "slab_after": "925a68122dbc4782",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307064010441|0",
+   "seller": "psa",
+   "title": "2019 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #66 ALEXIS SANCHEZ 6/15 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "02604e17c9ad0711",
+   "slab_after": "53f9a051271fc53d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306729197605|0",
+   "seller": "psa",
+   "title": "2011 TOPPS SPARKLE VAR #150 MIGUEL CABRERA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c2953483977e5fe2",
+   "slab_after": "1b9d7724b206ee1b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117269095471|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #270 JARED MCCAIN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "656cb0f2a1c751f6",
+   "slab_after": "55ddf9bfe4d74740",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306073593188|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #341 TANK DELL 10/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6fe18543ab498762",
+   "slab_after": "d5069101eaca8502",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306695267341|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC WHITE SPARKLE #177 ISLAM MAKHACHEV PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "835ae522fdd91226",
+   "slab_after": "845d16bc16ada5eb",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307048354883|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #378 MICHAEL PENIX JR. 1/96 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c05579ac7c6069df",
+   "slab_after": "75423aaf43d28954",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306695840842|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #208 RODRYGO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9cb8de6f044a2a0d",
+   "slab_after": "5546fc9d89fd5302",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116796793522|0",
+   "seller": "psa",
+   "title": "2022 PANINI DONRUSS OPTIC WHITE SPARKLE #244 JOSH MINOTT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "baa78e39f90a5b9a",
+   "slab_after": "4dea49171d1313de",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298324597637|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-PINK SPARKLE REFRACTOR #224 ROKI SASAKI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "455c8543e62155a6",
+   "slab_after": "c93772167e8de4e1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298238916791|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT SERIE A WHITE SPARKLE #118 ADEMOLA LOOKMAN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "17aa00b5902f897d",
+   "slab_after": "fcad01446c649009",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306888908274|0",
+   "seller": "psa",
+   "title": "2024-25 TOPPS REVERENCE UCC AUTOGRAPHS #WS WESLEY SNEIJDER 92/99 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a52041940dcd0e0e",
+   "slab_after": "aa2f153fb3ea0bcf",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306530185826|0",
+   "seller": "psa",
+   "title": "2024 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC62 SEAVER KING 46/200 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "38932c5f6993b9b5",
+   "slab_after": "93299aef51baaed5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298532936033|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #249 ZINEDINE ZIDANE PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d4558cc74e4db3b3",
+   "slab_after": "d8248740775a66cf",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116761907443|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #239 DEIVID WASHINGTON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f77d818d73563b8c",
+   "slab_after": "6509e853e9667854",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306964088223|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HOLIDAY CHROME-BLUE SPARKLE #HC68 ZEBBY MATTHEWS 145/199 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "685f800487c2bffc",
+   "slab_after": "b764e391599bbcda",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307073798906|0",
+   "seller": "psa",
+   "title": "2023 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC121 JACOB WILSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e79b2a6a854489d8",
+   "slab_after": "9e161024f59d51e8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307061440276|0",
+   "seller": "psa",
+   "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #139 KYLE SCHWARBER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "56a4d37e49345a00",
+   "slab_after": "cbea89d1332fc74c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116880652519|0",
+   "seller": "psa",
+   "title": "2021 PANINI DONRUSS OPTIC WHITE SPARKLE #184 MOSES MOODY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3217940c2e25e01b",
+   "slab_after": "d6db81d5ff51015e",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117192485087|0",
+   "seller": "psa",
+   "title": "2023 PANINI DONRUSS OPTIC UFC RISING SUNS WHITE SPARKLE #19 IAN GARRY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e35cf4f727cd9034",
+   "slab_after": "d1712343da368db5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298313066673|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC DOMINANCE WHITE SPARKLE #1 DANIEL CORMIER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6aba3bdcfc553b14",
+   "slab_after": "6838e1be2a1090d4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116890416416|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #148 TRAYCE JACKSON-DAVIS 129/144 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8425e5b519064c77",
+   "slab_after": "394af1a5418ce40b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306713639644|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #190 TUA TAGOVAILOA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1db419d230f00221",
+   "slab_after": "edefe8697afa7a22",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306020928061|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WHITE SPARKLE #382 ROGER MCCREARY PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "503b835d96054ca7",
+   "slab_after": "44551ea153486cd7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298249175393|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-AQUA SPARKLE REFRACTOR #263 ELLY DE LA CRUZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "50056a0550c0a700",
+   "slab_after": "5a3ac4de2e08a5bd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297575251761|0",
+   "seller": "psa",
+   "title": "2023 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC125 KRISTIAN CAMPBELL PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9aac5f3be2b7d891",
+   "slab_after": "becbc4e01e379e81",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297960509328|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #218 PHIL SIMMS 69/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "13ecce09aaba8e9a",
+   "slab_after": "dd7719fe841a8460",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117306382649|0",
+   "seller": "psa",
+   "title": "2024 TOPPS HERITAGE CHROME-BLUE SPARKLE #371 SHOHEI OHTANI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fbbc5211ef836d40",
+   "slab_after": "c436667b000864e4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117311911450|0",
+   "seller": "psa",
+   "title": "2025 PANINI MOSAIC BLUE SPARKLE #288 JAXSON DART 49/96 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "df480eab394abf40",
+   "slab_after": "c710e943156845ee",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117213806403|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #14 NIKOLA JOKIC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5a70973c86a3a20d",
+   "slab_after": "756be1129e2be8fd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298299700117|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM RED SPARKLE #64 SHAI GILGEOUS-ALEXANDER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "df48ae07765400c2",
+   "slab_after": "145ad62f470cca21",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117326044250|0",
+   "seller": "psa",
+   "title": "2022 TOPPS UEFA CLUB COMPETITIONS PINK SPARKLE #48 DESIRE DOUE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f7dbc9aa317f7c1d",
+   "slab_after": "4aaf875407e7cf17",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298485801795|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #72 STEPHON CASTLE PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a53bfbcc6964693e",
+   "slab_after": "ebff67cbb39ac00d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307043306304|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #203 GABRIEL MARTINELLI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "961415ebea0abc31",
+   "slab_after": "cca470596ed376ef",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117192401700|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC WHITE SPARKLE #107 IAN GARRY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3813c35ee66aba71",
+   "slab_after": "67319bb72171bee1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306869787189|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #20 DERRICK HENRY PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6e2b0939985a2c13",
+   "slab_after": "a0cb98e84ae7f15c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298317688366|0",
+   "seller": "psa",
+   "title": "2019 PANINI PRIZM WHITE SPARKLE #124 ADAM THIELEN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "add801faf852fd7f",
+   "slab_after": "7696d1d25ab253d4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306715250493|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-PINK SPARKLE REFRACTOR #1 SHOHEI OHTANI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0427c408f99e5237",
+   "slab_after": "a9479b5d4ed9220d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306793846695|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY GOLD MONEY SHIMMER #10 LAMELO BALL 439/500 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "317f815e842d1518",
+   "slab_after": "fcafd5338d669c20",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117288429639|0",
+   "seller": "psa",
+   "title": "2018 PANINI DONRUSS OPTIC WHITE SPARKLE #194 JOSH OKOGIE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6aed6adb990c98b9",
+   "slab_after": "81f7fb9331f64dcd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307048356330|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #314 BRIAN THOMAS JR. PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8f8d263833cd88f4",
+   "slab_after": "de2bbaa97ea5cbd2",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116913967973|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC GREEN SPARKLE #173 ARCHIE MANNING 3/8 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dd76905794099fe4",
+   "slab_after": "e2703f025f13472f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307055360831|0",
+   "seller": "psa",
+   "title": "2022 TOPPS UEFA CLUB COMPETITIONS PINK SPARKLE #48 DESIRE DOUE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e5d989455c83486f",
+   "slab_after": "27d23f1ac5caec78",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117241851866|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GREEN SPARKLE #172 BEN SHEPPARD 8/8 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f3549d1bbf163756",
+   "slab_after": "a6c244ca91a0bb68",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298204079774|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #74 EMMITT SMITH 2/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "be15d5a0e3c96475",
+   "slab_after": "ace080c336d55286",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116833571198|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #360 AIDAN O'CONNELL PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "223a356bfb19dfa7",
+   "slab_after": "320a68b729caf5f3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117165212581|0",
+   "seller": "psa",
+   "title": "2022 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC80 ELLY DE LA CRUZ PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e81508ab8e58131b",
+   "slab_after": "dd61bcffe6072ea5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117113580887|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HOLIDAY CHROME-BLUE SPARKLE #HC4 JACOB WILSON 120/199 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bb586be1b7726216",
+   "slab_after": "f71dbbd3b8e86fef",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306203163499|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #215 RAFAEL LEAO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9920b4424ae8b718",
+   "slab_after": "dc14248a087aa016",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116741966029|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #74 EMMITT SMITH PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2d5a8c88d6dbb26b",
+   "slab_after": "7229ca752f035629",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117313693699|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC WHITE SPARKLE #33 ABUBAKAR NURMAGOMEDOV PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5bf0d84468357897",
+   "slab_after": "3e476360e6191d08",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297151536122|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #180 RANDAL KOLO MUANI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e9efba2ba650bef9",
+   "slab_after": "278ed0cecd888d9c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298076951019|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC BLUE SPARKLE #249 HERMAN MOORE 46/96 PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "975af2536aa15aeb",
+   "slab_after": "de783d8df8e81fe3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306487001383|0",
+   "seller": "psa",
+   "title": "2013 TOPPS SILVER SLATE BLUE SPARKLE #536 MIKE TROUT PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fc051fb11e8a717b",
+   "slab_after": "b079e6be76b0499c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297910566975|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #202 MATEO RETEGUI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "eecce21591c045c4",
+   "slab_after": "ee8def9c729bdf85",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117059130499|0",
+   "seller": "psa",
+   "title": "2022-23 PANINI PRIZM DRAFT PICKS VAR-WHITE SPARKLE PRIZM #58 JALEN DUREN PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "14fc79bcf0001bc0",
+   "slab_after": "2d1d1986d632d369",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298262710375|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #130 LEBRON JAMES PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9fcf8257091d1328",
+   "slab_after": "f965b11d810000d3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117313644579|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GREEN SPARKLE #139 TREVOR LAWRENCE 6/8 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "24df0d40c68be2d1",
+   "slab_after": "f90a2fb9a0f9e0fc",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307093794429|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC WHITE SPARKLE #281 CHRISTIAN WATSON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ea1af87513eba755",
+   "slab_after": "7f6f5407c340d6d1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117300595289|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC GOLD SPARKLE #188 TJ WATT 7/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "91ca3e917002dae0",
+   "slab_after": "028abbd4dee035ac",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298300236054|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-BURGUNDY SPARKLE REFRACTOR #406 BEN RICE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b2a07db34ec32f06",
+   "slab_after": "90c46a5c1d8ca4eb",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117298297904|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM GOLD SPARKLE #236 NIKOLA JOVIC 20/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a81a302bb86ba995",
+   "slab_after": "25c6d2f0cc7c9cbd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306715960921|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #327 MARVIN MIMS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1683d8f5d03bd1c2",
+   "slab_after": "926a2d006d975245",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117295693900|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WORLD CUP QATAR WHITE SPARKLE #238 BONO PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "38348029adad2e49",
+   "slab_after": "47bd3ec488df4889",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297939327061|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC GOLD SPARKLE #304 MARVIN HARRISON JR. 19/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d24566bd4df7a20e",
+   "slab_after": "9a843a4b2ff2ffd7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306978685600|0",
+   "seller": "psa",
+   "title": "2020 PANINI DONRUSS OPTIC WHITE SPARKLE #96 NIKOLA JOKIC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7bfa83dfdb0a76e2",
+   "slab_after": "f109738543aba048",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298365733150|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GREEN SPARKLE #365 LADD MCCONKEY 7/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1b513391dda9bfd3",
+   "slab_after": "2fd75a57bb843574",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306709563378|0",
+   "seller": "psa",
+   "title": "2023 PANINI DONRUSS OPTIC WHITE SPARKLE #158 JALEN HURTS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "16b0948de68dceec",
+   "slab_after": "5b89330ae813c441",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306792756868|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #86 COURTLAND SUTTON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "825a00047161ed43",
+   "slab_after": "e984172d853da4e9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116792230727|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #219 HEUNG-MIN SON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8cebed138b4f8c19",
+   "slab_after": "74a9c93c63b7e404",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116967517101|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #194 LILY YOHANNES PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "573b89a60fd5ee81",
+   "slab_after": "486b181af620bbc7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306695841518|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #213 VIKTOR GYOKERES PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0d6019d862e74f71",
+   "slab_after": "925a68122dbc4782",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298382648927|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE #88 TREVOR LAWRENCE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "93ac93c6355b6ef9",
+   "slab_after": "7730fc4e22f70ac8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298035332930|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #141 SCOOT HENDERSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6727e92a152537df",
+   "slab_after": "9049eed6895fd4af",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297719056288|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #284 RICKY PEARSALL PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "234f68d6a8da6580",
+   "slab_after": "5a05edfb2e7d3ddc",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297047577809|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #307 ZAY FLOWERS 94/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f29f85111d557f55",
+   "slab_after": "87ca29db5b212ff9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116786000371|0",
+   "seller": "psa",
+   "title": "2020 PANINI MOSAIC WHITE SPARKLE #127 ZACH THOMAS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4e53e3b815187aeb",
+   "slab_after": "4c2b845b543e5fc6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297504090602|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #74 EMMITT SMITH 8/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "be15d5a0e3c96475",
+   "slab_after": "ace080c336d55286",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306387046722|0",
+   "seller": "psa",
+   "title": "2012 TOPPS GOLD SPARKLE #600 CLAYTON KERSHAW PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "99cf9d5219c42ee8",
+   "slab_after": "2d3e1f287af63110",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117255899875|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #139 TREVOR LAWRENCE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7a37d3c8f5a8fba5",
+   "slab_after": "eebd1c1641a7399f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117326062122|0",
+   "seller": "psa",
+   "title": "2023 PANINI SELECT WHITE SPARKLE #257 SHAI GILGEOUS-ALEXANDER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1c8cadb1112da003",
+   "slab_after": "05e79632c01cf8d0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307095643677|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY RED MONEY SHIMMER #1 TRAE YOUNG 9/100 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "98d1e786ffc2ee25",
+   "slab_after": "a6a877758f123a6f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306887132847|0",
+   "seller": "psa",
+   "title": "2024-25 TOPPS REVERENCE UCC AUTOGRAPHS PURPLE #AD ANGEL DI MARIA 37/50 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0d0a7333782e077d",
+   "slab_after": "b5f803199f2ab3c0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298510629984|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GREEN SPARKLE #12 DRAKE LONDON 3/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c08b40fe9d7aa5c3",
+   "slab_after": "d38cdb2db45bcd2f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298419761658|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC GOLD SPARKLE #308 MICHAEL PENIX JR. 05/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cbbfb25ad82f629e",
+   "slab_after": "c8079d5c61bcee5a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307027377879|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #279 MICHAEL PENIX JR. PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "10d54f961e327574",
+   "slab_after": "e6dd5843fc880ba3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307020831997|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #357 PUKA NACUA 38/96 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3c1d84b750d33dff",
+   "slab_after": "b6067500d09b9427",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306586713569|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #307 ZAY FLOWERS 13/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "aafe49ec1a839262",
+   "slab_after": "92b96efc9f61bd8f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298026699521|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE  #291 TOM BRADY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "662ddfd1984774c9",
+   "slab_after": "16251a8c12aee72a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298308290301|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-PINK SPARKLE REFRACTOR #406 BEN RICE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5342e6880cdb5a0b",
+   "slab_after": "1935690fb2b9962d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306928867296|0",
+   "seller": "psa",
+   "title": "2015 PANINI PRIZM WHITE SPARKLE PRIZM #204 ZACH LAVINE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3f3f12565acc7760",
+   "slab_after": "d98ccc967888c216",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298524293835|0",
+   "seller": "psa",
+   "title": "2024 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC55 CHASE BURNS 27/200 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7f3abcf5217afb52",
+   "slab_after": "40a5d755aeb3891f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306964639954|0",
+   "seller": "psa",
+   "title": "2019 PANINI PRIZM WHITE SPARKLE #272 JORDAN POOLE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8fc0f4e6b71a7496",
+   "slab_after": "25b49747dbe05553",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297870930159|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC GREEN SPARKLE #282 BRIAN THOMAS JR. 7/8 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6b92de344fecb510",
+   "slab_after": "6e83e28dd7fd5a1d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117325865975|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GOLD SPARKLE #264 ALEXANDRE SARR 7/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8215c7847fbaa3e1",
+   "slab_after": "44655c6449fad12b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116737589129|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM RED SPARKLE #266 CHET HOLMGREN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bfdff9cb7771aabe",
+   "slab_after": "7883e01938bd8429",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306692539088|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM UFC FIREWORKS WHITE SPARKLE #20 JON JONES PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c383c9a1abfc72d3",
+   "slab_after": "9165aa0c0fed48b4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297342746679|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #164 ROB GRONKOWSKI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2a1c757891546cbd",
+   "slab_after": "873908a68f6da704",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|305998390020|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC GOLD SPARKLE #283 BREECE HALL ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cf2837e29fc847c6",
+   "slab_after": "f1d879eac3588ecf",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298035364283|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #141 SCOOT HENDERSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6727e92a152537df",
+   "slab_after": "9049eed6895fd4af",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306696895476|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT SERIE A WHITE SPARKLE #32 ZITO LUVUMBO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cb25b542c3dfd2ac",
+   "slab_after": "421505d80eeb8fff",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297435350987|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #237 GAVI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6b83cfd624995a0b",
+   "slab_after": "b97a3fc538b117f3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306965122864|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WORLD CUP QATAR WHITE SPARKLE #209 WESTON MCKENNIE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "409bd5aa5031ff95",
+   "slab_after": "951d920a5342466a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116864641911|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #19 MARK ANDREWS 2/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "44a0f7a1f3516deb",
+   "slab_after": "54a5f29e1819608b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|305973214914|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #134 GRADEY DICK 75/144 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "79dbc212043a0377",
+   "slab_after": "c8966786056d5c45",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|305973153197|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #82 TREVON DIGGS 21/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dc2d7d3a7b6afd79",
+   "slab_after": "d0e0d8b57d6437c3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306983816126|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #130 LEBRON JAMES 58/144 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "655a688cf946add8",
+   "slab_after": "79ce1e8c777bef76",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307081671953|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-SILVER SPARKLE REFRACTOR #148 SHOHEI OHTANI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a88478432d47d0e1",
+   "slab_after": "7ad5694a6dee8069",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298303115433|0",
+   "seller": "psa",
+   "title": "2015 PANINI PRIZM WHITE SPARKLE PRIZM #153 JIMMY BUTLER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "016d97e0b2461217",
+   "slab_after": "f59ef0d4bb83d727",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298541166878|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #269 AMEN THOMPSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "06d9e43cc68ddade",
+   "slab_after": "a7047bb2949857b5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307033088686|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT LA LIGA WHITE SPARKLE #111 KYLIAN MBAPPE PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3180a0663a28005c",
+   "slab_after": "4e6e4dc393416149",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117319727532|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM UFC WHITE SPARKLE PRIZM #190 JOAQUIN BUCKLEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "80903645bdac9811",
+   "slab_after": "5d745a6960ec2ddc",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298485315789|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #127 KEYONTE GEORGE 118/144 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8da8f0bf1fd74b0d",
+   "slab_after": "2bf442db562d5d8d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|305972019922|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #139 TREVOR LAWRENCE 3/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5b0a48a1b2924515",
+   "slab_after": "4762fbe224f9fe04",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117174110923|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #72 ALEX MORGAN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "59e428ca478a29ef",
+   "slab_after": "dc53d644b27a133f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306927590299|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE #367 BROCK PURDY ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "be802589ea6d86cd",
+   "slab_after": "de7044649ff81cf0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297649153021|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #348 TANK BIGSBY 18/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "49f159802bdfef51",
+   "slab_after": "bb143597bb175153",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297380503370|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WWE WHITE SPARKLE PRIZM #45 JOHN CENA PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4db7d8f7b0538f6a",
+   "slab_after": "1f918499550463ac",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306914181872|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #72 ALEX MORGAN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "59e428ca478a29ef",
+   "slab_after": "dc53d644b27a133f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306935150924|0",
+   "seller": "psa",
+   "title": "2023 PANINI DONRUSS OPTIC UFC WHITE SPARKLE #107 JOE PYFER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cf93d3b7d8d3b80d",
+   "slab_after": "6ffba94a7ae2182f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306027833277|0",
+   "seller": "psa",
+   "title": "2023 PANINI NATIONAL VIP GOLD ROOKIES PINK SPARKLE #RC2 CJ STROUD RC /75 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dad37224e2989f03",
+   "slab_after": "bbd0cbafad897914",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|305972170763|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC RED SPARKLE #367 BROCK PURDY ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "be802589ea6d86cd",
+   "slab_after": "de7044649ff81cf0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|305998384857|0",
+   "seller": "psa",
+   "title": "2022 PANINI MOSAIC GOLD SPARKLE #276 GARRETT WILSON ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c902ea917589d249",
+   "slab_after": "a0b94eb9ce26f3c7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117292571706|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GREEN SPARKLE #163 JIM HARBAUGH 2/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f99be7b165dc2c78",
+   "slab_after": "cb8033325958d7dd",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298210425991|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #330 NICO COLLINS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "961f72bae05d5704",
+   "slab_after": "dfb392d1b8032424",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298392351705|0",
+   "seller": "psa",
+   "title": "2019 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #209 CHRISTIAN ATSU PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "db55c7bf82ae9d04",
+   "slab_after": "379fdd3e996d610a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297528875350|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM MONOPOLY WNBA MONEY BLAST WHITE #2 ANGEL REESE PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "6d84aaea90701457",
+   "slab_after": "7497a52f2ee9e6ca",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306011972871|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #90 MATEO RETEGUI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1e41bb2f2ea2dd0c",
+   "slab_after": "9c918f5722fb6cff",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298509596239|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WHITE SPARKLE #64 SHAI GILGEOUS-ALEXANDER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e4428ff0fc97152f",
+   "slab_after": "0d3a4b03fbf7ab08",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117309390148|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #311 BRYCE YOUNG 7/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0eecde0b494d485c",
+   "slab_after": "3937838485f34a59",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298518418579|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #119 STEPHEN CURRY 19/144 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f1eadacc05850021",
+   "slab_after": "cf0c933801dbcd3f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298477743140|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #103 GIANNIS ANTETOKOUNMPO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "71f127ffdea5dfee",
+   "slab_after": "47096997990676f9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117321604698|0",
+   "seller": "psa",
+   "title": "2026 TOPPS HERITAGE CHROME-BURGUNDY SPARKLE #290 SHOHEI OHTANI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2012e3354796a8ac",
+   "slab_after": "cf7a6610760e4fb3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117264469785|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #400 JJ MCCARTHY 38/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "db405ce762305037",
+   "slab_after": "c18ec3212aa3a2aa",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298446257612|0",
+   "seller": "psa",
+   "title": "2024 PANINI DONRUSS OPTIC WHITE SPARKLE #266 LADD MCCONKEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b38b570c52e7d832",
+   "slab_after": "2c2316cc28defb02",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117241049277|0",
+   "seller": "psa",
+   "title": "2025 TOPPS HERITAGE CHROME-AQUA SPARKLE REFRACTOR #1 SHOHEI OHTANI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "edfa8663dbcb49bc",
+   "slab_after": "4c1bca95722a8102",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306974587548|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM GOLD SPARKLE #39 NIKOLA JOKIC 21/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dd25618210c5daf9",
+   "slab_after": "c2bf43f1d024e1a9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307051287061|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC WHITE SPARKLE #267 STEPHON CASTLE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "31aece5eb11a68a6",
+   "slab_after": "0b846ada86fc62df",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298305917125|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GREEN SPARKLE #390 JAXON SMITH-NJIGBA 4/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7fa134c247e62114",
+   "slab_after": "d8960af20eee8c17",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117234243340|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GREEN SPARKLE #32 JOSH ALLEN 7/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8d39cf995abf7bf8",
+   "slab_after": "35a0d962254b2d6f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298510088392|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #151 TRAVIS KELCE 18/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ba82c02fcbe94431",
+   "slab_after": "12d8a2cbc91197f8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298487526353|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WORLD CUP QATAR WHITE SPARKLE #46 ALPHONSO DAVIES PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "67347e6ebdbf280e",
+   "slab_after": "07dd4cfbb84b644d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117312968525|0",
+   "seller": "psa",
+   "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #245 SHOHEI OHTANI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "331edf83eb8370f3",
+   "slab_after": "f1519f9b85b2d601",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116604470649|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #18 LAMAR JACKSON 11/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ef300e3a8da7c81c",
+   "slab_after": "c24e42fa8740c06c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298382820794|0",
+   "seller": "psa",
+   "title": "2012 TOPPS UPDATE BATTING-GOLD SPARKLE #US299 BRYCE HARPER ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5e0e3e197a28b6eb",
+   "slab_after": "84e5adc3bb2edd89",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117128777914|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #37 NIKOLA JOKIC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "10bb5e949dd8fbcd",
+   "slab_after": "4b7a03fa3c077a47",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306019849245|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #49 GIANNIS ANTETOKOUNMPO PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "750e204989e3a4eb",
+   "slab_after": "6dc600d15ac99cc5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298454705327|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WNBA WHITE SPARKLE #127 CAMERON BRINK PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "053f6c4c679fbb5c",
+   "slab_after": "0651952321fc5a76",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306901117332|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #73 ALEXANDRE SARR PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "33dc8ad103b66f1c",
+   "slab_after": "e56a3bb78ba0934b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297282762866|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #4 JAYSON TATUM PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "95cde129c50d6fbd",
+   "slab_after": "8bc60fdc4d20159a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306600060447|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GREEN SPARKLE #178 AUSAR THOMPSON 7/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a6d31dc34e1a5f34",
+   "slab_after": "0fe5b80c6297e5ad",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306781969840|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #152 JUSTIN JEFFERSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "267adf2f69e664de",
+   "slab_after": "f19fb189e93f6b68",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116791101670|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM RED SPARKLE #150 AMEN THOMPSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c7a34850017659b9",
+   "slab_after": "464adabe5b902544",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306032742738|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #53 ANTHONY EDWARDS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "32eae18bcfbe80e6",
+   "slab_after": "c53ddc9114f90b1b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297180966926|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #220 FRANZ WAGNER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "78775c6f8e3e6c35",
+   "slab_after": "249ab7f18c7f2151",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117213574287|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM GOLD SPARKLE #233 DYSON DANIELS 20/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f18c6bf95b1deb7d",
+   "slab_after": "0b1838574b0127b8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116955121610|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT LA LIGA WHITE SPARKLE #68 ALVARO DJALO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7171416f21b20326",
+   "slab_after": "eb91f1a91cedcb90",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306022775528|0",
+   "seller": "psa",
+   "title": "2023 PANINI SELECT WHITE SPARKLE #133 JARACE WALKER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8a4b0e475c39c492",
+   "slab_after": "0f13bff365ce86c7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297527510729|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #26 JADEN IVEY ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "486dbb095dff80da",
+   "slab_after": "893d7ccd253053d1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306751056854|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #262 AUSAR THOMPSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9ec91eaf3bb300eb",
+   "slab_after": "fe29a409c7bb688e",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306032741830|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #47 BAM ADEBAYO PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "39135c5dc577b0d6",
+   "slab_after": "107e18ee926cbe5d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297180967472|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #201 EVAN MOBLEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dbbbf4a59bd9e53d",
+   "slab_after": "1e16a8ea9898c842",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298491376804|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #315 BROCK BOWERS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "60f1c1d71e9a26f8",
+   "slab_after": "59ea2bee8cc22b57",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298532389772|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC GOLD SPARKLE #301 CALEB WILLIAMS 3/24 PSA 7",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "87af5c89a2446d3e",
+   "slab_after": "cb6d8b874af1d251",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307084200269|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #15 TYRESE MAXEY 15/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2ebdeed2bf0d02a5",
+   "slab_after": "e348d58891c645a3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307038150067|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #357 PUKA NACUA 12/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "54c7513bbaebf121",
+   "slab_after": "92c1a247bbd8668b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117302520415|0",
+   "seller": "psa",
+   "title": "2019 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE #166 SERGIO AGUERO 4/15 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "dcb3c47cd154cd3f",
+   "slab_after": "e669d40f9c182413",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298517214040|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC GOLD SPARKLE #272 JAYDEN DANIELS 12/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fc59b6ab50256180",
+   "slab_after": "9f1ca2ac920b1f3a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117319675861|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #260 CADE CUNNINGHAM PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0da3268eb4cfe96a",
+   "slab_after": "c30f3d7a61f451cc",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298268542123|0",
+   "seller": "psa",
+   "title": "2023 PANINI SELECT WHITE SPARKLE #113 ANTHONY BLACK PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "cd67dd2e889f6528",
+   "slab_after": "d8e009a721499803",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117301821107|0",
+   "seller": "psa",
+   "title": "2020 PANINI MOSAIC WHITE SPARKLE #265 JALEN HURTS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "14e7a658e3346948",
+   "slab_after": "435ad0bd2fa3e839",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117015940364|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM MONOPOLY MONEY BLAST #MB3 LUKA DONCIC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e1316f9fde510e9",
+   "slab_after": "0d91fd32a157f58a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306504911748|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #305 BIJAN ROBINSON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7f19461fc743a446",
+   "slab_after": "58d56735b2e335c6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306966738057|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #305 BIJAN ROBINSON PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7f19461fc743a446",
+   "slab_after": "58d56735b2e335c6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298508452736|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM GOLD SPARKLE #131 TREVOR LAWRENCE 2/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "20f8b1ad6b19e790",
+   "slab_after": "d74e63e1e547a04f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298440180023|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #329 DRAKE MAYE 8/96 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8ff7c7818aeb8583",
+   "slab_after": "371c90b074a6bd4b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307062552658|0",
+   "seller": "psa",
+   "title": "2024-25 PANINI SELECT FIFA WHITE SPARKLE #190 LAMINE YAMAL PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d7efca4f9411f966",
+   "slab_after": "12fd5a43ebbf22d3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117267638239|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC RED SPARKLE #303 DRAKE MAYE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0e212ae3a292ab82",
+   "slab_after": "9e862ff52cc6ae29",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298446285402|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #357 PUKA NACUA 34/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ddc3e2e9ebebde58",
+   "slab_after": "9eed1bd123b91df7",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298219035415|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM WHITE SPARKLE #360 NICO COLLINS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fdae1267b8fc54fd",
+   "slab_after": "4d575b39af62c152",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298166773690|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM UFC WHITE SPARKLE PRIZM #61 SEAN O'MALLEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ae9fa02e080ef50e",
+   "slab_after": "3b11903910101ec5",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117017182332|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #178 AUSAR THOMPSON 4/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e3c3d927187b004a",
+   "slab_after": "16c1b85cbb34363f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117059651818|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GREEN SPARKLE #321 COOPER DEJEAN 1/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "76cc74003dd11490",
+   "slab_after": "9ac43b5d9b750d8b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306783773516|0",
+   "seller": "psa",
+   "title": "2024 BOWMAN DRAFT CHROME-SPARKLE REFRACTOR #BDC8 JAC CAGLIANONE 32/200 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bc7a01070599fe58",
+   "slab_after": "23242426701e037d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298499408814|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GREEN SPARKLE #314 BRIAN THOMAS JR. 3/8 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "7d55b7200e1e3112",
+   "slab_after": "1e377c5c148295c6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297661616671|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #358 STETSON BENNETT IV 11/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0c6de72f4327310d",
+   "slab_after": "00d58fafef00a652",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117301480794|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC WHITE SPARKLE #333 KEON COLEMAN PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "18da7db4df1c4df5",
+   "slab_after": "e735d21dce2c4a28",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298461381031|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #36 BENNEDICT MATHURIN ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "db4091c146a0e372",
+   "slab_after": "cf56dfc46175723b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306655078030|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #139 TREVOR LAWRENCE PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "147c537a89c5dfd4",
+   "slab_after": "e477323d1f8fc535",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306935150805|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM UFC WHITE SPARKLE PRIZM #87 MERAB DVALISHVILI PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "56d93eab50ed1147",
+   "slab_after": "abcf0f955637a585",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298350390486|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM BLUE SPARKLE #353 BROCK PURDY 59/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fe0e51f4fdca2c57",
+   "slab_after": "a43c34bb0bb3b5c1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117091760409|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM MONOPOLY MONEY BLAST #MB11 SHAI GILGEOUS-ALEXANDER PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c44b4b37d7072e08",
+   "slab_after": "59c3315008774484",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117176659378|0",
+   "seller": "psa",
+   "title": "2013 TOPPS SLIDING-SILVER SLATE BLUE SPARKLE #27 MIKE TROUT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e3ac8f67e8eec56",
+   "slab_after": "fef2647ad073234f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307076461298|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #76 DE'AARON FOX PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b66e3d6d9753c8ac",
+   "slab_after": "7a3ee85a6476634f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306285794292|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GREEN SPARKLE #130 JORDAN HAWKINS 7/8 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8a48657d7edef877",
+   "slab_after": "4e91454b736e4a15",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117162362526|0",
+   "seller": "psa",
+   "title": "2018 PANINI DONRUSS OPTIC WHITE SPARKLE #172 MILES BRIDGES PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "27a71a1400bbb2a3",
+   "slab_after": "8c4653408e9ed18c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298070604442|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC BLUE SPARKLE #4 GREG DORTCH 25/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "21869570a635889a",
+   "slab_after": "8b52acb056246992",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306015549527|0",
+   "seller": "psa",
+   "title": "2023-24 PANINI SELECT FIFA WHITE SPARKLE #125 VITOR ROQUE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2073f412d9aff453",
+   "slab_after": "6a5ab56bc55453b0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298070582315|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC BLUE SPARKLE #190 BROCK PURDY 60/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d16ff5527a1599cd",
+   "slab_after": "b7f05d3f8765f61f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116736480685|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM BLUE SPARKLE #353 BROCK PURDY 70/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fe0e51f4fdca2c57",
+   "slab_after": "a43c34bb0bb3b5c1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297276445289|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GOLD SPARKLE #360 AIDAN O'CONNELL 10/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0719cb6aba8965f1",
+   "slab_after": "1e3be0524afbff1c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116966755528|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM UFC WHITE SPARKLE #134 TOM ASPINALL PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ccc03072cf9ee013",
+   "slab_after": "dfb01898398e4a0e",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306792740236|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC BLUE SPARKLE #53 JERRY JEUDY 25/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "21706584dd75d5be",
+   "slab_after": "71b71d00637b2d14",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306564487977|0",
+   "seller": "psa",
+   "title": "2020 PANINI DONRUSS OPTIC WHITE SPARKLE #175 IMMANUEL QUICKLEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "77ae7d82ad82229a",
+   "slab_after": "7c4d92a9cbbf0b92",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306792736674|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC BLUE SPARKLE #75 SAM LAPORTA 49/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ca18ca69f4e831ab",
+   "slab_after": "302e85e7f8355d60",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117019592084|0",
+   "seller": "psa",
+   "title": "2022 PANINI DONRUSS OPTIC RED SPARKLE #136 AUSTIN REAVES PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bcc3a9057d12368f",
+   "slab_after": "e809fe247d497564",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306123062241|0",
+   "seller": "psa",
+   "title": "2024 PANINI NSCC VIP GOLD PURPLE SPARKLE #RC6 KEYONTE GEORGE RC /49 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "c9411a5be52d2420",
+   "slab_after": "ceaecc1c8c29b3fc",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298519387257|0",
+   "seller": "psa",
+   "title": "2024 PANINI MOSAIC WHITE SPARKLE #31 VICTOR WEMBANYAMA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "545bc5e14e41218d",
+   "slab_after": "c3ed88c56b6901ed",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117321700761|0",
+   "seller": "psa",
+   "title": "2025 PANINI PRIZM WNBA WHITE SPARKLE #5 PAIGE BUECKERS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "83e3c368ab5a10b0",
+   "slab_after": "65cdbc860aca6dbe",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307046079297|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WHITE SPARKLE #309 BO NIX PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "e5adf98c083d5ecf",
+   "slab_after": "6a493673c9a9c3ba",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307020701326|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM WHITE SPARKLE #357 PUKA NACUA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9034c090228d6e55",
+   "slab_after": "68bd363e8c4c49df",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306961372498|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM WHITE SPARKLE #190 PATRICK MAHOMES II PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d06005c46723f5b7",
+   "slab_after": "075788dbdadc91a3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307000919238|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #475 DRAKE MAYE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8858fff62b24848a",
+   "slab_after": "7074483895ac9e2b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307076450801|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY PRIZM ALL-STARS WHITE SPARKLE #PS7 LEBRON JAMES PSA 6",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a2e97f93a61e9f5d",
+   "slab_after": "419606a53fa145c0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298379273958|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #117 BO NIX PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3f9c1f92b8df70ee",
+   "slab_after": "6f45199ec545abe4",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307046292565|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GOLD SPARKLE #234 STEPHON CASTLE 2/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "238a38199ee34841",
+   "slab_after": "4937fcb90d7ed0e6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117260294770|0",
+   "seller": "psa",
+   "title": "2022-23 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE PRIZM #133 DENIZ UNDAV PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "2cb060c53e173381",
+   "slab_after": "6916caa411c42aee",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117229613501|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #221 BO NIX ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "698e019ae0462299",
+   "slab_after": "f4661b853b5b7e85",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306976351541|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WHITE SPARKLE #196 LUKA DONCIC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "89372cf903c52eb9",
+   "slab_after": "c1863dfee6bf9102",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298380445453|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #382 BO NIX ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1cb3451b7a3f648e",
+   "slab_after": "64d2914f943598ae",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117271521422|0",
+   "seller": "psa",
+   "title": "2020 PANINI DONRUSS OPTIC WHITE SPARKLE #153 LAMELO BALL PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "09ba71d18556f911",
+   "slab_after": "d0e23df09f75beab",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298114887708|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GREEN SPARKLE #370 MALIK NABERS 7/8 PSA AUTHENTIC",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a56e11f28446fca2",
+   "slab_after": "44a0b0cf9e09070b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307023311099|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM WHITE SPARKLE #301 JOSH GIDDEY PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f3334a246971df03",
+   "slab_after": "ffa2a8e2df265c68",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297932345703|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #222 KEYONTE GEORGE ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "65ac1e86bed7cc45",
+   "slab_after": "ae4add64550c1394",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117247643530|0",
+   "seller": "psa",
+   "title": "2025 PANINI DONRUSS OPTIC WHITE SPARKLE #273 JAXSON DART PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "73bc8e8d4550a66c",
+   "slab_after": "1b779dbf155b41c3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117313894255|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #74 SHAEDON SHARPE ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "48a7031d4576f68b",
+   "slab_after": "7d400235b6c097d6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306977639347|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM WHITE SPARKLE #288 TREY MURPHY III PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "caa480815dd0619b",
+   "slab_after": "23afcc2b29b02bdf",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298446285488|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #339 CJ STROUD 20/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "fec4eaddd61e1ec3",
+   "slab_after": "bbfb658068f6d8d6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298265820896|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM WNBA WHITE SPARKLE #143 CAMERON BRINK PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "65386a87bcfac4a3",
+   "slab_after": "abe26575d4f9d484",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298302819761|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #223 PATRICK MAHOMES II PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "772bc7d3e616424b",
+   "slab_after": "35aa3b95c57f55b2",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306736636568|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #329 DRAKE MAYE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b7fc445f8dda81ee",
+   "slab_after": "35b412ecef80125a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116956444333|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #329 DRAKE MAYE ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b7fc445f8dda81ee",
+   "slab_after": "35b412ecef80125a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117314620374|0",
+   "seller": "psa",
+   "title": "2025 PANINI PRIZM BLUE SPARKLE #352 CAM WARD 88/96 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "089cf1c51077ac1b",
+   "slab_after": "960d63a62d1e62df",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117315280653|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #329 DRAKE MAYE 41/96 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "8ff7c7818aeb8583",
+   "slab_after": "371c90b074a6bd4b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117222331815|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM MONOPOLY WNBA MONEY BLAST WHITE #7 CAITLIN CLARK PSA 8",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a7f4e304e2bf1ca9",
+   "slab_after": "bd363027bc5753e8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117221899380|0",
+   "seller": "psa",
+   "title": "2020 PANINI PRIZM PREMIER LEAGUE WHITE SPARKLE PRIZM #140 VITINHA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a13d7cad558c412b",
+   "slab_after": "f190d384934c53d6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297744808100|0",
+   "seller": "psa",
+   "title": "2021 PANINI DONRUSS OPTIC WHITE SPARKLE #204 JUSTIN FIELDS ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "10b042f8c8d6ca7c",
+   "slab_after": "9747b6d2c199f31a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116763246070|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #347 JAYDEN DANIELS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f90853f4abccc287",
+   "slab_after": "546aa242dc79c0eb",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298250529717|0",
+   "seller": "psa",
+   "title": "2021 PANINI MOSAIC WHITE SPARKLE #228 JALEN JOHNSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "aa21628b7d684573",
+   "slab_after": "8e673aeb7cd367d0",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|116896881501|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM MONOPOLY SPARKLE #61 SHAI GILGEOUS-ALEXANDER PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ac6602acb159823c",
+   "slab_after": "7e54149238fa2c07",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298354610359|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM RED SPARKLE #329 DRAKE MAYE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b7fc445f8dda81ee",
+   "slab_after": "35b412ecef80125a",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307073470791|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #136 MATTHEW STAFFORD PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "739698a2e9187e21",
+   "slab_after": "4c5c81a9a4c330a1",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307045790828|0",
+   "seller": "psa",
+   "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #245 SHOHEI OHTANI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "331edf83eb8370f3",
+   "slab_after": "f1519f9b85b2d601",
+   "in_93_pool": true
+  },
+  {
+   "item_id": "v1|117321971800|0",
+   "seller": "psa",
+   "title": "2020 PANINI MOSAIC WHITE SPARKLE #201 JOE BURROW ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d35f955752cbd370",
+   "slab_after": "390ce5d2dc2fd994",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306821654194|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM UFC WHITE SPARKLE #111 ALEX PEREIRA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bdf58969025eb043",
+   "slab_after": "62edc1cdfaeb29d8",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306856252161|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM GREEN SPARKLE #150 AMEN THOMPSON 4/8 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0c1d93a61bd3aee9",
+   "slab_after": "df6d62dc9893502c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117254189998|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM WHITE SPARKLE #246 JALEN WILLIAMS PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "236c60a1e6c8cf5a",
+   "slab_after": "65f19b1f09977fd6",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306762815272|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GOLD SPARKLE #400 JJ MCCARTHY ROOKIE RC 10/24 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0a5a1bb47bf92093",
+   "slab_after": "57bb2a001f885917",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307076451566|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #66 PAOLO BANCHERO ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e3b3e3fbe0a27f7",
+   "slab_after": "f18e553c532b0444",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117186736383|0",
+   "seller": "psa",
+   "title": "2017 PANINI DONRUSS OPTIC WHITE SPARKLE #195 DESHAUN WATSON ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1937ae5408d3763e",
+   "slab_after": "d9a58355fc3f3f62",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117313890457|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #78 KEEGAN MURRAY ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "1214161841e24f89",
+   "slab_after": "564c345804989e64",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306929188607|0",
+   "seller": "psa",
+   "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #245 SHOHEI OHTANI PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "331edf83eb8370f3",
+   "slab_after": "f1519f9b85b2d601",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298259518980|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #63 CHET HOLMGREN ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "84223fd410d6082b",
+   "slab_after": "a54e8c925c5c1e0e",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306721977364|0",
+   "seller": "psa",
+   "title": "2012 TOPPS GOLD SPARKLE #299 MITCH MORELAND PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "d87b6caa816a8349",
+   "slab_after": "8c7cd587f87c0588",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298133858729|0",
+   "seller": "psa",
+   "title": "2020 PANINI MOSAIC WHITE SPARKLE #263 JUSTIN HERBERT PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "bc39939e6f8e9b5f",
+   "slab_after": "f9e382fc58e0f56f",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298521800621|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #66 PAOLO BANCHERO ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3e3b3e3fbe0a27f7",
+   "slab_after": "f18e553c532b0444",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306519045865|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #27 JALEN DUREN ROOKIE RC PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "4556214c1fb7214f",
+   "slab_after": "e4c1a90cd62dfb67",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307090813923|0",
+   "seller": "psa",
+   "title": "2023 PANINI PRIZM BLUE SPARKLE #136 VICTOR WEMBANYAMA ROOKIE RC 103/144 PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a138000de9b828cd",
+   "slab_after": "53729ed527cd6e2c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117328067783|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #282 VICTOR WEMBANYAMA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "a77d5158a016c331",
+   "slab_after": "b1a642e6ca31a765",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298369425812|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM GOLD SPARKLE #243 BRONNY JAMES JR. 20/24 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "b7c0a828ad13e93b",
+   "slab_after": "75d6fd8e6819d9e3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117310914218|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM BLUE SPARKLE #301 CALEB WILLIAMS 15/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "92fa1ce22845b02c",
+   "slab_after": "0821e4130160b8ba",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117321190252|0",
+   "seller": "psa",
+   "title": "2025 PANINI PRIZM BLUE SPARKLE #332 JAXSON DART 35/96 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "193ff56ee016664e",
+   "slab_after": "817c468c6d075670",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117211472561|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #238 VICTOR WEMBANYAMA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "3c0ac7c3951cab8f",
+   "slab_after": "bf6d360a5fae92b9",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306985010018|0",
+   "seller": "psa",
+   "title": "2021 PANINI PRIZM WHITE SPARKLE #305 JALEN JOHNSON PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "21bf3775185c4017",
+   "slab_after": "0f8a347626035762",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306897205745|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #477 CALEB WILLIAMS PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "04a2d78f8516d5f2",
+   "slab_after": "2452730b2bea0e3b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307023391282|0",
+   "seller": "psa",
+   "title": "2023 PANINI SELECT WHITE SPARKLE #288 VICTOR WEMBANYAMA PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "0d333eeb9392b50a",
+   "slab_after": "fc2b046ffef7a75b",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117227293812|0",
+   "seller": "psa",
+   "title": "2024 PANINI PRIZM MONOPOLY BLACK MONEY BLAST #16 STEPHON CASTLE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "93cbd2a3a38129ce",
+   "slab_after": "2794ebf1618e1d82",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|117225260939|0",
+   "seller": "psa",
+   "title": "2023 PANINI MOSAIC WHITE SPARKLE #282 VICTOR WEMBANYAMA PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f3b87736c0136836",
+   "slab_after": "4fc3c38de8dc39e3",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298521800574|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #66 PAOLO BANCHERO ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5b5e59db596af701",
+   "slab_after": "58a10259fa35285c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|297597253959|0",
+   "seller": "psa",
+   "title": "2017 PANINI PRIZM MOSAIC GOLD AUTOGRAPHS #A-KIV KYRIE IRVING 5/10 PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "f8bd5e3187d4c0d7",
+   "slab_after": "a20ee4315964334d",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|306861485257|0",
+   "seller": "psa",
+   "title": "2015 PANINI PRIZM WHITE SPARKLE PRIZM #308 DEVIN BOOKER PSA 9",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "ddf1b782754fb6ac",
+   "slab_after": "7d87da2083102228",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|307076461182|0",
+   "seller": "psa",
+   "title": "2022 PANINI PRIZM MONOPOLY WHITE SPARKLE #66 PAOLO BANCHERO ROOKIE RC PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "5b5e59db596af701",
+   "slab_after": "58a10259fa35285c",
+   "in_93_pool": false
+  },
+  {
+   "item_id": "v1|298443913770|0",
+   "seller": "psa",
+   "title": "2024 PANINI SELECT WHITE SPARKLE #379 DRAKE MAYE PSA 10",
+   "classification": "correction (stale stored slab, predates this change)",
+   "slab_before": "9dc22cf67b872a86",
+   "slab_after": "5588c6ffca1afc7f",
+   "in_93_pool": false
+  }
+ ]
+}

@@ -200,8 +200,8 @@ def write_research(cands):
                 continue
             seen_q.add(q)
             note = {"STRICT": "narrowest search; expect few but exact results",
-                    "NORMAL": "drops manufacturer/set wording, keeps every "
-                              "material identity field",
+                    "NORMAL": "same material identity, alternate surface form "
+                              "(card number without '#')",
                     "RELAXED": "allowed only because this card has no parallel, "
                                "no serial, no autograph and no qualifier",
                     }[tier]

@@ -12,6 +12,10 @@ Rules, in the order they are applied:
   2. Benchmark
      - market total = sold price + shipping, per comp
      - benchmark    = MEDIAN of those totals
+     - candidate cost = item price + shipping, so both sides of the comparison
+       are on the same basis. Comparing a shipping-exclusive ask against
+       shipping-inclusive comps understated the ask on every candidate.
+     - taxes, import duty and currency conversion are NOT part of this
 
   3. Classification, on discount = (median - asking) / median
      - BUY   : discount >= 25%, >= 3 priced comps, newest comp <= 12 months old
@@ -21,6 +25,7 @@ Rules, in the order they are applied:
   4. Safety guards - these only ever downgrade
      - dispersed prices (max/min > 2.5 with min > 0) -> BUY becomes WATCH
      - newest comp older than 12 months, or undated  -> BUY becomes WATCH
+     - shipping unknown, so the candidate cost is a floor -> BUY becomes WATCH
 
 review_required and rejected rows are never passed in, so they cannot move a
 decision in either direction.
@@ -52,6 +57,24 @@ PASS_AT_OR_ABOVE_MARKET = "PASS_AT_OR_ABOVE_MARKET"
 # Downgrade codes
 DOWNGRADED_HIGH_DISPERSION = "DOWNGRADED_HIGH_DISPERSION"
 DOWNGRADED_STALE_COMPS = "DOWNGRADED_STALE_COMPS"
+DOWNGRADED_INCOMPLETE_COST = "DOWNGRADED_INCOMPLETE_COST"
+
+# Sentinel: shipping was never observed. NOT the same as free shipping.
+UNKNOWN_SHIPPING = None
+
+
+def candidate_cost(item_price, shipping):
+    """(total, complete) on the same basis as a comp total.
+
+    Free shipping is 0.0 and gives a complete total. Unknown shipping is None:
+    the item price alone is then a FLOOR on what the card costs, so the gap it
+    produces is optimistic and must never support a BUY.
+    """
+    if item_price is None:
+        return None, False
+    if shipping is None:
+        return item_price, False
+    return item_price + shipping, True
 
 
 def confidence(n):
@@ -80,16 +103,25 @@ def dispersion(totals):
     return max(totals) / min(totals)
 
 
-def decide(asking_price, comps, today=None, listing_active=True):
+def decide(item_price, comps, today=None, listing_active=True, shipping=0.0):
     """Classify one candidate.
 
     `comps` is a list of dicts with `total_price` and optional `sale_date`.
     Callers must pass ONLY accepted, priced comps.
+
+    `shipping` defaults to 0.0 (nothing charged). Pass None when shipping was
+    never observed - that is recorded as an incomplete cost, never as free.
     """
     today = today or dt.date.today()
+    cost, complete = candidate_cost(item_price, shipping)
     result = {
         "decision": PASS, "reason": INSUFFICIENT_EVIDENCE,
-        "asking_price": asking_price, "median_market_total": None,
+        "item_price": item_price, "shipping": shipping,
+        "candidate_total_cost": cost, "cost_complete": complete,
+        # Retained name: every consumer reads this as "the number compared
+        # against the market", which is now the shipping-inclusive total.
+        "asking_price": cost,
+        "median_market_total": None,
         "gross_gap": None, "gross_pct": None, "comp_count": 0,
         "min_total": None, "max_total": None, "dispersion": None,
         "confidence": "NONE", "most_recent_sale": None,
@@ -114,14 +146,14 @@ def decide(asking_price, comps, today=None, listing_active=True):
     result.update({"median_market_total": median, "min_total": min(totals),
                    "max_total": max(totals), "dispersion": dispersion(totals)})
 
-    if asking_price is None or asking_price <= 0:
+    if cost is None or cost <= 0:
         result["reason"] = NO_ASKING_PRICE
         return result
     if not listing_active:
         result["reason"] = STALE_ASKING_PRICE
         return result
 
-    gap = median - asking_price
+    gap = median - cost
     pct = gap / median if median else 0.0
     result["gross_gap"] = gap
     result["gross_pct"] = pct * 100
@@ -138,6 +170,10 @@ def decide(asking_price, comps, today=None, listing_active=True):
         elif stale:
             result["decision"] = WATCH
             result["downgrade_reason"] = DOWNGRADED_STALE_COMPS
+        elif not complete:
+            # The gap was computed from a floor on the true cost.
+            result["decision"] = WATCH
+            result["downgrade_reason"] = DOWNGRADED_INCOMPLETE_COST
     elif pct >= WATCH_DISCOUNT:
         result["decision"], result["reason"] = WATCH, WATCH_MODERATE_DISCOUNT
     elif pct > 0:
@@ -152,9 +188,15 @@ def format_decision(d):
     lines = [f"    DECISION       : {d['decision']}   reason={d['reason']}"]
     if d["downgrade_reason"]:
         lines.append(f"    downgraded     : {d['downgrade_reason']}")
-    ask = d["asking_price"]
-    lines.append(f"    asking price   : "
-                 f"{'n/a' if ask is None else f'${ask:,.2f}'}")
+    money = lambda v: "n/a" if v is None else f"${v:,.2f}"
+    ship = ("unknown" if d.get("shipping") is None
+            else f"${d['shipping']:,.2f}"
+            if d.get("shipping") else "free")
+    lines.append(f"    item price     : {money(d.get('item_price'))}"
+                 f"   shipping {ship}")
+    lines.append(f"    TOTAL COST     : {money(d.get('candidate_total_cost'))}"
+                 + ("" if d.get("cost_complete", True)
+                    else "   INCOMPLETE - shipping unknown, this is a floor"))
     if d["median_market_total"] is not None:
         lines.append(f"    median market  : ${d['median_market_total']:,.2f}"
                      f"   min ${d['min_total']:,.2f}"

@@ -785,12 +785,17 @@ def candidate_decision(conn, cand, priced_rows):
     review_required and rejected rows are never in `priced_rows`, so they can
     never influence the outcome.
     """
-    active = conn.execute("SELECT active FROM listings WHERE item_id=?",
-                          (cand["item_id"],)).fetchone()
+    listing = conn.execute(
+        "SELECT active, price, shipping_cost FROM listings WHERE item_id=?",
+        (cand["item_id"],)).fetchone()
     comps = [{"total_price": r["total_price"], "sale_date": r["sale_date"]}
              for r in priced_rows]
-    return dec.decide(cand.get("asking_price"), comps,
-                      listing_active=bool(active["active"]) if active else True)
+    # Comp totals include shipping, so the candidate side must too. The
+    # listing row is authoritative; a candidate export may carry only a price.
+    item_price = listing["price"] if listing else cand.get("asking_price")
+    shipping = listing["shipping_cost"] if listing else cand.get("shipping")
+    return dec.decide(item_price, comps, shipping=shipping,
+                      listing_active=bool(listing["active"]) if listing else True)
 
 
 def report_candidate(conn, run, cand):

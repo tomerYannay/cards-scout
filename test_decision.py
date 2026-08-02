@@ -217,3 +217,107 @@ class TestReporting(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestShippingInclusiveCost(unittest.TestCase):
+    """Comp totals include shipping, so the candidate side must too."""
+
+    def test_total_cost_is_item_plus_shipping(self):
+        r = dec.decide(70.0, comps(100, 100, 100), today=TODAY, shipping=5.0)
+        self.assertEqual(r["item_price"], 70.0)
+        self.assertEqual(r["shipping"], 5.0)
+        self.assertEqual(r["candidate_total_cost"], 75.0)
+        self.assertTrue(r["cost_complete"])
+
+    def test_gap_is_measured_against_the_total_not_the_item_price(self):
+        r = dec.decide(70.0, comps(100, 100, 100), today=TODAY, shipping=5.0)
+        self.assertEqual(r["gross_gap"], 25.0)          # 100 - 75, not 100 - 70
+        self.assertAlmostEqual(r["gross_pct"], 25.0)
+
+    def test_free_shipping_is_zero_and_complete(self):
+        r = dec.decide(75.0, comps(100, 100, 100), today=TODAY, shipping=0.0)
+        self.assertEqual(r["candidate_total_cost"], 75.0)
+        self.assertTrue(r["cost_complete"])
+        self.assertEqual(r["decision"], dec.BUY)
+
+    def test_shipping_moves_a_buy_to_a_watch_at_the_boundary(self):
+        """$75 of $100 is exactly BUY; $5 shipping puts it under."""
+        without = dec.decide(75.0, comps(100, 100, 100), today=TODAY,
+                             shipping=0.0)
+        with_ship = dec.decide(75.0, comps(100, 100, 100), today=TODAY,
+                               shipping=5.0)
+        self.assertEqual(without["decision"], dec.BUY)
+        self.assertEqual(with_ship["decision"], dec.WATCH)
+        self.assertEqual(with_ship["reason"], dec.WATCH_MODERATE_DISCOUNT)
+
+    def test_shipping_moves_a_watch_to_a_pass_at_the_boundary(self):
+        without = dec.decide(90.0, comps(100, 100, 100), today=TODAY,
+                             shipping=0.0)
+        with_ship = dec.decide(90.0, comps(100, 100, 100), today=TODAY,
+                               shipping=2.0)
+        self.assertEqual(without["decision"], dec.WATCH)
+        self.assertEqual(with_ship["decision"], dec.PASS)
+        self.assertEqual(with_ship["reason"], dec.PASS_SHALLOW_DISCOUNT)
+
+    def test_shipping_can_turn_a_discount_into_a_premium(self):
+        r = dec.decide(99.0, comps(100, 100, 100), today=TODAY, shipping=5.0)
+        self.assertEqual(r["decision"], dec.PASS)
+        self.assertEqual(r["reason"], dec.PASS_AT_OR_ABOVE_MARKET)
+        self.assertLess(r["gross_gap"], 0)
+
+    def test_default_shipping_is_zero_so_existing_callers_are_unchanged(self):
+        a = dec.decide(75.0, comps(100, 100, 100), today=TODAY)
+        b = dec.decide(75.0, comps(100, 100, 100), today=TODAY, shipping=0.0)
+        self.assertEqual(a["candidate_total_cost"], b["candidate_total_cost"])
+        self.assertEqual(a["decision"], b["decision"])
+
+
+class TestUnknownShipping(unittest.TestCase):
+    """Unknown shipping is not free shipping."""
+
+    def test_unknown_shipping_is_flagged_incomplete(self):
+        r = dec.decide(40.0, comps(100, 100, 100), today=TODAY, shipping=None)
+        self.assertFalse(r["cost_complete"])
+        self.assertEqual(r["candidate_total_cost"], 40.0)   # a floor, not a total
+
+    def test_unknown_shipping_cannot_support_a_buy(self):
+        r = dec.decide(40.0, comps(100, 100, 100), today=TODAY, shipping=None)
+        self.assertEqual(r["decision"], dec.WATCH)
+        self.assertEqual(r["downgrade_reason"], dec.DOWNGRADED_INCOMPLETE_COST)
+
+    def test_known_shipping_at_the_same_price_still_buys(self):
+        r = dec.decide(40.0, comps(100, 100, 100), today=TODAY, shipping=0.0)
+        self.assertEqual(r["decision"], dec.BUY)
+        self.assertIsNone(r["downgrade_reason"])
+
+    def test_unknown_shipping_does_not_downgrade_a_watch(self):
+        r = dec.decide(85.0, comps(100, 100, 100), today=TODAY, shipping=None)
+        self.assertEqual(r["decision"], dec.WATCH)
+        self.assertIsNone(r["downgrade_reason"])
+
+    def test_candidate_cost_helper(self):
+        self.assertEqual(dec.candidate_cost(10.0, 2.0), (12.0, True))
+        self.assertEqual(dec.candidate_cost(10.0, 0.0), (10.0, True))
+        self.assertEqual(dec.candidate_cost(10.0, None), (10.0, False))
+        self.assertEqual(dec.candidate_cost(None, 2.0), (None, False))
+
+    def test_report_shows_all_four_numbers(self):
+        text = dec.format_decision(
+            dec.decide(70.0, comps(100, 100, 100), today=TODAY, shipping=5.0))
+        self.assertIn("item price", text)
+        self.assertIn("$70.00", text)
+        self.assertIn("shipping $5.00", text)
+        self.assertIn("TOTAL COST     : $75.00", text)
+        self.assertIn("median market  : $100.00", text)
+        self.assertIn("gross gap", text)
+
+    def test_report_marks_an_incomplete_total(self):
+        text = dec.format_decision(
+            dec.decide(70.0, comps(100, 100, 100), today=TODAY, shipping=None))
+        self.assertIn("shipping unknown", text)
+        self.assertIn("INCOMPLETE", text)
+
+    def test_report_says_free_when_shipping_is_zero(self):
+        text = dec.format_decision(
+            dec.decide(70.0, comps(100, 100, 100), today=TODAY, shipping=0.0))
+        self.assertIn("shipping free", text)

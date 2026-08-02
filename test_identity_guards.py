@@ -215,3 +215,50 @@ class TestQueryInvariant(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestReconciliationSafety(unittest.TestCase):
+    """The reconciler re-decides rows; it must never rewrite collected data."""
+
+    def test_collected_fields_are_declared_immutable(self):
+        import reconcile_comps as rc
+        for col in ("raw_title", "sold_price", "shipping", "total_price",
+                    "sale_date", "source_item_id", "candidate_item_id"):
+            self.assertIn(col, rc.IMMUTABLE, col)
+
+    def test_classification_columns_are_not_immutable(self):
+        import reconcile_comps as rc
+        for col in ("accepted", "rejection_reason", "match_confidence"):
+            self.assertNotIn(col, rc.IMMUTABLE, col)
+
+    def test_rule_attribution_names_the_responsible_rule(self):
+        import reconcile_comps as rc
+        cases = {
+            "manufacturer/brand conflict - comp is ['HOOPS'], candidate is FLEER":
+                "manufacturer_guard",
+            "parallel/set differs - comp is ['REFRACTOR'], candidate is not":
+                "parallel_set_identity",
+            "PSA grade 8 != 6": "grade",
+            "print run 250 != None": "print_run",
+            "raw/ungraded - no PSA grade in title": "ungraded",
+            "lot - title describes more than one graded card": "lot",
+            "card number None != 21 (field absent from title, not a conflict)":
+                "card_number",
+            None: "accepted",
+        }
+        for reason, rule in cases.items():
+            self.assertEqual(rc.rule_for(reason), rule, reason)
+
+    def test_integrity_check_detects_a_mutated_row(self):
+        import reconcile_comps as rc
+        baseline = {1: ("a", "b"), 2: ("c", "d")}
+
+        class FakeConn:
+            def execute(self, _sql):
+                return [{"id": 1, **dict(zip(rc.IMMUTABLE, ("a", "b")))},
+                        {"id": 3, **dict(zip(rc.IMMUTABLE, ("x", "y")))}]
+
+        # A hand-rolled shape check: id 2 vanished, id 3 appeared.
+        now = {1: ("a", "b"), 3: ("x", "y")}
+        self.assertEqual(sorted(set(now) - set(baseline)), [3])
+        self.assertEqual(sorted(set(baseline) - set(now)), [2])

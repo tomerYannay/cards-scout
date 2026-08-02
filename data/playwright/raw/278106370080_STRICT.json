@@ -1,0 +1,16 @@
+{
+ "candidate_id": "v1|127810637008|0",
+ "run_id": "69ef7eb7c1a54b1d",
+ "batch_id": "remaining40",
+ "query": "1986 IVAN LENDL MARTINA NAVRATILOVA PANINI #111 PSA 6",
+ "level": "STRICT",
+ "page_state": "research_ready",
+ "collected_at": "2026-08-02T16:29:14.849817+00:00",
+ "date_range": "last 3 year",
+ "row_count": 0,
+ "completion_status": "no_results",
+ "source": "none",
+ "header": null,
+ "rows": [],
+ "legacy_table_rows": []
+}

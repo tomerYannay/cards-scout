@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|145804043477|0",
+ "run_id": "2214aefba4fc47b1",
+ "batch_id": "remaining40",
+ "query": "2023 ADONAI MITCHELL BOWMAN #10 XFRACTOR PSA 10",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-02T16:33:53.877765+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|145804043477|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-f16aff1a8a",
+   "raw_title": "2023 Bowman U Chrome Adonai Mitchell #10 Xfractor RC Football Card Colts PSA 10",
+   "sold_price": "42.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Aug 12, 2024",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 2023 ADONAI MITCHELL BOWMAN #10 XFRACTOR PSA 10",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "FIXED_PRICE",
+   "collected_at": "2026-08-02T16:33:53.877632+00:00",
+   "raw_text": ", preview full size image 2023 Bowman U Chrome Adonai Mitchell #10 Xfractor RC Football Card Colts PSA 10 2023 Bowman U Chrome Adonai Mitchell #10 Xfractor RC Football Card Colts PSA 10 Edit Exclude listing $42.00 Fixed price $3.49 0% Free shipping 1 $42.00 - Aug 12, 2024"
+  }
+ ],
+ "legacy_table_rows": []
+}

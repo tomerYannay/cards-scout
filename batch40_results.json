@@ -1,0 +1,3658 @@
+{
+ "generated_at": "2026-08-02T16:35:56.626869+00:00",
+ "batch": "remaining40",
+ "candidates": [
+  {
+   "rank": 1,
+   "candidate_id": "v1|127429885359|0",
+   "seller": "gograded",
+   "title": "PSA 8 Lamine Yamal 2023 Donruss FIFA #54 Silver SP Rookie Card",
+   "parallel": "SILVER",
+   "query": "2023 LAMINE YAMAL DONRUSS #54 SILVER PSA 8",
+   "rows": 48,
+   "accepted": 31,
+   "rejected": 10,
+   "review_required": 7,
+   "median": 24.99,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -75.0,
+   "gap_percent": -300.12004801920773,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 28,
+    "Fixed Price": 20
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-06-08",
+     "total": 40.0
+    },
+    {
+     "date": "2026-07-19",
+     "total": 58.5
+    },
+    {
+     "date": "2026-06-12",
+     "total": 49.99
+    },
+    {
+     "date": "2026-07-06",
+     "total": 45.01
+    },
+    {
+     "date": "2026-07-13",
+     "total": 45.0
+    },
+    {
+     "date": "2026-07-06",
+     "total": 46.0
+    },
+    {
+     "date": "2026-07-16",
+     "total": 49.0
+    },
+    {
+     "date": "2025-12-06",
+     "total": 24.99
+    },
+    {
+     "date": "2025-03-16",
+     "total": 23.99
+    },
+    {
+     "date": "2025-11-15",
+     "total": 32.0
+    },
+    {
+     "date": "2026-01-21",
+     "total": 19.5
+    },
+    {
+     "date": "2025-06-12",
+     "total": 24.99
+    },
+    {
+     "date": "2024-09-22",
+     "total": 17.5
+    },
+    {
+     "date": "2025-11-05",
+     "total": 22.38
+    },
+    {
+     "date": "2025-09-30",
+     "total": 28.0
+    },
+    {
+     "date": "2024-12-16",
+     "total": 9.49
+    },
+    {
+     "date": "2026-04-01",
+     "total": 34.0
+    },
+    {
+     "date": "2025-01-09",
+     "total": 8.5
+    },
+    {
+     "date": "2025-11-15",
+     "total": 26.0
+    },
+    {
+     "date": "2025-06-08",
+     "total": 15.5
+    },
+    {
+     "date": "2026-03-27",
+     "total": 40.0
+    },
+    {
+     "date": "2024-07-25",
+     "total": 15.39
+    },
+    {
+     "date": "2025-11-16",
+     "total": 20.0
+    },
+    {
+     "date": "2024-08-04",
+     "total": 32.0
+    },
+    {
+     "date": "2024-12-01",
+     "total": 19.99
+    },
+    {
+     "date": "2025-06-24",
+     "total": 31.0
+    },
+    {
+     "date": "2024-09-13",
+     "total": 10.0
+    },
+    {
+     "date": "2024-11-26",
+     "total": 12.5
+    },
+    {
+     "date": "2025-09-07",
+     "total": 19.99
+    },
+    {
+     "date": "2025-02-11",
+     "total": 24.99
+    },
+    {
+     "date": "2026-04-17",
+     "total": 22.5
+    }
+   ],
+   "top_reasons": {
+    "card number None != 54 (field absent from title, not a confl": 7,
+    "raw/ungraded - no PSA grade in title": 5,
+    "lot or multi-card listing": 2
+   }
+  },
+  {
+   "rank": 2,
+   "candidate_id": "v1|127804836821|0",
+   "seller": "gograded",
+   "title": "PSA 8 NM-MT CeeDee Lamb 2020 Leaf Hype #35 Rookie Card Gold Shimmer #1/1",
+   "parallel": "GOLD SHIMMER",
+   "query": "2020 CEEDEE LAMB LEAF #35 GOLD SHIMMER PSA 8",
+   "rows": 0,
+   "accepted": 0,
+   "rejected": 0,
+   "review_required": 0,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {},
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {}
+  },
+  {
+   "rank": 3,
+   "candidate_id": "v1|127810637004|0",
+   "seller": "gograded",
+   "title": "PSA 6 EX-MT 6 Megan Rapinoe 2011 Panini Womens #192 Rookie Card Germany Stickers",
+   "parallel": null,
+   "query": "2011 MEGAN RAPINOE PANINI #192 PSA 6",
+   "rows": 3,
+   "accepted": 1,
+   "rejected": 0,
+   "review_required": 2,
+   "median": 20.21,
+   "confidence": "LOW",
+   "asking_price": 94.99,
+   "shipping": 0.0,
+   "acquisition_total": 94.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "Auction": 2,
+    "Fixed Price": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-05-02",
+     "total": 20.21
+    }
+   ],
+   "top_reasons": {
+    "card number None != 192 (field absent from title, not a conf": 2
+   }
+  },
+  {
+   "rank": 4,
+   "candidate_id": "v1|127810637008|0",
+   "seller": "gograded",
+   "title": "PSA 6 Ivan Lendl / Martina Navratilova 1986 Panini Supersport #111 Italian",
+   "parallel": null,
+   "query": "1986 IVAN LENDL MARTINA NAVRATILOVA PANINI #111 PSA 6",
+   "rows": 0,
+   "accepted": 0,
+   "rejected": 0,
+   "review_required": 0,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 79.99,
+   "shipping": 0.0,
+   "acquisition_total": 79.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {},
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {}
+  },
+  {
+   "rank": 5,
+   "candidate_id": "v1|127815790302|0",
+   "seller": "gograded",
+   "title": "PSA 10 Angel Reese 2024 Panini Instant #RRR2 Rated Rookie Retro Rookie Card",
+   "parallel": null,
+   "query": "2024 ANGEL REESE PANINI #RRR2 PSA 10",
+   "rows": 49,
+   "accepted": 29,
+   "rejected": 12,
+   "review_required": 8,
+   "median": 35.0,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -64.99,
+   "gap_percent": -185.68571428571428,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 19,
+    "Auction": 30
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-07-09",
+     "total": 49.99
+    },
+    {
+     "date": "2025-08-22",
+     "total": 49.99
+    },
+    {
+     "date": "2025-04-15",
+     "total": 36.0
+    },
+    {
+     "date": "2024-12-22",
+     "total": 44.0
+    },
+    {
+     "date": "2025-07-21",
+     "total": 30.0
+    },
+    {
+     "date": "2025-02-06",
+     "total": 30.9
+    },
+    {
+     "date": "2025-06-06",
+     "total": 26.0
+    },
+    {
+     "date": "2025-07-27",
+     "total": 56.99
+    },
+    {
+     "date": "2025-06-29",
+     "total": 32.0
+    },
+    {
+     "date": "2025-06-20",
+     "total": 27.0
+    },
+    {
+     "date": "2024-12-18",
+     "total": 35.0
+    },
+    {
+     "date": "2025-01-15",
+     "total": 29.0
+    },
+    {
+     "date": "2024-12-25",
+     "total": 29.0
+    },
+    {
+     "date": "2025-03-23",
+     "total": 40.0
+    },
+    {
+     "date": "2025-01-24",
+     "total": 39.99
+    },
+    {
+     "date": "2025-01-31",
+     "total": 42.0
+    },
+    {
+     "date": "2026-01-22",
+     "total": 39.95
+    },
+    {
+     "date": "2024-12-28",
+     "total": 30.8
+    },
+    {
+     "date": "2024-12-17",
+     "total": 36.0
+    },
+    {
+     "date": "2025-11-01",
+     "total": 44.99
+    },
+    {
+     "date": "2025-02-04",
+     "total": 34.0
+    },
+    {
+     "date": "2025-07-22",
+     "total": 42.99
+    },
+    {
+     "date": "2025-05-11",
+     "total": 32.0
+    },
+    {
+     "date": "2024-12-18",
+     "total": 26.0
+    },
+    {
+     "date": "2025-06-15",
+     "total": 26.0
+    },
+    {
+     "date": "2024-12-25",
+     "total": 35.55
+    },
+    {
+     "date": "2024-12-22",
+     "total": 35.0
+    },
+    {
+     "date": "2025-06-29",
+     "total": 26.0
+    },
+    {
+     "date": "2025-02-04",
+     "total": 17.5
+    }
+   ],
+   "top_reasons": {
+    "print run 8329 != None": 12,
+    "card number None != RRR2 (field absent from title, not a con": 6,
+    "year None != 2024 (field absent from title, not a conflict)": 2
+   }
+  },
+  {
+   "rank": 6,
+   "candidate_id": "v1|127815790328|0",
+   "seller": "gograded",
+   "title": "PSA 10 Cameron Brink 2024 Panini Instant #RRR4 Rated Rookie Retro Rookie Card",
+   "parallel": null,
+   "query": "2024 CAMERON BRINK PANINI #RRR4 PSA 10",
+   "rows": 49,
+   "accepted": 25,
+   "rejected": 14,
+   "review_required": 10,
+   "median": 41.5,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -58.489999999999995,
+   "gap_percent": -140.93975903614458,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 19,
+    "Auction": 30
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-12-22",
+     "total": 37.0
+    },
+    {
+     "date": "2025-05-11",
+     "total": 36.0
+    },
+    {
+     "date": "2025-04-12",
+     "total": 34.99
+    },
+    {
+     "date": "2025-02-04",
+     "total": 31.01
+    },
+    {
+     "date": "2025-07-04",
+     "total": 55.0
+    },
+    {
+     "date": "2024-12-17",
+     "total": 51.0
+    },
+    {
+     "date": "2025-06-15",
+     "total": 51.02
+    },
+    {
+     "date": "2025-06-05",
+     "total": 45.0
+    },
+    {
+     "date": "2024-12-25",
+     "total": 42.0
+    },
+    {
+     "date": "2024-12-26",
+     "total": 40.0
+    },
+    {
+     "date": "2026-03-09",
+     "total": 21.71
+    },
+    {
+     "date": "2024-12-17",
+     "total": 45.0
+    },
+    {
+     "date": "2025-04-15",
+     "total": 36.68
+    },
+    {
+     "date": "2026-01-18",
+     "total": 36.67
+    },
+    {
+     "date": "2024-12-21",
+     "total": 44.95
+    },
+    {
+     "date": "2025-01-15",
+     "total": 41.86
+    },
+    {
+     "date": "2024-12-27",
+     "total": 44.95
+    },
+    {
+     "date": "2025-01-15",
+     "total": 42.88
+    },
+    {
+     "date": "2024-12-25",
+     "total": 43.0
+    },
+    {
+     "date": "2025-07-10",
+     "total": 40.0
+    },
+    {
+     "date": "2026-04-08",
+     "total": 35.0
+    },
+    {
+     "date": "2025-03-23",
+     "total": 29.88
+    },
+    {
+     "date": "2026-04-04",
+     "total": 45.0
+    },
+    {
+     "date": "2024-12-29",
+     "total": 41.5
+    },
+    {
+     "date": "2025-01-03",
+     "total": 39.0
+    }
+   ],
+   "top_reasons": {
+    "print run 8329 != None": 13,
+    "card number None != RRR4 (field absent from title, not a con": 10,
+    "raw/ungraded - no PSA grade in title": 1
+   }
+  },
+  {
+   "rank": 7,
+   "candidate_id": "v1|127815790350|0",
+   "seller": "gograded",
+   "title": "PSA 10 Bobby Witt Jr. 2022 Topps Now #245 3 RBI Outing Rookie Card",
+   "parallel": null,
+   "query": "2022 BOBBY WITT JR. TOPPS #245 PSA 10",
+   "rows": 21,
+   "accepted": 7,
+   "rejected": 9,
+   "review_required": 5,
+   "median": 30.66,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -69.33,
+   "gap_percent": -226.12524461839533,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 13,
+    "Auction": 8
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2023-09-19",
+     "total": 21.5
+    },
+    {
+     "date": "2025-11-26",
+     "total": 41.0
+    },
+    {
+     "date": "2025-02-05",
+     "total": 34.99
+    },
+    {
+     "date": "2023-09-30",
+     "total": 25.25
+    },
+    {
+     "date": "2024-03-23",
+     "total": 30.66
+    },
+    {
+     "date": "2025-08-07",
+     "total": 53.0
+    },
+    {
+     "date": "2023-09-11",
+     "total": 23.57
+    }
+   ],
+   "top_reasons": {
+    "card number None != 245 (field absent from title, not a conf": 5,
+    "print run 25 != None": 2,
+    "card number 3 != 245": 1
+   }
+  },
+  {
+   "rank": 8,
+   "candidate_id": "v1|127815790360|0",
+   "seller": "gograded",
+   "title": "PSA 10 Caitlin Clark 2024 Panini Instant #191 Career High 31 pts Rookie Card",
+   "parallel": null,
+   "query": "2024 CAITLIN CLARK PANINI #191 PSA 10",
+   "rows": 50,
+   "accepted": 28,
+   "rejected": 9,
+   "review_required": 13,
+   "median": 51.5,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -48.489999999999995,
+   "gap_percent": -94.15533980582524,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 21,
+    "Fixed Price": 29
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-05-11",
+     "total": 57.66
+    },
+    {
+     "date": "2026-07-27",
+     "total": 57.0
+    },
+    {
+     "date": "2026-07-27",
+     "total": 65.0
+    },
+    {
+     "date": "2026-04-12",
+     "total": 76.43
+    },
+    {
+     "date": "2025-04-16",
+     "total": 65.47
+    },
+    {
+     "date": "2026-01-04",
+     "total": 59.0
+    },
+    {
+     "date": "2025-04-22",
+     "total": 35.31
+    },
+    {
+     "date": "2025-10-27",
+     "total": 37.0
+    },
+    {
+     "date": "2025-07-26",
+     "total": 51.0
+    },
+    {
+     "date": "2025-07-12",
+     "total": 59.99
+    },
+    {
+     "date": "2025-06-19",
+     "total": 59.0
+    },
+    {
+     "date": "2025-06-19",
+     "total": 50.0
+    },
+    {
+     "date": "2026-02-25",
+     "total": 52.0
+    },
+    {
+     "date": "2025-08-23",
+     "total": 48.0
+    },
+    {
+     "date": "2026-01-27",
+     "total": 46.99
+    },
+    {
+     "date": "2025-03-01",
+     "total": 34.32
+    },
+    {
+     "date": "2025-02-06",
+     "total": 30.0
+    },
+    {
+     "date": "2025-05-04",
+     "total": 32.0
+    },
+    {
+     "date": "2025-01-07",
+     "total": 34.86
+    },
+    {
+     "date": "2026-04-12",
+     "total": 69.0
+    },
+    {
+     "date": "2025-08-07",
+     "total": 53.16
+    },
+    {
+     "date": "2025-02-04",
+     "total": 37.0
+    },
+    {
+     "date": "2026-03-24",
+     "total": 69.0
+    },
+    {
+     "date": "2026-02-28",
+     "total": 57.5
+    },
+    {
+     "date": "2025-05-17",
+     "total": 46.22
+    },
+    {
+     "date": "2025-01-07",
+     "total": 32.0
+    },
+    {
+     "date": "2025-12-31",
+     "total": 40.0
+    },
+    {
+     "date": "2025-03-01",
+     "total": 69.99
+    }
+   ],
+   "top_reasons": {
+    "card number None != 191 (field absent from title, not a conf": 11,
+    "print run 11687 != None": 8,
+    "year None != 2024 (field absent from title, not a conflict)": 2
+   }
+  },
+  {
+   "rank": 9,
+   "candidate_id": "v1|127815790391|0",
+   "seller": "gograded",
+   "title": "PSA 10 Colt Keith 2024 Topps Now #10 1st MLB Hit! Detroit Tigers Rookie Card",
+   "parallel": null,
+   "query": "2024 COLT KEITH TOPPS #10 PSA 10",
+   "rows": 50,
+   "accepted": 1,
+   "rejected": 42,
+   "review_required": 7,
+   "median": 33.33,
+   "confidence": "LOW",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "Auction": 26,
+    "Fixed Price": 24
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-09-23",
+     "total": 33.33
+    }
+   ],
+   "top_reasons": {
+    "autograph status differs (comp=True, candidate=False)": 8,
+    "card number 2 != 10": 7,
+    "card number None != 10 (field absent from title, not a confl": 6
+   }
+  },
+  {
+   "rank": 10,
+   "candidate_id": "v1|127815790442|0",
+   "seller": "gograded",
+   "title": "PSA 10 Caitlin Clark/Angel Reese 2024 Panini Instant #73 Bird/Magic Rookie Card",
+   "parallel": null,
+   "query": "2024 CAITLIN CLARK ANGEL REESE PANINI #73 PSA 10",
+   "rows": 50,
+   "accepted": 39,
+   "rejected": 5,
+   "review_required": 6,
+   "median": 44.48,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -55.51,
+   "gap_percent": -124.7976618705036,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 24,
+    "Auction": 26
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-07-27",
+     "total": 64.0
+    },
+    {
+     "date": "2026-07-18",
+     "total": 63.5
+    },
+    {
+     "date": "2026-04-22",
+     "total": 74.25
+    },
+    {
+     "date": "2024-11-06",
+     "total": 23.5
+    },
+    {
+     "date": "2026-01-04",
+     "total": 99.99
+    },
+    {
+     "date": "2025-11-02",
+     "total": 31.0
+    },
+    {
+     "date": "2025-03-09",
+     "total": 35.0
+    },
+    {
+     "date": "2024-11-19",
+     "total": 40.0
+    },
+    {
+     "date": "2024-11-24",
+     "total": 34.0
+    },
+    {
+     "date": "2024-12-05",
+     "total": 32.0
+    },
+    {
+     "date": "2024-09-26",
+     "total": 115.32
+    },
+    {
+     "date": "2024-10-08",
+     "total": 66.0
+    },
+    {
+     "date": "2025-09-17",
+     "total": 31.5
+    },
+    {
+     "date": "2025-12-24",
+     "total": 30.0
+    },
+    {
+     "date": "2025-03-17",
+     "total": 24.5
+    },
+    {
+     "date": "2025-05-26",
+     "total": 31.0
+    },
+    {
+     "date": "2024-10-07",
+     "total": 45.51
+    },
+    {
+     "date": "2025-05-08",
+     "total": 63.72
+    },
+    {
+     "date": "2024-10-27",
+     "total": 51.0
+    },
+    {
+     "date": "2026-04-21",
+     "total": 43.0
+    },
+    {
+     "date": "2026-05-04",
+     "total": 63.0
+    },
+    {
+     "date": "2025-06-25",
+     "total": 74.99
+    },
+    {
+     "date": "2024-12-04",
+     "total": 47.99
+    },
+    {
+     "date": "2024-11-26",
+     "total": 26.0
+    },
+    {
+     "date": "2024-12-05",
+     "total": 39.0
+    },
+    {
+     "date": "2024-11-24",
+     "total": 30.0
+    },
+    {
+     "date": "2025-07-20",
+     "total": 51.0
+    },
+    {
+     "date": "2024-12-04",
+     "total": 44.48
+    },
+    {
+     "date": "2024-11-21",
+     "total": 32.0
+    },
+    {
+     "date": "2025-05-05",
+     "total": 49.99
+    },
+    {
+     "date": "2026-01-30",
+     "total": 30.0
+    },
+    {
+     "date": "2025-04-25",
+     "total": 45.0
+    },
+    {
+     "date": "2025-04-06",
+     "total": 38.0
+    },
+    {
+     "date": "2024-10-11",
+     "total": 103.25
+    },
+    {
+     "date": "2024-11-24",
+     "total": 43.0
+    },
+    {
+     "date": "2024-11-24",
+     "total": 48.99
+    },
+    {
+     "date": "2025-04-18",
+     "total": 45.0
+    },
+    {
+     "date": "2025-01-26",
+     "total": 49.99
+    },
+    {
+     "date": "2024-10-20",
+     "total": 40.99
+    }
+   ],
+   "top_reasons": {
+    "card number None != 73 (field absent from title, not a confl": 5,
+    "print run 2870 != None": 3,
+    "graded by SGC, not PSA": 1
+   }
+  },
+  {
+   "rank": 11,
+   "candidate_id": "v1|127815790487|0",
+   "seller": "gograded",
+   "title": "PSA 10 Connor Bedard 2023 Topps Now #52 Sets 'Hawks Record Rookie/Sticker Card",
+   "parallel": null,
+   "query": "2023 CONNOR BEDARD TOPPS #52 PSA 10",
+   "rows": 50,
+   "accepted": 32,
+   "rejected": 5,
+   "review_required": 13,
+   "median": 39.99,
+   "confidence": "HIGH",
+   "asking_price": 79.99,
+   "shipping": 0.0,
+   "acquisition_total": 79.99,
+   "gap_absolute": -39.99999999999999,
+   "gap_percent": -100.02500625156287,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 15,
+    "Auction": 35
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-05-13",
+     "total": 22.0
+    },
+    {
+     "date": "2026-05-13",
+     "total": 22.0
+    },
+    {
+     "date": "2024-02-18",
+     "total": 76.0
+    },
+    {
+     "date": "2024-03-01",
+     "total": 71.0
+    },
+    {
+     "date": "2024-05-02",
+     "total": 35.0
+    },
+    {
+     "date": "2024-11-11",
+     "total": 10.5
+    },
+    {
+     "date": "2024-03-10",
+     "total": 50.0
+    },
+    {
+     "date": "2024-03-23",
+     "total": 41.0
+    },
+    {
+     "date": "2024-04-19",
+     "total": 35.0
+    },
+    {
+     "date": "2024-04-20",
+     "total": 61.0
+    },
+    {
+     "date": "2024-09-29",
+     "total": 16.5
+    },
+    {
+     "date": "2024-03-09",
+     "total": 49.5
+    },
+    {
+     "date": "2024-03-11",
+     "total": 46.0
+    },
+    {
+     "date": "2024-12-07",
+     "total": 23.3
+    },
+    {
+     "date": "2024-05-06",
+     "total": 44.99
+    },
+    {
+     "date": "2024-06-22",
+     "total": 40.0
+    },
+    {
+     "date": "2024-04-24",
+     "total": 39.99
+    },
+    {
+     "date": "2024-03-13",
+     "total": 45.0
+    },
+    {
+     "date": "2024-04-18",
+     "total": 39.99
+    },
+    {
+     "date": "2024-03-12",
+     "total": 39.99
+    },
+    {
+     "date": "2024-03-07",
+     "total": 44.0
+    },
+    {
+     "date": "2024-10-11",
+     "total": 15.5
+    },
+    {
+     "date": "2024-02-24",
+     "total": 77.0
+    },
+    {
+     "date": "2024-03-16",
+     "total": 39.99
+    },
+    {
+     "date": "2025-04-03",
+     "total": 11.67
+    },
+    {
+     "date": "2024-04-22",
+     "total": 39.99
+    },
+    {
+     "date": "2024-06-01",
+     "total": 26.0
+    },
+    {
+     "date": "2024-03-07",
+     "total": 71.0
+    },
+    {
+     "date": "2024-05-12",
+     "total": 36.66
+    },
+    {
+     "date": "2025-06-14",
+     "total": 16.5
+    },
+    {
+     "date": "2025-05-28",
+     "total": 11.5
+    },
+    {
+     "date": "2024-04-21",
+     "total": 42.0
+    }
+   ],
+   "top_reasons": {
+    "card number None != 52 (field absent from title, not a confl": 13,
+    "lot or multi-card listing": 2,
+    "raw/ungraded - no PSA grade in title": 1
+   }
+  },
+  {
+   "rank": 12,
+   "candidate_id": "v1|127817997449|0",
+   "seller": "gograded",
+   "title": "PSA 9 Lennart Karl 2025 Topps Living Set #834 Rookie Card",
+   "parallel": null,
+   "query": "2025 LENNART KARL TOPPS #834 PSA 9",
+   "rows": 12,
+   "accepted": 12,
+   "rejected": 0,
+   "review_required": 0,
+   "median": 11.5,
+   "confidence": "HIGH",
+   "asking_price": 89.99,
+   "shipping": 0.0,
+   "acquisition_total": 89.99,
+   "gap_absolute": -78.49,
+   "gap_percent": -682.5217391304348,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 11,
+    "Fixed Price": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-06-22",
+     "total": 8.5
+    },
+    {
+     "date": "2026-06-24",
+     "total": 6.5
+    },
+    {
+     "date": "2026-06-25",
+     "total": 15.0
+    },
+    {
+     "date": "2026-06-25",
+     "total": 14.5
+    },
+    {
+     "date": "2026-06-29",
+     "total": 8.0
+    },
+    {
+     "date": "2026-06-30",
+     "total": 13.5
+    },
+    {
+     "date": "2026-07-06",
+     "total": 10.0
+    },
+    {
+     "date": "2026-07-06",
+     "total": 10.5
+    },
+    {
+     "date": "2026-07-06",
+     "total": 8.5
+    },
+    {
+     "date": "2026-07-19",
+     "total": 12.5
+    },
+    {
+     "date": "2026-07-27",
+     "total": 17.5
+    },
+    {
+     "date": "2026-03-26",
+     "total": 19.5
+    }
+   ],
+   "top_reasons": {}
+  },
+  {
+   "rank": 13,
+   "candidate_id": "v1|127828119029|0",
+   "seller": "gograded",
+   "title": "PSA 10 Gunnar Henderson 2023 Topps Game Within the Game #2 SP Rookie Card",
+   "parallel": null,
+   "query": "2023 GUNNAR HENDERSON TOPPS #2 PSA 10",
+   "rows": 50,
+   "accepted": 31,
+   "rejected": 10,
+   "review_required": 9,
+   "median": 44.18,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -55.809999999999995,
+   "gap_percent": -126.32412856496151,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 50
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-04-30",
+     "total": 37.99
+    },
+    {
+     "date": "2026-04-12",
+     "total": 95.0
+    },
+    {
+     "date": "2023-11-14",
+     "total": 45.0
+    },
+    {
+     "date": "2024-05-06",
+     "total": 43.32
+    },
+    {
+     "date": "2024-08-06",
+     "total": 41.0
+    },
+    {
+     "date": "2023-11-17",
+     "total": 44.18
+    },
+    {
+     "date": "2026-04-27",
+     "total": 76.64
+    },
+    {
+     "date": "2023-12-13",
+     "total": 37.49
+    },
+    {
+     "date": "2025-01-10",
+     "total": 49.99
+    },
+    {
+     "date": "2024-06-26",
+     "total": 41.67
+    },
+    {
+     "date": "2024-06-30",
+     "total": 67.5
+    },
+    {
+     "date": "2024-05-02",
+     "total": 33.99
+    },
+    {
+     "date": "2024-03-05",
+     "total": 31.25
+    },
+    {
+     "date": "2024-07-31",
+     "total": 74.99
+    },
+    {
+     "date": "2023-09-16",
+     "total": 162.5
+    },
+    {
+     "date": "2024-04-29",
+     "total": 63.1
+    },
+    {
+     "date": "2024-02-12",
+     "total": 49.99
+    },
+    {
+     "date": "2025-12-26",
+     "total": 45.82
+    },
+    {
+     "date": "2024-06-29",
+     "total": 46.25
+    },
+    {
+     "date": "2024-04-05",
+     "total": 49.99
+    },
+    {
+     "date": "2024-04-25",
+     "total": 26.57
+    },
+    {
+     "date": "2023-11-09",
+     "total": 38.2
+    },
+    {
+     "date": "2024-03-27",
+     "total": 33.99
+    },
+    {
+     "date": "2023-10-05",
+     "total": 39.99
+    },
+    {
+     "date": "2025-07-30",
+     "total": 28.65
+    },
+    {
+     "date": "2024-06-04",
+     "total": 91.67
+    },
+    {
+     "date": "2024-12-11",
+     "total": 36.67
+    },
+    {
+     "date": "2024-08-16",
+     "total": 49.0
+    },
+    {
+     "date": "2024-05-04",
+     "total": 55.0
+    },
+    {
+     "date": "2024-08-09",
+     "total": 40.0
+    },
+    {
+     "date": "2024-03-22",
+     "total": 40.0
+    }
+   ],
+   "top_reasons": {
+    "card number None != 2 (field absent from title, not a confli": 9,
+    "parallel/set differs - comp is ['REFRACTOR'], candidate is n": 2,
+    "card number 2T88-36 != 2": 2
+   }
+  },
+  {
+   "rank": 14,
+   "candidate_id": "v1|127828119047|0",
+   "seller": "gograded",
+   "title": "PSA 10 Jarace Walker 2023 Topps Now #D5 Blue SP #21/49 Rookie Card",
+   "parallel": "BLUE",
+   "query": "2023 JARACE WALKER TOPPS #D5 BLUE PSA 10",
+   "rows": 1,
+   "accepted": 0,
+   "rejected": 0,
+   "review_required": 1,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 94.99,
+   "shipping": 0.0,
+   "acquisition_total": 94.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "Auction": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {
+    "card number None != D5 (field absent from title, not a confl": 1
+   }
+  },
+  {
+   "rank": 15,
+   "candidate_id": "v1|127828119073|0",
+   "seller": "gograded",
+   "title": "PSA 10 Marvin Harrison Jr. 2024 Panini Instant #42 Joins Dad Record Rookie Card",
+   "parallel": null,
+   "query": "2024 MARVIN HARRISON JR. PANINI #42 PSA 10",
+   "rows": 43,
+   "accepted": 35,
+   "rejected": 7,
+   "review_required": 1,
+   "median": 16.0,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -83.99,
+   "gap_percent": -524.9375,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 33,
+    "Fixed Price": 10
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-06-04",
+     "total": 18.5
+    },
+    {
+     "date": "2026-07-19",
+     "total": 13.5
+    },
+    {
+     "date": "2026-06-24",
+     "total": 22.0
+    },
+    {
+     "date": "2026-07-29",
+     "total": 16.25
+    },
+    {
+     "date": "2025-03-11",
+     "total": 11.02
+    },
+    {
+     "date": "2025-03-04",
+     "total": 11.5
+    },
+    {
+     "date": "2025-03-18",
+     "total": 16.5
+    },
+    {
+     "date": "2026-04-23",
+     "total": 18.99
+    },
+    {
+     "date": "2025-03-27",
+     "total": 15.5
+    },
+    {
+     "date": "2024-12-28",
+     "total": 12.5
+    },
+    {
+     "date": "2024-12-28",
+     "total": 15.5
+    },
+    {
+     "date": "2025-04-14",
+     "total": 21.0
+    },
+    {
+     "date": "2024-12-28",
+     "total": 20.0
+    },
+    {
+     "date": "2025-11-07",
+     "total": 22.5
+    },
+    {
+     "date": "2024-12-28",
+     "total": 21.5
+    },
+    {
+     "date": "2025-03-14",
+     "total": 15.81
+    },
+    {
+     "date": "2025-01-23",
+     "total": 16.0
+    },
+    {
+     "date": "2024-12-28",
+     "total": 14.15
+    },
+    {
+     "date": "2025-04-11",
+     "total": 24.99
+    },
+    {
+     "date": "2025-03-08",
+     "total": 15.5
+    },
+    {
+     "date": "2025-01-08",
+     "total": 13.5
+    },
+    {
+     "date": "2025-01-08",
+     "total": 20.5
+    },
+    {
+     "date": "2025-03-10",
+     "total": 8.5
+    },
+    {
+     "date": "2025-10-05",
+     "total": 11.5
+    },
+    {
+     "date": "2025-01-08",
+     "total": 14.5
+    },
+    {
+     "date": "2025-03-09",
+     "total": 14.51
+    },
+    {
+     "date": "2025-01-08",
+     "total": 18.5
+    },
+    {
+     "date": "2025-01-12",
+     "total": 25.0
+    },
+    {
+     "date": "2025-03-10",
+     "total": 14.5
+    },
+    {
+     "date": "2025-03-07",
+     "total": 21.5
+    },
+    {
+     "date": "2024-12-28",
+     "total": 14.5
+    },
+    {
+     "date": "2024-12-28",
+     "total": 16.0
+    },
+    {
+     "date": "2025-03-01",
+     "total": 19.5
+    },
+    {
+     "date": "2025-03-13",
+     "total": 16.0
+    },
+    {
+     "date": "2025-09-01",
+     "total": 17.01
+    }
+   ],
+   "top_reasons": {
+    "print run 2327 != None": 3,
+    "raw/ungraded - no PSA grade in title": 1,
+    "parallel/set differs - comp is ['YELLOW'], candidate is not": 1
+   }
+  },
+  {
+   "rank": 16,
+   "candidate_id": "v1|127828119215|0",
+   "seller": "gograded",
+   "title": "PSA 10 Lewis Miley 2023 Topps Living Set #636 Newcastle Rookie Card",
+   "parallel": null,
+   "query": "2023 LEWIS MILEY TOPPS #636 PSA 10",
+   "rows": 2,
+   "accepted": 2,
+   "rejected": 0,
+   "review_required": 0,
+   "median": 67.5,
+   "confidence": "LOW",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "Fixed Price": 2
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-02-06",
+     "total": 70.0
+    },
+    {
+     "date": "2025-03-17",
+     "total": 65.0
+    }
+   ],
+   "top_reasons": {}
+  },
+  {
+   "rank": 17,
+   "candidate_id": "v1|127844266362|0",
+   "seller": "gograded",
+   "title": "PSA 9 Bradley Barcola 2023 Topps Now #37 Purple SP Only 99 Made Rookie Card",
+   "parallel": "PURPLE",
+   "query": "2023 BRADLEY BARCOLA TOPPS #37 PURPLE PSA 9",
+   "rows": 0,
+   "accepted": 0,
+   "rejected": 0,
+   "review_required": 0,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {},
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {}
+  },
+  {
+   "rank": 18,
+   "candidate_id": "v1|127857779757|0",
+   "seller": "gograded",
+   "title": "PSA 9 C.J. Stroud 2023 Panini Instant #68 Just 1176 Made! Rookie Card",
+   "parallel": null,
+   "query": "2023 C.J. STROUD PANINI #68 PSA 9",
+   "rows": 12,
+   "accepted": 3,
+   "rejected": 9,
+   "review_required": 0,
+   "median": 15.5,
+   "confidence": "MEDIUM",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -84.49,
+   "gap_percent": -545.0967741935483,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 9,
+    "Fixed Price": 3
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-03-31",
+     "total": 29.99
+    },
+    {
+     "date": "2025-12-30",
+     "total": 15.5
+    },
+    {
+     "date": "2025-04-23",
+     "total": 15.5
+    }
+   ],
+   "top_reasons": {
+    "print run 1176 != None": 8,
+    "card number FU-2 != 68": 1
+   }
+  },
+  {
+   "rank": 19,
+   "candidate_id": "v1|127857779824|0",
+   "seller": "gograded",
+   "title": "PSA 9 Caleb Williams 2024 Panini Instant #26 Victory in Debut Rookie Card",
+   "parallel": null,
+   "query": "2024 CALEB WILLIAMS PANINI #26 PSA 9",
+   "rows": 38,
+   "accepted": 21,
+   "rejected": 13,
+   "review_required": 4,
+   "median": 12.0,
+   "confidence": "HIGH",
+   "asking_price": 69.99,
+   "shipping": 0.0,
+   "acquisition_total": 69.99,
+   "gap_absolute": -57.989999999999995,
+   "gap_percent": -483.24999999999994,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 11,
+    "Auction": 27
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2025-02-28",
+     "total": 17.98
+    },
+    {
+     "date": "2025-01-05",
+     "total": 10.0
+    },
+    {
+     "date": "2025-02-02",
+     "total": 10.49
+    },
+    {
+     "date": "2025-04-06",
+     "total": 13.48
+    },
+    {
+     "date": "2025-01-13",
+     "total": 9.49
+    },
+    {
+     "date": "2024-12-26",
+     "total": 21.5
+    },
+    {
+     "date": "2026-01-16",
+     "total": 20.0
+    },
+    {
+     "date": "2025-08-24",
+     "total": 14.99
+    },
+    {
+     "date": "2025-08-09",
+     "total": 14.99
+    },
+    {
+     "date": "2025-01-24",
+     "total": 9.99
+    },
+    {
+     "date": "2025-09-04",
+     "total": 12.0
+    },
+    {
+     "date": "2024-12-29",
+     "total": 19.09
+    },
+    {
+     "date": "2025-01-24",
+     "total": 9.99
+    },
+    {
+     "date": "2025-01-12",
+     "total": 14.06
+    },
+    {
+     "date": "2025-09-28",
+     "total": 9.99
+    },
+    {
+     "date": "2024-12-28",
+     "total": 5.5
+    },
+    {
+     "date": "2025-08-12",
+     "total": 11.5
+    },
+    {
+     "date": "2024-12-29",
+     "total": 8.5
+    },
+    {
+     "date": "2024-12-28",
+     "total": 7.5
+    },
+    {
+     "date": "2025-04-06",
+     "total": 13.48
+    },
+    {
+     "date": "2025-09-14",
+     "total": 18.0
+    }
+   ],
+   "top_reasons": {
+    "raw/ungraded - no PSA grade in title": 4,
+    "card number None != 26 (field absent from title, not a confl": 4,
+    "lot or multi-card listing": 3
+   }
+  },
+  {
+   "rank": 20,
+   "candidate_id": "v1|127859844629|0",
+   "seller": "gograded",
+   "title": "PSA 9 Christian McCaffrey/Brock Purdy/Deebo 2023 Panini Instant #84 49ers Card",
+   "parallel": null,
+   "query": "2023 BROCK PURDY DEEBO PANINI #84 PSA 9",
+   "rows": 1,
+   "accepted": 0,
+   "rejected": 0,
+   "review_required": 1,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 69.99,
+   "shipping": 0.0,
+   "acquisition_total": 69.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "Fixed Price": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {
+    "card number None != 84 (field absent from title, not a confl": 1
+   }
+  },
+  {
+   "rank": 21,
+   "candidate_id": "v1|144240383278|0",
+   "seller": "shophofsm",
+   "title": "Graded 2019 Panini Prizm DK D.K. METCALF #343 Rookie RC Football Card PSA 10",
+   "parallel": null,
+   "query": "2019 D.K. METCALF PANINI #343 PSA 10",
+   "rows": 32,
+   "accepted": 13,
+   "rejected": 12,
+   "review_required": 7,
+   "median": 30.0,
+   "confidence": "HIGH",
+   "asking_price": 78.5,
+   "shipping": 0.0,
+   "acquisition_total": 78.5,
+   "gap_absolute": -48.5,
+   "gap_percent": -161.66666666666666,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 12,
+    "Auction": 20
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-08-22",
+     "total": 29.95
+    },
+    {
+     "date": "2025-06-30",
+     "total": 18.5
+    },
+    {
+     "date": "2024-09-07",
+     "total": 28.5
+    },
+    {
+     "date": "2024-08-15",
+     "total": 30.0
+    },
+    {
+     "date": "2024-10-11",
+     "total": 41.0
+    },
+    {
+     "date": "2024-07-24",
+     "total": 36.0
+    },
+    {
+     "date": "2024-08-05",
+     "total": 32.99
+    },
+    {
+     "date": "2025-06-15",
+     "total": 27.0
+    },
+    {
+     "date": "2024-10-03",
+     "total": 30.0
+    },
+    {
+     "date": "2024-07-07",
+     "total": 44.0
+    },
+    {
+     "date": "2026-03-03",
+     "total": 29.98
+    },
+    {
+     "date": "2024-07-27",
+     "total": 32.5
+    },
+    {
+     "date": "2025-04-22",
+     "total": 35.0
+    }
+   ],
+   "top_reasons": {
+    "card number None != 343 (field absent from title, not a conf": 6,
+    "parallel/set differs - comp is ['ICE', 'RED'], candidate is ": 4,
+    "parallel/set differs - comp is ['SILVER'], candidate is not": 3
+   }
+  },
+  {
+   "rank": 22,
+   "candidate_id": "v1|144357968198|0",
+   "seller": "shophofsm",
+   "title": "Graded 2020-21 Panini Hoops LaMelo Ball #223 Rookie RC Card PSA 10",
+   "parallel": null,
+   "query": "2020 LAMELO BALL PANINI #223 PSA 10",
+   "rows": 50,
+   "accepted": 28,
+   "rejected": 16,
+   "review_required": 6,
+   "median": 17.744999999999997,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -82.245,
+   "gap_percent": -463.4826711749789,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 26,
+    "Auction": 24
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-05-19",
+     "total": 17.99
+    },
+    {
+     "date": "2026-07-05",
+     "total": 37.0
+    },
+    {
+     "date": "2026-01-24",
+     "total": 15.54
+    },
+    {
+     "date": "2024-03-12",
+     "total": 11.03
+    },
+    {
+     "date": "2024-08-04",
+     "total": 16.0
+    },
+    {
+     "date": "2024-06-15",
+     "total": 17.5
+    },
+    {
+     "date": "2023-08-17",
+     "total": 19.99
+    },
+    {
+     "date": "2026-03-30",
+     "total": 16.5
+    },
+    {
+     "date": "2025-08-18",
+     "total": 15.0
+    },
+    {
+     "date": "2026-03-01",
+     "total": 15.51
+    },
+    {
+     "date": "2023-12-20",
+     "total": 20.0
+    },
+    {
+     "date": "2025-03-15",
+     "total": 15.5
+    },
+    {
+     "date": "2024-09-14",
+     "total": 20.5
+    },
+    {
+     "date": "2024-03-27",
+     "total": 17.38
+    },
+    {
+     "date": "2023-12-27",
+     "total": 21.56
+    },
+    {
+     "date": "2023-10-07",
+     "total": 20.0
+    },
+    {
+     "date": "2024-12-29",
+     "total": 15.5
+    },
+    {
+     "date": "2025-12-18",
+     "total": 10.5
+    },
+    {
+     "date": "2024-03-24",
+     "total": 26.99
+    },
+    {
+     "date": "2024-07-03",
+     "total": 19.16
+    },
+    {
+     "date": "2023-08-15",
+     "total": 24.99
+    },
+    {
+     "date": "2025-10-28",
+     "total": 12.5
+    },
+    {
+     "date": "2026-02-17",
+     "total": 20.0
+    },
+    {
+     "date": "2023-11-19",
+     "total": 12.5
+    },
+    {
+     "date": "2023-08-21",
+     "total": 23.0
+    },
+    {
+     "date": "2025-05-10",
+     "total": 11.5
+    },
+    {
+     "date": "2025-11-26",
+     "total": 25.0
+    },
+    {
+     "date": "2023-11-11",
+     "total": 20.0
+    }
+   ],
+   "top_reasons": {
+    "manufacturer/brand conflict - comp is ['HOOPS'], candidate i": 8,
+    "card number None != 223 (field absent from title, not a conf": 6,
+    "raw/ungraded - no PSA grade in title": 3
+   }
+  },
+  {
+   "rank": 23,
+   "candidate_id": "v1|145535199864|0",
+   "seller": "shophofsm",
+   "title": "Graded 2022 Panini Chronicles Brock Purdy #41 Rookie RC Football Card PSA 10 Gem",
+   "parallel": null,
+   "query": "2022 BROCK PURDY PANINI #41 PSA 10",
+   "rows": 50,
+   "accepted": 32,
+   "rejected": 14,
+   "review_required": 4,
+   "median": 50.83,
+   "confidence": "HIGH",
+   "asking_price": 84.5,
+   "shipping": 0.0,
+   "acquisition_total": 84.5,
+   "gap_absolute": -33.67,
+   "gap_percent": -66.24040920716114,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 38,
+    "Auction": 12
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-05-10",
+     "total": 22.99
+    },
+    {
+     "date": "2023-11-16",
+     "total": 32.5
+    },
+    {
+     "date": "2024-03-23",
+     "total": 41.98
+    },
+    {
+     "date": "2024-02-11",
+     "total": 66.67
+    },
+    {
+     "date": "2024-01-30",
+     "total": 71.17
+    },
+    {
+     "date": "2025-08-29",
+     "total": 44.66
+    },
+    {
+     "date": "2024-02-18",
+     "total": 62.0
+    },
+    {
+     "date": "2024-01-20",
+     "total": 71.99
+    },
+    {
+     "date": "2024-08-02",
+     "total": 51.0
+    },
+    {
+     "date": "2023-10-09",
+     "total": 59.99
+    },
+    {
+     "date": "2024-02-01",
+     "total": 74.99
+    },
+    {
+     "date": "2023-11-08",
+     "total": 59.99
+    },
+    {
+     "date": "2024-01-09",
+     "total": 80.0
+    },
+    {
+     "date": "2024-10-16",
+     "total": 29.0
+    },
+    {
+     "date": "2023-11-25",
+     "total": 45.99
+    },
+    {
+     "date": "2023-11-22",
+     "total": 35.0
+    },
+    {
+     "date": "2024-02-06",
+     "total": 65.0
+    },
+    {
+     "date": "2024-07-08",
+     "total": 30.0
+    },
+    {
+     "date": "2024-01-05",
+     "total": 80.0
+    },
+    {
+     "date": "2024-05-19",
+     "total": 45.0
+    },
+    {
+     "date": "2023-12-01",
+     "total": 50.66
+    },
+    {
+     "date": "2023-09-26",
+     "total": 54.99
+    },
+    {
+     "date": "2023-12-24",
+     "total": 74.99
+    },
+    {
+     "date": "2024-11-11",
+     "total": 34.79
+    },
+    {
+     "date": "2023-12-19",
+     "total": 73.74
+    },
+    {
+     "date": "2025-12-28",
+     "total": 25.0
+    },
+    {
+     "date": "2026-01-17",
+     "total": 30.0
+    },
+    {
+     "date": "2024-02-10",
+     "total": 89.99
+    },
+    {
+     "date": "2023-11-27",
+     "total": 44.0
+    },
+    {
+     "date": "2024-02-18",
+     "total": 70.0
+    },
+    {
+     "date": "2024-02-19",
+     "total": 39.25
+    },
+    {
+     "date": "2023-11-25",
+     "total": 50.0
+    }
+   ],
+   "top_reasons": {
+    "card number None != 41 (field absent from title, not a confl": 4,
+    "raw/ungraded - no PSA grade in title": 2,
+    "parallel/set differs - comp is ['TEAL'], candidate is not": 2
+   }
+  },
+  {
+   "rank": 24,
+   "candidate_id": "v1|145573786073|0",
+   "seller": "shophofsm",
+   "title": "Graded 2019 Panini Donruss Deebo Samuel #317 Rookie RC Football Card PSA 10 Gem",
+   "parallel": null,
+   "query": "2019 DEEBO SAMUEL PANINI #317 PSA 10",
+   "rows": 50,
+   "accepted": 26,
+   "rejected": 17,
+   "review_required": 7,
+   "median": 42.5,
+   "confidence": "HIGH",
+   "asking_price": 54.5,
+   "shipping": 0.0,
+   "acquisition_total": 54.5,
+   "gap_absolute": -12.0,
+   "gap_percent": -28.235294117647058,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 31,
+    "Auction": 19
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-06-08",
+     "total": 17.5
+    },
+    {
+     "date": "2025-03-06",
+     "total": 40.0
+    },
+    {
+     "date": "2025-02-12",
+     "total": 21.5
+    },
+    {
+     "date": "2025-08-27",
+     "total": 35.99
+    },
+    {
+     "date": "2024-09-29",
+     "total": 45.0
+    },
+    {
+     "date": "2024-05-13",
+     "total": 55.0
+    },
+    {
+     "date": "2025-03-02",
+     "total": 40.0
+    },
+    {
+     "date": "2023-12-10",
+     "total": 64.0
+    },
+    {
+     "date": "2024-01-30",
+     "total": 72.5
+    },
+    {
+     "date": "2025-08-06",
+     "total": 19.5
+    },
+    {
+     "date": "2024-02-04",
+     "total": 75.0
+    },
+    {
+     "date": "2024-12-29",
+     "total": 20.5
+    },
+    {
+     "date": "2025-11-30",
+     "total": 6.5
+    },
+    {
+     "date": "2024-12-15",
+     "total": 45.44
+    },
+    {
+     "date": "2024-01-08",
+     "total": 59.99
+    },
+    {
+     "date": "2024-03-13",
+     "total": 49.45
+    },
+    {
+     "date": "2026-02-01",
+     "total": 25.94
+    },
+    {
+     "date": "2023-11-17",
+     "total": 26.0
+    },
+    {
+     "date": "2024-04-20",
+     "total": 49.04
+    },
+    {
+     "date": "2023-09-03",
+     "total": 23.5
+    },
+    {
+     "date": "2024-01-30",
+     "total": 69.99
+    },
+    {
+     "date": "2024-01-30",
+     "total": 64.99
+    },
+    {
+     "date": "2024-01-30",
+     "total": 80.0
+    },
+    {
+     "date": "2023-08-09",
+     "total": 35.0
+    },
+    {
+     "date": "2025-01-26",
+     "total": 24.0
+    },
+    {
+     "date": "2024-02-11",
+     "total": 70.0
+    }
+   ],
+   "top_reasons": {
+    "card number None != 317 (field absent from title, not a conf": 5,
+    "raw/ungraded - no PSA grade in title": 4,
+    "autograph status differs (comp=True, candidate=False)": 2
+   }
+  },
+  {
+   "rank": 25,
+   "candidate_id": "v1|145590649944|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Panini Instant C.J. Stroud #33 Rookie RC Football Card PSA 10 Gem",
+   "parallel": null,
+   "query": "2023 C.J. STROUD PANINI #33 PSA 10",
+   "rows": 25,
+   "accepted": 10,
+   "rejected": 12,
+   "review_required": 3,
+   "median": 32.995,
+   "confidence": "HIGH",
+   "asking_price": 62.5,
+   "shipping": 0.0,
+   "acquisition_total": 62.5,
+   "gap_absolute": -29.505000000000003,
+   "gap_percent": -89.42263979390819,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 15,
+    "Fixed Price": 10
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2025-03-06",
+     "total": 26.51
+    },
+    {
+     "date": "2024-08-17",
+     "total": 42.0
+    },
+    {
+     "date": "2024-09-25",
+     "total": 5.0
+    },
+    {
+     "date": "2024-09-06",
+     "total": 42.0
+    },
+    {
+     "date": "2025-06-15",
+     "total": 17.99
+    },
+    {
+     "date": "2024-02-12",
+     "total": 41.01
+    },
+    {
+     "date": "2026-03-01",
+     "total": 36.0
+    },
+    {
+     "date": "2024-03-13",
+     "total": 53.96
+    },
+    {
+     "date": "2025-06-04",
+     "total": 9.99
+    },
+    {
+     "date": "2024-08-28",
+     "total": 29.99
+    }
+   ],
+   "top_reasons": {
+    "print run 2160 != None": 7,
+    "raw/ungraded - no PSA grade in title": 3,
+    "card number None != 33 (field absent from title, not a confl": 3
+   }
+  },
+  {
+   "rank": 26,
+   "candidate_id": "v1|145590669759|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Panini Score Jalen Carter #369 Gold Zone Rookie Football Card PSA 10",
+   "parallel": "GOLD",
+   "query": "2023 JALEN CARTER PANINI #369 GOLD PSA 10",
+   "rows": 0,
+   "accepted": 0,
+   "rejected": 0,
+   "review_required": 0,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 88.5,
+   "shipping": 0.0,
+   "acquisition_total": 88.5,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {},
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {}
+  },
+  {
+   "rank": 27,
+   "candidate_id": "v1|145645001416|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Panini Prizm Will Anderson #PFR3 Flashback RC Football Card PSA 10",
+   "parallel": null,
+   "query": "2023 WILL ANDERSON PANINI #PFR3 PSA 10",
+   "rows": 18,
+   "accepted": 11,
+   "rejected": 6,
+   "review_required": 1,
+   "median": 38.0,
+   "confidence": "HIGH",
+   "asking_price": 79.99,
+   "shipping": 0.0,
+   "acquisition_total": 79.99,
+   "gap_absolute": -41.989999999999995,
+   "gap_percent": -110.49999999999997,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 10,
+    "Fixed Price": 8
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-04-28",
+     "total": 56.0
+    },
+    {
+     "date": "2026-02-15",
+     "total": 38.0
+    },
+    {
+     "date": "2024-05-07",
+     "total": 35.0
+    },
+    {
+     "date": "2024-06-16",
+     "total": 38.0
+    },
+    {
+     "date": "2025-11-23",
+     "total": 30.0
+    },
+    {
+     "date": "2026-01-25",
+     "total": 51.0
+    },
+    {
+     "date": "2024-03-23",
+     "total": 20.5
+    },
+    {
+     "date": "2025-01-11",
+     "total": 39.99
+    },
+    {
+     "date": "2024-09-13",
+     "total": 25.76
+    },
+    {
+     "date": "2024-04-04",
+     "total": 19.5
+    },
+    {
+     "date": "2024-04-21",
+     "total": 41.0
+    }
+   ],
+   "top_reasons": {
+    "parallel/set differs - comp is ['SILVER'], candidate is not": 3,
+    "raw/ungraded - no PSA grade in title": 1,
+    "parallel/set differs - comp is ['DISCO'], candidate is not": 1
+   }
+  },
+  {
+   "rank": 28,
+   "candidate_id": "v1|145716333964|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Topps Upd Corbin Carroll #ASG34 All Star Game Baseball Card PSA 10",
+   "parallel": null,
+   "query": "2023 CORBIN CARROLL TOPPS #ASG34 PSA 10",
+   "rows": 19,
+   "accepted": 13,
+   "rejected": 1,
+   "review_required": 5,
+   "median": 23.85,
+   "confidence": "HIGH",
+   "asking_price": 69.95,
+   "shipping": 0.0,
+   "acquisition_total": 69.95,
+   "gap_absolute": -46.1,
+   "gap_percent": -193.2914046121593,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 13,
+    "Fixed Price": 6
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-03-17",
+     "total": 13.28
+    },
+    {
+     "date": "2024-02-17",
+     "total": 31.0
+    },
+    {
+     "date": "2024-12-16",
+     "total": 29.99
+    },
+    {
+     "date": "2024-08-08",
+     "total": 11.28
+    },
+    {
+     "date": "2024-04-07",
+     "total": 29.0
+    },
+    {
+     "date": "2025-09-01",
+     "total": 11.5
+    },
+    {
+     "date": "2024-07-11",
+     "total": 10.5
+    },
+    {
+     "date": "2024-02-29",
+     "total": 26.0
+    },
+    {
+     "date": "2024-03-27",
+     "total": 24.5
+    },
+    {
+     "date": "2024-09-03",
+     "total": 14.99
+    },
+    {
+     "date": "2024-03-11",
+     "total": 23.85
+    },
+    {
+     "date": "2024-02-07",
+     "total": 29.99
+    },
+    {
+     "date": "2025-07-04",
+     "total": 22.99
+    }
+   ],
+   "top_reasons": {
+    "card number None != ASG34 (field absent from title, not a co": 5,
+    "parallel/set differs - comp is ['BLACK'], candidate is not": 1
+   }
+  },
+  {
+   "rank": 29,
+   "candidate_id": "v1|145716334657|0",
+   "seller": "shophofsm",
+   "title": "Graded 1992 Upper Deck Minor League Manny Ramirez #35 RC Baseball Card PSA 10",
+   "parallel": null,
+   "query": "1992 LEAGUE MANNY RAMIREZ UPPER DECK #35 PSA 10",
+   "rows": 15,
+   "accepted": 11,
+   "rejected": 1,
+   "review_required": 3,
+   "median": 23.99,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -76.0,
+   "gap_percent": -316.7986661108796,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 14,
+    "Auction": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-04-01",
+     "total": 29.99
+    },
+    {
+     "date": "2024-04-01",
+     "total": 53.13
+    },
+    {
+     "date": "2025-01-18",
+     "total": 20.99
+    },
+    {
+     "date": "2024-02-24",
+     "total": 21.99
+    },
+    {
+     "date": "2024-06-29",
+     "total": 23.99
+    },
+    {
+     "date": "2023-09-12",
+     "total": 29.99
+    },
+    {
+     "date": "2023-12-28",
+     "total": 23.99
+    },
+    {
+     "date": "2026-04-28",
+     "total": 50.0
+    },
+    {
+     "date": "2024-06-10",
+     "total": 40.0
+    },
+    {
+     "date": "2024-12-12",
+     "total": 21.99
+    },
+    {
+     "date": "2024-12-17",
+     "total": 21.99
+    }
+   ],
+   "top_reasons": {
+    "card number None != 35 (field absent from title, not a confl": 3,
+    "raw/ungraded - no PSA grade in title": 1
+   }
+  },
+  {
+   "rank": 30,
+   "candidate_id": "v1|145720654665|0",
+   "seller": "shophofsm",
+   "title": "Graded 2021 Panini Prizm Jalen Green #306 Ice Rookie RC Basketball Card PSA 10",
+   "parallel": "ICE",
+   "query": "2021 JALEN GREEN PANINI #306 ICE PSA 10",
+   "rows": 50,
+   "accepted": 14,
+   "rejected": 33,
+   "review_required": 3,
+   "median": 40.5,
+   "confidence": "HIGH",
+   "asking_price": 88.5,
+   "shipping": 0.0,
+   "acquisition_total": 88.5,
+   "gap_absolute": -48.0,
+   "gap_percent": -118.5185185185185,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 30,
+    "Auction": 20
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-07-02",
+     "total": 40.0
+    },
+    {
+     "date": "2026-06-30",
+     "total": 35.0
+    },
+    {
+     "date": "2025-07-11",
+     "total": 32.78
+    },
+    {
+     "date": "2025-05-20",
+     "total": 41.0
+    },
+    {
+     "date": "2024-09-07",
+     "total": 59.9
+    },
+    {
+     "date": "2025-04-26",
+     "total": 72.0
+    },
+    {
+     "date": "2025-05-04",
+     "total": 63.2
+    },
+    {
+     "date": "2024-05-09",
+     "total": 46.0
+    },
+    {
+     "date": "2024-08-29",
+     "total": 41.0
+    },
+    {
+     "date": "2025-11-06",
+     "total": 49.0
+    },
+    {
+     "date": "2023-12-31",
+     "total": 40.0
+    },
+    {
+     "date": "2024-10-15",
+     "total": 38.0
+    },
+    {
+     "date": "2024-01-31",
+     "total": 32.99
+    },
+    {
+     "date": "2026-02-22",
+     "total": 26.0
+    }
+   ],
+   "top_reasons": {
+    "parallel/set differs - comp is ['RED'], candidate is not": 12,
+    "parallel/set differs - comp is ['ORANGE'], candidate is not": 8,
+    "parallel/set differs - comp is ['PINK'], candidate is not": 4
+   }
+  },
+  {
+   "rank": 31,
+   "candidate_id": "v1|145720654679|0",
+   "seller": "shophofsm",
+   "title": "Graded 2017 Topps Allen & Ginter Matt Olson #268 Rookie RC Baseball Card PSA 10",
+   "parallel": null,
+   "query": "2017 MATT OLSON TOPPS #268 PSA 10",
+   "rows": 48,
+   "accepted": 30,
+   "rejected": 13,
+   "review_required": 5,
+   "median": 20.5,
+   "confidence": "HIGH",
+   "asking_price": 89.5,
+   "shipping": 0.0,
+   "acquisition_total": 89.5,
+   "gap_absolute": -69.0,
+   "gap_percent": -336.5853658536585,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 17,
+    "Auction": 31
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-05-13",
+     "total": 58.0
+    },
+    {
+     "date": "2026-05-27",
+     "total": 52.0
+    },
+    {
+     "date": "2026-05-27",
+     "total": 21.5
+    },
+    {
+     "date": "2026-07-05",
+     "total": 42.01
+    },
+    {
+     "date": "2026-02-20",
+     "total": 20.5
+    },
+    {
+     "date": "2023-08-09",
+     "total": 20.5
+    },
+    {
+     "date": "2023-11-29",
+     "total": 21.25
+    },
+    {
+     "date": "2025-04-02",
+     "total": 18.0
+    },
+    {
+     "date": "2025-03-11",
+     "total": 14.99
+    },
+    {
+     "date": "2024-08-17",
+     "total": 26.99
+    },
+    {
+     "date": "2023-09-13",
+     "total": 76.0
+    },
+    {
+     "date": "2023-12-06",
+     "total": 18.59
+    },
+    {
+     "date": "2025-02-05",
+     "total": 17.99
+    },
+    {
+     "date": "2024-08-28",
+     "total": 29.99
+    },
+    {
+     "date": "2025-01-22",
+     "total": 12.5
+    },
+    {
+     "date": "2025-03-28",
+     "total": 17.0
+    },
+    {
+     "date": "2025-09-17",
+     "total": 16.55
+    },
+    {
+     "date": "2023-12-06",
+     "total": 32.25
+    },
+    {
+     "date": "2025-03-19",
+     "total": 19.5
+    },
+    {
+     "date": "2025-02-19",
+     "total": 14.99
+    },
+    {
+     "date": "2024-12-02",
+     "total": 17.59
+    },
+    {
+     "date": "2024-04-07",
+     "total": 45.0
+    },
+    {
+     "date": "2023-08-16",
+     "total": 106.0
+    },
+    {
+     "date": "2023-08-07",
+     "total": 64.99
+    },
+    {
+     "date": "2026-02-08",
+     "total": 18.0
+    },
+    {
+     "date": "2024-04-07",
+     "total": 42.99
+    },
+    {
+     "date": "2025-03-12",
+     "total": 17.39
+    },
+    {
+     "date": "2024-10-09",
+     "total": 15.5
+    },
+    {
+     "date": "2024-12-24",
+     "total": 25.99
+    },
+    {
+     "date": "2025-03-26",
+     "total": 14.99
+    }
+   ],
+   "top_reasons": {
+    "lot or multi-card listing": 5,
+    "pack/box/case": 4,
+    "card number None != 268 (field absent from title, not a conf": 4
+   }
+  },
+  {
+   "rank": 32,
+   "candidate_id": "v1|145730749461|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Topps Chrome Spencer Steer #146 XFractor RC Baseball Card PSA 10",
+   "parallel": "XFRACTOR",
+   "query": "2023 SPENCER STEER TOPPS #146 XFRACTOR PSA 10",
+   "rows": 6,
+   "accepted": 5,
+   "rejected": 1,
+   "review_required": 0,
+   "median": 39.0,
+   "confidence": "HIGH",
+   "asking_price": 64.99,
+   "shipping": 0.0,
+   "acquisition_total": 64.99,
+   "gap_absolute": -25.989999999999995,
+   "gap_percent": -66.64102564102564,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 3,
+    "Auction": 3
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-03-19",
+     "total": 39.0
+    },
+    {
+     "date": "2023-10-24",
+     "total": 29.98
+    },
+    {
+     "date": "2024-03-10",
+     "total": 21.5
+    },
+    {
+     "date": "2024-02-19",
+     "total": 40.0
+    },
+    {
+     "date": "2024-04-10",
+     "total": 51.99
+    }
+   ],
+   "top_reasons": {
+    "parallel/set differs - comp is ['REFRACTOR'], candidate is n": 1
+   }
+  },
+  {
+   "rank": 33,
+   "candidate_id": "v1|145752514374|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Topps Adley Rutschman #FS19 Favorite Sons RC Baseball Card PSA 10",
+   "parallel": null,
+   "query": "2023 ADLEY RUTSCHMAN TOPPS #FS19 PSA 10",
+   "rows": 1,
+   "accepted": 0,
+   "rejected": 1,
+   "review_required": 0,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 79.99,
+   "shipping": 0.0,
+   "acquisition_total": 79.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "unknown": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {
+    "same_listing_duplicate - active-listing layout; missing Excl": 1
+   }
+  },
+  {
+   "rank": 34,
+   "candidate_id": "v1|145804043477|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Bowman U Chrome Adonai Mitchell #10 Xfractor RC Football Card PSA 10",
+   "parallel": "XFRACTOR",
+   "query": "2023 ADONAI MITCHELL BOWMAN #10 XFRACTOR PSA 10",
+   "rows": 1,
+   "accepted": 1,
+   "rejected": 0,
+   "review_required": 0,
+   "median": 42.0,
+   "confidence": "LOW",
+   "asking_price": 63.5,
+   "shipping": 0.0,
+   "acquisition_total": 63.5,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "Fixed Price": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-08-12",
+     "total": 42.0
+    }
+   ],
+   "top_reasons": {}
+  },
+  {
+   "rank": 35,
+   "candidate_id": "v1|145811802127|0",
+   "seller": "shophofsm",
+   "title": "Graded 2023 Topps Now Luis Matos #490 Purple #/25 Rookie RC Baseball Card PSA 10",
+   "parallel": "PURPLE",
+   "query": "2023 LUIS MATOS TOPPS #490 PURPLE PSA 10",
+   "rows": 3,
+   "accepted": 0,
+   "rejected": 1,
+   "review_required": 2,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 82.5,
+   "shipping": 0.0,
+   "acquisition_total": 82.5,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "Auction": 1,
+    "Fixed Price": 2
+   },
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {
+    "parallel/set differs - comp never states ['PURPLE'] (field a": 2,
+    "print run 25 != None": 1
+   }
+  },
+  {
+   "rank": 36,
+   "candidate_id": "v1|145818675681|0",
+   "seller": "shophofsm",
+   "title": "Graded 2018 Panini Prizm Mikal Bridges #289 Rookie RC Basketball Card PSA 10",
+   "parallel": null,
+   "query": "2018 MIKAL BRIDGES PANINI #289 PSA 10",
+   "rows": 50,
+   "accepted": 11,
+   "rejected": 36,
+   "review_required": 3,
+   "median": 31.99,
+   "confidence": "HIGH",
+   "asking_price": 79.99,
+   "shipping": 0.0,
+   "acquisition_total": 79.99,
+   "gap_absolute": -48.0,
+   "gap_percent": -150.0468896530166,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Fixed Price": 33,
+    "Auction": 17
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-10-10",
+     "total": 44.16
+    },
+    {
+     "date": "2024-09-02",
+     "total": 24.0
+    },
+    {
+     "date": "2023-11-20",
+     "total": 20.39
+    },
+    {
+     "date": "2024-06-27",
+     "total": 41.7
+    },
+    {
+     "date": "2024-01-12",
+     "total": 22.07
+    },
+    {
+     "date": "2024-07-11",
+     "total": 40.0
+    },
+    {
+     "date": "2023-11-24",
+     "total": 34.33
+    },
+    {
+     "date": "2026-02-08",
+     "total": 20.25
+    },
+    {
+     "date": "2024-12-25",
+     "total": 32.99
+    },
+    {
+     "date": "2026-01-25",
+     "total": 8.5
+    },
+    {
+     "date": "2024-06-25",
+     "total": 31.99
+    }
+   ],
+   "top_reasons": {
+    "parallel/set differs - comp is ['SILVER'], candidate is not": 15,
+    "parallel/set differs - comp is ['BLUE', 'RED'], candidate is": 7,
+    "parallel/set differs - comp is ['ICE', 'PINK'], candidate is": 4
+   }
+  },
+  {
+   "rank": 37,
+   "candidate_id": "v1|145838936218|0",
+   "seller": "shophofsm",
+   "title": "Graded 1989 Topps Tim Brown #265 Rookie RC Football Card PSA 10 Gem Mint",
+   "parallel": null,
+   "query": "1989 TIM BROWN TOPPS #265 PSA 10",
+   "rows": 50,
+   "accepted": 46,
+   "rejected": 3,
+   "review_required": 1,
+   "median": 48.43,
+   "confidence": "HIGH",
+   "asking_price": 99.99,
+   "shipping": 0.0,
+   "acquisition_total": 99.99,
+   "gap_absolute": -51.559999999999995,
+   "gap_percent": -106.46293619657237,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 22,
+    "Fixed Price": 28
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-07-18",
+     "total": 59.99
+    },
+    {
+     "date": "2026-05-10",
+     "total": 55.0
+    },
+    {
+     "date": "2026-05-26",
+     "total": 62.99
+    },
+    {
+     "date": "2026-02-05",
+     "total": 43.97
+    },
+    {
+     "date": "2026-03-21",
+     "total": 50.0
+    },
+    {
+     "date": "2025-06-30",
+     "total": 114.1
+    },
+    {
+     "date": "2025-07-19",
+     "total": 45.44
+    },
+    {
+     "date": "2024-12-22",
+     "total": 46.23
+    },
+    {
+     "date": "2024-06-20",
+     "total": 54.0
+    },
+    {
+     "date": "2025-06-04",
+     "total": 47.0
+    },
+    {
+     "date": "2024-08-18",
+     "total": 27.0
+    },
+    {
+     "date": "2025-07-27",
+     "total": 48.83
+    },
+    {
+     "date": "2024-03-31",
+     "total": 80.0
+    },
+    {
+     "date": "2024-09-29",
+     "total": 50.0
+    },
+    {
+     "date": "2026-03-21",
+     "total": 53.0
+    },
+    {
+     "date": "2023-12-26",
+     "total": 35.0
+    },
+    {
+     "date": "2025-06-07",
+     "total": 45.44
+    },
+    {
+     "date": "2024-05-04",
+     "total": 84.99
+    },
+    {
+     "date": "2024-07-28",
+     "total": 25.8
+    },
+    {
+     "date": "2024-02-29",
+     "total": 99.99
+    },
+    {
+     "date": "2026-04-02",
+     "total": 31.0
+    },
+    {
+     "date": "2025-05-11",
+     "total": 45.0
+    },
+    {
+     "date": "2024-06-11",
+     "total": 85.49
+    },
+    {
+     "date": "2025-01-04",
+     "total": 62.99
+    },
+    {
+     "date": "2024-07-07",
+     "total": 34.82
+    },
+    {
+     "date": "2024-09-17",
+     "total": 45.0
+    },
+    {
+     "date": "2024-07-28",
+     "total": 36.0
+    },
+    {
+     "date": "2023-08-07",
+     "total": 63.0
+    },
+    {
+     "date": "2025-10-16",
+     "total": 45.0
+    },
+    {
+     "date": "2024-07-17",
+     "total": 35.0
+    },
+    {
+     "date": "2024-07-28",
+     "total": 33.51
+    },
+    {
+     "date": "2024-06-20",
+     "total": 51.2
+    },
+    {
+     "date": "2025-07-02",
+     "total": 45.44
+    },
+    {
+     "date": "2024-04-01",
+     "total": 79.99
+    },
+    {
+     "date": "2026-03-01",
+     "total": 55.0
+    },
+    {
+     "date": "2025-05-11",
+     "total": 45.0
+    },
+    {
+     "date": "2023-10-07",
+     "total": 100.0
+    },
+    {
+     "date": "2023-08-31",
+     "total": 63.99
+    },
+    {
+     "date": "2025-07-27",
+     "total": 41.58
+    },
+    {
+     "date": "2024-09-14",
+     "total": 48.03
+    },
+    {
+     "date": "2024-04-21",
+     "total": 60.0
+    },
+    {
+     "date": "2026-02-17",
+     "total": 59.99
+    },
+    {
+     "date": "2025-05-31",
+     "total": 39.0
+    },
+    {
+     "date": "2024-08-01",
+     "total": 35.0
+    },
+    {
+     "date": "2024-08-19",
+     "total": 71.99
+    },
+    {
+     "date": "2024-07-28",
+     "total": 35.0
+    }
+   ],
+   "top_reasons": {
+    "raw/ungraded - no PSA grade in title": 2,
+    "pack/box/case": 1,
+    "card number None != 265 (field absent from title, not a conf": 1
+   }
+  },
+  {
+   "rank": 38,
+   "candidate_id": "v1|145843709423|0",
+   "seller": "shophofsm",
+   "title": "Graded 2024 Topps Now Shota Imanaga #105 Blue #/49 Rookie Baseball Card PSA 10",
+   "parallel": "BLUE",
+   "query": "2024 SHOTA IMANAGA TOPPS #105 BLUE PSA 10",
+   "rows": 1,
+   "accepted": 0,
+   "rejected": 1,
+   "review_required": 0,
+   "median": null,
+   "confidence": "NONE",
+   "asking_price": 64.99,
+   "shipping": 0.0,
+   "acquisition_total": 64.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "INSUFFICIENT_EVIDENCE",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "sale_formats": {
+    "unknown": 1
+   },
+   "year_disagreement": null,
+   "accepted_comps": [],
+   "top_reasons": {
+    "same_listing_duplicate - active-listing layout; missing Excl": 1
+   }
+  },
+  {
+   "rank": 39,
+   "candidate_id": "v1|145852567185|0",
+   "seller": "shophofsm",
+   "title": "Graded 2024 Bowman Jackson Holliday #BTP1 Scouts Top 100 RC Baseball Card PSA 10",
+   "parallel": null,
+   "query": "2024 JACKSON HOLLIDAY BOWMAN #BTP1 PSA 10",
+   "rows": 28,
+   "accepted": 20,
+   "rejected": 3,
+   "review_required": 5,
+   "median": 26.744999999999997,
+   "confidence": "HIGH",
+   "asking_price": 94.95,
+   "shipping": 0.0,
+   "acquisition_total": 94.95,
+   "gap_absolute": -68.20500000000001,
+   "gap_percent": -255.01962983735288,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 10,
+    "Fixed Price": 18
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2026-06-26",
+     "total": 18.5
+    },
+    {
+     "date": "2026-06-01",
+     "total": 79.99
+    },
+    {
+     "date": "2025-01-29",
+     "total": 29.99
+    },
+    {
+     "date": "2025-09-03",
+     "total": 35.0
+    },
+    {
+     "date": "2025-09-28",
+     "total": 36.0
+    },
+    {
+     "date": "2024-12-17",
+     "total": 17.62
+    },
+    {
+     "date": "2024-09-23",
+     "total": 47.5
+    },
+    {
+     "date": "2024-09-20",
+     "total": 22.5
+    },
+    {
+     "date": "2025-01-24",
+     "total": 22.99
+    },
+    {
+     "date": "2025-11-25",
+     "total": 34.0
+    },
+    {
+     "date": "2024-08-17",
+     "total": 23.5
+    },
+    {
+     "date": "2024-10-17",
+     "total": 20.0
+    },
+    {
+     "date": "2025-03-23",
+     "total": 12.5
+    },
+    {
+     "date": "2026-02-15",
+     "total": 35.0
+    },
+    {
+     "date": "2025-04-01",
+     "total": 21.0
+    },
+    {
+     "date": "2024-08-04",
+     "total": 64.55
+    },
+    {
+     "date": "2024-07-26",
+     "total": 40.0
+    },
+    {
+     "date": "2024-08-09",
+     "total": 59.95
+    },
+    {
+     "date": "2024-11-03",
+     "total": 15.0
+    },
+    {
+     "date": "2025-01-25",
+     "total": 16.0
+    }
+   ],
+   "top_reasons": {
+    "card number None != BTP1 (field absent from title, not a con": 5,
+    "print run 150 != None": 2,
+    "parallel/set differs - comp is ['REFRACTOR'], candidate is n": 1
+   }
+  },
+  {
+   "rank": 40,
+   "candidate_id": "v1|145996252914|0",
+   "seller": "shophofsm",
+   "title": "Graded 2024 Topps Now Zaccharie Risacher #D1 Draft Rookie Basketball Card PSA 10",
+   "parallel": null,
+   "query": "2024 ZACCHARIE RISACHER TOPPS #D1 PSA 10",
+   "rows": 49,
+   "accepted": 33,
+   "rejected": 9,
+   "review_required": 7,
+   "median": 19.99,
+   "confidence": "HIGH",
+   "asking_price": 82.5,
+   "shipping": 0.0,
+   "acquisition_total": 82.5,
+   "gap_absolute": -62.510000000000005,
+   "gap_percent": -312.7063531765883,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "sale_formats": {
+    "Auction": 31,
+    "Fixed Price": 18
+   },
+   "year_disagreement": null,
+   "accepted_comps": [
+    {
+     "date": "2024-11-24",
+     "total": 8.5
+    },
+    {
+     "date": "2024-10-06",
+     "total": 34.99
+    },
+    {
+     "date": "2025-03-13",
+     "total": 32.09
+    },
+    {
+     "date": "2024-11-09",
+     "total": 17.5
+    },
+    {
+     "date": "2025-11-27",
+     "total": 15.0
+    },
+    {
+     "date": "2025-10-29",
+     "total": 23.0
+    },
+    {
+     "date": "2025-05-26",
+     "total": 30.68
+    },
+    {
+     "date": "2026-03-26",
+     "total": 11.27
+    },
+    {
+     "date": "2026-05-01",
+     "total": 10.79
+    },
+    {
+     "date": "2024-10-18",
+     "total": 26.0
+    },
+    {
+     "date": "2025-04-18",
+     "total": 24.0
+    },
+    {
+     "date": "2025-06-03",
+     "total": 4.5
+    },
+    {
+     "date": "2024-11-12",
+     "total": 18.5
+    },
+    {
+     "date": "2024-12-17",
+     "total": 32.95
+    },
+    {
+     "date": "2024-11-10",
+     "total": 11.0
+    },
+    {
+     "date": "2024-11-21",
+     "total": 11.5
+    },
+    {
+     "date": "2024-12-11",
+     "total": 17.5
+    },
+    {
+     "date": "2024-10-18",
+     "total": 21.39
+    },
+    {
+     "date": "2024-12-02",
+     "total": 31.0
+    },
+    {
+     "date": "2024-09-10",
+     "total": 26.02
+    },
+    {
+     "date": "2024-10-18",
+     "total": 32.99
+    },
+    {
+     "date": "2024-09-10",
+     "total": 20.5
+    },
+    {
+     "date": "2025-12-31",
+     "total": 19.99
+    },
+    {
+     "date": "2024-10-27",
+     "total": 19.5
+    },
+    {
+     "date": "2024-11-17",
+     "total": 15.49
+    },
+    {
+     "date": "2024-11-03",
+     "total": 20.85
+    },
+    {
+     "date": "2025-01-16",
+     "total": 2.25
+    },
+    {
+     "date": "2024-10-30",
+     "total": 12.5
+    },
+    {
+     "date": "2026-01-01",
+     "total": 18.0
+    },
+    {
+     "date": "2024-11-14",
+     "total": 17.5
+    },
+    {
+     "date": "2025-01-31",
+     "total": 30.0
+    },
+    {
+     "date": "2025-12-10",
+     "total": 25.0
+    },
+    {
+     "date": "2024-10-27",
+     "total": 20.52
+    }
+   ],
+   "top_reasons": {
+    "card number None != D1 (field absent from title, not a confl": 7,
+    "lot or multi-card listing": 3,
+    "print run 4099 != None": 2
+   }
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|145843709423|0",
+ "run_id": "dd9286d800764839",
+ "batch_id": "remaining40",
+ "query": "2024 SHOTA IMANAGA TOPPS #105 BLUE PSA 10",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-02T16:34:36.158554+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|145843709423|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "145843709423-77bc98e816",
+   "raw_title": "Graded 2024 Topps Now Shota Imanaga #105 Blue #/49 Rookie Baseball Card PSA 10",
+   "sold_price": "64.99",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Jun 20, 2024",
+   "condition": "",
+   "source_reference": "https://www.ebay.com/itm/145843709423?nordt=true&orig_cvip=true&rt=nc",
+   "notes": "Product Research query [STRICT]: 2024 SHOTA IMANAGA TOPPS #105 BLUE PSA 10",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "",
+   "collected_at": "2026-08-02T16:34:36.158427+00:00",
+   "raw_text": ", preview full size image Graded 2024 Topps Now Shota Imanaga #105 Blue #/49 Rookie Baseball Card PSA 10 Graded 2024 Topps Now Shota Imanaga #105 Blue #/49 Rookie Baseball Card PSA 10 Edit Sell Similar $64.99 Free shipping - 0 Jun 20, 2024"
+  }
+ ],
+ "legacy_table_rows": []
+}

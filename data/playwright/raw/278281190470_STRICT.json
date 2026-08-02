@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|127828119047|0",
+ "run_id": "e43da6eefb8345fc",
+ "batch_id": "remaining40",
+ "query": "2023 JARACE WALKER TOPPS #D5 BLUE /49 PSA 10",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-02T16:30:48.041115+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|127828119047|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-c18831645c",
+   "raw_title": "JARACE WALKER 2023 Topps Now Draft Blue 02/49 #D5 PSA 10 Gem Mint Rookie RC",
+   "sold_price": "10.5",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Dec 16, 2023",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 2023 JARACE WALKER TOPPS #D5 BLUE /49 PSA 10",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-02T16:30:48.040997+00:00",
+   "raw_text": ", preview full size image JARACE WALKER 2023 Topps Now Draft Blue 02/49 #D5 PSA 10 Gem Mint Rookie RC JARACE WALKER 2023 Topps Now Draft Blue 02/49 #D5 PSA 10 Gem Mint Rookie RC Edit Exclude listing $10.50 Auction $0.00 100% Free shipping 1 $10.50 12 Dec 16, 2023"
+  }
+ ],
+ "legacy_table_rows": []
+}

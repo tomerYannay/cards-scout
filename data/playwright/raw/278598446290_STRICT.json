@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|127859844629|0",
+ "run_id": "e3c0fb9ee99e4bcd",
+ "batch_id": "remaining40",
+ "query": "2023 BROCK PURDY DEEBO PANINI #84 PSA 9",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-02T16:31:49.648034+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|127859844629|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-4212f735b1",
+   "raw_title": "2023 Panini Instant - McCaffrey Purdy Samuel - Versicolor - 1/5 - PSA 9 - 49ers",
+   "sold_price": "180.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Feb 6, 2026",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 2023 BROCK PURDY DEEBO PANINI #84 PSA 9",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "FIXED_PRICE",
+   "collected_at": "2026-08-02T16:31:49.647888+00:00",
+   "raw_text": ", preview full size image 2023 Panini Instant - McCaffrey Purdy Samuel - Versicolor - 1/5 - PSA 9 - 49ers 2023 Panini Instant - McCaffrey Purdy Samuel - Versicolor - 1/5 - PSA 9 - 49ers Edit Exclude listing $180.00 Fixed price $5.29 0% Free shipping 1 $180.00 - Feb 6, 2026"
+  }
+ ],
+ "legacy_table_rows": []
+}

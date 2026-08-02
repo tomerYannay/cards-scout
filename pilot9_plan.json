@@ -1,0 +1,445 @@
+[
+ {
+  "cohort": "manufacturer-sensitive BASE",
+  "candidate_id": "v1|117330558241|0",
+  "title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+  "canonical_identity": "1993|UPPER DECK|BASE|None|#466|NUMERIC:7|BASKETBALL",
+  "slab_key": "54363325ddaf88d8",
+  "item_price": 523.0,
+  "shipping": 5.99,
+  "total_cost": 528.99,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "1993"
+   ],
+   "subject": [
+    "JORDAN"
+   ],
+   "card_number": [
+    "#466",
+    "466"
+   ],
+   "grade": [
+    "PSA 7"
+   ],
+   "manufacturer_or_set": [
+    "UPPER DECK",
+    "DECK",
+    "SP",
+    "SPX",
+    "UD",
+    "UPPER"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "1993 MICHAEL JORDAN UPPER DECK #466 PSA 7",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "1993 MICHAEL JORDAN UPPER DECK 466 PSA 7",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "manufacturer-sensitive BASE",
+  "candidate_id": "v1|298264618164|0",
+  "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+  "canonical_identity": "1984|TOPPS|BASE|None|#490|NUMERIC:8|BASEBALL",
+  "slab_key": "72fe255b3fa4c2b3",
+  "item_price": 89.99,
+  "shipping": 5.99,
+  "total_cost": 95.97999999999999,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "1984"
+   ],
+   "subject": [
+    "JR"
+   ],
+   "card_number": [
+    "#490",
+    "490"
+   ],
+   "grade": [
+    "PSA 8"
+   ],
+   "manufacturer_or_set": [
+    "TOPPS",
+    "TOPPS"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "1984 CAL RIPKEN JR TOPPS #490 PSA 8",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "1984 CAL RIPKEN JR TOPPS 490 PSA 8",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "manufacturer-sensitive BASE",
+  "candidate_id": "v1|298292151257|0",
+  "title": "1981 TOPPS #194 ART MONK PSA 6",
+  "canonical_identity": "1981|TOPPS|BASE|None|#194|NUMERIC:6|FOOTBALL",
+  "slab_key": "a9a7a8094022ccf1",
+  "item_price": 120.0,
+  "shipping": 5.99,
+  "total_cost": 125.99,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "1981"
+   ],
+   "subject": [
+    "MONK"
+   ],
+   "card_number": [
+    "#194",
+    "194"
+   ],
+   "grade": [
+    "PSA 6"
+   ],
+   "manufacturer_or_set": [
+    "TOPPS",
+    "TOPPS"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "1981 ART MONK TOPPS #194 PSA 6",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "1981 ART MONK TOPPS 194 PSA 6",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "AUTO",
+  "candidate_id": "v1|297924700955|0",
+  "title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+  "canonical_identity": "1990|FLEER|UPDATE|None|#U-92|NUMERIC:9+AUTO10|BASKETBALL",
+  "slab_key": "4f8897ef7827798d",
+  "item_price": 225.0,
+  "shipping": 5.99,
+  "total_cost": 230.99,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "1990"
+   ],
+   "subject": [
+    "PAYTON"
+   ],
+   "card_number": [
+    "#U-92",
+    "U-92"
+   ],
+   "grade": [
+    "PSA 9"
+   ],
+   "manufacturer_or_set": [
+    "FLEER",
+    "FLEER",
+    "UPDATE"
+   ],
+   "auto_status": [
+    "auto"
+   ],
+   "auto_grade": [
+    "auto 10"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "1990 GARY PAYTON FLEER UPDATE #U-92 auto 10 PSA 9",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "1990 GARY PAYTON FLEER UPDATE U-92 auto 10 PSA 9",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "AUTO",
+  "candidate_id": "v1|306417771465|0",
+  "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+  "canonical_identity": "2017|TOPPS|ALLEN & GINTER|None|#58|NUMERIC:10+AUTO8|BASEBALL",
+  "slab_key": "e2e7729967541a74",
+  "item_price": 79000.0,
+  "shipping": 5.99,
+  "total_cost": 79005.99,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "2017"
+   ],
+   "subject": [
+    "REYES"
+   ],
+   "card_number": [
+    "#58",
+    "58"
+   ],
+   "grade": [
+    "PSA 10"
+   ],
+   "manufacturer_or_set": [
+    "TOPPS",
+    "TOPPS",
+    "ALLEN & GINTER"
+   ],
+   "auto_status": [
+    "auto"
+   ],
+   "auto_grade": [
+    "auto 8"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "2017 EFREN REYES TOPPS ALLEN & GINTER #58 auto 8 PSA 10",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "2017 EFREN REYES TOPPS ALLEN & GINTER 58 auto 8 PSA 10",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "parallel / serial-numbered",
+  "candidate_id": "v1|306575683628|0",
+  "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 147/199 PSA 10",
+  "canonical_identity": "2005|TOPPS|FINEST|X-FRACTOR|#112|NUMERIC:10|/199|BASKETBALL",
+  "slab_key": "8fcba845ca080bc3",
+  "item_price": 100.0,
+  "shipping": 5.99,
+  "total_cost": 105.99,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "2005"
+   ],
+   "subject": [
+    "GREEN"
+   ],
+   "card_number": [
+    "#112",
+    "112"
+   ],
+   "grade": [
+    "PSA 10"
+   ],
+   "manufacturer_or_set": [
+    "TOPPS",
+    "TOPPS",
+    "FINEST"
+   ],
+   "parallel": [
+    "X-FRACTOR"
+   ],
+   "print_run": [
+    "/199",
+    "199"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "2005 GERALD GREEN TOPPS FINEST #112 X-FRACTOR /199 PSA 10",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "2005 GERALD GREEN TOPPS FINEST 112 X-FRACTOR /199 PSA 10",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "parallel / serial-numbered",
+  "candidate_id": "v1|306704116968|0",
+  "title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK PSA 10",
+  "canonical_identity": "2024|PANINI|PRIZM WNBA|ICE|#143|NUMERIC:10|BASKETBALL",
+  "slab_key": "c875703a42143f46",
+  "item_price": 155.0,
+  "shipping": 5.99,
+  "total_cost": 160.99,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "2024"
+   ],
+   "subject": [
+    "BRINK"
+   ],
+   "card_number": [
+    "#143",
+    "143"
+   ],
+   "grade": [
+    "PSA 10"
+   ],
+   "manufacturer_or_set": [
+    "PANINI",
+    "PANINI",
+    "PRIZM WNBA"
+   ],
+   "parallel": [
+    "ICE"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "2024 CAMERON BRINK PANINI PRIZM WNBA #143 ICE PSA 10",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "2024 CAMERON BRINK PANINI PRIZM WNBA 143 ICE PSA 10",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "qualifier",
+  "candidate_id": "v1|117183556887|0",
+  "title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+  "canonical_identity": "1981|DONRUSS|GOLF|None|#13|NUMERIC:9+OC|GOLF",
+  "slab_key": "e7822bd54fc9b478",
+  "item_price": 999.23,
+  "shipping": 5.99,
+  "total_cost": 1005.22,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "1981"
+   ],
+   "subject": [
+    "NICKLAUS"
+   ],
+   "card_number": [
+    "#13",
+    "13"
+   ],
+   "grade": [
+    "PSA 9"
+   ],
+   "manufacturer_or_set": [
+    "DONRUSS",
+    "DONRUSS",
+    "DONRUSS/LEAF",
+    "GOLF"
+   ],
+   "qualifier": [
+    "OC"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "1981 JACK NICKLAUS DONRUSS GOLF #13 PSA 9 OC",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "1981 JACK NICKLAUS DONRUSS GOLF 13 PSA 9 OC",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ },
+ {
+  "cohort": "qualifier",
+  "candidate_id": "v1|117233440832|0",
+  "title": "1967 TOPPS #430 PETE ROSE PSA 8 OC",
+  "canonical_identity": "1967|TOPPS|BASE|None|#430|NUMERIC:8+OC|BASEBALL",
+  "slab_key": "2a4ef7ac4b33a80a",
+  "item_price": 699.0,
+  "shipping": 5.99,
+  "total_cost": 704.99,
+  "cost_complete": true,
+  "required_discriminators": {
+   "year": [
+    "1967"
+   ],
+   "subject": [
+    "ROSE"
+   ],
+   "card_number": [
+    "#430",
+    "430"
+   ],
+   "grade": [
+    "PSA 8"
+   ],
+   "manufacturer_or_set": [
+    "TOPPS",
+    "TOPPS"
+   ],
+   "qualifier": [
+    "OC"
+   ]
+  },
+  "queries": [
+   {
+    "tier": "STRICT",
+    "query": "1967 PETE ROSE TOPPS #430 PSA 8 OC",
+    "invariant": "PASS",
+    "violations": []
+   },
+   {
+    "tier": "NORMAL",
+    "query": "1967 PETE ROSE TOPPS 430 PSA 8 OC",
+    "invariant": "PASS",
+    "violations": []
+   }
+  ],
+  "suppressed": []
+ }
+]

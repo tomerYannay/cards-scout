@@ -1,0 +1,32 @@
+{
+ "candidate_id": "v1|306417771465|0",
+ "query": "2017 EFREN REYES TOPPS ALLEN & GINTER #58 auto 8 PSA 10",
+ "level": "STRICT",
+ "date_range": "last 3 year",
+ "collected_at": "2026-08-02T13:29:20.193425+00:00",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|306417771465|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "198457334600-daaea80cb5",
+   "raw_title": "Efren Reyes 2017 Allen & Ginter X Red Mini /5 PSA 8 Auto 10 Signed Pool #58",
+   "sold_price": "600.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Jul 4, 2026",
+   "condition": "",
+   "source_reference": "https://www.ebay.com/itm/198457334600?nordt=true&orig_cvip=true&rt=nc",
+   "notes": "Product Research query [STRICT]: 2017 EFREN REYES TOPPS ALLEN & GINTER #58 auto 8 PSA 10",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-02T13:29:20.193185+00:00",
+   "raw_text": ", preview full size image Efren Reyes 2017 Allen & Ginter X Red Mini /5 PSA 8 Auto 10 Signed Pool #58 Efren Reyes 2017 Allen & Ginter X Red Mini /5 PSA 8 Auto 10 Signed Pool #58 Edit Sell Similar Exclude listing $600.00 Auction $14.18 0% Free shipping 1 $600.00 1 Jul 4, 2026"
+  }
+ ],
+ "legacy_table_rows": []
+}

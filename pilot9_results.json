@@ -1,0 +1,7550 @@
+{
+ "generated_at": "2026-08-02T13:33:21.709110+00:00",
+ "candidates": [
+  {
+   "cohort": "manufacturer-sensitive BASE",
+   "candidate_id": "v1|117330558241|0",
+   "title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+   "canonical_identity": "1993|UPPER DECK|BASE|None|#466|NUMERIC:7|BASKETBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "1993 MICHAEL JORDAN UPPER DECK #466 PSA 7",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 50
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 35,
+   "rejected": 10,
+   "review_required": 5,
+   "median_accepted_total": 18.0,
+   "confidence": "HIGH",
+   "item_price": 523.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 528.99,
+   "gap_absolute": -510.99,
+   "gap_percent": -2838.8333333333335,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "insufficient_evidence": false
+  },
+  {
+   "cohort": "manufacturer-sensitive BASE",
+   "candidate_id": "v1|298264618164|0",
+   "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "canonical_identity": "1984|TOPPS|BASE|None|#490|NUMERIC:8|BASEBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "1984 CAL RIPKEN JR TOPPS #490 PSA 8",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 50
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 43,
+   "rejected": 5,
+   "review_required": 2,
+   "median_accepted_total": 12.5,
+   "confidence": "HIGH",
+   "item_price": 89.99,
+   "shipping": 5.99,
+   "total_candidate_cost": 95.97999999999999,
+   "gap_absolute": -83.47999999999999,
+   "gap_percent": -667.8399999999999,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "insufficient_evidence": false
+  },
+  {
+   "cohort": "manufacturer-sensitive BASE",
+   "candidate_id": "v1|298292151257|0",
+   "title": "1981 TOPPS #194 ART MONK PSA 6",
+   "canonical_identity": "1981|TOPPS|BASE|None|#194|NUMERIC:6|FOOTBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "1981 ART MONK TOPPS #194 PSA 6",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 50
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 42,
+   "rejected": 5,
+   "review_required": 3,
+   "median_accepted_total": 10.5,
+   "confidence": "HIGH",
+   "item_price": 120.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 125.99,
+   "gap_absolute": -115.49,
+   "gap_percent": -1099.904761904762,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "insufficient_evidence": false
+  },
+  {
+   "cohort": "AUTO",
+   "candidate_id": "v1|297924700955|0",
+   "title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+   "canonical_identity": "1990|FLEER|UPDATE|None|#U-92|NUMERIC:9+AUTO10|BASKETBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "1990 GARY PAYTON FLEER UPDATE #U-92 auto 10 PSA 9",
+     "required_discriminators": [
+      "auto_grade",
+      "auto_status",
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 50
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 45,
+   "rejected": 3,
+   "review_required": 2,
+   "median_accepted_total": 57.67,
+   "confidence": "HIGH",
+   "item_price": 225.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 230.99,
+   "gap_absolute": -173.32,
+   "gap_percent": -300.5375411825906,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "insufficient_evidence": false
+  },
+  {
+   "cohort": "AUTO",
+   "candidate_id": "v1|306417771465|0",
+   "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+   "canonical_identity": "2017|TOPPS|ALLEN & GINTER|None|#58|NUMERIC:10+AUTO8|BASEBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "2017 EFREN REYES TOPPS ALLEN & GINTER #58 auto 8 PSA 10",
+     "required_discriminators": [
+      "auto_grade",
+      "auto_status",
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 1
+    },
+    {
+     "tier": "NORMAL",
+     "query": "2017 EFREN REYES TOPPS ALLEN & GINTER 58 auto 8 PSA 10",
+     "required_discriminators": [
+      "auto_grade",
+      "auto_status",
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 1
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 0,
+   "rejected": 1,
+   "review_required": 0,
+   "median_accepted_total": null,
+   "confidence": "NONE",
+   "item_price": 79000.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 79005.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "PASS",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "insufficient_evidence": true
+  },
+  {
+   "cohort": "parallel / serial-numbered",
+   "candidate_id": "v1|306575683628|0",
+   "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 147/199 PSA 10",
+   "canonical_identity": "2005|TOPPS|FINEST|X-FRACTOR|#112|NUMERIC:10|/199|BASKETBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "2005 GERALD GREEN TOPPS FINEST #112 X-FRACTOR /199 PSA 10",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "parallel",
+      "print_run",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 0
+    },
+    {
+     "tier": "NORMAL",
+     "query": "2005 GERALD GREEN TOPPS FINEST 112 X-FRACTOR /199 PSA 10",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "parallel",
+      "print_run",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 0
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 0,
+   "rejected": 0,
+   "review_required": 0,
+   "median_accepted_total": null,
+   "confidence": "NONE",
+   "item_price": 100.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 105.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "PASS",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "insufficient_evidence": true
+  },
+  {
+   "cohort": "parallel / serial-numbered",
+   "candidate_id": "v1|306704116968|0",
+   "title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK PSA 10",
+   "canonical_identity": "2024|PANINI|PRIZM WNBA|ICE|#143|NUMERIC:10|BASKETBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "2024 CAMERON BRINK PANINI PRIZM WNBA #143 ICE PSA 10",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "parallel",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 50
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 24,
+   "rejected": 23,
+   "review_required": 3,
+   "median_accepted_total": 68.5,
+   "confidence": "HIGH",
+   "item_price": 155.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 160.99,
+   "gap_absolute": -92.49000000000001,
+   "gap_percent": -135.02189781021897,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "insufficient_evidence": false
+  },
+  {
+   "cohort": "qualifier",
+   "candidate_id": "v1|117183556887|0",
+   "title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+   "canonical_identity": "1981|DONRUSS|GOLF|None|#13|NUMERIC:9+OC|GOLF",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "1981 JACK NICKLAUS DONRUSS GOLF #13 PSA 9 OC",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "qualifier",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 30
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 8,
+   "rejected": 6,
+   "review_required": 16,
+   "median_accepted_total": 77.995,
+   "confidence": "HIGH",
+   "item_price": 999.23,
+   "shipping": 5.99,
+   "total_candidate_cost": 1005.22,
+   "gap_absolute": -927.225,
+   "gap_percent": -1188.8262068081287,
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "insufficient_evidence": false
+  },
+  {
+   "cohort": "qualifier",
+   "candidate_id": "v1|117233440832|0",
+   "title": "1967 TOPPS #430 PETE ROSE PSA 8 OC",
+   "canonical_identity": "1967|TOPPS|BASE|None|#430|NUMERIC:8+OC|BASEBALL",
+   "queries": [
+    {
+     "tier": "STRICT",
+     "query": "1967 PETE ROSE TOPPS #430 PSA 8 OC",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "qualifier",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 6
+    },
+    {
+     "tier": "NORMAL",
+     "query": "1967 PETE ROSE TOPPS 430 PSA 8 OC",
+     "required_discriminators": [
+      "card_number",
+      "grade",
+      "manufacturer_or_set",
+      "qualifier",
+      "subject",
+      "year"
+     ],
+     "invariant": "PASS",
+     "rows_returned": 6
+    }
+   ],
+   "suppressed_queries": [],
+   "accepted": 1,
+   "rejected": 0,
+   "review_required": 5,
+   "median_accepted_total": 699.0,
+   "confidence": "LOW",
+   "item_price": 699.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 704.99,
+   "gap_absolute": null,
+   "gap_percent": null,
+   "decision": "PASS",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "insufficient_evidence": true
+  }
+ ],
+ "rows": [
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Skylights Michael Jordan #466 PSA 7 HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 22.1,
+   "shipping": 0.0,
+   "total": 22.1,
+   "sale_date": "2023-12-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Michael Jordan Skylights #466 PSA 7 Bulls HOF Goat",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.0,
+   "shipping": 0.0,
+   "total": 13.0,
+   "sale_date": "2025-10-15",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK #466 MICHAEL JORDAN PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 15.5,
+   "shipping": 0.0,
+   "total": 15.5,
+   "sale_date": "2026-01-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK #466 MICHAEL JORDAN PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 21.5,
+   "shipping": 0.0,
+   "total": 21.5,
+   "sale_date": "2026-03-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 23.5,
+   "shipping": 0.0,
+   "total": 23.5,
+   "sale_date": "2026-03-15",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 18.0,
+   "shipping": 0.0,
+   "total": 18.0,
+   "sale_date": "2026-03-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK #466 MICHAEL JORDAN PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 23.5,
+   "shipping": 0.0,
+   "total": 23.5,
+   "sale_date": "2026-04-23",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Michael Jordan Skylights #466 PSA 7 NM Chicago Bulls",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.01,
+   "shipping": 0.0,
+   "total": 13.01,
+   "sale_date": "2023-10-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Michael Jordan #466 Bulls PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 17.5,
+   "shipping": 0.0,
+   "total": 17.5,
+   "sale_date": "2026-03-31",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Michael Jordan #466 Bulls PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 21.5,
+   "shipping": 0.0,
+   "total": 21.5,
+   "sale_date": "2026-04-19",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "PSA 7 NM 1993 UPPER DECK MICHAEL JORDAN #466 SKYLIGHTS BULLS",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 20.0,
+   "shipping": 0.0,
+   "total": 20.0,
+   "sale_date": "2026-07-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": null,
+    "set_name": null,
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK MICHAEL JORDAN #466 SKYLIGHTS PSA 7 Chicago Bulls HOF GOAT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.5,
+   "shipping": 0.0,
+   "total": 10.5,
+   "sale_date": "2024-08-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Skylights #466 Michael Jordan BULLS PSA 7 NM",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.0,
+   "shipping": 0.0,
+   "total": 10.0,
+   "sale_date": "2024-09-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck - Michael Jordan - #466 PSA 7 \u201cSkyLights\u201d Insert - Chicago Bulls",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 23.5,
+   "shipping": 0.0,
+   "total": 23.5,
+   "sale_date": "2026-06-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Skylights Michael Jordan #466 PSA 7 NM HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 31.0,
+   "shipping": 0.0,
+   "total": 31.0,
+   "sale_date": "2026-06-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 MICHAEL JORDAN #466 UPPER DECK SKYLIGHTS PSA 7 NEAR MINT CONDITION",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 24.0,
+   "shipping": 0.0,
+   "total": 24.0,
+   "sale_date": "2026-05-15",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": null,
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "Michael Jordan PSA 7 Skylights - 1993-94 Upper Deck #466 - Dunk Chicago Bulls",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.0,
+   "shipping": 0.0,
+   "total": 12.0,
+   "sale_date": "2026-04-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": null,
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck Michael Jordan Skylights #466 PSA 7 NM",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 5.0,
+   "shipping": 0.0,
+   "total": 5.0,
+   "sale_date": "2023-12-07",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "120060348 Michael Jordan 1993 Upper Deck #466 PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.5,
+   "shipping": 0.0,
+   "total": 11.5,
+   "sale_date": "2025-09-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": null,
+    "set_name": "120060348 MICHAEL JORDAN 1993 UPPER DECK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Skylights Michael Jordan #466 PSA 7 NM HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 17.99,
+   "shipping": 0.0,
+   "total": 17.99,
+   "sale_date": "2025-12-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "149256552 Michael Jordan 1993 Upper Deck #466 PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 19.5,
+   "shipping": 0.0,
+   "total": 19.5,
+   "sale_date": "2026-05-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": null,
+    "set_name": "149256552 MICHAEL JORDAN 1993 UPPER DECK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck Michael Jordan #466 Skylights PSA 7 NM HOF Chicago Bulls GOAT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 19.99,
+   "shipping": 0.0,
+   "total": 19.99,
+   "sale_date": "2025-08-03",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "Michael Jordan 1993/94 Upper Deck Skylights (#466) PSA 7",
+   "state": "review_required",
+   "reason": "year None != 1993 (field absent from title, not a conflict)",
+   "sold_price": 38.0,
+   "shipping": 0.0,
+   "total": 38.0,
+   "sale_date": "2026-07-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": null,
+    "set_name": "MICHAEL JORDAN 1993/94 UPPER DECK SKYLIGHTS (",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 UPPER DECK SKYLIGHTS PSA 7 MICHAEL JORDAN BULLS",
+   "state": "review_required",
+   "reason": "card number None != 466 (field absent from title, not a conflict)",
+   "sold_price": 9.09,
+   "shipping": 0.0,
+   "total": 9.09,
+   "sale_date": "2025-12-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck #466 Michael Jordan SKYLIGHTS PSA 7 GOAT!!",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 24.99,
+   "shipping": 0.0,
+   "total": 24.99,
+   "sale_date": "2026-02-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck SKYLIGHTS Michael Jordan #466 NBA Chicago Bulls HOF MVP PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.0,
+   "shipping": 0.0,
+   "total": 10.0,
+   "sale_date": "2025-06-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck SKYLIGHTS Michael Jordan PSA 7",
+   "state": "review_required",
+   "reason": "card number None != 466 (field absent from title, not a conflict)",
+   "sold_price": 5.5,
+   "shipping": 0.0,
+   "total": 5.5,
+   "sale_date": "2024-11-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck - Skylights Michael Jordan #466",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 10.0,
+   "shipping": 0.0,
+   "total": 10.0,
+   "sale_date": "2025-12-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck - Skylights Michael Jordan #466 PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.5,
+   "shipping": 0.0,
+   "total": 12.5,
+   "sale_date": "2025-08-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck Michael Jordan Skylights #466",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 55.0,
+   "shipping": 0.0,
+   "total": 55.0,
+   "sale_date": "2026-03-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK Michael Jordan HOF #466- PSA 7 NM",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.5,
+   "shipping": 0.0,
+   "total": 11.5,
+   "sale_date": "2023-12-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN HOF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck - Skylights Michael Jordan #466",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 15.0,
+   "shipping": 0.0,
+   "total": 15.0,
+   "sale_date": "2025-08-07",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK #466 MICHAEL JORDAN BULLS HOF PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 15.0,
+   "shipping": 0.0,
+   "total": 15.0,
+   "sale_date": "2025-09-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Michael Jordan Skylights #466 PSA 7 NM GRADE Chicago Bulls",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 17.95,
+   "shipping": 0.0,
+   "total": 17.95,
+   "sale_date": "2025-10-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck - Skylights Michael Jordan #466",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 20.0,
+   "shipping": 0.0,
+   "total": 20.0,
+   "sale_date": "2025-11-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Michael Jordan PSA 7 Skylights #466 Bulls HOF Goat",
+   "state": "review_required",
+   "reason": "card number None != 466 (field absent from title, not a conflict)",
+   "sold_price": 14.5,
+   "shipping": 0.0,
+   "total": 14.5,
+   "sale_date": "2026-02-27",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "Upper Deck 1993 Skylights Michael Jordan Chicago Bulls #466 PSA 7 Graded",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 27.0,
+   "shipping": 0.0,
+   "total": 27.0,
+   "sale_date": "2026-07-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "1993 SKYLIGHTS MICHAEL JORDAN CHICAGO BULLS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "Upper Deck 1991 Michael Jordan Skylights Insert #466 PSA 7 Chicago Bulls",
+   "state": "rejected",
+   "reason": "year 1991 != 1993",
+   "sold_price": 21.99,
+   "shipping": 0.0,
+   "total": 21.99,
+   "sale_date": "2026-07-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "1991 MICHAEL JORDAN SKYLIGHTS INSERT",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck Michael Jordan Skylights #466 PSA 7 MINT Bulls HOF New Case",
+   "state": "rejected",
+   "reason": "pack/box/case",
+   "sold_price": 2.47,
+   "shipping": 0.0,
+   "total": 2.47,
+   "sale_date": "2024-05-19",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN SKYLIGHTS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Skylights Michael Jordan #466 PSA 7 NM BULLS TAR HEELS HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 30.0,
+   "shipping": 0.0,
+   "total": 30.0,
+   "sale_date": "2026-07-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck #466 MICHAEL JORDAN - Skylights - CHICAGO BULLS PSA 7",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 18.23,
+   "shipping": 0.0,
+   "total": 18.23,
+   "sale_date": "2026-06-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Michael Jordan PSA 7 Skylights #466 Bulls HOF Goat",
+   "state": "review_required",
+   "reason": "card number None != 466 (field absent from title, not a conflict)",
+   "sold_price": 19.98,
+   "shipping": 0.0,
+   "total": 19.98,
+   "sale_date": "2026-01-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Skylights Michael Jordan #466 PSA 7 HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.27,
+   "shipping": 0.0,
+   "total": 9.27,
+   "sale_date": "2023-11-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck - Skylights Michael Jordan #466 - SGC 7",
+   "state": "rejected",
+   "reason": "graded by SGC, not PSA",
+   "sold_price": 30.0,
+   "shipping": 0.0,
+   "total": 30.0,
+   "sale_date": "2026-07-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": null,
+    "set_name": null,
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck Skylights Michael Jordan #466 PSA 7 NM HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 18.99,
+   "shipping": 0.0,
+   "total": 18.99,
+   "sale_date": "2025-11-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK MICHAEL JORDAN #466 EX PSA GRADE 5 80373097",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 12.0,
+   "shipping": 0.0,
+   "total": 12.0,
+   "sale_date": "2025-05-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993-94 Upper Deck - Skylights Michael Jordan #466",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 30.0,
+   "shipping": 0.0,
+   "total": 30.0,
+   "sale_date": "2026-05-23",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "SKYLIGHTS MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 UPPER DECK 466 MICHAEL JORDAN PSA NM7 152805547",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 32.0,
+   "shipping": 0.0,
+   "total": 32.0,
+   "sale_date": "2026-07-07",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "466 MICHAEL JORDAN PSA NM7 152805547",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck - Michael Jordan - #466 PSA 7 \u201cSkyLights\u201d - Chicago Bulls",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 26.0,
+   "shipping": 0.0,
+   "total": 26.0,
+   "sale_date": "2026-05-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "MICHAEL JORDAN",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117330558241|0",
+   "raw_title": "1993 Upper Deck #466 Michael Jordan PSA 7 Skylights",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.99,
+   "shipping": 0.0,
+   "total": 9.99,
+   "sale_date": "2024-06-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "UPPER DECK"
+    ],
+    "manufacturer": "UPPER DECK",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr. Baseball Card #490 PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 15.83,
+   "shipping": 0.0,
+   "total": 15.83,
+   "sale_date": "2023-11-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR. BASEBALL CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS CAL RIPKEN JR. #490 PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.83,
+   "shipping": 0.0,
+   "total": 14.83,
+   "sale_date": "2024-02-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps #490 Cal Ripken Jr. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.99,
+   "shipping": 0.0,
+   "total": 9.99,
+   "sale_date": "2024-02-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps CAL RIPKEN, JR. #490 PSA 8 NR-MINT/MINT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.99,
+   "shipping": 0.0,
+   "total": 12.99,
+   "sale_date": "2024-03-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN, JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "Cal Ripken Jr. 1984 Topps #490 PSA 8 NM-MT Orioles HOF 19-time All-Star THRILL",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.5,
+   "shipping": 0.0,
+   "total": 13.5,
+   "sale_date": "2025-06-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR. 1984 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr. Card #490 PSA 8 NM-MT Very Nice",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 15.0,
+   "shipping": 0.0,
+   "total": 15.0,
+   "sale_date": "2024-01-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR. CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps CAL RIPKEN, JR. #490 PSA 8 NR-MINT/MINT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.0,
+   "shipping": 0.0,
+   "total": 9.0,
+   "sale_date": "2023-12-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN, JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr #490 PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.99,
+   "shipping": 0.0,
+   "total": 10.99,
+   "sale_date": "2024-03-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.5,
+   "shipping": 0.0,
+   "total": 11.5,
+   "sale_date": "2025-05-27",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.78,
+   "shipping": 0.0,
+   "total": 9.78,
+   "sale_date": "2025-06-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "CAL RIPKEN JR 8 CARD LOT 7 PSA GRADED 1984 TOPPS #490 6X 1985 #30 & 2020 RC RP",
+   "state": "rejected",
+   "reason": "lot or multi-card listing",
+   "sold_price": 135.99,
+   "shipping": 0.0,
+   "total": 135.99,
+   "sale_date": "2025-08-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR 8 CARD LOT 7 PSA GRADED 1984 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.0,
+   "shipping": 0.0,
+   "total": 13.0,
+   "sale_date": "2025-10-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.99,
+   "shipping": 0.0,
+   "total": 14.99,
+   "sale_date": "2026-01-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr. Baseball Card #490 PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 7.5,
+   "shipping": 0.0,
+   "total": 7.5,
+   "sale_date": "2023-09-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR. BASEBALL CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "(2) 1984 TOPPS #490 CAL RIPKEN JR. ORIOLES HOF PSA 8 ORGINAL OWNER",
+   "state": "rejected",
+   "reason": "lot or multi-card listing",
+   "sold_price": 7.5,
+   "shipping": 0.0,
+   "total": 7.5,
+   "sale_date": "2024-07-22",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "(2) 1984 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR NM-MT HOFer",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 3.99,
+   "shipping": 0.0,
+   "total": 3.99,
+   "sale_date": "2023-12-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr #490 PSA 8 Baltimore Orioles",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.0,
+   "shipping": 0.0,
+   "total": 11.0,
+   "sale_date": "2024-02-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "Cal Ripken Jr 1984 Topps #490 Base PSA 8 NM-MT Baltimore Orioles 1224",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.0,
+   "shipping": 0.0,
+   "total": 12.0,
+   "sale_date": "2025-05-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR 1984 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps #490 Cal Ripken Jr. HOF Orioles PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 20.0,
+   "shipping": 0.0,
+   "total": 20.0,
+   "sale_date": "2026-05-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 8.5,
+   "shipping": 0.0,
+   "total": 8.5,
+   "sale_date": "2024-07-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "Cal Ripken Jr 1984 Topps #490 Base PSA 8 NM-MT Baltimore Orioles",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.99,
+   "shipping": 0.0,
+   "total": 12.99,
+   "sale_date": "2025-02-27",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR 1984 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps #490 Cal Ripken Jr. ORIOLES PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.5,
+   "shipping": 0.0,
+   "total": 14.5,
+   "sale_date": "2026-06-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr #490 PSA 8 NM-MT ORIOLES( BC 345",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.0,
+   "shipping": 0.0,
+   "total": 9.0,
+   "sale_date": "2024-01-23",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr. #490 PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.99,
+   "shipping": 0.0,
+   "total": 12.99,
+   "sale_date": "2024-11-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps #490 Baltimore Orioles Cal Ripken Jr. PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.5,
+   "shipping": 0.0,
+   "total": 13.5,
+   "sale_date": "2025-07-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps #490 Baltimore Orioles Cal Ripken Jr. PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 6.49,
+   "shipping": 0.0,
+   "total": 6.49,
+   "sale_date": "2025-11-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps #490 Cal Ripken Jr. ORIOLES PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.5,
+   "shipping": 0.0,
+   "total": 12.5,
+   "sale_date": "2026-01-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps #490 Cal Ripken Jr. ORIOLES PSA 7 NM",
+   "state": "rejected",
+   "reason": "PSA grade 7 != 8",
+   "sold_price": 5.0,
+   "shipping": 0.0,
+   "total": 5.0,
+   "sale_date": "2026-01-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "68709908 CAL RIPKEN Jr. 1984 Topps SET BREAK 490 PSA 8 HOF",
+   "state": "review_required",
+   "reason": "card number None != 490 (field absent from title, not a conflict)",
+   "sold_price": 9.02,
+   "shipping": 0.0,
+   "total": 9.02,
+   "sale_date": "2023-08-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "68709908 CAL RIPKEN JR. 1984 TOPPS SET BREAK 490",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken JR. #490 PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 17.0,
+   "shipping": 0.0,
+   "total": 17.0,
+   "sale_date": "2024-05-03",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.95,
+   "shipping": 0.0,
+   "total": 14.95,
+   "sale_date": "2025-10-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.5,
+   "shipping": 0.0,
+   "total": 10.5,
+   "sale_date": "2024-07-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Nestle 490 Cal Ripken Jr Orioles PSA 8 NM-Mint Rare!",
+   "state": "review_required",
+   "reason": "card number None != 490 (field absent from title, not a conflict)",
+   "sold_price": 8.99,
+   "shipping": 0.0,
+   "total": 8.99,
+   "sale_date": "2025-04-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "NESTLE 490 CAL RIPKEN JR ORIOLES",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.95,
+   "shipping": 0.0,
+   "total": 12.95,
+   "sale_date": "2025-11-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "Cal Ripken Jr. 1984 Topps #490 PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.5,
+   "shipping": 0.0,
+   "total": 11.5,
+   "sale_date": "2024-08-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR. 1984 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "Cal Ripken Jr 1984 Topps #490 - PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.5,
+   "shipping": 0.0,
+   "total": 12.5,
+   "sale_date": "2025-01-18",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR 1984 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "PSA 8 NM - MINT 1984 Topps CAL RIPKEN JR #490 Baseball Card Baltimore Orioles",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 19.0,
+   "shipping": 0.0,
+   "total": 19.0,
+   "sale_date": "2023-12-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": null,
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr. #490 PSA 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 4.25,
+   "shipping": 0.0,
+   "total": 4.25,
+   "sale_date": "2023-12-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Baseball #490 Cal Ripken HOF PSA8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.0,
+   "shipping": 0.0,
+   "total": 12.0,
+   "sale_date": "2024-04-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASEBALL",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "CAL RIPKEN JR PSA 8 1984 TOPPS BASEBALL #490 ORIOLES HOF 4474",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 8.5,
+   "shipping": 0.0,
+   "total": 8.5,
+   "sale_date": "2024-04-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Tiffany Cal Ripken Jr. #490 PSA 8 NM-MT",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['TIFFANY'], candidate is not",
+   "sold_price": 27.75,
+   "shipping": 0.0,
+   "total": 27.75,
+   "sale_date": "2024-07-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": "TIFFANY",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "CAL RIPKEN JR PSA 8 1984 TOPPS BASBEALL #490 ORIOLES HOF 5959",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.99,
+   "shipping": 0.0,
+   "total": 11.99,
+   "sale_date": "2024-08-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "CAL RIPKEN JR",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 TOPPS CAL RIPKEN JR #490 PSA 8 NEAR MINT GRADED CARD BALTIMORE ORIOLES HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.38,
+   "shipping": 0.0,
+   "total": 9.38,
+   "sale_date": "2024-10-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps # 490 Cal Ripken Jr. PSA 8 NM-MT Card",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.0,
+   "shipping": 0.0,
+   "total": 13.0,
+   "sale_date": "2024-10-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Baseball #490 Cal Ripken, Jr. Psa 8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 8.0,
+   "shipping": 0.0,
+   "total": 8.0,
+   "sale_date": "2025-04-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASEBALL",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "Topps 1984 Cal Ripken Jr. #490 PSA 8 Baltimore Orioles Base Set Baseball Card",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.0,
+   "shipping": 0.0,
+   "total": 9.0,
+   "sale_date": "2026-04-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "1984 CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr #490 Baltimore Orioles PSA 8 NM",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.0,
+   "shipping": 0.0,
+   "total": 13.0,
+   "sale_date": "2026-07-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr. #490 PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 13.0,
+   "shipping": 0.0,
+   "total": 13.0,
+   "sale_date": "2023-10-23",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps Cal Ripken Jr. #490 PSA 8 NM-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 5.5,
+   "shipping": 0.0,
+   "total": 5.5,
+   "sale_date": "2023-10-27",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298264618164|0",
+   "raw_title": "1984 Topps CAL RIPKEN JR. #490 PSA 8 NM-MT Hall of Fame Orioles 16574322",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 15.0,
+   "shipping": 0.0,
+   "total": 15.0,
+   "sale_date": "2026-02-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "CAL RIPKEN JR.",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk Rookie 194-- PSA 7, PSA 6, Check List #57-- PSA 7",
+   "state": "rejected",
+   "reason": "lot - title describes more than one graded card",
+   "sold_price": 10.0,
+   "shipping": 0.0,
+   "total": 10.0,
+   "sale_date": "2024-10-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE 194",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "7",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.75,
+   "shipping": 0.0,
+   "total": 12.75,
+   "sale_date": "2026-06-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk #194 PSA 6 Rookie Card",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.95,
+   "shipping": 0.0,
+   "total": 12.95,
+   "sale_date": "2025-08-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk Rookie RC #194 Redskins PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.5,
+   "shipping": 0.0,
+   "total": 10.5,
+   "sale_date": "2025-12-23",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Football #194 Art Monk San Francisco 49ers RC - PSA 6 EX-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 5.5,
+   "shipping": 0.0,
+   "total": 5.5,
+   "sale_date": "2023-12-03",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "FOOTBALL",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "137496998 Art Monk 1981 Topps #194 Rookie RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.5,
+   "shipping": 0.0,
+   "total": 12.5,
+   "sale_date": "2026-01-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "137496998 ART MONK 1981 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "56931653 Art Monk 1981 Topps #194 Rookie RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.5,
+   "shipping": 0.0,
+   "total": 12.5,
+   "sale_date": "2026-04-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "56931653 ART MONK 1981 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "111071553 Art Monk 1981 Topps #194 Rookie RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 6.5,
+   "shipping": 0.0,
+   "total": 6.5,
+   "sale_date": "2026-05-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "111071553 ART MONK 1981 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk #194 PSA 6 Rookie RC HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 7.5,
+   "shipping": 0.0,
+   "total": 7.5,
+   "sale_date": "2024-02-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk #194 Rookie RC PSA 6 EX-MT Washington Redskins HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 4.99,
+   "shipping": 0.0,
+   "total": 4.99,
+   "sale_date": "2025-11-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK ROOKIE GRADED PSA 6 EX-MT REDSKINS HOFer RC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 17.0,
+   "shipping": 0.0,
+   "total": 17.0,
+   "sale_date": "2024-08-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk 194 PSA 6 Rookie Rc Redskins",
+   "state": "review_required",
+   "reason": "card number None != 194 (field absent from title, not a conflict)",
+   "sold_price": 10.7,
+   "shipping": 0.0,
+   "total": 10.7,
+   "sale_date": "2025-09-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK 194",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS ART MONK ROOKIE #194 PSA 6 EX MINT GRADED CARD WASHINGTON REDSKINS",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 5.5,
+   "shipping": 0.0,
+   "total": 5.5,
+   "sale_date": "2024-10-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Football Art Monk Rookie #194 PSA 6 HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 8.4,
+   "shipping": 0.0,
+   "total": 8.4,
+   "sale_date": "2024-04-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "FOOTBALL ART MONK ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps - #194 Art Monk (RC)",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 20.0,
+   "shipping": 0.0,
+   "total": 20.0,
+   "sale_date": "2024-06-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS ART MONK #194 PSA EX-MT 6 WASHINGTON REDSKINS HOF ROOKIE CARD POSSE",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 20.0,
+   "shipping": 0.0,
+   "total": 20.0,
+   "sale_date": "2025-07-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "Art Monk 1981 Topps VINTAGE ROOKIE CARD RC #194 PSA 6 EX-MT HOFer \ud83d\udc40\ud83c\udfc8\ud83d\udd25",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 20.0,
+   "shipping": 0.0,
+   "total": 20.0,
+   "sale_date": "2026-03-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "ART MONK 1981 TOPPS VINTAGE ROOKIE CARD RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS ART MONK ROOKIE #194 PSA 6 EX MINT GRADED CARD WASHINGTON REDSKINS",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.0,
+   "shipping": 0.0,
+   "total": 11.0,
+   "sale_date": "2024-10-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps #194 Art Monk PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 6.0,
+   "shipping": 0.0,
+   "total": 6.0,
+   "sale_date": "2026-05-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk 194 PSA 6 Rookie Rc Redskins",
+   "state": "review_required",
+   "reason": "card number None != 194 (field absent from title, not a conflict)",
+   "sold_price": 5.5,
+   "shipping": 0.0,
+   "total": 5.5,
+   "sale_date": "2025-10-07",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK 194",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps - #194 Art Monk (RC) PSA 6 REDSKINS LEGEND",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.99,
+   "shipping": 0.0,
+   "total": 14.99,
+   "sale_date": "2025-12-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk #194 PSA 6 Rookie RC HOF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.74,
+   "shipping": 0.0,
+   "total": 11.74,
+   "sale_date": "2024-01-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK PSA 6 EX-MT 26917069",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.55,
+   "shipping": 0.0,
+   "total": 12.55,
+   "sale_date": "2024-11-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps - #194 Art Monk (RC) PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.25,
+   "shipping": 0.0,
+   "total": 14.25,
+   "sale_date": "2025-01-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS ART MONK RC #194 PSA 6 EX-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 1.25,
+   "shipping": 0.0,
+   "total": 1.25,
+   "sale_date": "2025-10-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "Art Monk 1981 Topps Rookie #194 Redskins PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 11.5,
+   "shipping": 0.0,
+   "total": 11.5,
+   "sale_date": "2026-07-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "ART MONK 1981 TOPPS ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 7.5,
+   "shipping": 0.0,
+   "total": 7.5,
+   "sale_date": "2025-02-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK ROOKIE RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 7.0,
+   "shipping": 0.0,
+   "total": 7.0,
+   "sale_date": "2025-03-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk RC Rookie #194 - PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 19.99,
+   "shipping": 0.0,
+   "total": 19.99,
+   "sale_date": "2025-08-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK RC ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps #194 - ART MONK - Redskins - HOF - PSA 6 - great player, great deal!",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.0,
+   "shipping": 0.0,
+   "total": 10.0,
+   "sale_date": "2025-10-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.0,
+   "shipping": 0.0,
+   "total": 10.0,
+   "sale_date": "2026-05-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK ROOKIE RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.5,
+   "shipping": 0.0,
+   "total": 10.5,
+   "sale_date": "2026-07-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps #194 Art Monk RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.5,
+   "shipping": 0.0,
+   "total": 9.5,
+   "sale_date": "2023-12-31",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK ROOKIE RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 8.07,
+   "shipping": 0.0,
+   "total": 8.07,
+   "sale_date": "2024-11-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK ROOKIE RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 20.0,
+   "shipping": 0.0,
+   "total": 20.0,
+   "sale_date": "2025-03-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps - Art Monk #194 (RC) PSA 6 Washington Redskins Wide Receiver Rookie",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.5,
+   "shipping": 0.0,
+   "total": 10.5,
+   "sale_date": "2025-06-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK ROOKIE RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 7.5,
+   "shipping": 0.0,
+   "total": 7.5,
+   "sale_date": "2025-07-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Football Art Monk (RC) HOF Redskins #194 Graded PSA EX-MT 6",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 7.0,
+   "shipping": 0.0,
+   "total": 7.0,
+   "sale_date": "2026-01-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "FOOTBALL ART MONK (RC) HOF REDSKINS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.0,
+   "shipping": 0.0,
+   "total": 10.0,
+   "sale_date": "2026-02-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 TOPPS #194 ART MONK ROOKIE RC PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 12.51,
+   "shipping": 0.0,
+   "total": 12.51,
+   "sale_date": "2026-03-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk RC PSA 6 #194 Redskins HOF",
+   "state": "review_required",
+   "reason": "card number None != 194 (field absent from title, not a conflict)",
+   "sold_price": 14.99,
+   "shipping": 0.0,
+   "total": 14.99,
+   "sale_date": "2024-02-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk Rookie RC #194 PSA 6 EX-MT HOF Washington Redskins",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.0,
+   "shipping": 0.0,
+   "total": 14.0,
+   "sale_date": "2023-10-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Football Rookie #194 Art Monk RC PSA 6 EX-MT Hall of Famer!",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 14.99,
+   "shipping": 0.0,
+   "total": 14.99,
+   "sale_date": "2026-01-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "FOOTBALL ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk #194 PSA 6 Ex-MT RC Rookie Card Washington Redskins",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 8.94,
+   "shipping": 0.0,
+   "total": 8.94,
+   "sale_date": "2023-12-23",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps - Art Monk #194 (RC)",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 8.0,
+   "shipping": 0.0,
+   "total": 8.0,
+   "sale_date": "2025-07-22",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk #194 PSA 6 EX - MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 9.0,
+   "shipping": 0.0,
+   "total": 9.0,
+   "sale_date": "2024-02-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk Rookie #194 PSA 6 P1351",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 16.96,
+   "shipping": 0.0,
+   "total": 16.96,
+   "sale_date": "2025-01-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Football Rookie #194 Art Monk RC PSA 6 EX-MT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 7.5,
+   "shipping": 0.0,
+   "total": 7.5,
+   "sale_date": "2025-12-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "FOOTBALL ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk Rookie #194 Redskins PSA 6",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.79,
+   "shipping": 0.0,
+   "total": 10.79,
+   "sale_date": "2026-05-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|298292151257|0",
+   "raw_title": "1981 Topps Art Monk Rookie RC #194 PSA 6 Redskins",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 10.5,
+   "shipping": 0.0,
+   "total": 10.5,
+   "sale_date": "2024-07-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "ART MONK ROOKIE RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "6",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 115.0,
+   "shipping": 0.0,
+   "total": 115.0,
+   "sale_date": "2026-04-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 225.0,
+   "shipping": 0.0,
+   "total": 225.0,
+   "sale_date": "2026-04-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "Gary Payton 1990 Fleer Update Signed Rookie Card #U-92 Mint 9 Auto PSA 10",
+   "state": "rejected",
+   "reason": "PSA grade 10 != 9",
+   "sold_price": 130.0,
+   "shipping": 0.0,
+   "total": 130.0,
+   "sale_date": "2024-11-03",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": null,
+    "set_name": "GARY PAYTON 1990 FLEER UPDATE SIGNED ROOKIE CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "Gary Payton 1990 Fleer Update Signed Rookie Card #U-92 Mint 9 Auto PSA 10",
+   "state": "rejected",
+   "reason": "PSA grade 10 != 9",
+   "sold_price": 59.99,
+   "shipping": 0.0,
+   "total": 59.99,
+   "sale_date": "2025-03-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": null,
+    "set_name": "GARY PAYTON 1990 FLEER UPDATE SIGNED ROOKIE CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "GARY PAYTON 1990 Fleer Update U-92 Rookie RC PSA 9 DNA 10 AUTO",
+   "state": "review_required",
+   "reason": "autograph grade None != 10 (field absent from title, not a conflict)",
+   "sold_price": 61.99,
+   "shipping": 0.0,
+   "total": 61.99,
+   "sale_date": "2024-06-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": null,
+    "set_name": "GARY PAYTON 1990 FLEER UPDATE U-92 ROOKIE RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3595239-469",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 91.99,
+   "shipping": 0.0,
+   "total": 91.99,
+   "sale_date": "2023-08-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 80.0,
+   "shipping": 0.0,
+   "total": 80.0,
+   "sale_date": "2024-03-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3595250-029",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 69.99,
+   "shipping": 0.0,
+   "total": 69.99,
+   "sale_date": "2024-03-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953652-557",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 58.99,
+   "shipping": 0.0,
+   "total": 58.99,
+   "sale_date": "2024-08-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953649-474",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 50.99,
+   "shipping": 0.0,
+   "total": 50.99,
+   "sale_date": "2024-11-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953654-555",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 48.99,
+   "shipping": 0.0,
+   "total": 48.99,
+   "sale_date": "2024-12-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K4268510-149",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 74.99,
+   "shipping": 0.0,
+   "total": 74.99,
+   "sale_date": "2025-03-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 67.0,
+   "shipping": 0.0,
+   "total": 67.0,
+   "sale_date": "2025-04-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-08-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 51.0,
+   "shipping": 0.0,
+   "total": 51.0,
+   "sale_date": "2025-09-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-12-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-12-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2026-03-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 73.0,
+   "shipping": 0.0,
+   "total": 73.0,
+   "sale_date": "2026-05-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 Fleer Update GARY PAYTON PSA 9 Signed/Auto 10 DNA MINT Rookie RC HOF U-92",
+   "state": "review_required",
+   "reason": "card number None != U-92 (field absent from title, not a conflict)",
+   "sold_price": 83.99,
+   "shipping": 0.0,
+   "total": 83.99,
+   "sale_date": "2024-08-15",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE GARY PAYTON",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 10 AUTO 9",
+   "state": "rejected",
+   "reason": "PSA grade 10 != 9",
+   "sold_price": 125.0,
+   "shipping": 0.0,
+   "total": 125.0,
+   "sale_date": "2025-03-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "9"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 225.0,
+   "shipping": 0.0,
+   "total": 225.0,
+   "sale_date": "2025-07-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 DNA AUTO 10 NBA HOF\ud83d\udd25\ud83d\udcc8",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 40.0,
+   "shipping": 0.0,
+   "total": 40.0,
+   "sale_date": "2025-01-19",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3595236-475",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 94.99,
+   "shipping": 0.0,
+   "total": 94.99,
+   "sale_date": "2023-09-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953672-250",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 58.99,
+   "shipping": 0.0,
+   "total": 58.99,
+   "sale_date": "2024-07-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953650-715",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 58.99,
+   "shipping": 0.0,
+   "total": 58.99,
+   "sale_date": "2024-08-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K4162993-164",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 52.99,
+   "shipping": 0.0,
+   "total": 52.99,
+   "sale_date": "2024-11-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953648-473",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 50.99,
+   "shipping": 0.0,
+   "total": 50.99,
+   "sale_date": "2024-12-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 77.0,
+   "shipping": 0.0,
+   "total": 77.0,
+   "sale_date": "2025-02-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 64.99,
+   "shipping": 0.0,
+   "total": 64.99,
+   "sale_date": "2025-05-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-06-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 66.0,
+   "shipping": 0.0,
+   "total": 66.0,
+   "sale_date": "2025-07-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 57.0,
+   "shipping": 0.0,
+   "total": 57.0,
+   "sale_date": "2025-08-07",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-10-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 73.0,
+   "shipping": 0.0,
+   "total": 73.0,
+   "sale_date": "2026-01-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2026-01-22",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 57.67,
+   "shipping": 0.0,
+   "total": 57.67,
+   "sale_date": "2026-02-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 95.0,
+   "shipping": 0.0,
+   "total": 95.0,
+   "sale_date": "2026-03-19",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 79.99,
+   "shipping": 0.0,
+   "total": 79.99,
+   "sale_date": "2026-04-03",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 69.99,
+   "shipping": 0.0,
+   "total": 69.99,
+   "sale_date": "2026-05-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953651-552",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 58.99,
+   "shipping": 0.0,
+   "total": 58.99,
+   "sale_date": "2024-07-31",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953655-553",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 48.99,
+   "shipping": 0.0,
+   "total": 48.99,
+   "sale_date": "2025-01-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953656-616",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 48.99,
+   "shipping": 0.0,
+   "total": 48.99,
+   "sale_date": "2025-01-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10 K3953647-471",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 48.99,
+   "shipping": 0.0,
+   "total": 48.99,
+   "sale_date": "2025-01-27",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 64.99,
+   "shipping": 0.0,
+   "total": 64.99,
+   "sale_date": "2025-05-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 56.0,
+   "shipping": 0.0,
+   "total": 56.0,
+   "sale_date": "2025-07-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-09-20",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-10-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 52.5,
+   "shipping": 0.0,
+   "total": 52.5,
+   "sale_date": "2025-11-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|297924700955|0",
+   "raw_title": "1990 FLEER UPDATE #U-92 GARY PAYTON RC HOF PSA 9 DNA AUTO 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.99,
+   "shipping": 0.0,
+   "total": 49.99,
+   "sale_date": "2025-12-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "FLEER"
+    ],
+    "manufacturer": "FLEER",
+    "set_name": "UPDATE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|306417771465|0",
+   "raw_title": "Efren Reyes 2017 Allen & Ginter X Red Mini /5 PSA 8 Auto 10 Signed Pool #58",
+   "state": "rejected",
+   "reason": "PSA grade 8 != 10",
+   "sold_price": 600.0,
+   "shipping": 0.0,
+   "total": 600.0,
+   "sale_date": "2026-07-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "EFREN REYES 2017 ALLEN & GINTER X MINI /5",
+    "parallel": "RED",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 1,
+    "auto_grade": "10"
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "CAMERON BRINK 2024 PANINI PRIZM WNBA #143 CRACKED ICE ROOKIE CARD GRADED PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['CRACKED'], candidate is not",
+   "sold_price": 70.0,
+   "shipping": 0.0,
+   "total": 70.0,
+   "sale_date": "2025-06-15",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "CAMERON BRINK 2024 PANINI PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ORANGE ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 93.0,
+   "shipping": 0.0,
+   "total": 93.0,
+   "sale_date": "2025-07-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 82.0,
+   "shipping": 0.0,
+   "total": 82.0,
+   "sale_date": "2025-07-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 67.0,
+   "shipping": 0.0,
+   "total": 67.0,
+   "sale_date": "2025-07-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Ice Rookie #143 Sparks PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 72.0,
+   "shipping": 0.0,
+   "total": 72.0,
+   "sale_date": "2025-08-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Prizm Cameron Brink #143 Orange Velocity PSA 10 Rookie RC",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE', 'VELOCITY'], candidate is not",
+   "sold_price": 45.0,
+   "shipping": 0.0,
+   "total": 45.0,
+   "sale_date": "2025-08-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 62.0,
+   "shipping": 0.0,
+   "total": 62.0,
+   "sale_date": "2025-08-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 56.61,
+   "shipping": 0.0,
+   "total": 56.61,
+   "sale_date": "2025-10-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ORANGE ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 59.0,
+   "shipping": 0.0,
+   "total": 59.0,
+   "sale_date": "2025-10-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ORANGE ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 44.99,
+   "shipping": 0.0,
+   "total": 44.99,
+   "sale_date": "2025-10-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 52.0,
+   "shipping": 0.0,
+   "total": 52.0,
+   "sale_date": "2025-11-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm Wnba #143 Cameron Brink PSA 10 RC",
+   "state": "review_required",
+   "reason": "parallel/set differs - comp never states ['ICE'] (field absent from title, not a conflict)",
+   "sold_price": 80.0,
+   "shipping": 0.0,
+   "total": 80.0,
+   "sale_date": "2025-08-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Ice Rookie #143 Sparks PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 99.0,
+   "shipping": 0.0,
+   "total": 99.0,
+   "sale_date": "2025-08-18",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA #143 Cameron Brink Ice PSA 10 GEM MT Rookie LA Sparks RC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 88.0,
+   "shipping": 0.0,
+   "total": 88.0,
+   "sale_date": "2025-08-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Ice Rookie #143 Sparks PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 62.0,
+   "shipping": 0.0,
+   "total": 62.0,
+   "sale_date": "2025-09-23",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "Cameron Brink 2024 Prizm WNBA Variation Orange Ice Los Angeles Sparks PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 54.0,
+   "shipping": 0.0,
+   "total": 54.0,
+   "sale_date": "2025-09-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "CAMERON BRINK 2024 PRIZM WNBA VARIATION LOS ANGELES SPARKS",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Orange Ice Rookie #143 Sparks PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 47.0,
+   "shipping": 0.0,
+   "total": 47.0,
+   "sale_date": "2025-11-03",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Ice Rookie #143 Sparks PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 49.0,
+   "shipping": 0.0,
+   "total": 49.0,
+   "sale_date": "2025-11-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Ice Rookie #143 Sparks PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 57.0,
+   "shipping": 0.0,
+   "total": 57.0,
+   "sale_date": "2025-12-22",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Orange Ice Rookie #143 Sparks PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 71.0,
+   "shipping": 0.0,
+   "total": 71.0,
+   "sale_date": "2026-02-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Orange Ice Rookie #143 Sparks PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 122.5,
+   "shipping": 0.0,
+   "total": 122.5,
+   "sale_date": "2026-04-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Prizm WNBA Cameron Brink #143 Ice Image Variation (RC) PSA 10 \ud83d\udd25\ud83c\udfc0\ud83d\udd25",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 70.0,
+   "shipping": 0.0,
+   "total": 70.0,
+   "sale_date": "2026-05-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Orange Ice Rookie #143 Sparks PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 63.0,
+   "shipping": 0.0,
+   "total": 63.0,
+   "sale_date": "2026-05-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink RC Ice Rookie #143 Sparks PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 65.0,
+   "shipping": 0.0,
+   "total": 65.0,
+   "sale_date": "2026-02-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK RC ROOKIE",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA - Cameron Brink #143 Ice Prizm (RC) PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 40.0,
+   "shipping": 0.0,
+   "total": 40.0,
+   "sale_date": "2025-11-10",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA - CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "CAMERON BRINK WNBA - (4) 2024 Prizm Rookie Cards w/Orange Ice PSA GEM MINT 10",
+   "state": "rejected",
+   "reason": "lot or multi-card listing",
+   "sold_price": 96.0,
+   "shipping": 0.0,
+   "total": 96.0,
+   "sale_date": "2025-11-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "CAMERON BRINK WNBA - (4) 2024 PRIZM ROOKIE CARDS W/ PSA GEM MINT 10",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA - Cameron Brink #143 Orange Ice Prizm (RC)",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 54.47,
+   "shipping": 0.0,
+   "total": 54.47,
+   "sale_date": "2025-12-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA - CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA PSA 10 Ice RC Cameron Brink Rookie Gem Mint Variation",
+   "state": "review_required",
+   "reason": "card number None != 143 (field absent from title, not a conflict)",
+   "sold_price": 76.0,
+   "shipping": 0.0,
+   "total": 76.0,
+   "sale_date": "2025-04-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 190.0,
+   "shipping": 0.0,
+   "total": 190.0,
+   "sale_date": "2025-06-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA Cameron Brink #143 Cracked Ice RC Variation PSA 10 Sparks",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['CRACKED'], candidate is not",
+   "sold_price": 75.0,
+   "shipping": 0.0,
+   "total": 75.0,
+   "sale_date": "2026-01-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10\ud83d\udd25\ud83d\udd25",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 110.0,
+   "shipping": 0.0,
+   "total": 110.0,
+   "sale_date": "2025-07-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA - Cameron Brink #143 Ice Prizm (RC) PSA 10!",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 90.0,
+   "shipping": 0.0,
+   "total": 90.0,
+   "sale_date": "2025-08-01",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA - CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "CAMERON BRINK 2024 PANINI PRIZM WNBA #143 CRACKED ICE ROOKIE CARD GRADED PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['CRACKED'], candidate is not",
+   "sold_price": 75.0,
+   "shipping": 0.0,
+   "total": 75.0,
+   "sale_date": "2025-12-31",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "CAMERON BRINK 2024 PANINI PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Prizm Wnba Cameron Brink Orange Ice Prizm #143 PSA Gem Mint 10",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 52.0,
+   "shipping": 0.0,
+   "total": 52.0,
+   "sale_date": "2026-02-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA CAMERON BRINK",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA Cameron Brink #143 Ice PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 70.0,
+   "shipping": 0.0,
+   "total": 70.0,
+   "sale_date": "2026-03-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini WNBA Prizm Cameron Brink #143 Orange Ice RC Sparks PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 60.0,
+   "shipping": 0.0,
+   "total": 60.0,
+   "sale_date": "2026-07-19",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "WNBA PRIZM CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA Cameron Brink PSA 10 Cracked Ice Rookie RC #143 LA Sparks",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['CRACKED'], candidate is not",
+   "sold_price": 55.0,
+   "shipping": 0.0,
+   "total": 55.0,
+   "sale_date": "2026-07-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "110166215 CAMERON BRINK 2024 Panini Prizm WNBA 143 Ice RC PSA 10",
+   "state": "review_required",
+   "reason": "card number None != 143 (field absent from title, not a conflict)",
+   "sold_price": 56.0,
+   "shipping": 0.0,
+   "total": 56.0,
+   "sale_date": "2025-05-15",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "110166215 CAMERON BRINK 2024 PANINI PRIZM WNBA 143 RC",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ORANGE ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 75.0,
+   "shipping": 0.0,
+   "total": 75.0,
+   "sale_date": "2025-07-22",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Prizm WNBA #143 Cameron Brink Ice Rookie Card PSA 10 GEM MINT",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 76.0,
+   "shipping": 0.0,
+   "total": 76.0,
+   "sale_date": "2025-08-24",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Prizm Wnba Cameron Brink Orange Ice Prizm #143 PSA Gem Mint 10\ud83d\udd25",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 45.0,
+   "shipping": 0.0,
+   "total": 45.0,
+   "sale_date": "2025-10-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA CAMERON BRINK",
+    "parallel": "ORANGE ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "116368831 Cameron Brink 2024 Panini WNBA Prizm #143 Ice Rookie RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 52.0,
+   "shipping": 0.0,
+   "total": 52.0,
+   "sale_date": "2025-11-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "116368831 CAMERON BRINK 2024 PANINI WNBA PRIZM",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA Cameron Brink #143 Rookie RC Orange Ice PSA 10 GEM MINT",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 74.99,
+   "shipping": 0.0,
+   "total": 74.99,
+   "sale_date": "2026-01-07",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "110561904 Cameron Brink 2024 Panini WNBA Prizm #143 Ice RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 79.0,
+   "shipping": 0.0,
+   "total": 79.0,
+   "sale_date": "2026-02-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "110561904 CAMERON BRINK 2024 PANINI WNBA PRIZM",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA #143 CAMERON BRINK ICE PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 67.0,
+   "shipping": 0.0,
+   "total": 67.0,
+   "sale_date": "2026-05-19",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10 Gem Mint",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 103.5,
+   "shipping": 0.0,
+   "total": 103.5,
+   "sale_date": "2025-06-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK ROOKIE RC PSA 10",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 50.0,
+   "shipping": 0.0,
+   "total": 50.0,
+   "sale_date": "2025-11-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "\ud83d\udd25 2024 Prizm Cameron Brink Ice PSA 10 WNBA Silver Rookie",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['SILVER'], candidate is not",
+   "sold_price": 125.0,
+   "shipping": 0.0,
+   "total": 125.0,
+   "sale_date": "2025-05-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": null,
+    "set_name": "\ud83d\udd25 2024 PRIZM CAMERON BRINK",
+    "parallel": "ICE",
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Panini Prizm WNBA - Cameron Brink #143 Orange Ice Prizm (RC)",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 52.0,
+   "shipping": 0.0,
+   "total": 52.0,
+   "sale_date": "2025-07-18",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA - CAMERON BRINK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|306704116968|0",
+   "raw_title": "2024 Prizm WNBA #143 Cameron Brink Orange Ice Prizm RC Rookie PSA 10",
+   "state": "rejected",
+   "reason": "parallel/set differs - comp is ['ORANGE'], candidate is not",
+   "sold_price": 75.0,
+   "shipping": 0.0,
+   "total": 75.0,
+   "sale_date": "2025-08-16",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "PANINI"
+    ],
+    "manufacturer": "PANINI",
+    "set_name": "PRIZM WNBA",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "10",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS ROOKIE RC PSA 9 OC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 76.0,
+   "shipping": 0.0,
+   "total": 76.0,
+   "sale_date": "2026-01-31",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf Jack Nicklaus 13 PSA 9 (OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 131.99,
+   "shipping": 0.0,
+   "total": 131.99,
+   "sale_date": "2025-09-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF JACK NICKLAUS 13",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "Year 1981 Donruss Golf Jack Nicklaus #13 Psa 9 (Oc) Multicolor",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 77.55,
+   "shipping": 0.0,
+   "total": 77.55,
+   "sale_date": "2024-06-04",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": null,
+    "set_name": "YEAR 1981 DONRUSS GOLF JACK NICKLAUS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf JACK NICKLAUS Tour RC Rookie HOF Legend Card # 13 PSA 9 OC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 90.0,
+   "shipping": 0.0,
+   "total": 90.0,
+   "sale_date": "2025-06-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF JACK NICKLAUS TOUR RC ROOKIE HOF LEGEND CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 (OC) MINT ROOKIE",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 116.99,
+   "shipping": 0.0,
+   "total": 116.99,
+   "sale_date": "2024-12-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "PSA 9 OC - JACK NICKLAUS 1981 DONRUSS GOLF ROOKIE RC CARD #13 NMT/MT PGA TOUR",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 90.0,
+   "shipping": 0.0,
+   "total": 90.0,
+   "sale_date": "2024-12-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": null,
+    "set_name": null,
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 (OC) MINT ROOKIE",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 91.0,
+   "shipping": 0.0,
+   "total": 91.0,
+   "sale_date": "2025-02-09",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 (OC) MINT ROOKIE",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 74.0,
+   "shipping": 0.0,
+   "total": 74.0,
+   "sale_date": "2025-04-11",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 (OC) MINT ROOKIE HOF",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 62.61,
+   "shipping": 0.0,
+   "total": 62.61,
+   "sale_date": "2026-01-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 (OC) MINT ROOKIE HOF",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 55.0,
+   "shipping": 0.0,
+   "total": 55.0,
+   "sale_date": "2026-02-08",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC ROOKIE SHARP....PSA TUFF",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 152.5,
+   "shipping": 0.0,
+   "total": 152.5,
+   "sale_date": "2026-05-31",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT ROOKIE RC CARD #13",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 180.0,
+   "shipping": 0.0,
+   "total": 180.0,
+   "sale_date": "2025-04-15",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": null,
+    "set_name": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT ROOKIE RC CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF JACK NICKLAUS #13 PSA 9(OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 150.0,
+   "shipping": 0.0,
+   "total": 150.0,
+   "sale_date": "2023-11-25",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF JACK NICKLAUS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 67.0,
+   "shipping": 0.0,
+   "total": 67.0,
+   "sale_date": "2025-12-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf Jack Nicklaus Rookie RC #13 PSA 9(OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 250.0,
+   "shipping": 0.0,
+   "total": 250.0,
+   "sale_date": "2026-06-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF JACK NICKLAUS ROOKIE RC",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS ROOKIE RC PSA 9 OC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 46.0,
+   "shipping": 0.0,
+   "total": 46.0,
+   "sale_date": "2026-07-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT GRADED PGA ROOKIE RC CARD#13",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 199.98,
+   "shipping": 0.0,
+   "total": 199.98,
+   "sale_date": "2026-02-27",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": null,
+    "set_name": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT GRADED PGA ROOKIE RC CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf Stars - #13 Jack Nicklaus (RC) PSA-9(OC) Mint",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 180.0,
+   "shipping": 0.0,
+   "total": 180.0,
+   "sale_date": "2023-08-07",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF STARS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9(OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 89.99,
+   "shipping": 0.0,
+   "total": 89.99,
+   "sale_date": "2026-02-21",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT GRADED PGA ROOKIE RC CARD#13",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 199.98,
+   "shipping": 0.0,
+   "total": 199.98,
+   "sale_date": "2026-06-18",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": null,
+    "set_name": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT GRADED PGA ROOKIE RC CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 79.99,
+   "shipping": 0.0,
+   "total": 79.99,
+   "sale_date": "2026-04-26",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf Set-Break # 13 Jack Nicklaus PSA 9 MINT (OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 81.0,
+   "shipping": 0.0,
+   "total": 81.0,
+   "sale_date": "2025-11-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF SET-BREAK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf Jack Nicklaus #13 PSA 9 Mint(OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 102.5,
+   "shipping": 0.0,
+   "total": 102.5,
+   "sale_date": "2024-03-29",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF JACK NICKLAUS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf Jack Nicklaus #13 PSA 9(OC) Mint \ud83c\udfcc\ufe0f Golf Legend HOF",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 31.0,
+   "shipping": 0.0,
+   "total": 31.0,
+   "sale_date": "2025-12-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF JACK NICKLAUS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf #13 Jack Nicklaus RC Rookie PSA 9 MINT (OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 70.33,
+   "shipping": 0.0,
+   "total": 70.33,
+   "sale_date": "2023-08-14",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf #13 Jack Nicklaus RC Rookie PSA 9 MINT (OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 38.0,
+   "shipping": 0.0,
+   "total": 38.0,
+   "sale_date": "2025-06-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC 03625908",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 29.99,
+   "shipping": 0.0,
+   "total": 29.99,
+   "sale_date": "2025-08-30",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT GRADED PGA ROOKIE RC CARD#13",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 299.99,
+   "shipping": 0.0,
+   "total": 299.99,
+   "sale_date": "2026-05-19",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": null,
+    "set_name": "JACK NICKLAUS~1981 DONRUSS GOLF PSA-9 MINT (OC) HOT GRADED PGA ROOKIE RC CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "JACK NICKLAUS 1981 DONRUSS GOLF PSA-9 MINT (OC) PGA ROOKIE RC CARD#13 - RARE HOF",
+   "state": "rejected",
+   "reason": "raw/ungraded - no PSA grade in title",
+   "sold_price": 224.99,
+   "shipping": 0.0,
+   "total": 224.99,
+   "sale_date": "2026-06-18",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": null,
+    "set_name": "JACK NICKLAUS 1981 DONRUSS GOLF PSA-9 MINT (OC) PGA ROOKIE RC CARD",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": null,
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117183556887|0",
+   "raw_title": "1981 Donruss Golf #13 Jack Nicklaus RC Rookie PSA 9 MINT (OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 127.35,
+   "shipping": 0.0,
+   "total": 127.35,
+   "sale_date": "2026-07-13",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "DONRUSS"
+    ],
+    "manufacturer": "DONRUSS",
+    "set_name": "GOLF",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "9",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117233440832|0",
+   "raw_title": "1967 TOPPS #430 PETE ROSE PSA 8 OC",
+   "state": "accepted",
+   "reason": null,
+   "sold_price": 699.0,
+   "shipping": 0.0,
+   "total": 699.0,
+   "sale_date": "2026-04-06",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": "OC",
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117233440832|0",
+   "raw_title": "106678177 1967 Topps #430 Pete Rose Cincinnati Reds PSA 8(OC) NM-MT",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 163.5,
+   "shipping": 0.0,
+   "total": 163.5,
+   "sale_date": "2025-05-05",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": null,
+    "set_name": "106678177 1967 TOPPS",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117233440832|0",
+   "raw_title": "1967 TOPPS #430 PETE ROSE REDS PSA 8 (OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 91.0,
+   "shipping": 0.0,
+   "total": 91.0,
+   "sale_date": "2023-09-28",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117233440832|0",
+   "raw_title": "1967 Topps Baseball 430 Pete Rose PSA 8(OC) NM-MT - Future HOF INVEST",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 425.0,
+   "shipping": 0.0,
+   "total": 425.0,
+   "sale_date": "2025-06-17",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASEBALL 430 PETE ROSE",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117233440832|0",
+   "raw_title": "1967 Topps Set-Break #430 Pete Rose PSA 8 NM-MT (OC)",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 227.5,
+   "shipping": 0.0,
+   "total": 227.5,
+   "sale_date": "2025-08-02",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "SET-BREAK",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  },
+  {
+   "candidate_id": "v1|117233440832|0",
+   "raw_title": "1967 Topps Baseball #430 Pete Rose PSA 8 (OC) Graded card Reds HOF",
+   "state": "review_required",
+   "reason": "qualifier None != OC (field absent from title, not a conflict)",
+   "sold_price": 291.55,
+   "shipping": 0.0,
+   "total": 291.55,
+   "sale_date": "2025-01-12",
+   "query_tier": "STRICT",
+   "detected": {
+    "brands": [
+     "TOPPS"
+    ],
+    "manufacturer": "TOPPS",
+    "set_name": "BASEBALL",
+    "parallel": null,
+    "print_run": null,
+    "serial_num": null,
+    "grade": "8",
+    "qualifier": null,
+    "is_auto": 0,
+    "auto_grade": null
+   }
+  }
+ ]
+}

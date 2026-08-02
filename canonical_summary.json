@@ -1,0 +1,129 @@
+{
+ "generated_at": "2026-08-02T16:47:15.304035+00:00",
+ "definitions": {
+  "unique_candidates": "DISTINCT candidate_id; pr_runs PK is candidate_id",
+  "pr_run_rows": "one row per candidate; re-runs increment attempts, not rows",
+  "pr_run_executions": 158,
+  "query_success": "candidate stored >=1 comp row (identical to status != no_results)",
+  "evidence_sufficient": "decision is not INSUFFICIENT_EVIDENCE"
+ },
+ "cohorts": [
+  {
+   "label": "93-run baseline (PSA store)",
+   "unique_candidates": 93,
+   "pr_run_rows": 93,
+   "comp_rows": 3128,
+   "accepted": 2021,
+   "rejected": 694,
+   "review_required": 413,
+   "query_success": 91,
+   "query_success_pct": 97.8,
+   "acceptance_pct": 64.6,
+   "review_pct": 13.2,
+   "evidence_sufficient": 76,
+   "sufficiency_pct": 81.7,
+   "decisions": {
+    "PASS": 76,
+    "INSUFFICIENT_EVIDENCE": 17
+   }
+  },
+  {
+   "label": "Gate B checkpoint (20)",
+   "unique_candidates": 20,
+   "pr_run_rows": 20,
+   "comp_rows": 560,
+   "accepted": 298,
+   "rejected": 178,
+   "review_required": 84,
+   "query_success": 18,
+   "query_success_pct": 90.0,
+   "acceptance_pct": 53.2,
+   "review_pct": 15.0,
+   "evidence_sufficient": 11,
+   "sufficiency_pct": 55.0,
+   "decisions": {
+    "INSUFFICIENT_EVIDENCE": 9,
+    "PASS": 11
+   }
+  },
+  {
+   "label": "remaining batch (40)",
+   "unique_candidates": 40,
+   "pr_run_rows": 40,
+   "comp_rows": 1075,
+   "accepted": 601,
+   "rejected": 325,
+   "review_required": 149,
+   "query_success": 36,
+   "query_success_pct": 90.0,
+   "acceptance_pct": 55.9,
+   "review_pct": 13.9,
+   "evidence_sufficient": 27,
+   "sufficiency_pct": 67.5,
+   "decisions": {
+    "PASS": 27,
+    "INSUFFICIENT_EVIDENCE": 13
+   }
+  },
+  {
+   "label": "combined multi-seller pilot (60)",
+   "unique_candidates": 60,
+   "pr_run_rows": 60,
+   "comp_rows": 1635,
+   "accepted": 899,
+   "rejected": 503,
+   "review_required": 233,
+   "query_success": 54,
+   "query_success_pct": 90.0,
+   "acceptance_pct": 55.0,
+   "review_pct": 14.3,
+   "evidence_sufficient": 38,
+   "sufficiency_pct": 63.3,
+   "decisions": {
+    "INSUFFICIENT_EVIDENCE": 22,
+    "PASS": 38
+   }
+  },
+  {
+   "label": "PROJECT TOTAL",
+   "unique_candidates": 153,
+   "pr_run_rows": 153,
+   "comp_rows": 4763,
+   "accepted": 2920,
+   "rejected": 1197,
+   "review_required": 646,
+   "query_success": 145,
+   "query_success_pct": 94.8,
+   "acceptance_pct": 61.3,
+   "review_pct": 13.6,
+   "evidence_sufficient": 114,
+   "sufficiency_pct": 74.5,
+   "decisions": {
+    "PASS": 114,
+    "INSUFFICIENT_EVIDENCE": 39
+   }
+  }
+ ],
+ "by_seller_60": {
+  "gograded": {
+   "candidates": 30,
+   "comps": 668,
+   "accepted": 360,
+   "review": 118,
+   "qsucc": 25,
+   "suff": 15,
+   "INSUFFICIENT_EVIDENCE": 15,
+   "PASS": 15
+  },
+  "shophofsm": {
+   "candidates": 30,
+   "comps": 967,
+   "accepted": 539,
+   "review": 115,
+   "qsucc": 29,
+   "suff": 23,
+   "PASS": 23,
+   "INSUFFICIENT_EVIDENCE": 7
+  }
+ }
+}

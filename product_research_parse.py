@@ -784,6 +784,55 @@ def is_self_comp(candidate_id, source_item_id):
     return bool(mine) and mine == theirs
 
 
+# --------------------------------------------------------------------------
+# Offer-price reliability
+# --------------------------------------------------------------------------
+# A Best Offer sells for an accepted amount eBay does not always publish. What
+# IS shown may be the original asking price or a struck-through figure - never
+# a substitute for what the buyer actually paid. Using one would inflate the
+# market and make a card look cheap against a sale that never happened at that
+# price.
+#
+# import_rows already refused such rows, but reclassification re-ran the
+# matcher, which knew nothing about reliability, and silently re-accepted them.
+# The check belongs here, in the shared classifier every path goes through.
+UNRELIABLE_OFFER_REASON = (
+    "best offer with no reliable accepted price - the displayed amount is an "
+    "asking or strike-through price, not the transaction total")
+
+
+def _falsey(value):
+    return str(value).strip().lower() in ("0", "false", "no", "none", "")
+
+
+def offer_price_is_reliable(persisted_fields):
+    """False when a row's transaction total cannot be trusted.
+
+    Only Best Offer rows can be unreliable this way: a Fixed Price or Auction
+    row states the realised price directly. Absent fields mean "not a flagged
+    Best Offer" and are treated as reliable, which preserves every existing
+    Fixed Price and Auction row unchanged.
+    """
+    f = persisted_fields or {}
+    sale_type = str(f.get("sale_type") or f.get("sale_format") or "").upper()
+    flagged = f.get("best_offer")
+    is_offer = ("BEST_OFFER" in sale_type or "BEST OFFER" in sale_type
+                or (flagged is not None and not _falsey(flagged)))
+    if not is_offer:
+        return True
+    known = f.get("actual_price_known")
+    if known is not None and _falsey(known):
+        return False
+    # A Best Offer showing only a struck-through original price is exactly the
+    # case we must not value: there is a number, but it is the wrong number.
+    if f.get("total_price") in (None, "") and f.get("sold_price") in (None, ""):
+        return False
+    if f.get("displayed_original_price") not in (None, "") \
+            and f.get("sold_price") in (None, ""):
+        return False
+    return True
+
+
 def evidence_category(candidate_id, source_item_id, sale_verdict):
     """Which kind of evidence a row is, given Gate 0's verdict.
 
@@ -819,6 +868,9 @@ def classify_comp(candidate, raw_title, source_item_id=None, raw_text=None,
     nothing to judge and lets the row through to the matcher unchanged, which
     keeps manually imported comps working.
     """
+    if persisted_fields and not offer_price_is_reliable(persisted_fields):
+        # Held, not discarded: the sale happened, we just cannot price it.
+        return REVIEW_REQUIRED, UNRELIABLE_OFFER_REASON
     if raw_text is not None or persisted_fields:
         verdict, signals = looks_like_sold_row(raw_text, persisted_fields)
         category = evidence_category(candidate.get("item_id"), source_item_id,

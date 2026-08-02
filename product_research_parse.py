@@ -390,23 +390,36 @@ def parse_html_table(html):
     return None, []
 
 
+# A word whose NEXT token is its value, not a repetition: "PSA 10", "AUTO 10".
+VALUE_LABELS = {"PSA", "AUTO"}
+_VALUE_RE = re.compile(r"10|[1-9](?:\.5)?|AUTHENTIC|AUTH")
+
+
 def dedupe_query(text):
     """Drop repeated / redundant search words, preserving order.
 
     "PRIZM UFC ... RED PRIZM" would otherwise send PRIZM twice, and an
     "AUTOGRAPH" parallel already implies the separate "auto" keyword.
+
+    A value belonging to a label is never a repetition. "auto 10 PSA 10" is a
+    card graded 10 whose signature graded 10; blind deduplication turned it into
+    "auto 10 PSA" - a query with no grade at all, which the identity invariant
+    then rightly refused to send, leaving the candidate unresearchable.
     """
     out, seen = [], set()
     tokens = [t for t in str(text or "").split() if t]
     has_autograph = any(t.upper().startswith("AUTOGRAPH") for t in tokens)
+    prev = None
     for tok in tokens:
         key = tok.upper()
-        if key in seen:
-            continue
         if has_autograph and key == "AUTO":
+            continue
+        if key in seen and not (prev in VALUE_LABELS
+                                and _VALUE_RE.fullmatch(key)):
             continue
         seen.add(key)
         out.append(tok)
+        prev = key
     return " ".join(out)
 
 
@@ -415,9 +428,13 @@ def build_query(candidate, level):
     return dedupe_query(mc.query_terms(candidate, level))
 
 
+# Defined in manual_comps, which owns query generation. Re-exported here so the
+# collector and reports have one name for "tiers that may be sent".
+ACTIVE_TIERS = mc.ACTIVE_TIERS
+
+
 def query_levels(candidate, on_abort=None):
-    """STRICT -> NORMAL -> RELAXED, skipping tiers the identity rules forbid
-    and any tier whose text duplicates an earlier one.
+    """The queries that may actually be sent for one candidate.
 
     Every tier is checked against the canonical identity BEFORE it can be sent.
     A tier that would drop a material discriminator is aborted, not issued -
@@ -425,7 +442,7 @@ def query_levels(candidate, on_abort=None):
     result set gathered that way is worse than no result set.
     """
     levels, seen = [], set()
-    for level in ("STRICT", "NORMAL", "RELAXED"):
+    for level in ACTIVE_TIERS:
         if level == "RELAXED" and not mc.relaxed_allowed(candidate):
             continue
         q = build_query(candidate, level)

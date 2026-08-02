@@ -274,16 +274,27 @@ Built from the candidate's **effective identity**, de-duplicated so no word is
 sent twice (`PRIZM UFC … RED PRIZM` → one `PRIZM`; an `AUTOGRAPH` parallel does
 not also add `auto`).
 
-1. `STRICT` — year, subject, brand, set, card number, parallel, print run, grade
-2. `NORMAL` — drops brand/set wording
-3. `RELAXED` — **only** when the card has no parallel, no print run, no
-   autograph and no qualifier
+`STRICT` — year, subject, brand, set, card number, parallel, print run, grade —
+is the **only active tier**. `NORMAL` and `RELAXED` are retired.
 
-The collector keeps widening while it has **fewer than 3 accepted exact comps**,
-merging results across tiers. The same sale seen again in a broader tier is
-deduplicated, and the **strictest tier that found it is preserved**. It stops as
-soon as the threshold is met, or when the allowed tiers run out - a broader tier
-can never override an exact match found earlier.
+They originally broadened the search by dropping brand, set and print run, which
+searched a different card. Once they were made identity-safe they differed from
+`STRICT` only in punctuation (`#151` vs `151`), and eBay's tokenizer strips
+punctuation, so they re-asked a question eBay had already answered. The
+nine-candidate pilot escalated three times and gained 0 unique raw rows and 0
+unique accepted comps.
+
+Both names remain valid **data**: historical raw artifacts and stored
+`sold_comps` rows carry `query_tier="NORMAL"` and stay readable. Only
+`query_levels()` decides what may be sent, from `manual_comps.ACTIVE_TIERS`.
+
+There is no widening step. A candidate whose single query returns fewer than 3
+accepted exact comps is recorded as `insufficient_comps`, and one returning
+nothing as `no_results`. Both are completed research runs with an honest answer,
+not failures to retry with a looser query.
+
+Deduplication still applies within the run: the same sale seen twice is stored
+once, keyed by item id, price, shipping and date.
 
 ## Output files
 
@@ -390,9 +401,9 @@ test is opt-in: run the single-candidate command yourself.
 - **VAPORWAVE / WAVE family normalization** may need a curated taxonomy rule.
   `WAVE` is a parallel token today, but families such as `BLUE/AQUA VAPORWAVE`
   are not modelled as a family the way `MONEY SHIMMER` now is.
-- **STRICT -> NORMAL runs that return zero new results** deserve stronger
-  page-state verification. Today an empty broader tier is indistinguishable from
-  a page that rendered late or partially.
+- **A zero-result STRICT run** is indistinguishable from a page that rendered
+  late or partially. Stronger page-state verification would tell them apart.
+  (The old STRICT -> NORMAL version of this note is obsolete: NORMAL is retired.)
 
 ## BUY / WATCH / PASS (conservative MVP)
 

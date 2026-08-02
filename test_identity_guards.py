@@ -160,7 +160,7 @@ class TestQueryInvariant(unittest.TestCase):
                  subject="ALEX RODRIGUEZ", card_number="151",
                  parallel="GOLD REFRACTOR", print_run=50, psa_grade="9")
         got, _ = self.levels(c)
-        self.assertIn("NORMAL", got)
+        self.assertIn("STRICT", got)
         for level, q in got.items():
             up = q.upper()
             self.assertIn("BOWMAN", up, level)
@@ -172,17 +172,23 @@ class TestQueryInvariant(unittest.TestCase):
         c = cand(year=2011, manufacturer="BOWMAN", set="CHROME PROSPECTS",
                  subject="PAUL GOLDSCHMIDT", card_number="BCP99", psa_grade="9")
         got, _ = self.levels(c)
-        self.assertIn("NORMAL", got)
+        self.assertIn("STRICT", got)
         for level, q in got.items():
             self.assertIn("BOWMAN CHROME PROSPECTS", q.upper(), level)
 
-    def test_normal_may_vary_surface_form_only(self):
-        """#BCP99 and BCP99 are the same card; both are acceptable."""
+    def test_retired_tier_text_is_still_renderable(self):
+        """NORMAL is no longer issued, but historical rows name it as a tier.
+
+        Rendering must keep working so an old artifact can be reproduced and
+        explained; only `query_levels` decides what is actually sent.
+        """
         c = cand(card_number="BCP99")
         got, _ = self.levels(c)
+        self.assertEqual(list(got), ["STRICT"])
         self.assertIn("#BCP99", got["STRICT"])
-        self.assertIn("BCP99", got["NORMAL"])
-        self.assertNotIn("#BCP99", got["NORMAL"])
+        retired = mc.query_terms(c, "NORMAL")
+        self.assertIn("BCP99", retired)
+        self.assertNotIn("#BCP99", retired)
 
     def test_auto_and_qualifier_survive_every_tier(self):
         c = cand(is_auto=1, auto_grade="10", qualifier="OC")
@@ -262,3 +268,111 @@ class TestReconciliationSafety(unittest.TestCase):
         now = {1: ("a", "b"), 3: ("x", "y")}
         self.assertEqual(sorted(set(now) - set(baseline)), [3])
         self.assertEqual(sorted(set(baseline) - set(now)), [2])
+
+
+class TestSingleActiveTier(unittest.TestCase):
+    """STRICT is the only query that may be sent."""
+
+    @classmethod
+    def setUpClass(cls):
+        enrich.load_surnames(db.connect())
+
+    def test_active_tiers_is_strict_only(self):
+        self.assertEqual(mc.ACTIVE_TIERS, ("STRICT",))
+        self.assertEqual(prp.ACTIVE_TIERS, mc.ACTIVE_TIERS)
+        self.assertNotIn("NORMAL", prp.ACTIVE_TIERS)
+
+    def test_one_eligible_candidate_produces_exactly_one_query(self):
+        for c in (cand(),
+                  cand(is_auto=1, auto_grade="10"),
+                  cand(qualifier="OC"),
+                  cand(parallel="GOLD REFRACTOR"),
+                  cand(parallel="GOLD REFRACTOR", print_run=50),
+                  cand(card_number="BCP99"),
+                  cand(manufacturer="UPPER DECK")):
+            got = prp.query_levels(c)
+            self.assertEqual(len(got), 1, got)
+            self.assertEqual(got[0][0], "STRICT")
+
+    def test_the_single_query_keeps_every_required_discriminator(self):
+        for c in (cand(),
+                  cand(is_auto=1, auto_grade="10", qualifier="MC"),
+                  cand(parallel="GOLD REFRACTOR", print_run=50),
+                  cand(card_number="U-92", manufacturer="FLEER", set="UPDATE")):
+            (level, q), = prp.query_levels(c)
+            self.assertEqual(mc.query_violations(c, q), [], f"{level}: {q}")
+
+    def test_an_invalid_strict_query_is_suppressed_not_sent(self):
+        """If STRICT itself failed the invariant, nothing would be issued."""
+        c = cand(parallel="GOLD REFRACTOR", print_run=50)
+        aborted = []
+        real = prp.build_query
+        try:
+            # Simulate a generator that drops the parallel and the print run.
+            prp.build_query = lambda cc, lvl: "2011 ALEX RODRIGUEZ #151 PSA 9"
+            got = prp.query_levels(
+                c, on_abort=lambda l, q, m: aborted.append((l, m)))
+        finally:
+            prp.build_query = real
+        self.assertEqual(got, [], "a violating query must never be issued")
+        self.assertEqual(len(aborted), 1)
+        _level, missing = aborted[0]
+        for field in ("manufacturer_or_set", "parallel", "print_run"):
+            self.assertIn(field, missing)
+
+    def test_historical_normal_rows_remain_readable(self):
+        """Stored rows and artifacts still carry query_tier='NORMAL'."""
+        conn = db.connect()
+        n = conn.execute(
+            "SELECT COUNT(*) FROM sold_comps WHERE query_tier='NORMAL'").fetchone()[0]
+        self.assertGreaterEqual(n, 0)          # readable, whatever the count
+        rows = conn.execute(
+            "SELECT query_tier, COUNT(*) FROM sold_comps GROUP BY query_tier").fetchall()
+        self.assertTrue(rows)
+        for tier, _count in rows:
+            self.assertIn(tier, mc.ACTIVE_TIERS + mc.RETIRED_TIERS)
+
+
+class TestQueryDedup(unittest.TestCase):
+    """Deduplication must not delete a label's value."""
+
+    def test_repeated_words_are_still_collapsed(self):
+        self.assertEqual(
+            prp.dedupe_query("2023 PRIZM UFC #200 RED PRIZM PSA 9"),
+            "2023 PRIZM UFC #200 RED PSA 9")
+
+    def test_autograph_parallel_still_suppresses_the_auto_keyword(self):
+        q = prp.dedupe_query("2024 CONTENDERS #106 AUTOGRAPH auto PSA 10")
+        self.assertIn("AUTOGRAPH", q)
+        self.assertNotIn(" auto ", f" {q} ")
+
+    def test_a_grade_value_is_not_a_repetition_of_an_auto_grade(self):
+        """"auto 10 PSA 10" must keep both tens."""
+        self.assertEqual(
+            prp.dedupe_query("1984 STRAWBERRY TOPPS #182 auto 10 PSA 10"),
+            "1984 STRAWBERRY TOPPS #182 auto 10 PSA 10")
+
+    def test_duplicate_auto_keyword_is_still_collapsed(self):
+        self.assertEqual(
+            prp.dedupe_query("1984 STRAWBERRY TOPPS #182 auto auto 10 PSA 10"),
+            "1984 STRAWBERRY TOPPS #182 auto 10 PSA 10")
+
+    def test_matching_grades_survive_for_every_shared_value(self):
+        for v in ("8", "9", "10", "8.5"):
+            q = prp.dedupe_query(f"1990 PLAYER TOPPS #1 auto {v} PSA {v}")
+            self.assertEqual(q, f"1990 PLAYER TOPPS #1 auto {v} PSA {v}", v)
+
+    def test_a_non_value_after_a_label_is_still_deduped(self):
+        """Only a grade-shaped token is treated as a label's value."""
+        self.assertEqual(prp.dedupe_query("TOPPS #1 PSA TOPPS 9"), "TOPPS #1 PSA 9")
+
+    def test_the_strawberry_candidate_now_produces_a_valid_query(self):
+        enrich.load_surnames(db.connect())
+        c = cand(year=1984, manufacturer="TOPPS", set="NESTLE HAND CUT",
+                 subject="DARRYL STRAWBERRY", card_number="182",
+                 psa_grade="10", is_auto=1, auto_grade="10")
+        got = prp.query_levels(c)
+        self.assertEqual(len(got), 1)
+        self.assertEqual(mc.query_violations(c, got[0][1]), [])
+        self.assertIn("PSA 10", got[0][1])
+        self.assertIn("auto 10", got[0][1])

@@ -27,6 +27,14 @@ import ebay_product_research_import
 import enrich
 import parse
 
+# The only tier that is issued. NORMAL and RELAXED are retired: once they were
+# made identity-safe they differed from STRICT only in punctuation, which eBay's
+# tokenizer strips, and the nine-candidate pilot confirmed they returned no
+# unique rows. The names remain valid DATA - historical artifacts and stored
+# sold_comps rows carry query_tier="NORMAL" and must stay readable.
+ACTIVE_TIERS = ("STRICT",)
+RETIRED_TIERS = ("NORMAL", "RELAXED")
+
 RESEARCH_CSV = "sold_comps_research.csv"
 TEMPLATE_CSV = "sold_comps_import_template.csv"
 CANDIDATES = "pilot_candidates.json"
@@ -192,18 +200,16 @@ def write_research(cands):
         c = cands.get(iid)
         if c is None:
             sys.exit(f"error: pilot candidate {iid} not in {CANDIDATES}")
-        tiers = ["STRICT", "NORMAL"] + (["RELAXED"] if relaxed_allowed(c) else [])
         seen_q = set()
-        for tier in tiers:
+        for tier in ACTIVE_TIERS:
             q = query_terms(c, tier)
-            if q in seen_q:      # RELAXED == NORMAL when there is no parallel
+            if q in seen_q:
                 continue
             seen_q.add(q)
-            note = {"STRICT": "narrowest search; expect few but exact results",
-                    "NORMAL": "same material identity, alternate surface form "
-                              "(card number without '#')",
-                    "RELAXED": "allowed only because this card has no parallel, "
-                               "no serial, no autograph and no qualifier",
+            note = {"STRICT": "the only active tier; narrow and exact",
+                    "NORMAL": "retired - differed from STRICT only in "
+                              "punctuation, which eBay ignores",
+                    "RELAXED": "retired - see NORMAL",
                     }[tier]
             rows.append({
                 "candidate_item_id": iid,

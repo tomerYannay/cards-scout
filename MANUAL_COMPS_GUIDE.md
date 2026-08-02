@@ -48,8 +48,10 @@ The hand-filled workflow below still works unchanged via `--import`.
    listings. Active asking prices are not comps and must never be imported.
 3. Open `sold_comps_research.csv`. Each row is one search to run, with the exact
    `search_query` text to paste in.
-4. Run every row. Start with `STRICT`; if it returns very little, run `NORMAL`,
-   then `RELAXED` where one is provided.
+4. Run every row. Every row is a `STRICT` search — the only active tier. If it
+   returns very little, that is the honest answer: record it and move on. Do
+   not hand-broaden the query, because a broader search returns a different
+   card's sales.
 5. Set the **widest reasonable date range** the tool offers, so sparse cards
    still produce a usable sample.
 6. Copy or export the **individual transaction rows** — not the summary
@@ -69,7 +71,7 @@ Copy `sold_comps_import_template.csv` to `sold_comps_import.csv` and fill it in.
 | Column | Meaning |
 |---|---|
 | `candidate_item_id` | from `sold_comps_research.csv` — which candidate this comp is for |
-| `query_tier` | `STRICT`, `NORMAL` or `RELAXED` — which search produced it |
+| `query_tier` | which search produced it. `STRICT` for anything new; `NORMAL`/`RELAXED` appear only in rows collected before those tiers were retired |
 | `source` | always `EBAY_PRODUCT_RESEARCH` |
 | `source_item_id` | eBay item number of the sold listing (used for de-duplication) |
 | `raw_title` | the listing title, copied verbatim — this is what the matcher reads |

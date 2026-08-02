@@ -1,0 +1,32 @@
+{
+ "candidate_id": "v1|298311791224|0",
+ "query": "1959 ERNIE BANKS TOPPS #350 PSA 4 MC",
+ "level": "STRICT",
+ "date_range": "last 3 year",
+ "collected_at": "2026-08-02T13:55:39.803612+00:00",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|298311791224|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-c43bb76fa8",
+   "raw_title": "1959 Topps Baseball #350 Ernie Banks PSA 4 VG - EX (MC) Miss Cut Cubs HOF",
+   "sold_price": "27.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Dec 16, 2023",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 1959 ERNIE BANKS TOPPS #350 PSA 4 MC",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-02T13:55:39.803368+00:00",
+   "raw_text": ", preview full size image 1959 Topps Baseball #350 Ernie Banks PSA 4 VG - EX (MC) Miss Cut Cubs HOF 1959 Topps Baseball #350 Ernie Banks PSA 4 VG - EX (MC) Miss Cut Cubs HOF Edit Exclude listing $27.00 Auction $5.00 0% Free shipping 1 $27.00 11 Dec 16, 2023"
+  }
+ ],
+ "legacy_table_rows": []
+}

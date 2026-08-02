@@ -1,0 +1,32 @@
+{
+ "candidate_id": "v1|306571479992|0",
+ "query": "2025 PJ MORLANDO BOWMAN SCOUTS TOP 100 #BTP74 PSA 9",
+ "level": "STRICT",
+ "date_range": "last 3 year",
+ "collected_at": "2026-08-02T13:57:48.133379+00:00",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|306571479992|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-b1244d6a03",
+   "raw_title": "2025 BOWMAN SCOUTS' TOP 100 #BTP74 PJ MORLANDO PSA 9",
+   "sold_price": "5.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Aug 21, 2025",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 2025 PJ MORLANDO BOWMAN SCOUTS TOP 100 #BTP74 PSA 9",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-02T13:57:48.133103+00:00",
+   "raw_text": ", preview full size image 2025 BOWMAN SCOUTS' TOP 100 #BTP74 PJ MORLANDO PSA 9 2025 BOWMAN SCOUTS' TOP 100 #BTP74 PJ MORLANDO PSA 9 Edit Exclude listing $5.00 Auction $0.00 100% Free shipping 1 $5.00 2 Aug 21, 2025"
+  }
+ ],
+ "legacy_table_rows": []
+}

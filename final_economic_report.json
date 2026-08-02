@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-02T14:29:14.001796+00:00",
+ "generated_at": "2026-08-02T14:40:10.822870+00:00",
  "markup_formula": "(candidate_total_cost / median_comp_total - 1) * 100",
  "headline": {
   "candidates": 93,
-  "BUY": 0,
-  "WATCH": 1,
+  "BUY": 1,
+  "WATCH": 0,
   "PASS": 92,
   "valued": 77,
   "benchmark_only": 8,
@@ -43,7 +43,7 @@
   "parallel/serial": {
    "valued": 22,
    "median_markup_pct": 496.06608267869643,
-   "min_markup_pct": -23.72127139364303,
+   "min_markup_pct": -31.281938325991188,
    "max_markup_pct": 329640.36675398913
   },
   "qualifier": {
@@ -56,8 +56,8 @@
  "hypothetical_discount": {
   "actual": {
    "discount_pct": 0,
-   "BUY": 0,
-   "WATCH": 1,
+   "BUY": 1,
+   "WATCH": 0,
    "PASS": 76
   },
   "5%": {
@@ -103,18 +103,30 @@
    "shipping": 5.99,
    "total_candidate_cost": 155.99,
    "cost_complete": true,
-   "accepted_comps": 4,
-   "median_comp_total": 204.5,
+   "accepted_comps": 3,
+   "median_comp_total": 227.0,
    "confidence": "MEDIUM",
-   "gap_absolute": 48.50999999999999,
-   "gap_percent": 23.72127139364303,
-   "markup_percent": -23.72127139364303,
-   "cost_to_market_ratio": 0.7627872860635697,
+   "gap_absolute": 71.00999999999999,
+   "gap_percent": 31.281938325991188,
+   "markup_percent": -31.281938325991188,
+   "cost_to_market_ratio": 0.6871806167400881,
    "markup_band": "at or below market",
-   "decision": "WATCH",
-   "reason": "WATCH_DISCOUNT_10_TO_25",
+   "decision": "BUY",
+   "reason": "BUY_DISCOUNT_AT_OR_ABOVE_25",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 32.0,
+    "median_comp_item_price": 195.0,
+    "median_comp_total": 227.0,
+    "total_cost_gap": 71.00999999999999,
+    "item_price_only_gap": 45.0,
+    "shipping_contribution": 26.00999999999999,
+    "shipping_share_of_gap": 0.36628643852978443,
+    "shipping_dominated": false,
+    "reason": "only 37% of the gap is postage"
+   }
   },
   {
    "candidate_id": "v1|306570353612|0",
@@ -138,7 +150,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 994.5899999999999,
+    "median_comp_total": 994.5899999999999,
+    "total_cost_gap": -511.3900000000001,
+    "item_price_only_gap": -505.4000000000001,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306105391673|0",
@@ -162,7 +186,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 140.5,
+    "median_comp_total": 140.5,
+    "total_cost_gap": -90.49000000000001,
+    "item_price_only_gap": -84.5,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307003000827|0",
@@ -186,7 +222,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 88.0,
+    "median_comp_total": 88.0,
+    "total_cost_gap": -61.99000000000001,
+    "item_price_only_gap": -56.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306417077149|0",
@@ -210,7 +258,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 75.0,
+    "median_comp_total": 75.0,
+    "total_cost_gap": -55.97999999999999,
+    "item_price_only_gap": -49.989999999999995,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117117277814|0",
@@ -234,7 +294,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 40.0,
+    "median_comp_total": 40.0,
+    "total_cost_gap": -40.989999999999995,
+    "item_price_only_gap": -35.0,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307093015116|0",
@@ -258,7 +330,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 53.745000000000005,
+    "median_comp_total": 53.745000000000005,
+    "total_cost_gap": -72.24499999999999,
+    "item_price_only_gap": -66.255,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306704116968|0",
@@ -282,7 +366,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 68.5,
+    "median_comp_total": 68.5,
+    "total_cost_gap": -92.49000000000001,
+    "item_price_only_gap": -86.5,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298256667294|0",
@@ -306,7 +402,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 139.99,
+    "median_comp_total": 139.99,
+    "total_cost_gap": -241.0,
+    "item_price_only_gap": -235.01,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307008867017|0",
@@ -330,7 +438,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 265.0,
+    "median_comp_total": 265.0,
+    "total_cost_gap": -490.99,
+    "item_price_only_gap": -485.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306953491657|0",
@@ -354,7 +474,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 63.25,
+    "median_comp_total": 63.25,
+    "total_cost_gap": -122.74000000000001,
+    "item_price_only_gap": -116.75,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298146364325|0",
@@ -378,7 +510,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 18.99,
+    "median_comp_total": 18.99,
+    "total_cost_gap": -37.0,
+    "item_price_only_gap": -31.01,
+    "shipping_contribution": -5.989999999999998,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306926770518|0",
@@ -402,7 +546,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 402.23,
+    "median_comp_total": 402.23,
+    "total_cost_gap": -803.76,
+    "item_price_only_gap": -797.77,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117233440832|0",
@@ -426,7 +582,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 227.5,
+    "median_comp_total": 227.5,
+    "total_cost_gap": -477.49,
+    "item_price_only_gap": -471.5,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307021579023|0",
@@ -450,7 +618,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 679.0,
+    "median_comp_total": 679.0,
+    "total_cost_gap": -1426.9799999999996,
+    "item_price_only_gap": -1420.9899999999998,
+    "shipping_contribution": -5.989999999999782,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307086092272|0",
@@ -474,7 +654,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 2554.0,
+    "median_comp_total": 2554.0,
+    "total_cost_gap": -5951.99,
+    "item_price_only_gap": -5946.0,
+    "shipping_contribution": -5.989999999999782,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306978971222|0",
@@ -498,7 +690,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 44.47,
+    "median_comp_total": 44.47,
+    "total_cost_gap": -111.51000000000002,
+    "item_price_only_gap": -105.52000000000001,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|297697607302|0",
@@ -522,7 +726,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 49.995000000000005,
+    "median_comp_total": 49.995000000000005,
+    "total_cost_gap": -125.98500000000001,
+    "item_price_only_gap": -119.995,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117275588306|0",
@@ -546,7 +762,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 126.495,
+    "median_comp_total": 126.495,
+    "total_cost_gap": -339.495,
+    "item_price_only_gap": -333.505,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307061497481|0",
@@ -570,7 +798,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 537.42,
+    "median_comp_total": 537.42,
+    "total_cost_gap": -1467.5700000000002,
+    "item_price_only_gap": -1461.58,
+    "shipping_contribution": -5.9900000000002365,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|297924700955|0",
@@ -594,7 +834,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 57.67,
+    "median_comp_total": 57.67,
+    "total_cost_gap": -173.32,
+    "item_price_only_gap": -167.32999999999998,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306767926719|0",
@@ -618,7 +870,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 11.99,
+    "median_comp_total": 11.99,
+    "total_cost_gap": -39.0,
+    "item_price_only_gap": -33.01,
+    "shipping_contribution": -5.990000000000002,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298543520510|0",
@@ -642,7 +906,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 30.0,
+    "median_comp_total": 30.0,
+    "total_cost_gap": -100.99000000000001,
+    "item_price_only_gap": -95.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306994093939|0",
@@ -666,7 +942,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 109.0,
+    "median_comp_total": 109.0,
+    "total_cost_gap": -396.99,
+    "item_price_only_gap": -391.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306972998992|0",
@@ -690,7 +978,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 81.0,
+    "median_comp_total": 81.0,
+    "total_cost_gap": -324.99,
+    "item_price_only_gap": -319.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307074125682|0",
@@ -714,7 +1014,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 40.0,
+    "median_comp_total": 40.0,
+    "total_cost_gap": -165.99,
+    "item_price_only_gap": -160.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|297620912575|0",
@@ -738,7 +1050,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 66.495,
+    "median_comp_total": 66.495,
+    "total_cost_gap": -289.495,
+    "item_price_only_gap": -283.505,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306627276905|0",
@@ -762,7 +1086,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 29.12,
+    "median_comp_total": 29.12,
+    "total_cost_gap": -126.86000000000001,
+    "item_price_only_gap": -120.87,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307073949024|0",
@@ -786,7 +1122,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 5.99,
+    "median_comp_item_price": 88.265,
+    "median_comp_total": 92.0,
+    "total_cost_gap": -408.99,
+    "item_price_only_gap": -406.735,
+    "shipping_contribution": -2.2549999999999955,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307035264330|0",
@@ -810,7 +1158,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 19.244999999999997,
+    "median_comp_total": 19.244999999999997,
+    "total_cost_gap": -87.745,
+    "item_price_only_gap": -81.755,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306971032786|0",
@@ -834,7 +1194,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 84.5,
+    "median_comp_total": 84.5,
+    "total_cost_gap": -391.18,
+    "item_price_only_gap": -385.19,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307007698538|0",
@@ -858,7 +1230,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 172.495,
+    "median_comp_total": 172.495,
+    "total_cost_gap": -833.485,
+    "item_price_only_gap": -827.495,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306900945155|0",
@@ -882,7 +1266,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 107.005,
+    "median_comp_total": 107.005,
+    "total_cost_gap": -548.985,
+    "item_price_only_gap": -542.995,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307010202693|0",
@@ -906,7 +1302,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 139.75,
+    "median_comp_total": 139.75,
+    "total_cost_gap": -765.24,
+    "item_price_only_gap": -759.25,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306949583070|0",
@@ -930,7 +1338,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 60.0,
+    "median_comp_total": 60.0,
+    "total_cost_gap": -345.99,
+    "item_price_only_gap": -340.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298544831895|0",
@@ -954,7 +1374,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 5.0,
+    "median_comp_item_price": 29.0,
+    "median_comp_total": 32.95,
+    "total_cost_gap": -198.04000000000002,
+    "item_price_only_gap": -196.0,
+    "shipping_contribution": -2.0400000000000205,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306937139505|0",
@@ -978,7 +1410,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 17.5,
+    "median_comp_total": 17.5,
+    "total_cost_gap": -113.49000000000001,
+    "item_price_only_gap": -107.5,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298264618164|0",
@@ -1002,7 +1446,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 12.5,
+    "median_comp_total": 12.5,
+    "total_cost_gap": -83.47999999999999,
+    "item_price_only_gap": -77.49,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307075619100|0",
@@ -1026,7 +1482,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 23.99,
+    "median_comp_total": 23.99,
+    "total_cost_gap": -161.0,
+    "item_price_only_gap": -155.01,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306981354821|0",
@@ -1050,7 +1518,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 202.325,
+    "median_comp_total": 202.325,
+    "total_cost_gap": -1402.665,
+    "item_price_only_gap": -1396.675,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307082355484|0",
@@ -1074,7 +1554,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 914.395,
+    "median_comp_total": 914.395,
+    "total_cost_gap": -6691.594999999999,
+    "item_price_only_gap": -6685.605,
+    "shipping_contribution": -5.989999999999782,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307021030433|0",
@@ -1098,7 +1590,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 59.17,
+    "median_comp_total": 59.17,
+    "total_cost_gap": -446.82,
+    "item_price_only_gap": -440.83,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306981381523|0",
@@ -1122,7 +1626,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 24.0,
+    "median_comp_total": 24.0,
+    "total_cost_gap": -196.99,
+    "item_price_only_gap": -191.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298339574816|0",
@@ -1146,7 +1662,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 11.295,
+    "median_comp_total": 11.295,
+    "total_cost_gap": -96.115,
+    "item_price_only_gap": -90.125,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298544784209|0",
@@ -1170,7 +1698,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 5.99,
+    "median_comp_item_price": 52.0,
+    "median_comp_total": 57.0,
+    "total_cost_gap": -498.99,
+    "item_price_only_gap": -498.0,
+    "shipping_contribution": -0.9900000000000091,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307014124964|0",
@@ -1194,7 +1734,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 9.685,
+    "median_comp_total": 9.685,
+    "total_cost_gap": -89.30499999999999,
+    "item_price_only_gap": -83.315,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307095634461|0",
@@ -1218,7 +1770,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 22.545,
+    "median_comp_total": 22.545,
+    "total_cost_gap": -208.445,
+    "item_price_only_gap": -202.45499999999998,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306977321999|0",
@@ -1242,7 +1806,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 20.0,
+    "median_comp_total": 20.0,
+    "total_cost_gap": -185.99,
+    "item_price_only_gap": -180.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298041011637|0",
@@ -1266,7 +1842,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 149.95,
+    "median_comp_total": 149.95,
+    "total_cost_gap": -1456.04,
+    "item_price_only_gap": -1450.05,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298313048510|0",
@@ -1290,7 +1878,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 11.795,
+    "median_comp_total": 11.795,
+    "total_cost_gap": -124.19500000000001,
+    "item_price_only_gap": -118.205,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306852423561|0",
@@ -1314,7 +1914,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 32.585,
+    "median_comp_total": 32.585,
+    "total_cost_gap": -348.40500000000003,
+    "item_price_only_gap": -342.415,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298292151257|0",
@@ -1338,7 +1950,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 10.5,
+    "median_comp_total": 10.5,
+    "total_cost_gap": -115.49,
+    "item_price_only_gap": -109.5,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|297528086982|0",
@@ -1362,7 +1986,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 8.33,
+    "median_comp_total": 8.33,
+    "total_cost_gap": -95.63,
+    "item_price_only_gap": -89.64,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117183556887|0",
@@ -1386,7 +2022,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 79.99,
+    "median_comp_total": 79.99,
+    "total_cost_gap": -925.23,
+    "item_price_only_gap": -919.24,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307095682119|0",
@@ -1410,7 +2058,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 20.0,
+    "median_comp_total": 20.0,
+    "total_cost_gap": -240.99,
+    "item_price_only_gap": -235.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306434204931|0",
@@ -1434,7 +2094,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 20.975,
+    "median_comp_total": 20.975,
+    "total_cost_gap": -273.895,
+    "item_price_only_gap": -267.905,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298388071229|0",
@@ -1458,7 +2130,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 3.75,
+    "median_comp_item_price": 42.39,
+    "median_comp_total": 47.49,
+    "total_cost_gap": -657.5,
+    "item_price_only_gap": -656.61,
+    "shipping_contribution": -0.8899999999999864,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306906854221|0",
@@ -1482,7 +2166,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 126.49,
+    "median_comp_total": 126.49,
+    "total_cost_gap": -1779.5,
+    "item_price_only_gap": -1773.51,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298544656425|0",
@@ -1506,7 +2202,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 4.8,
+    "median_comp_item_price": 22.39,
+    "median_comp_total": 26.990000000000002,
+    "total_cost_gap": -402.0,
+    "item_price_only_gap": -400.61,
+    "shipping_contribution": -1.3899999999999864,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306909410630|0",
@@ -1530,7 +2238,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 349.99,
+    "median_comp_total": 349.99,
+    "total_cost_gap": -5655.0,
+    "item_price_only_gap": -5649.01,
+    "shipping_contribution": -5.989999999999782,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307095490869|0",
@@ -1554,7 +2274,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 24.994999999999997,
+    "median_comp_total": 24.994999999999997,
+    "total_cost_gap": -403.995,
+    "item_price_only_gap": -398.005,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298544669882|0",
@@ -1578,7 +2310,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 23.95,
+    "median_comp_total": 23.95,
+    "total_cost_gap": -405.04,
+    "item_price_only_gap": -399.05,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|297673833355|0",
@@ -1602,7 +2346,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 4.5,
+    "median_comp_item_price": 14.995000000000001,
+    "median_comp_total": 18.75,
+    "total_cost_gap": -337.24,
+    "item_price_only_gap": -335.005,
+    "shipping_contribution": -2.2350000000000136,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117259580124|0",
@@ -1626,7 +2382,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 4.99,
+    "median_comp_item_price": 9.74,
+    "median_comp_total": 13.45,
+    "total_cost_gap": -252.54000000000002,
+    "item_price_only_gap": -250.26,
+    "shipping_contribution": -2.2800000000000296,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298544674763|0",
@@ -1650,7 +2418,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 25.0,
+    "median_comp_total": 25.0,
+    "total_cost_gap": -503.99,
+    "item_price_only_gap": -498.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307070613421|0",
@@ -1674,7 +2454,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 7.05,
+    "median_comp_total": 7.05,
+    "total_cost_gap": -148.94,
+    "item_price_only_gap": -142.95,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306763273985|0",
@@ -1698,7 +2490,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 44.504999999999995,
+    "median_comp_total": 44.504999999999995,
+    "total_cost_gap": -961.485,
+    "item_price_only_gap": -955.495,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307095495253|0",
@@ -1722,7 +2526,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 16.845,
+    "median_comp_total": 16.845,
+    "total_cost_gap": -412.145,
+    "item_price_only_gap": -406.155,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117330528413|0",
@@ -1746,7 +2562,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 15.3,
+    "median_comp_total": 15.3,
+    "total_cost_gap": -413.69,
+    "item_price_only_gap": -407.7,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117330553310|0",
@@ -1770,7 +2598,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 4.945,
+    "median_comp_item_price": 12.75,
+    "median_comp_total": 15.215,
+    "total_cost_gap": -413.77500000000003,
+    "item_price_only_gap": -410.25,
+    "shipping_contribution": -3.525000000000034,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307045790828|0",
@@ -1794,7 +2634,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 112.795,
+    "median_comp_total": 112.795,
+    "total_cost_gap": -3093.1949999999997,
+    "item_price_only_gap": -3087.205,
+    "shipping_contribution": -5.989999999999782,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|117330558241|0",
@@ -1818,7 +2670,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 18.0,
+    "median_comp_total": 18.0,
+    "total_cost_gap": -510.99,
+    "item_price_only_gap": -505.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|307095491318|0",
@@ -1842,7 +2706,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 10.38,
+    "median_comp_total": 10.38,
+    "total_cost_gap": -418.61,
+    "item_price_only_gap": -412.62,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298544668693|0",
@@ -1866,7 +2742,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 10.0,
+    "median_comp_total": 10.0,
+    "total_cost_gap": -418.99,
+    "item_price_only_gap": -413.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|297446087094|0",
@@ -1890,7 +2778,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 2.48,
+    "median_comp_item_price": 10.0,
+    "median_comp_total": 12.95,
+    "total_cost_gap": -548.5899999999999,
+    "item_price_only_gap": -545.55,
+    "shipping_contribution": -3.0399999999999636,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298292207649|0",
@@ -1914,7 +2814,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 33.77,
+    "median_comp_total": 33.77,
+    "total_cost_gap": -4572.219999999999,
+    "item_price_only_gap": -4566.23,
+    "shipping_contribution": -5.989999999999782,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306925759220|0",
@@ -1938,7 +2850,19 @@
    "decision": "PASS",
    "reason": "PASS_AT_OR_ABOVE_MARKET",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 5.595000000000001,
+    "median_comp_item_price": 16.25,
+    "median_comp_total": 20.994999999999997,
+    "total_cost_gap": -69207.99500000001,
+    "item_price_only_gap": -69206.75,
+    "shipping_contribution": -1.2450000000098953,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   }
  ],
  "benchmark_only": [
@@ -1964,7 +2888,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 801.0,
+    "median_comp_total": 801.0,
+    "total_cost_gap": -503.99,
+    "item_price_only_gap": -498.0,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306843266563|0",
@@ -1988,7 +2924,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 26.5,
+    "median_comp_total": 26.5,
+    "total_cost_gap": -40.489999999999995,
+    "item_price_only_gap": -34.5,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306833068700|0",
@@ -2012,7 +2960,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 94.28,
+    "median_comp_total": 94.28,
+    "total_cost_gap": -151.70000000000002,
+    "item_price_only_gap": -145.71,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306988140575|0",
@@ -2036,7 +2996,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 39.99,
+    "median_comp_total": 39.99,
+    "total_cost_gap": -66.0,
+    "item_price_only_gap": -60.01,
+    "shipping_contribution": -5.990000000000002,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298311791224|0",
@@ -2060,7 +3032,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 27.0,
+    "median_comp_total": 27.0,
+    "total_cost_gap": -108.98000000000002,
+    "item_price_only_gap": -102.99000000000001,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298349022480|0",
@@ -2084,7 +3068,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 10.5,
+    "median_comp_total": 10.5,
+    "total_cost_gap": -145.48000000000002,
+    "item_price_only_gap": -139.49,
+    "shipping_contribution": -5.990000000000009,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|306571479992|0",
@@ -2108,7 +3104,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 0.0,
+    "median_comp_item_price": 5.0,
+    "median_comp_total": 5.0,
+    "total_cost_gap": -73.49,
+    "item_price_only_gap": -67.5,
+    "shipping_contribution": -5.989999999999995,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   },
   {
    "candidate_id": "v1|298509952879|0",
@@ -2132,7 +3140,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 8.75,
+    "median_comp_item_price": 21.51,
+    "median_comp_total": 30.26,
+    "total_cost_gap": -525.73,
+    "item_price_only_gap": -528.49,
+    "shipping_contribution": 2.759999999999991,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   }
   }
  ],
  "no_benchmark": [
@@ -2158,7 +3178,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "no_results"
+   "run_status": "no_results",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   },
   {
    "candidate_id": "v1|306190117422|0",
@@ -2182,7 +3214,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   },
   {
    "candidate_id": "v1|306564595993|0",
@@ -2206,7 +3250,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   },
   {
    "candidate_id": "v1|306417771465|0",
@@ -2230,7 +3286,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   },
   {
    "candidate_id": "v1|298278946915|0",
@@ -2254,7 +3322,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "completed"
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   },
   {
    "candidate_id": "v1|306912075747|0",
@@ -2278,7 +3358,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   },
   {
    "candidate_id": "v1|297711604305|0",
@@ -2302,7 +3394,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "insufficient_comps"
+   "run_status": "insufficient_comps",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   },
   {
    "candidate_id": "v1|307023672532|0",
@@ -2326,7 +3430,19 @@
    "decision": "PASS",
    "reason": "INSUFFICIENT_EVIDENCE",
    "downgrade_reason": null,
-   "run_status": "no_results"
+   "run_status": "no_results",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   }
   }
  ]
 }

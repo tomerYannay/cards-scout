@@ -393,7 +393,8 @@ def reclassify_comps(conn, cid, cand, only_ids=None, run_id=None):
         # earlier run stay in the table but are not double-counted.
         if only_ids is not None and r["source_item_id"] not in only_ids:
             continue
-        state, reason = prp.classify_comp(cand, r["raw_title"])
+        state, reason = prp.classify_comp(cand, r["raw_title"],
+                                          source_item_id=r["source_item_id"])
         counts[state] += 1
         conn.execute(
             "UPDATE sold_comps SET accepted=?, match_confidence=?, "
@@ -585,7 +586,9 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
             cumulative_unique_count = len(all_rows)
             rows_seen += tier_raw_count
             exact = sum(1 for r in all_rows
-                        if prp.classify_comp(cand, r["raw_title"])[0]
+                        if prp.classify_comp(
+                            cand, r["raw_title"],
+                            source_item_id=r.get("source_item_id"))[0]
                         == prp.ACCEPTED)
             print(f"    extracted {tier_raw_count}, {tier_new_unique_count} new, "
                   f"cumulative unique {cumulative_unique_count}"
@@ -625,7 +628,8 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
     if classified != cumulative_unique_count:
         traced = []
         for r in all_rows:
-            state, reason = prp.classify_comp(cand, r["raw_title"])
+            state, reason = prp.classify_comp(
+                cand, r["raw_title"], source_item_id=r.get("source_item_id"))
             traced.append({**r, "decision": state, "reason": reason})
         classified_ids = [r[0] for r in conn.execute(
             "SELECT source_item_id FROM sold_comps WHERE candidate_item_id=? "
@@ -1046,7 +1050,8 @@ def audit_accepted(conn, candidate_id=None, out_path="accepted_audit.json",
         title = prp.clean_listing_title(r["raw_title"])
         repaired = prp.repair_print_run(prp.normalize_comp_title(title))
         f = parse.parse_title(repaired)["fields"]
-        state, reason = prp.classify_comp(cand, r["raw_title"])
+        state, reason = prp.classify_comp(
+            cand, r["raw_title"], source_item_id=r["source_item_id"])
         rec = {
             "candidate": cand["title"], "candidate_id": r["candidate_item_id"],
             "sold_price": r["sold_price"], "shipping": r["shipping"],

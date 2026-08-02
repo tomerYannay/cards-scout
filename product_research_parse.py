@@ -670,14 +670,53 @@ def parallel_conflicts(candidate, raw_title):
     return None
 
 
-def classify_comp(candidate, raw_title):
+SELF_COMP_REASON = "self comp - same eBay listing as the candidate (item {item})"
+
+# An eBay item number is a run of digits. A candidate id is "v1|<item>|<variation>";
+# a persisted comp id is the bare number, or the number with a collision-breaking
+# suffix ("306942391283-23d2a0628b"), or a synthesized "pr-..." when the page
+# exposed no item number at all.
+_ITEM_RE = re.compile(r"^(?:v\d+\|)?(\d{6,})(?:[|-].*)?$")
+
+
+def ebay_item_number(value):
+    """The eBay item number inside an id, or None when there isn't one.
+
+    Matches the WHOLE leading number, never a prefix, so 3069423912 can never
+    be mistaken for 306942391283.
+    """
+    m = _ITEM_RE.match(str(value or "").strip())
+    return m.group(1) if m else None
+
+
+def is_self_comp(candidate_id, source_item_id):
+    """True when a sold row is the candidate's own listing.
+
+    A listing compared against its own earlier sale is circular evidence: it
+    tells us what this seller once got for this exact card, not what the market
+    pays. Identity must be provable - a missing or synthesized comp id means we
+    cannot tell, and we never exclude on a guess.
+    """
+    mine = ebay_item_number(candidate_id)
+    theirs = ebay_item_number(source_item_id)
+    return bool(mine) and mine == theirs
+
+
+def classify_comp(candidate, raw_title, source_item_id=None):
     """accepted / rejected / review_required for one sold title.
 
     The existing matcher decides accept-or-not; this only separates "the title
     contradicts the candidate" from "the title never states the field". A
     missing /199 is not evidence of a different print run, but it is not proof
     of the same one either - so it is held for review, never valued.
+
+    A row that IS the candidate's own listing is rejected before matching: it
+    would otherwise match perfectly, being the same card.
     """
+    if source_item_id is not None and is_self_comp(candidate.get("item_id"),
+                                                   source_item_id):
+        return REJECTED, SELF_COMP_REASON.format(
+            item=ebay_item_number(source_item_id))
     title = repair_print_run(normalize_comp_title(clean_listing_title(raw_title)),
                              candidate.get("print_run"))
     ok, reason, _norm = mc.match(candidate, title)

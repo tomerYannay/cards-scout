@@ -13,7 +13,10 @@ import unittest
 
 import db
 import decision as dec
+import enrich
 import final_report as fr
+import manual_comps as mc
+import product_research_parse as prp
 
 
 class TestMarkupFormula(unittest.TestCase):
@@ -176,7 +179,13 @@ class TestHypotheticalDiscount(unittest.TestCase):
 
 
 class TestSapphireGoldReconciliation(unittest.TestCase):
-    """The candidate that exposed the contradiction, pinned to its evidence."""
+    """The candidate that exposed the report contradiction, pinned to evidence.
+
+    It was a WATCH on four comps. One of those four was its OWN listing's
+    earlier sale; excluding that circular evidence raised the median from
+    $204.50 to $227.00 and made it a BUY. The threshold never moved - the
+    evidence did.
+    """
 
     CID = "v1|306942391283|0"
 
@@ -195,20 +204,37 @@ class TestSapphireGoldReconciliation(unittest.TestCase):
                  if r["markup_percent"] <= 0]
         self.assertEqual([r["candidate_id"] for r in below], [self.CID])
 
-    def test_it_is_a_watch_not_a_pass(self):
-        self.assertEqual(self.row["decision"], dec.WATCH)
-        self.assertEqual(self.row["reason"], dec.WATCH_MODERATE_DISCOUNT)
+    def test_it_is_a_buy_after_self_comp_exclusion(self):
+        self.assertEqual(self.row["decision"], dec.BUY)
+        self.assertEqual(self.row["reason"], dec.BUY_DEEP_DISCOUNT)
+        self.assertIsNone(self.row["downgrade_reason"])
 
-    def test_its_discount_sits_below_the_buy_threshold(self):
-        self.assertGreaterEqual(self.row["gap_percent"], dec.WATCH_DISCOUNT * 100)
-        self.assertLess(self.row["gap_percent"], dec.BUY_DISCOUNT * 100)
+    def test_its_discount_clears_the_buy_threshold(self):
+        self.assertGreaterEqual(self.row["gap_percent"], dec.BUY_DISCOUNT * 100)
+
+    def test_the_self_comp_is_gone_from_its_evidence(self):
+        self.assertEqual(self.row["accepted_comps"], 3)
+        self.assertAlmostEqual(float(self.row["median_comp_total"]), 227.00)
+        conn = db.connect()
+        for r in conn.execute("SELECT source_item_id, accepted, rejection_reason "
+                              "FROM sold_comps WHERE candidate_item_id=?",
+                              (self.CID,)):
+            if prp.is_self_comp(self.CID, r["source_item_id"]):
+                self.assertEqual(r["accepted"], 0)
+                self.assertIn("self comp", r["rejection_reason"])
 
     def test_it_ranks_first(self):
         self.assertEqual(self.report["ranked_by_markup"][0]["candidate_id"],
                          self.CID)
 
-    def test_shipping_is_what_kept_it_out_of_buy(self):
-        """Price-only it clears 25%; shipping-inclusive it does not."""
+    def test_its_gap_is_not_shipping_dominated(self):
+        """Postage is a minority of the gap once the self-comp is excluded."""
+        d = self.row["shipping_diagnostic"]
+        self.assertFalse(d["shipping_dominated"])
+        self.assertLess(d["shipping_share_of_gap"], fr.SHIPPING_DOMINANCE)
+        self.assertGreater(d["item_price_only_gap"], 0)
+
+    def test_shipping_no_longer_decides_it_either_way(self):
         conn = db.connect()
         acc = conn.execute("""SELECT total_price, sale_date FROM sold_comps
             WHERE candidate_item_id=? AND accepted=1""", (self.CID,)).fetchall()
@@ -220,8 +246,166 @@ class TestSapphireGoldReconciliation(unittest.TestCase):
                          dec.BUY)
         self.assertEqual(
             dec.decide(L["price"], comps, shipping=L["shipping_cost"])["decision"],
-            dec.WATCH)
+            dec.BUY)
 
 
-if __name__ == "__main__":
-    unittest.main()
+class TestSelfCompIdentity(unittest.TestCase):
+    """A comp that IS the candidate's own listing is circular evidence."""
+
+    def test_extracts_the_item_number_from_a_candidate_id(self):
+        self.assertEqual(prp.ebay_item_number("v1|306942391283|0"), "306942391283")
+
+    def test_extracts_the_item_number_from_a_bare_id(self):
+        self.assertEqual(prp.ebay_item_number("306942391283"), "306942391283")
+
+    def test_extracts_the_item_number_from_a_suffixed_id(self):
+        self.assertEqual(prp.ebay_item_number("306942391283-23d2a0628b"),
+                         "306942391283")
+
+    def test_synthesized_and_malformed_ids_yield_nothing(self):
+        for bad in ("pr-4faa8fd4b2", "", None, "abc", "v1||0", "12345"):
+            self.assertIsNone(prp.ebay_item_number(bad), bad)
+
+    def test_exact_item_match_is_a_self_comp(self):
+        self.assertTrue(prp.is_self_comp("v1|306942391283|0", "306942391283"))
+        self.assertTrue(prp.is_self_comp("v1|306942391283|0",
+                                         "306942391283-23d2a0628b"))
+
+    def test_different_items_are_not_self_comps(self):
+        self.assertFalse(prp.is_self_comp("v1|306942391283|0", "306912070834"))
+        self.assertFalse(prp.is_self_comp("v1|306942391283|0",
+                                          "306912070834-77818f5b8e"))
+
+    def test_a_shared_prefix_is_not_a_match(self):
+        """3069423912 must never match 306942391283."""
+        self.assertFalse(prp.is_self_comp("v1|3069423912|0", "306942391283"))
+        self.assertFalse(prp.is_self_comp("v1|306942391283|0", "3069423912"))
+        self.assertFalse(prp.is_self_comp("v1|306942391283|0", "3069423912834"))
+
+    def test_missing_ids_never_exclude(self):
+        """Identity must be provable; absence is not evidence."""
+        self.assertFalse(prp.is_self_comp("v1|306942391283|0", None))
+        self.assertFalse(prp.is_self_comp("v1|306942391283|0", "pr-abc123"))
+        self.assertFalse(prp.is_self_comp(None, "306942391283"))
+        self.assertFalse(prp.is_self_comp("", ""))
+
+    def test_variation_suffix_on_the_candidate_is_ignored(self):
+        for variation in ("0", "1", "12345"):
+            self.assertTrue(prp.is_self_comp(f"v1|306942391283|{variation}",
+                                             "306942391283"), variation)
+
+
+class TestSelfCompClassification(unittest.TestCase):
+    """Exclusion happens in the shared classifier, not in reporting."""
+
+    @classmethod
+    def setUpClass(cls):
+        enrich.load_surnames(db.connect())
+        cls.cand = mc.load_candidates().get("v1|306942391283|0")
+
+    def setUp(self):
+        if self.cand is None:
+            self.skipTest("Sapphire Gold not in the pool")
+        self.title = ("2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 "
+                      "GIULIANO ALESI 7/50 PSA 8")
+
+    def test_own_listing_is_rejected_as_a_self_comp(self):
+        state, why = prp.classify_comp(self.cand, self.title,
+                                       source_item_id="306942391283-23d2a0628b")
+        self.assertEqual(state, prp.REJECTED)
+        self.assertIn("self comp", why)
+        self.assertIn("306942391283", why)
+
+    def test_the_same_card_from_another_listing_is_still_accepted(self):
+        """Same serial, different item id: a real second sale of the same card."""
+        state, _why = prp.classify_comp(self.cand, self.title,
+                                        source_item_id="306912070834-77818f5b8e")
+        self.assertEqual(state, prp.ACCEPTED)
+
+    def test_without_a_source_id_behaviour_is_unchanged(self):
+        self.assertEqual(prp.classify_comp(self.cand, self.title)[0],
+                         prp.ACCEPTED)
+        self.assertEqual(
+            prp.classify_comp(self.cand, self.title, source_item_id=None)[0],
+            prp.ACCEPTED)
+
+    def test_a_synthesized_id_does_not_exclude(self):
+        self.assertEqual(
+            prp.classify_comp(self.cand, self.title,
+                              source_item_id="pr-4faa8fd4b2")[0], prp.ACCEPTED)
+
+    def test_no_stored_self_comp_remains_accepted(self):
+        conn = db.connect()
+        bad = [r for r in conn.execute(
+            "SELECT candidate_item_id, source_item_id FROM sold_comps "
+            "WHERE accepted = 1")
+            if prp.is_self_comp(r["candidate_item_id"], r["source_item_id"])]
+        self.assertEqual(bad, [])
+
+
+class TestShippingDiagnostic(unittest.TestCase):
+    """Diagnostic only - it must never move a decision."""
+
+    def diag(self, cand_ship, cand_price, comps):
+        return fr.shipping_diagnostic(cand_ship, cand_price, comps)
+
+    def test_exposes_every_required_field(self):
+        d = self.diag(5.99, 150.0, [{"sold_price": 195.0, "shipping": 32.0}])
+        for key in ("candidate_shipping", "median_comp_shipping",
+                    "median_comp_item_price", "median_comp_total",
+                    "total_cost_gap", "item_price_only_gap",
+                    "shipping_contribution", "shipping_dominated", "reason"):
+            self.assertIn(key, d)
+
+    def test_shipping_contribution_is_the_postage_difference(self):
+        d = self.diag(5.99, 150.0, [{"sold_price": 195.0, "shipping": 32.0}])
+        self.assertAlmostEqual(d["shipping_contribution"], 32.0 - 5.99, places=6)
+
+    def test_gap_decomposes_exactly(self):
+        d = self.diag(5.99, 150.0, [{"sold_price": 195.0, "shipping": 32.0}])
+        self.assertAlmostEqual(
+            d["total_cost_gap"],
+            d["item_price_only_gap"] + d["shipping_contribution"], places=6)
+
+    def test_equal_shipping_contributes_nothing(self):
+        d = self.diag(5.0, 100.0, [{"sold_price": 200.0, "shipping": 5.0}])
+        self.assertEqual(d["shipping_contribution"], 0.0)
+        self.assertFalse(d["shipping_dominated"])
+
+    def test_dominated_when_most_of_the_gap_is_postage(self):
+        # gap 30: item 10, shipping 20 -> 67%
+        d = self.diag(0.0, 100.0, [{"sold_price": 110.0, "shipping": 20.0}])
+        self.assertTrue(d["shipping_dominated"])
+        self.assertAlmostEqual(d["shipping_share_of_gap"], 20 / 30)
+
+    def test_boundary_exactly_at_the_threshold_is_dominated(self):
+        # gap 20: item 10, shipping 10 -> exactly 50%
+        d = self.diag(0.0, 100.0, [{"sold_price": 110.0, "shipping": 10.0}])
+        self.assertAlmostEqual(d["shipping_share_of_gap"], fr.SHIPPING_DOMINANCE)
+        self.assertTrue(d["shipping_dominated"])
+
+    def test_boundary_just_below_the_threshold_is_not(self):
+        # gap 20.02: item 10.02, shipping 10 -> 49.95%
+        d = self.diag(0.0, 100.0, [{"sold_price": 110.02, "shipping": 10.0}])
+        self.assertLess(d["shipping_share_of_gap"], fr.SHIPPING_DOMINANCE)
+        self.assertFalse(d["shipping_dominated"])
+
+    def test_no_discount_is_not_flagged(self):
+        d = self.diag(5.0, 300.0, [{"sold_price": 100.0, "shipping": 5.0}])
+        self.assertFalse(d["shipping_dominated"])
+        self.assertEqual(d["reason"], "no discount to attribute")
+
+    def test_no_comps_is_safe(self):
+        d = self.diag(5.0, 100.0, [])
+        self.assertFalse(d["shipping_dominated"])
+        self.assertIsNone(d["median_comp_total"])
+
+    def test_missing_shipping_on_a_comp_counts_as_zero(self):
+        d = self.diag(0.0, 100.0, [{"sold_price": 150.0, "shipping": None}])
+        self.assertEqual(d["median_comp_shipping"], 0.0)
+
+    def test_it_does_not_appear_in_the_decision(self):
+        """The flag is reporting-only; decide() has no notion of it."""
+        r = dec.decide(150.0, [{"total_price": 227.0, "sale_date": "2026-05-01"}] * 3,
+                       shipping=5.99)
+        self.assertNotIn("shipping_dominated", r)

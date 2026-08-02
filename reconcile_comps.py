@@ -45,6 +45,7 @@ def rule_for(reason):
     for needle, rule in (
             # Order matters: "raw/ungraded - no PSA grade in title" contains
             # "psa grade" but is an ungraded rejection, not a grade mismatch.
+            ("self comp", "self_comp"),
             ("raw/ungraded", "ungraded"),
             ("manufacturer/brand", "manufacturer_guard"),
             ("parallel/set", "parallel_set_identity"),
@@ -101,9 +102,10 @@ def reconcile(conn, cands, cids, write=True):
         cand = cands[cid]
         for r in conn.execute(
                 """SELECT id, raw_title, accepted, match_confidence,
-                          rejection_reason FROM sold_comps
+                          rejection_reason, source_item_id FROM sold_comps
                    WHERE candidate_item_id = ?""", (cid,)).fetchall():
-            state, reason = prp.classify_comp(cand, r["raw_title"])
+            state, reason = prp.classify_comp(
+                cand, r["raw_title"], source_item_id=r["source_item_id"])
             new_acc = 1 if state == prp.ACCEPTED else 0
             new_conf = {"accepted": "EXACT", "review_required": "REVIEW_REQUIRED",
                         "rejected": None}[state]
@@ -117,6 +119,7 @@ def reconcile(conn, cands, cids, write=True):
                 audit.append({
                     "row_id": r["id"], "candidate_item_id": cid,
                     "candidate_title": cand["title"],
+                    "comp_source_item_id": r["source_item_id"],
                     "comp_title": r["raw_title"],
                     "old_state": old_state, "new_state": state,
                     "old_reason": r["rejection_reason"], "new_reason": reason,

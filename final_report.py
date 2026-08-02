@@ -39,6 +39,62 @@ MARKUP_FORMULA = "(candidate_total_cost / median_comp_total - 1) * 100"
 BAND_EDGES = (0, 5, 10, 15, 25, 50)
 DISCOUNTS = (0, 5, 10, 15, 20, 25)
 
+# A gap is called shipping-dominated when at least this share of it comes from
+# the comps charging more postage than the candidate, rather than from the card
+# itself being cheaper. 50% is the natural line: above it, most of the apparent
+# saving is postage. DIAGNOSTIC ONLY - the real decision stays
+# shipping-inclusive and this flag never touches it.
+SHIPPING_DOMINANCE = 0.50
+
+
+def shipping_diagnostic(candidate_shipping, candidate_item_price, comps):
+    """Where an apparent discount actually comes from. Never changes a decision.
+
+    `comps` are the accepted rows, each with sold_price and shipping.
+
+      total gap      = median comp total      - candidate total cost
+      item-only gap  = median comp sold price - candidate item price
+      shipping part  = total gap - item-only gap
+
+    The shipping part is exactly the postage difference, so a candidate whose
+    comps all charge $32 against its own $5.99 shows a discount that a buyer
+    only realises on postage, not on the card.
+    """
+    priced = [c for c in comps if c.get("sold_price") is not None]
+    out = {"candidate_shipping": candidate_shipping,
+           "median_comp_shipping": None, "median_comp_item_price": None,
+           "median_comp_total": None, "total_cost_gap": None,
+           "item_price_only_gap": None, "shipping_contribution": None,
+           "shipping_share_of_gap": None,
+           "shipping_dominated": False, "reason": "no priced comps"}
+    if not priced or candidate_shipping is None or candidate_item_price is None:
+        return out
+    med_ship = statistics.median([c.get("shipping") or 0.0 for c in priced])
+    med_item = statistics.median([c["sold_price"] for c in priced])
+    med_total = statistics.median(
+        [(c["sold_price"] + (c.get("shipping") or 0.0)) for c in priced])
+    total_gap = med_total - (candidate_item_price + candidate_shipping)
+    item_gap = med_item - candidate_item_price
+    ship_part = total_gap - item_gap                 # == med_ship - cand_ship
+    out.update({"median_comp_shipping": med_ship,
+                "median_comp_item_price": med_item,
+                "median_comp_total": med_total,
+                "total_cost_gap": total_gap,
+                "item_price_only_gap": item_gap,
+                "shipping_contribution": ship_part})
+    if total_gap <= 0:
+        out["reason"] = "no discount to attribute"
+        return out
+    share = ship_part / total_gap
+    out["shipping_share_of_gap"] = share
+    out["shipping_dominated"] = share >= SHIPPING_DOMINANCE
+    out["reason"] = (
+        f"{share:.0%} of the ${total_gap:,.2f} gap is postage "
+        f"(comps median ${med_ship:,.2f} vs candidate ${candidate_shipping:,.2f})"
+        if out["shipping_dominated"] else
+        f"only {share:.0%} of the gap is postage")
+    return out
+
 
 def cohort_of(c):
     if c["parallel"] or c["print_run"]:
@@ -85,7 +141,8 @@ def rows_for(conn, pool, cands):
     out = []
     for cid, c in pool.items():
         acc = conn.execute(
-            """SELECT total_price, sale_date FROM sold_comps
+            """SELECT total_price, sale_date, sold_price, shipping
+               FROM sold_comps
                WHERE candidate_item_id = ? AND accepted = 1""", (cid,)).fetchall()
         listing = conn.execute(
             "SELECT active, price, shipping_cost FROM listings WHERE item_id = ?",
@@ -102,6 +159,10 @@ def rows_for(conn, pool, cands):
                        shipping=listing["shipping_cost"],
                        listing_active=bool(listing["active"]))
         mk = markup_pct(cost, median)
+        ship = shipping_diagnostic(
+            listing["shipping_cost"], listing["price"],
+            [{"sold_price": r["sold_price"], "shipping": r["shipping"]}
+             for r in acc])
         population = ("valued" if len(priced) >= dec.MIN_COMPS
                       else "benchmark_only" if priced else "no_benchmark")
         out.append({
@@ -123,6 +184,7 @@ def rows_for(conn, pool, cands):
             "decision": d["decision"], "reason": d["reason"],
             "downgrade_reason": d["downgrade_reason"],
             "run_status": run["status"] if run else None,
+            "shipping_diagnostic": ship,
         })
     return out
 

@@ -270,3 +270,44 @@ class TestCanonicalFieldShape(unittest.TestCase):
         for k in tt.REQUIRED:
             self.assertIn(k, f_canon, k)
             self.assertIn(k, f_tol, k)
+
+
+class TestPlayerNamePurity(unittest.TestCase):
+    """A player name must be a name - nothing else may ride along.
+
+    The Gate B manifest surfaced three: "EX-MT MARIO LEMIEUX" (a condition
+    label), "USA DYLAN CREWS" and "DEBUT PAUL GOLDSCHMIDT" (set words). Each
+    would have produced a query for a player who does not exist.
+    """
+
+    def test_a_condition_label_is_not_part_of_the_name(self):
+        f, _p, _a = P("PSA 6 EX-MT Mario Lemieux 2000-05 Stadion #148 Rare Card")
+        self.assertEqual(f["athlete"], "MARIO LEMIEUX")
+
+    def test_a_set_word_before_the_name_is_dropped(self):
+        f, _p, _a = P("Graded 2021 Stars & Stripes USA Dylan Crews #6 Base RC PSA 10")
+        self.assertEqual(f["athlete"], "DYLAN CREWS")
+
+    def test_a_product_line_word_before_the_name_is_dropped(self):
+        f, _p, _a = P("Graded 2011 Topps Pro Debut Paul Goldschmidt #145 RC PSA 10")
+        self.assertEqual(f["athlete"], "PAUL GOLDSCHMIDT")
+
+    def test_ordinary_names_are_unaffected(self):
+        for title, want in (
+                ("PSA 8 Shaquille O'Neal 1992 Hoops #1 All-Rookie Team",
+                 "SHAQUILLE O'NEAL"),
+                ("Cortez Kennedy Auto Signed 1990 Topps Traded RC 44T PSA 9",
+                 "CORTEZ KENNEDY"),
+                ("Graded 2025 Topps Now Alex Ovechkin #29 Card PSA 10",
+                 "ALEX OVECHKIN")):
+            self.assertEqual(P(title)[0]["athlete"], want, title)
+
+    def test_every_word_must_be_a_known_name_token(self):
+        """An unrecognised word blocks the name rather than riding along."""
+        self.assertIsNone(
+            tt.find_player("ZQXWOMBAT PLAYER 1990 TOPPS", "1990", None, SUR))
+
+    def test_grade_labels_are_all_excluded(self):
+        for label in ("EX-MT", "NM-MT", "GEM-MT", "VG-EX", "AUTHENTIC"):
+            self.assertIn(label.replace("-", ""), tt._NOT_NAME | {label},
+                          label)

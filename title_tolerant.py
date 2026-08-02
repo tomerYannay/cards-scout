@@ -62,6 +62,12 @@ _NOT_NAME = {
     "AUTO", "SIGNED", "AUTOGRAPH", "AUTOGRAPHED", "SIG", "THE", "OF", "AND",
     "NEW", "LOT", "BOX", "PACK", "CASE", "SEALED", "RAW", "UNGRADED", "PSA",
     "BGS", "SGC", "CGC", "BECKETT", "EDITION", "SERIES", "SET", "INSERT",
+    # PSA/BGS condition labels printed beside the grade. "PSA 6 EX-MT Mario
+    # Lemieux" must not yield a player called "EX-MT MARIO LEMIEUX".
+    "EXMT", "EX-MT", "NMMT", "NM-MT", "GEMMT", "GEM-MT", "VG", "VGEX", "VG-EX",
+    "GD", "GOOD", "POOR", "PR", "FR", "AUTHENTIC", "ALTERED",
+    # Set/product words that sit immediately before a name in some layouts.
+    "USA", "DEBUT", "PROSPECTS", "CHROME", "DRAFT", "UPDATE", "CANVAS",
 }
 
 # Product-line words that follow a manufacturer: "Topps NOW", "Panini INSTANT",
@@ -141,7 +147,7 @@ def is_auto(text):
     return bool(_AUTO_WORDS.search(text))
 
 
-def find_player(text, year_raw, grade_raw):
+def find_player(text, year_raw, grade_raw, surnames=None):
     """A player name only where the layout makes it unambiguous.
 
     Two supported layouts:
@@ -159,11 +165,17 @@ def find_player(text, year_raw, grade_raw):
         head = head.split(grade_raw)[-1]
     head = _AUTO_WORDS.sub(" ", head)
     head = re.sub(r"[^A-Z0-9'.\- ]", " ", head.upper())
-    words = [w for w in head.split() if w and w not in _NOT_NAME]
-    words = [w for w in words if not w.isdigit()]
+    words = [w for w in head.split()
+             if w and w not in _NOT_NAME and w not in PRODUCT_LINE_WORDS
+             and not w.isdigit()]
     if not 2 <= len(words) <= 4:
         return None
     if any(len(w) == 1 and not w.endswith(".") for w in words):
+        return None
+    # Every word must be one the corpus has seen in an athlete's name. Without
+    # this a stray set word ("Stars & Stripes USA Dylan Crews") rides along and
+    # the query searches for a player who does not exist.
+    if surnames and any(w.replace(".", "") not in surnames for w in words):
         return None
     return " ".join(words)
 
@@ -251,7 +263,7 @@ def extract(title, surnames=None):
     out["serial_num"], out["print_run"] = find_serial(text)
     out["is_auto"] = 1 if is_auto(text) else 0
     out["manufacturer"] = find_manufacturer(text)
-    out["athlete"] = find_player(text, year_raw, out["grade_raw"])
+    out["athlete"] = find_player(text, year_raw, out["grade_raw"], surnames)
     if not out["athlete"]:
         out["athlete"] = find_player_before_number(text, surnames)
     if out["ambiguity"]:

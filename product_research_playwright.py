@@ -454,6 +454,57 @@ def mark_review_required(conn, cid):
     return n
 
 
+def raw_artifact_path(cid, level, suffix=""):
+    stem = re.sub(r"[^0-9A-Za-z]", "", cid)[-12:]
+    return os.path.join(RAW_DIR, f"{stem}_{level}{suffix}.json")
+
+
+def write_raw_artifact(cid, level, query, *, state, rows, records, header,
+                       table_rows, date_range, run_id, batch_id,
+                       completion_status="attempt_completed"):
+    """Persist one completed attempt. Returns the path written.
+
+    `rows` is what was actually parsed and stored. `table_rows` only ever holds
+    anything on the legacy <table> layout, so writing it alone left the artifact
+    empty on every div/grid page.
+
+    A zero-row result never overwrites an existing artifact that has rows - it
+    is written alongside, keyed by run id, so re-running a candidate whose sales
+    have since aged out of the window cannot erase the earlier evidence.
+    """
+    path = raw_artifact_path(cid, level)
+    if not rows and os.path.exists(path):
+        try:
+            if (json.load(open(path, encoding="utf-8")).get("rows") or []):
+                path = raw_artifact_path(cid, level, f"_norows_{run_id}")
+        except (ValueError, OSError):
+            pass                       # unreadable historical file: leave it
+    payload = {
+        "candidate_id": cid, "run_id": run_id, "batch_id": batch_id,
+        "query": query, "level": level, "page_state": state,
+        "collected_at": now(), "date_range": date_range,
+        "row_count": len(rows), "completion_status": completion_status,
+        "source": "records" if records else ("table" if table_rows else "none"),
+        "header": header, "rows": rows, "legacy_table_rows": table_rows,
+    }
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, indent=1)
+    return path
+
+
+def finalize_raw_artifacts(paths, status):
+    """Stamp the run's real outcome onto the artifacts it wrote."""
+    for path in paths:
+        try:
+            with open(path, encoding="utf-8") as fh:
+                payload = json.load(fh)
+        except (ValueError, OSError):
+            continue
+        payload["completion_status"] = status
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump(payload, fh, indent=1)
+
+
 def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
     cid = cand["item_id"]
     run_id = run_id or new_run_id()
@@ -466,6 +517,7 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
 
     all_rows, used_level, used_query, date_range = [], None, None, "unknown"
     seen_keys, tiers_attempted, rows_seen = {}, [], 0
+    written = []                       # raw artifacts this run has written
     for level, query in prp.query_levels(cand):
         tiers_attempted.append(level)
         print(f"    [{level}] {query}")
@@ -511,19 +563,14 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
             rows = prp.rows_from_table(header, table_rows, cid, query, level)
         else:
             rows = []
+        # Every completed attempt leaves a raw artifact, including one that
+        # found nothing. A search that returned no sales is a real answer about
+        # the market and has to be as auditable as one that returned fifty.
+        written.append(write_raw_artifact(
+            cid, level, query, state=state, rows=rows, records=records,
+            header=header, table_rows=table_rows, date_range=date_range,
+            run_id=run_id, batch_id=batch_id))
         if state == prp.RESULTS_OK and rows:
-            raw_path = os.path.join(
-                RAW_DIR, f"{re.sub(r'[^0-9A-Za-z]', '', cid)[-12:]}_{level}.json")
-            with open(raw_path, "w", encoding="utf-8") as fh:
-                # `rows` is what was actually parsed and stored. `table_rows`
-                # only ever holds anything on the legacy <table> layout, so
-                # writing it alone left the artifact empty on every div/grid
-                # page - which is all of them now.
-                json.dump({"candidate_id": cid, "query": query, "level": level,
-                           "date_range": date_range, "collected_at": now(),
-                           "source": "records" if records else "table",
-                           "header": header, "rows": rows,
-                           "legacy_table_rows": table_rows}, fh, indent=1)
             # Merge across tiers, keeping the STRICTEST tier that found a sale.
             fresh = []
             for r in rows:                 # update as we go: a repeat WITHIN
@@ -556,7 +603,9 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
     if not all_rows:
         set_status(conn, cid, NO_RESULTS, run_id=run_id, query_level=used_level,
                    query_used=used_query, rows_extracted=0, date_range=date_range)
-        print("    NO RESULTS at any allowed tier")
+        finalize_raw_artifacts(written, NO_RESULTS)
+        print(f"    NO RESULTS at any allowed tier"
+              f"{' - raw artifact: ' + written[-1] if written else ''}")
         return NO_RESULTS
 
     # Attribution is already fixed (these rows came from this candidate's
@@ -596,6 +645,7 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
         return FAILED
 
     status = COMPLETED if accepted >= MIN_EXACT_COMPS else INSUFFICIENT
+    finalize_raw_artifacts(written, status)
     set_status(conn, cid, status, run_id=run_id, query_level=used_level,
                query_used=used_query,
                rows_extracted=cumulative_unique_count, rows_seen=rows_seen,

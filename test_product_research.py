@@ -2048,3 +2048,99 @@ class TestBatchLabelling(unittest.TestCase):
         # run_ids stay distinct; only the batch label is shared.
         runs = {r[0] for r in conn.execute("SELECT run_id FROM pr_runs")}
         self.assertEqual(len(runs), 2)
+
+
+class TestZeroResultArtifact(unittest.TestCase):
+    """A search that found nothing is a real answer and must be auditable.
+
+    The writer used to fire only on `state == RESULTS_OK and rows`, so the two
+    no-results runs in the 52-candidate production batch left no raw file at
+    all - their only trace was a pr_runs row.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self._raw = pw.RAW_DIR
+        pw.RAW_DIR = self.tmp.name
+        self.addCleanup(lambda: setattr(pw, "RAW_DIR", self._raw))
+
+    def write(self, rows, **over):
+        kw = dict(state=prp.RESULTS_OK if rows else prp.EMPTY_RESULTS,
+                  rows=rows, records=[], header=None, table_rows=[],
+                  date_range="last 3 year", run_id="run123", batch_id="batchA")
+        kw.update(over)
+        return pw.write_raw_artifact("v1|999|0", "STRICT", "2005 SOME QUERY", **kw)
+
+    def test_zero_result_run_writes_an_artifact(self):
+        path = self.write([])
+        self.assertTrue(os.path.exists(path))
+
+    def test_zero_result_artifact_identifies_the_run(self):
+        data = json.load(open(self.write([])))
+        self.assertEqual(data["candidate_id"], "v1|999|0")
+        self.assertEqual(data["run_id"], "run123")
+        self.assertEqual(data["batch_id"], "batchA")
+        self.assertEqual(data["query"], "2005 SOME QUERY")
+        self.assertEqual(data["level"], "STRICT")
+        self.assertEqual(data["page_state"], prp.EMPTY_RESULTS)
+        self.assertEqual(data["row_count"], 0)
+        self.assertIn("completion_status", data)
+        self.assertTrue(data["collected_at"])
+
+    def test_zero_result_artifact_fabricates_no_sales(self):
+        data = json.load(open(self.write([])))
+        self.assertEqual(data["rows"], [])
+        self.assertEqual(data["legacy_table_rows"], [])
+        self.assertEqual(data["source"], "none")
+
+    def test_completion_status_is_stamped_with_the_run_outcome(self):
+        path = self.write([])
+        pw.finalize_raw_artifacts([path], pw.NO_RESULTS)
+        self.assertEqual(json.load(open(path))["completion_status"],
+                         pw.NO_RESULTS)
+
+    def test_a_populated_run_still_writes_its_rows(self):
+        rows = [{"source_item_id": "1", "raw_title": "t", "total_price": 5.0}]
+        data = json.load(open(self.write(rows, records=[{"x": 1}])))
+        self.assertEqual(data["row_count"], 1)
+        self.assertEqual(len(data["rows"]), 1)
+        self.assertEqual(data["source"], "records")
+
+    def test_a_zero_result_never_overwrites_evidence(self):
+        """Re-running a candidate whose sales aged out must not erase them."""
+        rows = [{"source_item_id": "1", "raw_title": "t", "total_price": 5.0}]
+        first = self.write(rows, records=[{"x": 1}])
+        second = self.write([], run_id="run456")
+        self.assertNotEqual(first, second)
+        self.assertEqual(len(json.load(open(first))["rows"]), 1)
+        self.assertEqual(json.load(open(second))["row_count"], 0)
+
+    def test_a_zero_result_may_replace_an_earlier_zero_result(self):
+        first = self.write([])
+        second = self.write([], run_id="run456")
+        self.assertEqual(first, second)
+
+    def test_historical_artifacts_stay_readable(self):
+        """Old files predate run_id/page_state; readers must not require them."""
+        legacy = os.path.join(self.tmp.name, "999999999999_NORMAL.json")
+        with open(legacy, "w") as fh:
+            json.dump({"candidate_id": "v1|999|0", "query": "q",
+                       "level": "NORMAL", "rows": []}, fh)
+        data = json.load(open(legacy))
+        self.assertEqual(data["level"], "NORMAL")
+        self.assertIsNone(data.get("run_id"))
+
+    def test_zero_result_still_counts_as_researched(self):
+        """pr_runs is what marks a candidate researched, not the row count."""
+        conn = db.connect(":memory:")
+        pw.set_status(conn, "v1|999|0", pw.NO_RESULTS, run_id="run123",
+                      batch_id="batchA", rows_extracted=0)
+        row = conn.execute(
+            "SELECT status, rows_extracted FROM pr_runs WHERE candidate_id=?",
+            ("v1|999|0",)).fetchone()
+        self.assertEqual(row[0], pw.NO_RESULTS)
+        self.assertIn(pw.NO_RESULTS, pw.TERMINAL_OK)
+        researched = {r[0] for r in conn.execute(
+            "SELECT candidate_id FROM pr_runs")}
+        self.assertIn("v1|999|0", researched)

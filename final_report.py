@@ -144,6 +144,14 @@ def rows_for(conn, pool, cands):
             """SELECT total_price, sale_date, sold_price, shipping
                FROM sold_comps
                WHERE candidate_item_id = ? AND accepted = 1""", (cid,)).fetchall()
+        # Rows whose VALIDITY is unresolved. They never enter the benchmark;
+        # they only ask whether they would change the answer.
+        unc = conn.execute(
+            """SELECT total_price, sale_date FROM sold_comps
+               WHERE candidate_item_id = ? AND accepted = 0
+                 AND match_confidence = 'REVIEW_REQUIRED'
+                 AND rejection_reason LIKE '%cancelled_or_relisted_sale%'
+                 AND total_price IS NOT NULL""", (cid,)).fetchall()
         listing = conn.execute(
             "SELECT active, price, shipping_cost FROM listings WHERE item_id = ?",
             (cid,)).fetchone()
@@ -157,7 +165,10 @@ def rows_for(conn, pool, cands):
                        [{"total_price": r["total_price"], "sale_date": r["sale_date"]}
                         for r in acc],
                        shipping=listing["shipping_cost"],
-                       listing_active=bool(listing["active"]))
+                       listing_active=bool(listing["active"]),
+                       uncertain_comps=[
+                           {"total_price": r["total_price"],
+                            "sale_date": r["sale_date"]} for r in unc])
         mk = markup_pct(cost, median)
         ship = shipping_diagnostic(
             listing["shipping_cost"], listing["price"],
@@ -185,6 +196,9 @@ def rows_for(conn, pool, cands):
             "downgrade_reason": d["downgrade_reason"],
             "run_status": run["status"] if run else None,
             "shipping_diagnostic": ship,
+            "uncertain_comps": len(unc),
+            "decision_without_uncertain": d.get("decision_without_uncertain"),
+            "decision_with_uncertain": d.get("decision_with_uncertain"),
         })
     return out
 
@@ -239,6 +253,7 @@ def build(conn):
             "candidates": len(rows),
             "BUY": decisions[dec.BUY], "WATCH": decisions[dec.WATCH],
             "PASS": decisions[dec.PASS],
+            "REVIEW_REQUIRED": decisions[dec.REVIEW_REQUIRED],
             "valued": len(valued), "benchmark_only": len(bench),
             "no_benchmark": len(none_),
             "without_sufficient_benchmark": len(bench) + len(none_),
@@ -262,7 +277,8 @@ def check(report):
     valued = report["ranked_by_markup"]
     if sum(report["markup_bands"].values()) != len(valued):
         bad.append("markup bands do not total the valued population")
-    if h["BUY"] + h["WATCH"] + h["PASS"] != h["candidates"]:
+    if (h["BUY"] + h["WATCH"] + h["PASS"] + h["REVIEW_REQUIRED"]
+            != h["candidates"]):
         bad.append("decision counts do not total the candidate population")
     if h["valued"] + h["benchmark_only"] + h["no_benchmark"] != h["candidates"]:
         bad.append("populations do not total the candidate population")
@@ -292,7 +308,7 @@ def main():
     print("  FINAL ECONOMIC REPORT")
     print("=" * 78)
     print(f"  candidates {h['candidates']}   BUY {h['BUY']}   WATCH {h['WATCH']}"
-          f"   PASS {h['PASS']}")
+          f"   PASS {h['PASS']}   REVIEW_REQUIRED {h['REVIEW_REQUIRED']}")
     print(f"  valued {h['valued']}   benchmark only {h['benchmark_only']}"
           f"   no benchmark {h['no_benchmark']}")
     print(f"  at or below market {h['at_or_below_market']}"

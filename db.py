@@ -144,6 +144,11 @@ CREATE TABLE IF NOT EXISTS sold_comps (
     sale_type          TEXT,
     collected_at       TEXT,
     raw_text           TEXT,
+    -- Evidence-validity fields. NULL means NOT CAPTURED, never "was a sale":
+    -- `looks_like_sold_row` falls back to raw_text when they are absent.
+    sale_format        TEXT,
+    quantity_sold      TEXT,
+    evidence_category  TEXT,
     imported_at        TEXT NOT NULL
 );
 
@@ -164,6 +169,9 @@ CREATE TABLE IF NOT EXISTS pr_runs (
     run_id         TEXT,
     batch_id       TEXT,
     last_error     TEXT,
+    -- Which Product Research filter the page was on. An unrecorded filter is
+    -- how active listings reached a sold-comp table unnoticed.
+    filter_state   TEXT,
     updated_at     TEXT
 );
 
@@ -207,9 +215,21 @@ def connect(path=DB_PATH):
                 conn.execute(f"ALTER TABLE pr_runs ADD COLUMN {col} {kind}")
     sc = {r["name"] for r in conn.execute("PRAGMA table_info(sold_comps)")}
     if sc:
-        for col in ("sale_type", "collected_at", "raw_text", "run_id"):
+        # sale_format, quantity_sold and evidence_category are what tell a
+        # completed sale from an active listing that merely looked row-shaped.
+        # They are NULL on every row collected before this migration, and NULL
+        # must never be read as "this was a sale" - absent evidence is not
+        # evidence. `looks_like_sold_row` falls back to the persisted UI text
+        # for those rows and says so.
+        for col in ("sale_type", "collected_at", "raw_text", "run_id",
+                    "sale_format", "quantity_sold", "evidence_category"):
             if col not in sc:
                 conn.execute(f"ALTER TABLE sold_comps ADD COLUMN {col} TEXT")
+    pr2 = {r["name"] for r in conn.execute("PRAGMA table_info(pr_runs)")}
+    if pr2 and "filter_state" not in pr2:
+        # Which Product Research filter the page was on. An unrecorded filter
+        # is exactly how active listings reached a sold-comp table unnoticed.
+        conn.execute("ALTER TABLE pr_runs ADD COLUMN filter_state TEXT")
     tb = {r["name"] for r in conn.execute("PRAGMA table_info(tierb)")}
     if tb:
         for col in ("original_verdict", "tier_a_identity", "tier_b_identity",

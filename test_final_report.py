@@ -178,75 +178,9 @@ class TestHypotheticalDiscount(unittest.TestCase):
         self.assertEqual(dec.WATCH_DISCOUNT, 0.10)
 
 
-class TestSapphireGoldReconciliation(unittest.TestCase):
-    """The candidate that exposed the report contradiction, pinned to evidence.
-
-    It was a WATCH on four comps. One of those four was its OWN listing's
-    earlier sale; excluding that circular evidence raised the median from
-    $204.50 to $227.00 and made it a BUY. The threshold never moved - the
-    evidence did.
-    """
-
-    CID = "v1|306942391283|0"
-
-    @classmethod
-    def setUpClass(cls):
-        cls.report = fr.build(db.connect())
-        cls.row = next((r for r in cls.report["ranked_by_markup"]
-                        if r["candidate_id"] == cls.CID), None)
-
-    def setUp(self):
-        if self.row is None:
-            self.skipTest("Sapphire Gold not in the pool")
-
-    def test_it_is_the_only_candidate_below_market(self):
-        below = [r for r in self.report["ranked_by_markup"]
-                 if r["markup_percent"] <= 0]
-        self.assertEqual([r["candidate_id"] for r in below], [self.CID])
-
-    def test_it_is_a_buy_after_self_comp_exclusion(self):
-        self.assertEqual(self.row["decision"], dec.BUY)
-        self.assertEqual(self.row["reason"], dec.BUY_DEEP_DISCOUNT)
-        self.assertIsNone(self.row["downgrade_reason"])
-
-    def test_its_discount_clears_the_buy_threshold(self):
-        self.assertGreaterEqual(self.row["gap_percent"], dec.BUY_DISCOUNT * 100)
-
-    def test_the_self_comp_is_gone_from_its_evidence(self):
-        self.assertEqual(self.row["accepted_comps"], 3)
-        self.assertAlmostEqual(float(self.row["median_comp_total"]), 227.00)
-        conn = db.connect()
-        for r in conn.execute("SELECT source_item_id, accepted, rejection_reason "
-                              "FROM sold_comps WHERE candidate_item_id=?",
-                              (self.CID,)):
-            if prp.is_self_comp(self.CID, r["source_item_id"]):
-                self.assertEqual(r["accepted"], 0)
-                self.assertIn("self comp", r["rejection_reason"])
-
-    def test_it_ranks_first(self):
-        self.assertEqual(self.report["ranked_by_markup"][0]["candidate_id"],
-                         self.CID)
-
-    def test_its_gap_is_not_shipping_dominated(self):
-        """Postage is a minority of the gap once the self-comp is excluded."""
-        d = self.row["shipping_diagnostic"]
-        self.assertFalse(d["shipping_dominated"])
-        self.assertLess(d["shipping_share_of_gap"], fr.SHIPPING_DOMINANCE)
-        self.assertGreater(d["item_price_only_gap"], 0)
-
-    def test_shipping_no_longer_decides_it_either_way(self):
-        conn = db.connect()
-        acc = conn.execute("""SELECT total_price, sale_date FROM sold_comps
-            WHERE candidate_item_id=? AND accepted=1""", (self.CID,)).fetchall()
-        comps = [{"total_price": r["total_price"], "sale_date": r["sale_date"]}
-                 for r in acc]
-        L = conn.execute("SELECT price, shipping_cost FROM listings WHERE item_id=?",
-                         (self.CID,)).fetchone()
-        self.assertEqual(dec.decide(L["price"], comps, shipping=0.0)["decision"],
-                         dec.BUY)
-        self.assertEqual(
-            dec.decide(L["price"], comps, shipping=L["shipping_cost"])["decision"],
-            dec.BUY)
+# The Sapphire Gold's final state now lives in test_gate0.py
+# (TestSapphireGoldFinalState). It has no valid comps at all, so it no
+# longer appears in the valued ranking this module asserts over.
 
 
 class TestSelfCompIdentity(unittest.TestCase):
@@ -309,12 +243,29 @@ class TestSelfCompClassification(unittest.TestCase):
         self.title = ("2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 "
                       "GIULIANO ALESI 7/50 PSA 8")
 
-    def test_own_listing_is_rejected_as_a_self_comp(self):
+    def test_own_listing_is_no_longer_silently_discarded(self):
+        """Policy changed: an exact-item row is uncertain, not auto-rejected.
+
+        Without UI text the gate cannot tell a prior completed sale from a
+        duplicate of the live listing, so it is held for review rather than
+        thrown away - discarding it once removed the cheapest comp and turned a
+        WATCH into a BUY.
+        """
         state, why = prp.classify_comp(self.cand, self.title,
                                        source_item_id="306942391283-23d2a0628b")
-        self.assertEqual(state, prp.REJECTED)
-        self.assertIn("self comp", why)
+        self.assertEqual(state, prp.REVIEW_REQUIRED)
+        self.assertIn("cancelled_or_relisted_sale", why)
         self.assertIn("306942391283", why)
+
+    def test_own_listing_with_an_active_layout_is_a_duplicate(self):
+        """With UI text, Gate 0 resolves it outright."""
+        active = ("… GOLD #52 GIULIANO ALESI 7/50 PSA 8 Edit Sell Similar "
+                  "$150.00 +$32.00 shipping - 0 - May 16, 2026")
+        state, why = prp.classify_comp(self.cand, self.title,
+                                       source_item_id="306942391283-23d2a0628b",
+                                       raw_text=active)
+        self.assertEqual(state, prp.REJECTED)
+        self.assertIn("same_listing_duplicate", why)
 
     def test_the_same_card_from_another_listing_is_still_accepted(self):
         """Same serial, different item id: a real second sale of the same card."""

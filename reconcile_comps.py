@@ -45,6 +45,9 @@ def rule_for(reason):
     for needle, rule in (
             # Order matters: "raw/ungraded - no PSA grade in title" contains
             # "psa grade" but is an ungraded rejection, not a grade mismatch.
+            ("not_a_sale", "gate0_not_a_sale"),
+            ("same_listing_duplicate", "gate0_duplicate_listing"),
+            ("cancelled_or_relisted_sale", "exact_item_uncertain"),
             ("self comp", "self_comp"),
             ("raw/ungraded", "ungraded"),
             ("manufacturer/brand", "manufacturer_guard"),
@@ -102,10 +105,16 @@ def reconcile(conn, cands, cids, write=True):
         cand = cands[cid]
         for r in conn.execute(
                 """SELECT id, raw_title, accepted, match_confidence,
-                          rejection_reason, source_item_id FROM sold_comps
-                   WHERE candidate_item_id = ?""", (cid,)).fetchall():
+                          rejection_reason, source_item_id, raw_text,
+                          sale_format, sale_type, quantity_sold
+                   FROM sold_comps WHERE candidate_item_id = ?""",
+                (cid,)).fetchall():
             state, reason = prp.classify_comp(
-                cand, r["raw_title"], source_item_id=r["source_item_id"])
+                cand, r["raw_title"], source_item_id=r["source_item_id"],
+                raw_text=r["raw_text"],
+                persisted_fields={"sale_format": r["sale_format"],
+                                  "sale_type": r["sale_type"],
+                                  "quantity_sold": r["quantity_sold"]})
             new_acc = 1 if state == prp.ACCEPTED else 0
             new_conf = {"accepted": "EXACT", "review_required": "REVIEW_REQUIRED",
                         "rejected": None}[state]

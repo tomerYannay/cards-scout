@@ -387,14 +387,19 @@ def reclassify_comps(conn, cid, cand, only_ids=None, run_id=None):
     review_required. The matcher itself is untouched.
     """
     counts = collections.Counter()
-    sql = "SELECT id, raw_title, source_item_id FROM sold_comps WHERE candidate_item_id=?"
+    sql = ("SELECT id, raw_title, source_item_id, raw_text, sale_format, "
+           "sale_type, quantity_sold FROM sold_comps WHERE candidate_item_id=?")
     for r in conn.execute(sql, (cid,)).fetchall():
         # Only this run's rows count toward the invariant. Rows left by an
         # earlier run stay in the table but are not double-counted.
         if only_ids is not None and r["source_item_id"] not in only_ids:
             continue
-        state, reason = prp.classify_comp(cand, r["raw_title"],
-                                          source_item_id=r["source_item_id"])
+        state, reason = prp.classify_comp(
+            cand, r["raw_title"], source_item_id=r["source_item_id"],
+            raw_text=r["raw_text"],
+            persisted_fields={"sale_format": r["sale_format"],
+                              "sale_type": r["sale_type"],
+                              "quantity_sold": r["quantity_sold"]})
         counts[state] += 1
         conn.execute(
             "UPDATE sold_comps SET accepted=?, match_confidence=?, "
@@ -588,7 +593,8 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
             exact = sum(1 for r in all_rows
                         if prp.classify_comp(
                             cand, r["raw_title"],
-                            source_item_id=r.get("source_item_id"))[0]
+                            source_item_id=r.get("source_item_id"),
+                            raw_text=r.get("raw_text"))[0]
                         == prp.ACCEPTED)
             print(f"    extracted {tier_raw_count}, {tier_new_unique_count} new, "
                   f"cumulative unique {cumulative_unique_count}"
@@ -629,7 +635,8 @@ def collect_candidate(conn, page, cand, args, run_id=None, batch_id=None):
         traced = []
         for r in all_rows:
             state, reason = prp.classify_comp(
-                cand, r["raw_title"], source_item_id=r.get("source_item_id"))
+                cand, r["raw_title"], source_item_id=r.get("source_item_id"),
+                raw_text=r.get("raw_text"))
             traced.append({**r, "decision": state, "reason": reason})
         classified_ids = [r[0] for r in conn.execute(
             "SELECT source_item_id FROM sold_comps WHERE candidate_item_id=? "
@@ -1051,7 +1058,8 @@ def audit_accepted(conn, candidate_id=None, out_path="accepted_audit.json",
         repaired = prp.repair_print_run(prp.normalize_comp_title(title))
         f = parse.parse_title(repaired)["fields"]
         state, reason = prp.classify_comp(
-            cand, r["raw_title"], source_item_id=r["source_item_id"])
+            cand, r["raw_title"], source_item_id=r["source_item_id"],
+            raw_text=r["raw_text"])
         rec = {
             "candidate": cand["title"], "candidate_id": r["candidate_item_id"],
             "sold_price": r["sold_price"], "shipping": r["shipping"],

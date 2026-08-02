@@ -761,10 +761,17 @@ class TestClassificationAccounting(unittest.TestCase):
         self.conn = db.connect(os.path.join(tempfile.mkdtemp(), "t.db"))
 
     def records(self, rows):
-        """No /itm/ links, exactly as the live page renders them."""
+        """No /itm/ links, exactly as the live page renders them.
+
+        raw_text carries the real sold-row markers - "Exclude listing" and a
+        sale format - because these represent completed sales. Without them
+        Gate 0 correctly refuses the rows as an active-listing layout.
+        """
         return [{"listing": t, "avg_sold_price": p, "avg_shipping": s,
                  "date_last_sold": d, "source_item_id": "", "source_url": "",
-                 "raw_text": f"{t} {p} {s} {d}"} for t, p, s, d in rows]
+                 "raw_text": (f"{t} Edit Exclude listing {p} Fixed price "
+                              f"{s} 0% Free shipping 1 {p} - {d}")}
+                for t, p, s, d in rows]
 
     def test_rows_without_item_ids_do_not_collapse(self):
         """The bug that lost 3 of 5 live rows: an empty dedup key."""

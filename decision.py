@@ -21,6 +21,8 @@ Rules, in the order they are applied:
      - BUY   : discount >= 25%, >= 3 priced comps, newest comp <= 12 months old
      - WATCH : 10% <= discount < 25%, >= 3 priced comps
      - PASS  : discount < 10%, at or above market, or insufficient evidence
+     - REVIEW_REQUIRED : comps of unproven VALIDITY would change the answer.
+       Never for thin evidence - that stays PASS / INSUFFICIENT_EVIDENCE.
 
   4. Safety guards - these only ever downgrade
      - dispersed prices (max/min > 2.5 with min > 0) -> BUY becomes WATCH
@@ -38,6 +40,18 @@ import datetime as dt
 import statistics
 
 BUY, WATCH, PASS = "BUY", "WATCH", "PASS"
+
+# A fourth state, for evidence whose VALIDITY is unresolved - never for
+# evidence that is merely thin. Ordinary insufficient comps stay
+# PASS / INSUFFICIENT_EVIDENCE.
+#
+# Produced by exactly one condition: a candidate has comps whose completion
+# cannot be established, and including versus excluding them changes the
+# decision between BUY, WATCH and PASS. Then the answer genuinely depends on a
+# fact we do not have, and asserting either side would be a guess.
+REVIEW_REQUIRED = "REVIEW_REQUIRED"
+DECISION_STATES = (BUY, WATCH, PASS, REVIEW_REQUIRED)
+UNCERTAIN_EVIDENCE_DECIDES = "UNCERTAIN_EVIDENCE_WOULD_CHANGE_THE_DECISION"
 
 MIN_COMPS = 3
 BUY_DISCOUNT = 0.25          # >= 25% below median
@@ -103,7 +117,8 @@ def dispersion(totals):
     return max(totals) / min(totals)
 
 
-def decide(item_price, comps, today=None, listing_active=True, shipping=0.0):
+def decide(item_price, comps, today=None, listing_active=True, shipping=0.0,
+           uncertain_comps=()):
     """Classify one candidate.
 
     `comps` is a list of dicts with `total_price` and optional `sale_date`.
@@ -111,7 +126,27 @@ def decide(item_price, comps, today=None, listing_active=True, shipping=0.0):
 
     `shipping` defaults to 0.0 (nothing charged). Pass None when shipping was
     never observed - that is recorded as an incomplete cost, never as free.
+
+    `uncertain_comps` are rows that may or may not be completed sales. They
+    never enter the benchmark. They are re-run alongside the accepted ones only
+    to ask whether they WOULD change the outcome; if they would, the honest
+    answer is REVIEW_REQUIRED rather than a number that depends on a coin flip.
     """
+    result = _decide(item_price, comps, today, listing_active, shipping)
+    if not uncertain_comps:
+        return result
+    alt = _decide(item_price, list(comps) + list(uncertain_comps), today,
+                  listing_active, shipping)
+    result["uncertain_comp_count"] = len(uncertain_comps)
+    result["decision_without_uncertain"] = result["decision"]
+    result["decision_with_uncertain"] = alt["decision"]
+    if alt["decision"] != result["decision"]:
+        result["decision"] = REVIEW_REQUIRED
+        result["reason"] = UNCERTAIN_EVIDENCE_DECIDES
+    return result
+
+
+def _decide(item_price, comps, today=None, listing_active=True, shipping=0.0):
     today = today or dt.date.today()
     cost, complete = candidate_cost(item_price, shipping)
     result = {

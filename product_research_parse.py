@@ -670,6 +670,88 @@ def parallel_conflicts(candidate, raw_title):
     return None
 
 
+# --------------------------------------------------------------------------
+# Gate 0: does this row structurally represent a COMPLETED SALE?
+# --------------------------------------------------------------------------
+# Product Research renders sold transactions and the seller's own active
+# listings in visually similar rows. Four active listings were collected as if
+# they were sales, priced at their own asking price and dated to their own
+# creation, and one of them became the project's only BUY. Nothing downstream
+# can recover from that: a valuation built on asking prices is circular.
+#
+# A completed sale carries "Exclude listing" and a sale format. An active
+# listing panel carries neither. "Edit" appears on all 3,128 persisted rows and
+# "Sell Similar" on a subset of both kinds, so NEITHER is evidence of anything.
+SALE = "sale"
+NOT_A_SALE = "not_a_sale"
+UNCERTAIN = "uncertain"
+
+_EXCLUDE_MARKER = "exclude listing"
+_SALE_FORMAT_RE = re.compile(r"\b(fixed price|auction|best offer)\b", re.I)
+# The results table paginator. When it lands inside a row's text the row was
+# cut short, so a missing token proves nothing about the sale.
+_PAGINATION_RE = re.compile(r"\b(results per page|page \d+\s+results)\b", re.I)
+
+
+def looks_like_sold_row(raw_text, persisted_fields=None):
+    """(verdict, signals) - whether a stored row represents a completed sale.
+
+    Structure is the gate. Price and date coincidences are supporting
+    diagnostics only: a genuine sale can occur at the asking price on the
+    listing's own creation date, so those alone must never condemn a row.
+
+    Newer rows carry sale_format and quantity_sold directly. Older rows have
+    them NULL, which is absent evidence, not proof of a sale - those fall back
+    to the persisted UI text.
+    """
+    f = persisted_fields or {}
+    text = str(raw_text or "")
+    low = text.lower()
+    sig = {
+        "has_exclude_marker": _EXCLUDE_MARKER in low,
+        "sale_format_in_text": bool(_SALE_FORMAT_RE.search(text)),
+        "truncated_by_pagination": bool(_PAGINATION_RE.search(text)),
+        "sale_format_field": f.get("sale_format") or f.get("sale_type") or None,
+        "quantity_sold_field": f.get("quantity_sold"),
+        "has_raw_text": bool(text.strip()),
+    }
+    qty = sig["quantity_sold_field"]
+    # A recorded quantity of zero is a direct disqualifier - nothing was sold.
+    if qty is not None and str(qty).strip() not in ("", "None"):
+        try:
+            if float(qty) <= 0:
+                return NOT_A_SALE, {**sig, "reason": "quantity_sold is zero"}
+            sig["quantity_positive"] = True
+        except ValueError:
+            pass
+    if sig["sale_format_field"]:
+        return SALE, {**sig, "reason": "sale format recorded on the row"}
+    if not sig["has_raw_text"]:
+        # Nothing to judge by. Imported rows (manual CSV) have no UI text and
+        # were never scraped from a listing panel.
+        return SALE, {**sig, "reason": "no captured UI text to gate on"}
+    if sig["has_exclude_marker"] and sig["sale_format_in_text"]:
+        return SALE, {**sig, "reason": "sold-row layout: exclude marker + sale format"}
+    if sig["truncated_by_pagination"]:
+        return UNCERTAIN, {**sig,
+                           "reason": "row truncated by pagination; structure "
+                                     "cannot be established"}
+    missing = [n for n, ok in (("Exclude listing", sig["has_exclude_marker"]),
+                               ("sale format", sig["sale_format_in_text"]))
+               if not ok]
+    return NOT_A_SALE, {**sig,
+                        "reason": "active-listing layout; missing "
+                                  + " and ".join(missing)}
+
+
+# --------------------------------------------------------------------------
+# Exact-item evidence categories
+# --------------------------------------------------------------------------
+SAME_LISTING_DUPLICATE = "same_listing_duplicate"
+CANCELLED_OR_RELISTED = "cancelled_or_relisted_sale"
+SAME_ITEM_PRIOR_SALE = "same_item_prior_completed_sale"
+ORDINARY_COMP = "ordinary_independent_comp"
+
 SELF_COMP_REASON = "self comp - same eBay listing as the candidate (item {item})"
 
 # An eBay item number is a run of digits. A candidate id is "v1|<item>|<variation>";
@@ -702,21 +784,61 @@ def is_self_comp(candidate_id, source_item_id):
     return bool(mine) and mine == theirs
 
 
-def classify_comp(candidate, raw_title, source_item_id=None):
-    """accepted / rejected / review_required for one sold title.
+def evidence_category(candidate_id, source_item_id, sale_verdict):
+    """Which kind of evidence a row is, given Gate 0's verdict.
 
-    The existing matcher decides accept-or-not; this only separates "the title
-    contradicts the candidate" from "the title never states the field". A
-    missing /199 is not evidence of a different print run, but it is not proof
-    of the same one either - so it is held for review, never valued.
+    Precedence matters. A currently active listing misparsed as sold is ALWAYS
+    not_a_sale, never an exact-item prior sale - structure decides first.
 
-    A row that IS the candidate's own listing is rejected before matching: it
-    would otherwise match perfectly, being the same card.
+    A candidate is by construction an ACTIVE listing. So a row carrying the
+    candidate's own item number and a genuine sold layout means the item both
+    sold and is listed again: either a relist after a completed sale, or a
+    cancelled one. Persisted data cannot separate those, so it is uncertain -
+    not silently discarded, and not silently believed.
     """
-    if source_item_id is not None and is_self_comp(candidate.get("item_id"),
-                                                   source_item_id):
-        return REJECTED, SELF_COMP_REASON.format(
-            item=ebay_item_number(source_item_id))
+    same_item = source_item_id is not None and is_self_comp(candidate_id,
+                                                            source_item_id)
+    if sale_verdict == NOT_A_SALE:
+        return SAME_LISTING_DUPLICATE if same_item else NOT_A_SALE
+    if sale_verdict == UNCERTAIN:
+        return CANCELLED_OR_RELISTED if same_item else UNCERTAIN
+    return CANCELLED_OR_RELISTED if same_item else ORDINARY_COMP
+
+
+def classify_comp(candidate, raw_title, source_item_id=None, raw_text=None,
+                  persisted_fields=None):
+    """accepted / rejected / review_required for one sold row.
+
+    Gate 0 runs first: a row that does not structurally represent a completed
+    sale never reaches the matcher, so an active listing can never price a
+    valuation. Then the existing matcher decides accept-or-not, and this only
+    separates "the title contradicts the candidate" from "the title never
+    states the field".
+
+    `raw_text` and `persisted_fields` are optional; without them the gate has
+    nothing to judge and lets the row through to the matcher unchanged, which
+    keeps manually imported comps working.
+    """
+    if raw_text is not None or persisted_fields:
+        verdict, signals = looks_like_sold_row(raw_text, persisted_fields)
+        category = evidence_category(candidate.get("item_id"), source_item_id,
+                                     verdict)
+        if verdict == NOT_A_SALE:
+            return REJECTED, (f"{category} - {signals['reason']}")
+        if verdict == UNCERTAIN:
+            return REVIEW_REQUIRED, (f"{category} - {signals['reason']}")
+        if category == CANCELLED_OR_RELISTED:
+            # Same item, genuine sold layout, and the listing is active again.
+            return REVIEW_REQUIRED, (
+                f"{category} - same eBay listing as the candidate "
+                f"(item {ebay_item_number(source_item_id)}); the card is "
+                f"listed again, so completion is unproven")
+    elif source_item_id is not None and is_self_comp(candidate.get("item_id"),
+                                                     source_item_id):
+        # No UI text to gate on, but the item number is the candidate's own.
+        return REVIEW_REQUIRED, (
+            f"{CANCELLED_OR_RELISTED} - same eBay listing as the candidate "
+            f"(item {ebay_item_number(source_item_id)}); completion unproven")
     title = repair_print_run(normalize_comp_title(clean_listing_title(raw_title)),
                              candidate.get("print_run"))
     ok, reason, _norm = mc.match(candidate, title)

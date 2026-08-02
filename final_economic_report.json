@@ -1,20 +1,21 @@
 {
- "generated_at": "2026-08-02T14:40:10.822870+00:00",
+ "generated_at": "2026-08-02T15:03:22.548136+00:00",
  "markup_formula": "(candidate_total_cost / median_comp_total - 1) * 100",
  "headline": {
   "candidates": 93,
-  "BUY": 1,
+  "BUY": 0,
   "WATCH": 0,
-  "PASS": 92,
-  "valued": 77,
+  "PASS": 93,
+  "REVIEW_REQUIRED": 0,
+  "valued": 76,
   "benchmark_only": 8,
-  "no_benchmark": 8,
-  "without_sufficient_benchmark": 16,
+  "no_benchmark": 9,
+  "without_sufficient_benchmark": 17,
   "above_market_over_50pct": 76,
-  "at_or_below_market": 1
+  "at_or_below_market": 0
  },
  "markup_bands": {
-  "at or below market": 1,
+  "at or below market": 0,
   "above market 0-5%": 0,
   "above market 5-10%": 0,
   "above market 10-15%": 0,
@@ -23,9 +24,9 @@
   "above market over 50%": 76
  },
  "markup_quartiles_pct": [
-  273.07692307692315,
-  671.1129637348896,
-  1406.83057949245
+  300.5375411825906,
+  682.1930813979033,
+  1489.4405335309373
  ],
  "by_cohort": {
   "auto": {
@@ -41,9 +42,9 @@
    "max_markup_pct": 13539.295232454839
   },
   "parallel/serial": {
-   "valued": 22,
-   "median_markup_pct": 496.06608267869643,
-   "min_markup_pct": -31.281938325991188,
+   "valued": 21,
+   "median_markup_pct": 547.5778175313059,
+   "min_markup_pct": 64.40569395017795,
    "max_markup_pct": 329640.36675398913
   },
   "qualifier": {
@@ -56,78 +57,42 @@
  "hypothetical_discount": {
   "actual": {
    "discount_pct": 0,
-   "BUY": 1,
+   "BUY": 0,
    "WATCH": 0,
    "PASS": 76
   },
   "5%": {
    "discount_pct": 5,
-   "BUY": 1,
+   "BUY": 0,
    "WATCH": 0,
    "PASS": 76
   },
   "10%": {
    "discount_pct": 10,
-   "BUY": 1,
+   "BUY": 0,
    "WATCH": 0,
    "PASS": 76
   },
   "15%": {
    "discount_pct": 15,
-   "BUY": 1,
+   "BUY": 0,
    "WATCH": 0,
    "PASS": 76
   },
   "20%": {
    "discount_pct": 20,
-   "BUY": 1,
+   "BUY": 0,
    "WATCH": 0,
    "PASS": 76
   },
   "25%": {
    "discount_pct": 25,
-   "BUY": 1,
+   "BUY": 0,
    "WATCH": 0,
    "PASS": 76
   }
  },
  "ranked_by_markup": [
-  {
-   "candidate_id": "v1|306942391283|0",
-   "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 GIULIANO ALESI 7/50 PSA 8",
-   "canonical_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|GOLD|#52|NUMERIC:8|/50|RACING",
-   "effective_slab_key": "cf065a6bca6ffdde",
-   "cohort": "parallel/serial",
-   "population": "valued",
-   "item_price": 150.0,
-   "shipping": 5.99,
-   "total_candidate_cost": 155.99,
-   "cost_complete": true,
-   "accepted_comps": 3,
-   "median_comp_total": 227.0,
-   "confidence": "MEDIUM",
-   "gap_absolute": 71.00999999999999,
-   "gap_percent": 31.281938325991188,
-   "markup_percent": -31.281938325991188,
-   "cost_to_market_ratio": 0.6871806167400881,
-   "markup_band": "at or below market",
-   "decision": "BUY",
-   "reason": "BUY_DISCOUNT_AT_OR_ABOVE_25",
-   "downgrade_reason": null,
-   "run_status": "completed",
-   "shipping_diagnostic": {
-    "candidate_shipping": 5.99,
-    "median_comp_shipping": 32.0,
-    "median_comp_item_price": 195.0,
-    "median_comp_total": 227.0,
-    "total_cost_gap": 71.00999999999999,
-    "item_price_only_gap": 45.0,
-    "shipping_contribution": 26.00999999999999,
-    "shipping_share_of_gap": 0.36628643852978443,
-    "shipping_dominated": false,
-    "reason": "only 37% of the gap is postage"
-   }
-  },
   {
    "candidate_id": "v1|306570353612|0",
    "title": "1984 TOPPS NESTLE HAND CUT #182 DARRYL STRAWBERRY PSA 10 AUTO 10",
@@ -162,7 +127,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306105391673|0",
@@ -198,7 +166,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307003000827|0",
@@ -234,7 +205,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306417077149|0",
@@ -270,7 +244,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117117277814|0",
@@ -306,7 +283,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307093015116|0",
@@ -342,7 +322,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306704116968|0",
@@ -378,7 +361,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298256667294|0",
@@ -414,7 +400,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307008867017|0",
@@ -450,7 +439,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306953491657|0",
@@ -486,7 +478,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298146364325|0",
@@ -522,7 +517,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306926770518|0",
@@ -558,7 +556,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117233440832|0",
@@ -594,7 +595,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307021579023|0",
@@ -630,7 +634,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307086092272|0",
@@ -666,7 +673,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306978971222|0",
@@ -702,7 +712,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|297697607302|0",
@@ -738,7 +751,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117275588306|0",
@@ -774,7 +790,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307061497481|0",
@@ -810,7 +829,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|297924700955|0",
@@ -846,7 +868,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306767926719|0",
@@ -882,7 +907,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298543520510|0",
@@ -918,7 +946,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306994093939|0",
@@ -954,7 +985,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306972998992|0",
@@ -990,7 +1024,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307074125682|0",
@@ -1026,7 +1063,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|297620912575|0",
@@ -1062,7 +1102,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306627276905|0",
@@ -1098,7 +1141,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307073949024|0",
@@ -1134,7 +1180,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307035264330|0",
@@ -1170,7 +1219,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306971032786|0",
@@ -1206,7 +1258,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307007698538|0",
@@ -1242,7 +1297,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306900945155|0",
@@ -1278,7 +1336,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307010202693|0",
@@ -1314,7 +1375,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306949583070|0",
@@ -1350,7 +1414,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298544831895|0",
@@ -1386,7 +1453,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306937139505|0",
@@ -1422,7 +1492,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298264618164|0",
@@ -1458,7 +1531,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307075619100|0",
@@ -1494,7 +1570,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306981354821|0",
@@ -1530,7 +1609,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307082355484|0",
@@ -1566,7 +1648,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307021030433|0",
@@ -1602,7 +1687,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306981381523|0",
@@ -1638,7 +1726,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298339574816|0",
@@ -1674,7 +1765,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298544784209|0",
@@ -1710,7 +1804,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307014124964|0",
@@ -1746,7 +1843,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307095634461|0",
@@ -1782,7 +1882,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306977321999|0",
@@ -1818,7 +1921,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298041011637|0",
@@ -1854,7 +1960,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298313048510|0",
@@ -1890,7 +1999,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306852423561|0",
@@ -1926,7 +2038,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298292151257|0",
@@ -1962,7 +2077,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|297528086982|0",
@@ -1998,7 +2116,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117183556887|0",
@@ -2034,7 +2155,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307095682119|0",
@@ -2070,7 +2194,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306434204931|0",
@@ -2106,43 +2233,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
-  },
-  {
-   "candidate_id": "v1|298388071229|0",
-   "title": "1993 HOOPS JORDAN/WILKINS/MALONE #283 SCORING LEADERS PSA 10",
-   "canonical_identity": "1993|HOOPS|BASE|None|#283|NUMERIC:10|BASKETBALL",
-   "effective_slab_key": "938fa6f831f2e598",
-   "cohort": "base",
-   "population": "valued",
-   "item_price": 699.0,
-   "shipping": 5.99,
-   "total_candidate_cost": 704.99,
-   "cost_complete": true,
-   "accepted_comps": 77,
-   "median_comp_total": 47.49,
-   "confidence": "HIGH",
-   "gap_absolute": -657.5,
-   "gap_percent": -1384.5020004211412,
-   "markup_percent": 1384.5020004211412,
-   "cost_to_market_ratio": 14.845020004211413,
-   "markup_band": "above market over 50%",
-   "decision": "PASS",
-   "reason": "PASS_AT_OR_ABOVE_MARKET",
-   "downgrade_reason": null,
-   "run_status": "completed",
-   "shipping_diagnostic": {
-    "candidate_shipping": 5.99,
-    "median_comp_shipping": 3.75,
-    "median_comp_item_price": 42.39,
-    "median_comp_total": 47.49,
-    "total_cost_gap": -657.5,
-    "item_price_only_gap": -656.61,
-    "shipping_contribution": -0.8899999999999864,
-    "shipping_share_of_gap": null,
-    "shipping_dominated": false,
-    "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306906854221|0",
@@ -2178,7 +2272,49 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
+  },
+  {
+   "candidate_id": "v1|298388071229|0",
+   "title": "1993 HOOPS JORDAN/WILKINS/MALONE #283 SCORING LEADERS PSA 10",
+   "canonical_identity": "1993|HOOPS|BASE|None|#283|NUMERIC:10|BASKETBALL",
+   "effective_slab_key": "938fa6f831f2e598",
+   "cohort": "base",
+   "population": "valued",
+   "item_price": 699.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 704.99,
+   "cost_complete": true,
+   "accepted_comps": 76,
+   "median_comp_total": 46.74,
+   "confidence": "HIGH",
+   "gap_absolute": -658.25,
+   "gap_percent": -1408.3226358579375,
+   "markup_percent": 1408.3226358579375,
+   "cost_to_market_ratio": 15.083226358579374,
+   "markup_band": "above market over 50%",
+   "decision": "PASS",
+   "reason": "PASS_AT_OR_ABOVE_MARKET",
+   "downgrade_reason": null,
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": 3.87,
+    "median_comp_item_price": 42.195,
+    "median_comp_total": 46.74,
+    "total_cost_gap": -658.25,
+    "item_price_only_gap": -656.805,
+    "shipping_contribution": -1.44500000000005,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no discount to attribute"
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298544656425|0",
@@ -2214,7 +2350,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306909410630|0",
@@ -2250,7 +2389,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307095490869|0",
@@ -2286,7 +2428,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298544669882|0",
@@ -2322,7 +2467,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|297673833355|0",
@@ -2358,7 +2506,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117259580124|0",
@@ -2394,7 +2545,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298544674763|0",
@@ -2430,7 +2584,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307070613421|0",
@@ -2466,7 +2623,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306763273985|0",
@@ -2502,7 +2662,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307095495253|0",
@@ -2538,7 +2701,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117330528413|0",
@@ -2574,7 +2740,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117330553310|0",
@@ -2610,7 +2779,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307045790828|0",
@@ -2646,7 +2818,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|117330558241|0",
@@ -2682,7 +2857,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307095491318|0",
@@ -2718,7 +2896,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298544668693|0",
@@ -2754,7 +2935,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|297446087094|0",
@@ -2790,7 +2974,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298292207649|0",
@@ -2826,7 +3013,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306925759220|0",
@@ -2862,7 +3052,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   }
  ],
  "benchmark_only": [
@@ -2900,7 +3093,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306843266563|0",
@@ -2936,7 +3132,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306833068700|0",
@@ -2972,7 +3171,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306988140575|0",
@@ -3008,7 +3210,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298311791224|0",
@@ -3044,7 +3249,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298349022480|0",
@@ -3080,7 +3288,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306571479992|0",
@@ -3116,7 +3327,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298509952879|0",
@@ -3152,7 +3366,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no discount to attribute"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   }
  ],
  "no_benchmark": [
@@ -3190,7 +3407,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306190117422|0",
@@ -3226,7 +3446,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306564595993|0",
@@ -3262,7 +3485,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306417771465|0",
@@ -3298,7 +3524,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|298278946915|0",
@@ -3334,7 +3563,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|306912075747|0",
@@ -3370,7 +3602,49 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
+  },
+  {
+   "candidate_id": "v1|306942391283|0",
+   "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 GIULIANO ALESI 7/50 PSA 8",
+   "canonical_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|GOLD|#52|NUMERIC:8|/50|RACING",
+   "effective_slab_key": "cf065a6bca6ffdde",
+   "cohort": "parallel/serial",
+   "population": "no_benchmark",
+   "item_price": 150.0,
+   "shipping": 5.99,
+   "total_candidate_cost": 155.99,
+   "cost_complete": true,
+   "accepted_comps": 0,
+   "median_comp_total": null,
+   "confidence": "NONE",
+   "gap_absolute": null,
+   "gap_percent": null,
+   "markup_percent": null,
+   "cost_to_market_ratio": null,
+   "markup_band": null,
+   "decision": "PASS",
+   "reason": "INSUFFICIENT_EVIDENCE",
+   "downgrade_reason": null,
+   "run_status": "completed",
+   "shipping_diagnostic": {
+    "candidate_shipping": 5.99,
+    "median_comp_shipping": null,
+    "median_comp_item_price": null,
+    "median_comp_total": null,
+    "total_cost_gap": null,
+    "item_price_only_gap": null,
+    "shipping_contribution": null,
+    "shipping_share_of_gap": null,
+    "shipping_dominated": false,
+    "reason": "no priced comps"
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|297711604305|0",
@@ -3406,7 +3680,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   },
   {
    "candidate_id": "v1|307023672532|0",
@@ -3442,7 +3719,10 @@
     "shipping_share_of_gap": null,
     "shipping_dominated": false,
     "reason": "no priced comps"
-   }
+   },
+   "uncertain_comps": 0,
+   "decision_without_uncertain": null,
+   "decision_with_uncertain": null
   }
  ]
 }

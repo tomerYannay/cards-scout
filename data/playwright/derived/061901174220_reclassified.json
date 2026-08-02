@@ -1,0 +1,66 @@
+{
+ "candidate_id": "v1|306190117422|0",
+ "title": "2011 BOWMAN CHROME GOLD REFRACTOR #151 ALEX RODRIGUEZ 34/50 PSA 9",
+ "canonical_identity": "2011|BOWMAN|CHROME|GOLD REFRACTOR|#151|NUMERIC:9|/50|BASEBALL",
+ "provenance": "DERIVED - reclassified from rows already stored in sold_comps. No live Product Research call was made. The raw artifacts under data/playwright/raw are unmodified.",
+ "reclassified_at": "2026-08-02T13:04:57.456466+00:00",
+ "policy": [
+  "manufacturer/brand guard (A)",
+  "NORMAL query invariant (B)"
+ ],
+ "before": {
+  "n": 1,
+  "accepted": 0,
+  "median": null,
+  "min": null,
+  "max": null,
+  "conf": "NONE",
+  "decision": "PASS",
+  "reason": "INSUFFICIENT_EVIDENCE"
+ },
+ "after": {
+  "n": 1,
+  "accepted": 0,
+  "median": null,
+  "min": null,
+  "max": null,
+  "conf": "NONE",
+  "decision": "PASS",
+  "reason": "INSUFFICIENT_EVIDENCE"
+ },
+ "accepted_count": 0,
+ "total_rows": 1,
+ "accepted_price_min": null,
+ "accepted_price_max": null,
+ "accepted_price_median": null,
+ "decision": {
+  "decision": "PASS",
+  "reason": "INSUFFICIENT_EVIDENCE",
+  "asking_price": 395.0,
+  "median_market_total": null,
+  "gross_gap": null,
+  "gross_pct": null,
+  "comp_count": 0,
+  "min_total": null,
+  "max_total": null,
+  "dispersion": null,
+  "confidence": "NONE",
+  "most_recent_sale": null,
+  "downgrade_reason": null,
+  "basis": "gross opportunity before taxes, import costs, marketplace fees and resale costs"
+ },
+ "rows": [
+  {
+   "source_item_id": "127925940426-6d10e6fbb8",
+   "raw_title": "2011 Bowman Chrome Alex Rodriguez Gold Refractor #/50 New York Yankees PSA 9",
+   "sold_price": 182.5,
+   "shipping": 0.0,
+   "total_price": 182.5,
+   "sale_date": "2026-06-21",
+   "accepted": 0,
+   "rejection_reason": "card number None != 151 (field absent from title, not a conflict)",
+   "query_tier": "STRICT",
+   "run_id": "f21872c2ab1a4c16"
+  }
+ ]
+}

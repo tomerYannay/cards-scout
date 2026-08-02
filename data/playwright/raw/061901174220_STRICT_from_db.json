@@ -1,0 +1,23 @@
+{
+ "candidate_id": "v1|306190117422|0",
+ "level": "STRICT",
+ "source": "reconstructed_from_db",
+ "note": "the live artifact was written before the hollow-rows fix; these rows come from sold_comps, not a re-scrape",
+ "row_count": 1,
+ "rows": [
+  {
+   "source_item_id": "127925940426-6d10e6fbb8",
+   "raw_title": "2011 Bowman Chrome Alex Rodriguez Gold Refractor #/50 New York Yankees PSA 9",
+   "sold_price": 182.5,
+   "shipping": 0.0,
+   "total_price": 182.5,
+   "sale_date": "2026-06-21",
+   "condition": "",
+   "sale_type": "AUCTION",
+   "accepted": 0,
+   "rejection_reason": "card number None != 151 (field absent from title, not a conflict)",
+   "query_tier": "STRICT",
+   "run_id": "f21872c2ab1a4c16"
+  }
+ ]
+}

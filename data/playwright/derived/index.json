@@ -1,0 +1,40 @@
+{
+ "generated_at": "2026-08-02T13:04:57.456466+00:00",
+ "candidates": [
+  {
+   "candidate_id": "v1|117330528413|0",
+   "title": "1989 FLEER #21 MICHAEL JORDAN PSA 6",
+   "path": "data/playwright/derived/173305284130_reclassified.json",
+   "accepted": 34,
+   "decision": "PASS"
+  },
+  {
+   "candidate_id": "v1|297620912575|0",
+   "title": "1989 FLEER #602 JOHN SMOLTZ ROOKIE RC PSA 9 AUTO 10",
+   "path": "data/playwright/derived/976209125750_reclassified.json",
+   "accepted": 14,
+   "decision": "PASS"
+  },
+  {
+   "candidate_id": "v1|306190117422|0",
+   "title": "2011 BOWMAN CHROME GOLD REFRACTOR #151 ALEX RODRIGUEZ 34/50 PSA 9",
+   "path": "data/playwright/derived/061901174220_reclassified.json",
+   "accepted": 0,
+   "decision": "PASS"
+  },
+  {
+   "candidate_id": "v1|298146364325|0",
+   "title": "2011 BOWMAN CHROME PROSPECTS #BCP99 PAUL GOLDSCHMIDT PSA 9",
+   "path": "data/playwright/derived/981463643250_reclassified.json",
+   "accepted": 21,
+   "decision": "PASS"
+  },
+  {
+   "candidate_id": "v1|306949583070|0",
+   "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+   "path": "data/playwright/derived/069495830700_reclassified.json",
+   "accepted": 46,
+   "decision": "PASS"
+  }
+ ]
+}

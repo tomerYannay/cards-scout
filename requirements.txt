@@ -1,0 +1,10 @@
+# Direct dependencies, pinned to the versions used in development.
+# Transitive packages (certifi, idna, urllib3, soupsieve, pyee, greenlet, ...)
+# are resolved by pip.
+
+requests==2.32.5
+beautifulsoup4==4.15.0
+
+# Only needed for the Product Research collector
+# (product_research_playwright.py). Also run: playwright install chromium
+playwright==1.60.0

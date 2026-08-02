@@ -1,0 +1,4495 @@
+[
+ {
+  "item_id": "v1|298311791224|0",
+  "title": "1959 TOPPS #350 ERNIE BANKS PSA 4 MC",
+  "asking_price": 129.99,
+  "shipping": 5.99,
+  "effective_identity": "1959|TOPPS|BASE|None|#350|NUMERIC:4+MC|BASEBALL",
+  "effective_card_key": "b7d9e10fb21cb240",
+  "effective_slab_key": "a304f2fdf0488062",
+  "year": 1959,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "ERNIE BANKS",
+  "card_number": "350",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "4",
+  "grade_type": "NUMERIC",
+  "qualifier": "MC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298425204935|0",
+    "title": "1959 TOPPS #350 ERNIE BANKS PSA 4 MC",
+    "price": 102.3,
+    "shipping": 5.99,
+    "total": 108.28999999999999
+   },
+   {
+    "item_id": "v1|298311791224|0",
+    "title": "1959 TOPPS #350 ERNIE BANKS PSA 4 MC",
+    "price": 129.99,
+    "shipping": 5.99,
+    "total": 135.98000000000002
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307082355484|0",
+  "title": "1961 TOPPS #300 MICKEY MANTLE PSA 8 OC",
+  "asking_price": 7600.0,
+  "shipping": 5.99,
+  "effective_identity": "1961|TOPPS|BASE|None|#300|NUMERIC:8+OC|BASEBALL",
+  "effective_card_key": "0e3c7d7f0422fea1",
+  "effective_slab_key": "ac3a73f150c7b211",
+  "year": 1961,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "MICKEY MANTLE",
+  "card_number": "300",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306147815321|0",
+    "title": "1961 TOPPS #300 MICKEY MANTLE PSA 8 OC",
+    "price": 4500.0,
+    "shipping": 5.99,
+    "total": 4505.99
+   },
+   {
+    "item_id": "v1|307082355484|0",
+    "title": "1961 TOPPS #300 MICKEY MANTLE PSA 8 OC",
+    "price": 7600.0,
+    "shipping": 5.99,
+    "total": 7605.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117233440832|0",
+  "title": "1967 TOPPS #430 PETE ROSE PSA 8 OC",
+  "asking_price": 699.0,
+  "shipping": 5.99,
+  "effective_identity": "1967|TOPPS|BASE|None|#430|NUMERIC:8+OC|BASEBALL",
+  "effective_card_key": "dff6945280851c67",
+  "effective_slab_key": "2a4ef7ac4b33a80a",
+  "year": 1967,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "PETE ROSE",
+  "card_number": "430",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298499805769|0",
+    "title": "1967 TOPPS #430 PETE ROSE PSA 8 OC",
+    "price": 550.0,
+    "shipping": 5.99,
+    "total": 555.99
+   },
+   {
+    "item_id": "v1|117233440832|0",
+    "title": "1967 TOPPS #430 PETE ROSE PSA 8 OC",
+    "price": 699.0,
+    "shipping": 5.99,
+    "total": 704.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306833068700|0",
+  "title": "1967 TOPPS #200 WILLIE MAYS PSA 5 MC",
+  "asking_price": 239.99,
+  "shipping": 5.99,
+  "effective_identity": "1967|TOPPS|BASE|None|#200|NUMERIC:5+MC|BASEBALL",
+  "effective_card_key": "e379babf76bc31c1",
+  "effective_slab_key": "cd489d876d5ebb3b",
+  "year": 1967,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "WILLIE MAYS",
+  "card_number": "200",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "5",
+  "grade_type": "NUMERIC",
+  "qualifier": "MC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298507603731|0",
+    "title": "1967 TOPPS #200 WILLIE MAYS PSA 5 MC",
+    "price": 169.99,
+    "shipping": 5.99,
+    "total": 175.98000000000002
+   },
+   {
+    "item_id": "v1|306833068700|0",
+    "title": "1967 TOPPS #200 WILLIE MAYS PSA 5 MC",
+    "price": 239.99,
+    "shipping": 5.99,
+    "total": 245.98000000000002
+   },
+   {
+    "item_id": "v1|117094711364|0",
+    "title": "1967 TOPPS #200 WILLIE MAYS PSA 5 MC",
+    "price": 229.99,
+    "shipping": 5.99,
+    "total": 235.98000000000002
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306988140575|0",
+  "title": "1968 TOPPS #230 PETE ROSE PSA 3 MC",
+  "asking_price": 100.0,
+  "shipping": 5.99,
+  "effective_identity": "1968|TOPPS|BASE|None|#230|NUMERIC:3+MC|BASEBALL",
+  "effective_card_key": "01f03f6951d5ad63",
+  "effective_slab_key": "cd2e7f538aafc31e",
+  "year": 1968,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "PETE ROSE",
+  "card_number": "230",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "3",
+  "grade_type": "NUMERIC",
+  "qualifier": "MC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307072155008|0",
+    "title": "1968 TOPPS #230 PETE ROSE PSA 3 MC",
+    "price": 50.0,
+    "shipping": 5.99,
+    "total": 55.99
+   },
+   {
+    "item_id": "v1|306988140575|0",
+    "title": "1968 TOPPS #230 PETE ROSE PSA 3 MC",
+    "price": 100.0,
+    "shipping": 5.99,
+    "total": 105.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306843266563|0",
+  "title": "1972 TOPPS #49 WILLIE MAYS PSA 4 MK",
+  "asking_price": 61.0,
+  "shipping": 5.99,
+  "effective_identity": "1972|TOPPS|BASE|None|#49|NUMERIC:4+MK|BASEBALL",
+  "effective_card_key": "498b0a7d8d7b006d",
+  "effective_slab_key": "0dcb055f290bd3f3",
+  "year": 1972,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "WILLIE MAYS",
+  "card_number": "49",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "4",
+  "grade_type": "NUMERIC",
+  "qualifier": "MK",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306983053493|0",
+    "title": "1972 TOPPS #49 WILLIE MAYS PSA 4 MK",
+    "price": 45.0,
+    "shipping": 5.99,
+    "total": 50.99
+   },
+   {
+    "item_id": "v1|306843266563|0",
+    "title": "1972 TOPPS #49 WILLIE MAYS PSA 4 MK",
+    "price": 61.0,
+    "shipping": 5.99,
+    "total": 66.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117275588306|0",
+  "title": "1973 TOPPS #89 FRANCO HARRIS PSA 8 OC",
+  "asking_price": 460.0,
+  "shipping": 5.99,
+  "effective_identity": "1973|TOPPS|BASE|None|#89|NUMERIC:8+OC|FOOTBALL",
+  "effective_card_key": "cba02de98558149e",
+  "effective_slab_key": "e345f4c3613d0f2f",
+  "year": 1973,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "FRANCO HARRIS",
+  "card_number": "89",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117134307383|0",
+    "title": "1973 TOPPS #89 FRANCO HARRIS PSA 8 OC",
+    "price": 350.0,
+    "shipping": 5.99,
+    "total": 355.99
+   },
+   {
+    "item_id": "v1|117275588306|0",
+    "title": "1973 TOPPS #89 FRANCO HARRIS PSA 8 OC",
+    "price": 460.0,
+    "shipping": 5.99,
+    "total": 465.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298339574816|0",
+  "title": "1978 TOPPS #270 CARLTON FISK PSA 5",
+  "asking_price": 101.42,
+  "shipping": 5.99,
+  "effective_identity": "1978|TOPPS|BASE|None|#270|NUMERIC:5|BASEBALL",
+  "effective_card_key": "84101396bd650d7e",
+  "effective_slab_key": "55df61355d3a8395",
+  "year": 1978,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "CARLTON FISK",
+  "card_number": "270",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "5",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|305978990432|0",
+    "title": "1978 TOPPS #270 CARLTON FISK PSA 5",
+    "price": 15.0,
+    "shipping": 5.99,
+    "total": 20.990000000000002
+   },
+   {
+    "item_id": "v1|116835355505|0",
+    "title": "1978 TOPPS #270 CARLTON FISK PSA 5",
+    "price": 35.0,
+    "shipping": 5.99,
+    "total": 40.99
+   },
+   {
+    "item_id": "v1|298339574816|0",
+    "title": "1978 TOPPS #270 CARLTON FISK PSA 5",
+    "price": 101.42,
+    "shipping": 5.99,
+    "total": 107.41
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306937139505|0",
+  "title": "1980 TOPPS #160 EDDIE MURRAY PSA 8",
+  "asking_price": 125.0,
+  "shipping": 5.99,
+  "effective_identity": "1980|TOPPS|BASE|None|#160|NUMERIC:8|BASEBALL",
+  "effective_card_key": "920930a723a93b29",
+  "effective_slab_key": "b922de082280d680",
+  "year": 1980,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "EDDIE MURRAY",
+  "card_number": "160",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306613774941|0",
+    "title": "1980 TOPPS #160 EDDIE MURRAY PSA 8",
+    "price": 25.0,
+    "shipping": 5.99,
+    "total": 30.990000000000002
+   },
+   {
+    "item_id": "v1|306937139505|0",
+    "title": "1980 TOPPS #160 EDDIE MURRAY PSA 8",
+    "price": 125.0,
+    "shipping": 5.99,
+    "total": 130.99
+   },
+   {
+    "item_id": "v1|298334162074|0",
+    "title": "1980 TOPPS #160 EDDIE MURRAY PSA 8",
+    "price": 200.0,
+    "shipping": 5.99,
+    "total": 205.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117183556887|0",
+  "title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+  "asking_price": 999.23,
+  "shipping": 5.99,
+  "effective_identity": "1981|DONRUSS|GOLF|None|#13|NUMERIC:9+OC|GOLF",
+  "effective_card_key": "f5bb0f810feff19c",
+  "effective_slab_key": "e7822bd54fc9b478",
+  "year": 1981,
+  "manufacturer": "DONRUSS",
+  "set": "GOLF",
+  "subject": "JACK NICKLAUS",
+  "card_number": "13",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117298945890|0",
+    "title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+    "price": 189.99,
+    "shipping": 5.99,
+    "total": 195.98000000000002
+   },
+   {
+    "item_id": "v1|117183556887|0",
+    "title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+    "price": 999.23,
+    "shipping": 5.99,
+    "total": 1005.22
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298292151257|0",
+  "title": "1981 TOPPS #194 ART MONK PSA 6",
+  "asking_price": 120.0,
+  "shipping": 5.99,
+  "effective_identity": "1981|TOPPS|BASE|None|#194|NUMERIC:6|FOOTBALL",
+  "effective_card_key": "dc17b8fd8b858b00",
+  "effective_slab_key": "a9a7a8094022ccf1",
+  "year": 1981,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "ART MONK",
+  "card_number": "194",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "6",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|116904235923|0",
+    "title": "1981 TOPPS #194 ART MONK PSA 6",
+    "price": 15.0,
+    "shipping": 5.99,
+    "total": 20.990000000000002
+   },
+   {
+    "item_id": "v1|297452611694|0",
+    "title": "1981 TOPPS #194 ART MONK PSA 6",
+    "price": 20.0,
+    "shipping": 5.99,
+    "total": 25.990000000000002
+   },
+   {
+    "item_id": "v1|298292151257|0",
+    "title": "1981 TOPPS #194 ART MONK PSA 6",
+    "price": 120.0,
+    "shipping": 5.99,
+    "total": 125.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307021579023|0",
+  "title": "1982 TOPPS TRADED #98T CAL RIPKEN JR. ROOKIE RC PSA 8 AUTO 10",
+  "asking_price": 2099.99,
+  "shipping": 5.99,
+  "effective_identity": "1982|TOPPS|TRADED|None|#98T|NUMERIC:8+AUTO10|BASEBALL",
+  "effective_card_key": "bf647e4c7cc1f876",
+  "effective_slab_key": "434578dd396111e9",
+  "year": 1982,
+  "manufacturer": "TOPPS",
+  "set": "TRADED",
+  "subject": "CAL RIPKEN JR",
+  "card_number": "98T",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": "10",
+  "group_members": [
+   {
+    "item_id": "v1|307075228033|0",
+    "title": "1982 TOPPS TRADED #98T CAL RIPKEN JR. ROOKIE RC PSA 8 AUTO 10",
+    "price": 1000.0,
+    "shipping": 5.99,
+    "total": 1005.99
+   },
+   {
+    "item_id": "v1|117015351670|0",
+    "title": "1982 TOPPS TRADED #98T CAL RIPKEN JR. ROOKIE RC PSA 8 AUTO 10",
+    "price": 999.0,
+    "shipping": 5.99,
+    "total": 1004.99
+   },
+   {
+    "item_id": "v1|307021579023|0",
+    "title": "1982 TOPPS TRADED #98T CAL RIPKEN JR. ROOKIE RC PSA 8 AUTO 10",
+    "price": 2099.99,
+    "shipping": 5.99,
+    "total": 2105.9799999999996
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298256667294|0",
+  "title": "1983 TOPPS #482 TONY GWYNN ROOKIE RC PSA 9 OC",
+  "asking_price": 375.0,
+  "shipping": 5.99,
+  "effective_identity": "1983|TOPPS|BASE|None|#482|NUMERIC:9+OC|BASEBALL",
+  "effective_card_key": "c167d672c2e1161d",
+  "effective_slab_key": "e174734523474235",
+  "year": 1983,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "TONY GWYNN",
+  "card_number": "482",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|305982889163|0",
+    "title": "1983 TOPPS #482 TONY GWYNN ROOKIE RC PSA 9 OC",
+    "price": 299.0,
+    "shipping": 5.99,
+    "total": 304.99
+   },
+   {
+    "item_id": "v1|298256667294|0",
+    "title": "1983 TOPPS #482 TONY GWYNN ROOKIE RC PSA 9 OC",
+    "price": 375.0,
+    "shipping": 5.99,
+    "total": 380.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307074125682|0",
+  "title": "1983 TOPPS #498 WADE BOGGS ROOKIE RC PSA 9 OC",
+  "asking_price": 200.0,
+  "shipping": 5.99,
+  "effective_identity": "1983|TOPPS|BASE|None|#498|NUMERIC:9+OC|BASEBALL",
+  "effective_card_key": "062505fc61bcf860",
+  "effective_slab_key": "10b5314021e7c1d8",
+  "year": 1983,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "WADE BOGGS",
+  "card_number": "498",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117221389641|0",
+    "title": "1983 TOPPS #498 WADE BOGGS ROOKIE RC PSA 9 OC",
+    "price": 125.0,
+    "shipping": 5.99,
+    "total": 130.99
+   },
+   {
+    "item_id": "v1|307074125682|0",
+    "title": "1983 TOPPS #498 WADE BOGGS ROOKIE RC PSA 9 OC",
+    "price": 200.0,
+    "shipping": 5.99,
+    "total": 205.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298264618164|0",
+  "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+  "asking_price": 89.99,
+  "shipping": 5.99,
+  "effective_identity": "1984|TOPPS|BASE|None|#490|NUMERIC:8|BASEBALL",
+  "effective_card_key": "49743038fb67170d",
+  "effective_slab_key": "72fe255b3fa4c2b3",
+  "year": 1984,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "CAL RIPKEN JR",
+  "card_number": "490",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|116938668733|0",
+    "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+    "price": 20.0,
+    "shipping": 5.99,
+    "total": 25.990000000000002
+   },
+   {
+    "item_id": "v1|117252976478|0",
+    "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+    "price": 28.99,
+    "shipping": 5.99,
+    "total": 34.98
+   },
+   {
+    "item_id": "v1|298264618164|0",
+    "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+    "price": 89.99,
+    "shipping": 5.99,
+    "total": 95.97999999999999
+   },
+   {
+    "item_id": "v1|117192267340|0",
+    "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+    "price": 100.0,
+    "shipping": 5.99,
+    "total": 105.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298313048510|0",
+  "title": "1984 TOPPS #780 STEVE CARLTON PSA 8",
+  "asking_price": 130.0,
+  "shipping": 5.99,
+  "effective_identity": "1984|TOPPS|BASE|None|#780|NUMERIC:8|BASEBALL",
+  "effective_card_key": "f80893efcaf6b32f",
+  "effective_slab_key": "af72e8c8c17004ce",
+  "year": 1984,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "STEVE CARLTON",
+  "card_number": "780",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307000345378|0",
+    "title": "1984 TOPPS #780 STEVE CARLTON PSA 8",
+    "price": 24.99,
+    "shipping": 5.99,
+    "total": 30.979999999999997
+   },
+   {
+    "item_id": "v1|298312622934|0",
+    "title": "1984 TOPPS #780 STEVE CARLTON PSA 8",
+    "price": 100.0,
+    "shipping": 5.99,
+    "total": 105.99
+   },
+   {
+    "item_id": "v1|298313048510|0",
+    "title": "1984 TOPPS #780 STEVE CARLTON PSA 8",
+    "price": 130.0,
+    "shipping": 5.99,
+    "total": 135.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306570353612|0",
+  "title": "1984 TOPPS NESTLE HAND CUT #182 DARRYL STRAWBERRY PSA 10 AUTO 10",
+  "asking_price": 1499.99,
+  "shipping": 5.99,
+  "effective_identity": "1984|TOPPS|NESTLE HAND CUT|None|#182|NUMERIC:10+AUTO10|BASEBALL",
+  "effective_card_key": "bf32d9c8df5c507d",
+  "effective_slab_key": "7e6ba1995916d39b",
+  "year": 1984,
+  "manufacturer": "TOPPS",
+  "set": "NESTLE HAND CUT",
+  "subject": "DARRYL STRAWBERRY",
+  "card_number": "182",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": "10",
+  "group_members": [
+   {
+    "item_id": "v1|298419843953|0",
+    "title": "1984 TOPPS NESTLE HAND CUT #182 DARRYL STRAWBERRY PSA 10 AUTO 10",
+    "price": 1400.0,
+    "shipping": 5.99,
+    "total": 1405.99
+   },
+   {
+    "item_id": "v1|306570353612|0",
+    "title": "1984 TOPPS NESTLE HAND CUT #182 DARRYL STRAWBERRY PSA 10 AUTO 10",
+    "price": 1499.99,
+    "shipping": 5.99,
+    "total": 1505.98
+   },
+   {
+    "item_id": "v1|306570264508|0",
+    "title": "1984 TOPPS NESTLE HAND CUT #182 DARRYL STRAWBERRY PSA 10 AUTO 10",
+    "price": 1400.0,
+    "shipping": 5.99,
+    "total": 1405.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306767926719|0",
+  "title": "1984 TOPPS #228 WALTER PAYTON PSA 6",
+  "asking_price": 45.0,
+  "shipping": 5.99,
+  "effective_identity": "1984|TOPPS|BASE|None|#228|NUMERIC:6|FOOTBALL",
+  "effective_card_key": "5f5bb59d714b2789",
+  "effective_slab_key": "15c7120a9ed42261",
+  "year": 1984,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "WALTER PAYTON",
+  "card_number": "228",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "6",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307089235002|0",
+    "title": "1984 TOPPS #228 WALTER PAYTON PSA 6",
+    "price": 22.99,
+    "shipping": 5.99,
+    "total": 28.979999999999997
+   },
+   {
+    "item_id": "v1|306767926719|0",
+    "title": "1984 TOPPS #228 WALTER PAYTON PSA 6",
+    "price": 45.0,
+    "shipping": 5.99,
+    "total": 50.99
+   },
+   {
+    "item_id": "v1|298277070066|0",
+    "title": "1984 TOPPS #228 WALTER PAYTON PSA 6",
+    "price": 49.99,
+    "shipping": 5.99,
+    "total": 55.980000000000004
+   },
+   {
+    "item_id": "v1|298517919778|0",
+    "title": "1984 TOPPS #228 WALTER PAYTON PSA 6",
+    "price": 200.0,
+    "shipping": 5.99,
+    "total": 205.99
+   },
+   {
+    "item_id": "v1|117311286086|0",
+    "title": "1984 TOPPS #228 WALTER PAYTON PSA 6",
+    "price": 200.0,
+    "shipping": 5.99,
+    "total": 205.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306978971222|0",
+  "title": "1984 TOPPS #63 JOHN ELWAY PSA 6",
+  "asking_price": 149.99,
+  "shipping": 5.99,
+  "effective_identity": "1984|TOPPS|BASE|None|#63|NUMERIC:6|FOOTBALL",
+  "effective_card_key": "e8b79c620a7f3c03",
+  "effective_slab_key": "89989130de44e15f",
+  "year": 1984,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "JOHN ELWAY",
+  "card_number": "63",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "6",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117289805192|0",
+    "title": "1984 TOPPS #63 JOHN ELWAY PSA 6",
+    "price": 70.0,
+    "shipping": 5.99,
+    "total": 75.99
+   },
+   {
+    "item_id": "v1|306978971222|0",
+    "title": "1984 TOPPS #63 JOHN ELWAY PSA 6",
+    "price": 149.99,
+    "shipping": 5.99,
+    "total": 155.98000000000002
+   },
+   {
+    "item_id": "v1|298540997191|0",
+    "title": "1984 TOPPS #63 JOHN ELWAY PSA 6",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306994093939|0",
+  "title": "1984 DONRUSS #248 DON MATTINGLY ROOKIE RC PSA 9 OC",
+  "asking_price": 500.0,
+  "shipping": 5.99,
+  "effective_identity": "1984|DONRUSS|BASE|None|#248|NUMERIC:9+OC|BASEBALL",
+  "effective_card_key": "09a213fc4b48d664",
+  "effective_slab_key": "e17fd3170ff9b518",
+  "year": 1984,
+  "manufacturer": "DONRUSS",
+  "set": "BASE",
+  "subject": "DON MATTINGLY",
+  "card_number": "248",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298490829523|0",
+    "title": "1984 DONRUSS #248 DON MATTINGLY ROOKIE RC PSA 9 OC",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|306994093939|0",
+    "title": "1984 DONRUSS #248 DON MATTINGLY ROOKIE RC PSA 9 OC",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307070613421|0",
+  "title": "1986 TOPPS #1 PETE ROSE PSA 6",
+  "asking_price": 150.0,
+  "shipping": 5.99,
+  "effective_identity": "1986|TOPPS|BASE|None|#1|NUMERIC:6|BASEBALL",
+  "effective_card_key": "299299ad03f5bc57",
+  "effective_slab_key": "e9e24954dd0fc28c",
+  "year": 1986,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "PETE ROSE",
+  "card_number": "1",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "6",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306142039289|0",
+    "title": "1986 TOPPS #1 PETE ROSE PSA 6",
+    "price": 15.0,
+    "shipping": 5.99,
+    "total": 20.990000000000002
+   },
+   {
+    "item_id": "v1|297398915185|0",
+    "title": "1986 TOPPS #1 PETE ROSE PSA 6",
+    "price": 40.0,
+    "shipping": 5.99,
+    "total": 45.99
+   },
+   {
+    "item_id": "v1|307070613421|0",
+    "title": "1986 TOPPS #1 PETE ROSE PSA 6",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307086092272|0",
+  "title": "1986 FLEER STICKER #8 MICHAEL JORDAN PSA 9 ST",
+  "asking_price": 8500.0,
+  "shipping": 5.99,
+  "effective_identity": "1986|FLEER|STICKER|None|#8|NUMERIC:9+ST|BASKETBALL",
+  "effective_card_key": "833d6d7e41cfaa28",
+  "effective_slab_key": "6df4e5b87e2d363f",
+  "year": 1986,
+  "manufacturer": "FLEER",
+  "set": "STICKER",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "8",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": "ST",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298518219129|0",
+    "title": "1986 FLEER STICKER #8 MICHAEL JORDAN PSA 9 ST",
+    "price": 6500.0,
+    "shipping": 5.99,
+    "total": 6505.99
+   },
+   {
+    "item_id": "v1|307086092272|0",
+    "title": "1986 FLEER STICKER #8 MICHAEL JORDAN PSA 9 ST",
+    "price": 8500.0,
+    "shipping": 5.99,
+    "total": 8505.99
+   },
+   {
+    "item_id": "v1|307010181266|0",
+    "title": "1986 FLEER STICKER #8 MICHAEL JORDAN PSA 9 ST",
+    "price": 8200.0,
+    "shipping": 5.99,
+    "total": 8205.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306981354821|0",
+  "title": "1988 FLEER #17 MICHAEL JORDAN PSA 9 OC",
+  "asking_price": 1599.0,
+  "shipping": 5.99,
+  "effective_identity": "1988|FLEER|BASE|None|#17|NUMERIC:9+OC|BASKETBALL",
+  "effective_card_key": "24e55e92c6af9096",
+  "effective_slab_key": "d254c6e09395812e",
+  "year": 1988,
+  "manufacturer": "FLEER",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "17",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117321543856|0",
+    "title": "1988 FLEER #17 MICHAEL JORDAN PSA 9 OC",
+    "price": 850.0,
+    "shipping": 5.99,
+    "total": 855.99
+   },
+   {
+    "item_id": "v1|117274618451|0",
+    "title": "1988 FLEER #17 MICHAEL JORDAN PSA 9 OC",
+    "price": 1200.0,
+    "shipping": 5.99,
+    "total": 1205.99
+   },
+   {
+    "item_id": "v1|298447330211|0",
+    "title": "1988 FLEER #17 MICHAEL JORDAN PSA 9 OC",
+    "price": 1050.0,
+    "shipping": 5.99,
+    "total": 1055.99
+   },
+   {
+    "item_id": "v1|306981354821|0",
+    "title": "1988 FLEER #17 MICHAEL JORDAN PSA 9 OC",
+    "price": 1599.0,
+    "shipping": 5.99,
+    "total": 1604.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117259580124|0",
+  "title": "1989 UD STAR ROOKIE #25 RANDY JOHNSON ROOKIE RC PSA 8",
+  "asking_price": 260.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|UPPER DECK|BASE|STAR ROOKIE|#25|NUMERIC:8|BASEBALL",
+  "effective_card_key": "fdfca0f56992e8ec",
+  "effective_slab_key": "eae94770d49aa385",
+  "year": 1989,
+  "manufacturer": "UPPER DECK",
+  "set": "BASE",
+  "subject": "RANDY JOHNSON",
+  "card_number": "25",
+  "parallel": "STAR ROOKIE",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307088029241|0",
+    "title": "1989 UD STAR ROOKIE #25 RANDY JOHNSON ROOKIE RC PSA 8",
+    "price": 15.0,
+    "shipping": 5.99,
+    "total": 20.990000000000002
+   },
+   {
+    "item_id": "v1|117254146932|0",
+    "title": "1989 UD STAR ROOKIE #25 RANDY JOHNSON ROOKIE RC PSA 8",
+    "price": 29.99,
+    "shipping": 5.99,
+    "total": 35.98
+   },
+   {
+    "item_id": "v1|117259580124|0",
+    "title": "1989 UD STAR ROOKIE #25 RANDY JOHNSON ROOKIE RC PSA 8",
+    "price": 260.0,
+    "shipping": 5.99,
+    "total": 265.99
+   },
+   {
+    "item_id": "v1|117213160112|0",
+    "title": "1989 UD STAR ROOKIE #25 RANDY JOHNSON ROOKIE RC PSA 8",
+    "price": 300.0,
+    "shipping": 5.99,
+    "total": 305.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117330528413|0",
+  "title": "1989 FLEER #21 MICHAEL JORDAN PSA 6",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|FLEER|BASE|None|#21|NUMERIC:6|BASKETBALL",
+  "effective_card_key": "49182d1b40c27eae",
+  "effective_slab_key": "9880be31b95ac264",
+  "year": 1989,
+  "manufacturer": "FLEER",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "21",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "6",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298504955108|0",
+    "title": "1989 FLEER #21 MICHAEL JORDAN PSA 6",
+    "price": 65.0,
+    "shipping": 5.99,
+    "total": 70.99
+   },
+   {
+    "item_id": "v1|117330528367|0",
+    "title": "1989 FLEER #21 MICHAEL JORDAN PSA 6",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|117330528413|0",
+    "title": "1989 FLEER #21 MICHAEL JORDAN PSA 6",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|297620912575|0",
+  "title": "1989 FLEER #602 JOHN SMOLTZ ROOKIE RC PSA 9 AUTO 10",
+  "asking_price": 350.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|FLEER|BASE|None|#602|NUMERIC:9+AUTO10|BASEBALL",
+  "effective_card_key": "5f6b29f5eb210d30",
+  "effective_slab_key": "dae7d5cddaa21151",
+  "year": 1989,
+  "manufacturer": "FLEER",
+  "set": "BASE",
+  "subject": "JOHN SMOLTZ",
+  "card_number": "602",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": "10",
+  "group_members": [
+   {
+    "item_id": "v1|297669373524|0",
+    "title": "1989 FLEER #602 JOHN SMOLTZ ROOKIE RC PSA 9 AUTO 10",
+    "price": 300.0,
+    "shipping": 5.99,
+    "total": 305.99
+   },
+   {
+    "item_id": "v1|297442401756|0",
+    "title": "1989 FLEER #602 JOHN SMOLTZ ROOKIE RC PSA 9 AUTO 10",
+    "price": 300.0,
+    "shipping": 5.99,
+    "total": 305.99
+   },
+   {
+    "item_id": "v1|297620912575|0",
+    "title": "1989 FLEER #602 JOHN SMOLTZ ROOKIE RC PSA 9 AUTO 10",
+    "price": 350.0,
+    "shipping": 5.99,
+    "total": 355.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298292207649|0",
+  "title": "1989 BOWMAN #220 KEN GRIFFEY JR. ROOKIE RC PSA 9",
+  "asking_price": 4600.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|BOWMAN|BASE|None|#220|NUMERIC:9|BASEBALL",
+  "effective_card_key": "61be7c512d1ff943",
+  "effective_slab_key": "3ba3ae78da845b3f",
+  "year": 1989,
+  "manufacturer": "BOWMAN",
+  "set": "BASE",
+  "subject": "KEN GRIFFEY JR",
+  "card_number": "220",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|297199541740|0",
+    "title": "1989 BOWMAN #220 KEN GRIFFEY JR. ROOKIE RC PSA 9",
+    "price": 75.0,
+    "shipping": 5.99,
+    "total": 80.99
+   },
+   {
+    "item_id": "v1|117222004691|0",
+    "title": "1989 BOWMAN #220 KEN GRIFFEY JR. ROOKIE RC PSA 9",
+    "price": 2300.0,
+    "shipping": 5.99,
+    "total": 2305.99
+   },
+   {
+    "item_id": "v1|298292207649|0",
+    "title": "1989 BOWMAN #220 KEN GRIFFEY JR. ROOKIE RC PSA 9",
+    "price": 4600.0,
+    "shipping": 5.99,
+    "total": 4605.99
+   },
+   {
+    "item_id": "v1|117235085591|0",
+    "title": "1989 BOWMAN #220 KEN GRIFFEY JR. ROOKIE RC PSA 9",
+    "price": 1800.0,
+    "shipping": 5.99,
+    "total": 1805.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307014124964|0",
+  "title": "1989 BOWMAN #259 KEN GRIFFEY PSA 8",
+  "asking_price": 93.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|BOWMAN|BASE|None|#259|NUMERIC:8|BASEBALL",
+  "effective_card_key": "86a3541b37a1eed0",
+  "effective_slab_key": "5081eb43956759fd",
+  "year": 1989,
+  "manufacturer": "BOWMAN",
+  "set": "BASE",
+  "subject": "KEN GRIFFEY",
+  "card_number": "259",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|297277179216|0",
+    "title": "1989 BOWMAN #259 KEN GRIFFEY PSA 8",
+    "price": 17.99,
+    "shipping": 5.99,
+    "total": 23.979999999999997
+   },
+   {
+    "item_id": "v1|298435387746|0",
+    "title": "1989 BOWMAN #259 KEN GRIFFEY PSA 8",
+    "price": 90.0,
+    "shipping": 5.99,
+    "total": 95.99
+   },
+   {
+    "item_id": "v1|307014124964|0",
+    "title": "1989 BOWMAN #259 KEN GRIFFEY PSA 8",
+    "price": 93.0,
+    "shipping": 5.99,
+    "total": 98.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307035264330|0",
+  "title": "1989 FLEER STICKER #3 MICHAEL JORDAN PSA 8 OC",
+  "asking_price": 101.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|FLEER|STICKER|None|#3|NUMERIC:8+OC|BASKETBALL",
+  "effective_card_key": "575fe1ccb4d336d9",
+  "effective_slab_key": "102b7b0ff088ca22",
+  "year": 1989,
+  "manufacturer": "FLEER",
+  "set": "STICKER",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "3",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": "OC",
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117277639268|0",
+    "title": "1989 FLEER STICKER #3 MICHAEL JORDAN PSA 8 OC",
+    "price": 99.0,
+    "shipping": 5.99,
+    "total": 104.99
+   },
+   {
+    "item_id": "v1|307035264330|0",
+    "title": "1989 FLEER STICKER #3 MICHAEL JORDAN PSA 8 OC",
+    "price": 101.0,
+    "shipping": 5.99,
+    "total": 106.99
+   },
+   {
+    "item_id": "v1|307035262402|0",
+    "title": "1989 FLEER STICKER #3 MICHAEL JORDAN PSA 8 OC",
+    "price": 149.0,
+    "shipping": 5.99,
+    "total": 154.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307061497481|0",
+  "title": "1989 SCORE #257 BARRY SANDERS ROOKIE RC PSA 9 AUTO 10",
+  "asking_price": 1999.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|SCORE|BASE|None|#257|NUMERIC:9+AUTO10|FOOTBALL",
+  "effective_card_key": "afd089dee34e0294",
+  "effective_slab_key": "b300bf37c86624f6",
+  "year": 1989,
+  "manufacturer": "SCORE",
+  "set": "BASE",
+  "subject": "BARRY SANDERS",
+  "card_number": "257",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": "10",
+  "group_members": [
+   {
+    "item_id": "v1|298513754798|0",
+    "title": "1989 SCORE #257 BARRY SANDERS ROOKIE RC PSA 9 AUTO 10",
+    "price": 1500.0,
+    "shipping": 5.99,
+    "total": 1505.99
+   },
+   {
+    "item_id": "v1|307061497481|0",
+    "title": "1989 SCORE #257 BARRY SANDERS ROOKIE RC PSA 9 AUTO 10",
+    "price": 1999.0,
+    "shipping": 5.99,
+    "total": 2004.99
+   },
+   {
+    "item_id": "v1|307055552347|0",
+    "title": "1989 SCORE #257 BARRY SANDERS ROOKIE RC PSA 9 AUTO 10",
+    "price": 2999.0,
+    "shipping": 5.99,
+    "total": 3004.99
+   },
+   {
+    "item_id": "v1|298497393840|0",
+    "title": "1989 SCORE #257 BARRY SANDERS ROOKIE RC PSA 9 AUTO 10",
+    "price": 2299.0,
+    "shipping": 5.99,
+    "total": 2304.99
+   },
+   {
+    "item_id": "v1|117296185717|0",
+    "title": "1989 SCORE #257 BARRY SANDERS ROOKIE RC PSA 9 AUTO 10",
+    "price": 2500.0,
+    "shipping": 5.99,
+    "total": 2505.99
+   },
+   {
+    "item_id": "v1|306978748119|0",
+    "title": "1989 SCORE #257 BARRY SANDERS ROOKIE RC PSA 9 AUTO 10",
+    "price": 2000.0,
+    "shipping": 5.99,
+    "total": 2005.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307073949024|0",
+  "title": "1989 UD STAR ROOKIE #1 KEN GRIFFEY JR. ROOKIE RC PSA 7",
+  "asking_price": 495.0,
+  "shipping": 5.99,
+  "effective_identity": "1989|UPPER DECK|BASE|STAR ROOKIE|#1|NUMERIC:7|BASEBALL",
+  "effective_card_key": "066e07caba9eb381",
+  "effective_slab_key": "5a3c12a14211321a",
+  "year": 1989,
+  "manufacturer": "UPPER DECK",
+  "set": "BASE",
+  "subject": "KEN GRIFFEY JR",
+  "card_number": "1",
+  "parallel": "STAR ROOKIE",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "7",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298341091054|0",
+    "title": "1989 UD STAR ROOKIE #1 KEN GRIFFEY JR. ROOKIE RC PSA 7",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   },
+   {
+    "item_id": "v1|307073949024|0",
+    "title": "1989 UD STAR ROOKIE #1 KEN GRIFFEY JR. ROOKIE RC PSA 7",
+    "price": 495.0,
+    "shipping": 5.99,
+    "total": 500.99
+   },
+   {
+    "item_id": "v1|298485993631|0",
+    "title": "1989 UD STAR ROOKIE #1 KEN GRIFFEY JR. ROOKIE RC PSA 7",
+    "price": 1500.0,
+    "shipping": 5.99,
+    "total": 1505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|297924700955|0",
+  "title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+  "asking_price": 225.0,
+  "shipping": 5.99,
+  "effective_identity": "1990|FLEER|UPDATE|None|#U-92|NUMERIC:9+AUTO10|BASKETBALL",
+  "effective_card_key": "0d644ecda29fe7c2",
+  "effective_slab_key": "4f8897ef7827798d",
+  "year": 1990,
+  "manufacturer": "FLEER",
+  "set": "UPDATE",
+  "subject": "GARY PAYTON",
+  "card_number": "U-92",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": "10",
+  "group_members": [
+   {
+    "item_id": "v1|298369638575|0",
+    "title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   },
+   {
+    "item_id": "v1|297924700955|0",
+    "title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+    "price": 225.0,
+    "shipping": 5.99,
+    "total": 230.99
+   },
+   {
+    "item_id": "v1|117244175916|0",
+    "title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+    "price": 250.0,
+    "shipping": 5.99,
+    "total": 255.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306925759220|0",
+  "title": "1990 HOOPS SHOWS MICHAEL JORDAN #223 SAM VINCENT PSA 8",
+  "asking_price": 69223.0,
+  "shipping": 5.99,
+  "effective_identity": "1990|HOOPS|BASE|SHOWS MICHAEL JORDAN|#223|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "b911333803c19a4a",
+  "effective_slab_key": "c26f072b3d651db3",
+  "year": 1990,
+  "manufacturer": "HOOPS",
+  "set": "BASE",
+  "subject": "SAM VINCENT",
+  "card_number": "223",
+  "parallel": "SHOWS MICHAEL JORDAN",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117234602404|0",
+    "title": "1990 HOOPS SHOWS MICHAEL JORDAN #223 SAM VINCENT PSA 8",
+    "price": 49.99,
+    "shipping": 5.99,
+    "total": 55.980000000000004
+   },
+   {
+    "item_id": "v1|117145495525|0",
+    "title": "1990 HOOPS SHOWS MICHAEL JORDAN #223 SAM VINCENT PSA 8",
+    "price": 61.77,
+    "shipping": 5.99,
+    "total": 67.76
+   },
+   {
+    "item_id": "v1|297625450180|0",
+    "title": "1990 HOOPS SHOWS MICHAEL JORDAN #223 SAM VINCENT PSA 8",
+    "price": 250.0,
+    "shipping": 5.99,
+    "total": 255.99
+   },
+   {
+    "item_id": "v1|117330545522|0",
+    "title": "1990 HOOPS SHOWS MICHAEL JORDAN #223 SAM VINCENT PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|306925759220|0",
+    "title": "1990 HOOPS SHOWS MICHAEL JORDAN #223 SAM VINCENT PSA 8",
+    "price": 69223.0,
+    "shipping": 5.99,
+    "total": 69228.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117330553310|0",
+  "title": "1991 HOOPS #536 MICHAEL JORDAN PSA 8",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1991|HOOPS|BASE|None|#536|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "2caddd74a4b8e0ea",
+  "effective_slab_key": "3613ce3aafd404c0",
+  "year": 1991,
+  "manufacturer": "HOOPS",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "536",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298199701876|0",
+    "title": "1991 HOOPS #536 MICHAEL JORDAN PSA 8",
+    "price": 31.0,
+    "shipping": 5.99,
+    "total": 36.99
+   },
+   {
+    "item_id": "v1|117283527451|0",
+    "title": "1991 HOOPS #536 MICHAEL JORDAN PSA 8",
+    "price": 50.0,
+    "shipping": 5.99,
+    "total": 55.99
+   },
+   {
+    "item_id": "v1|117330548725|0",
+    "title": "1991 HOOPS #536 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|117330553310|0",
+    "title": "1991 HOOPS #536 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|297446087094|0",
+  "title": "1991 HOOPS ALL-STAR #253 MICHAEL JORDAN PSA 6",
+  "asking_price": 555.55,
+  "shipping": 5.99,
+  "effective_identity": "1991|HOOPS|BASE|ALL-STAR|#253|NUMERIC:6|BASKETBALL",
+  "effective_card_key": "54b1c3910948b2e7",
+  "effective_slab_key": "a2d73169ef66ad16",
+  "year": 1991,
+  "manufacturer": "HOOPS",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "253",
+  "parallel": "ALL-STAR",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "6",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298160106415|0",
+    "title": "1991 HOOPS ALL-STAR #253 MICHAEL JORDAN PSA 6",
+    "price": 23.23,
+    "shipping": 5.99,
+    "total": 29.22
+   },
+   {
+    "item_id": "v1|117122764817|0",
+    "title": "1991 HOOPS ALL-STAR #253 MICHAEL JORDAN PSA 6",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   },
+   {
+    "item_id": "v1|117330523559|0",
+    "title": "1991 HOOPS ALL-STAR #253 MICHAEL JORDAN PSA 6",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|297446087094|0",
+    "title": "1991 HOOPS ALL-STAR #253 MICHAEL JORDAN PSA 6",
+    "price": 555.55,
+    "shipping": 5.99,
+    "total": 561.54
+   }
+  ]
+ },
+ {
+  "item_id": "v1|297673833355|0",
+  "title": "1991 HOOPS #30 MICHAEL JORDAN PSA 8",
+  "asking_price": 350.0,
+  "shipping": 5.99,
+  "effective_identity": "1991|HOOPS|BASE|None|#30|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "21dca29b5e3de919",
+  "effective_slab_key": "93dc47ebf0dd5d7e",
+  "year": 1991,
+  "manufacturer": "HOOPS",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "30",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306391880342|0",
+    "title": "1991 HOOPS #30 MICHAEL JORDAN PSA 8",
+    "price": 24.0,
+    "shipping": 5.99,
+    "total": 29.990000000000002
+   },
+   {
+    "item_id": "v1|116818229093|0",
+    "title": "1991 HOOPS #30 MICHAEL JORDAN PSA 8",
+    "price": 250.0,
+    "shipping": 5.99,
+    "total": 255.99
+   },
+   {
+    "item_id": "v1|297673833355|0",
+    "title": "1991 HOOPS #30 MICHAEL JORDAN PSA 8",
+    "price": 350.0,
+    "shipping": 5.99,
+    "total": 355.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307095490869|0",
+  "title": "1991 FLEER PRO-VISIONS #2 MICHAEL JORDAN PSA 8",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1991|FLEER|PRO VISIONS|None|#2|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "0745bca66bffbe8d",
+  "effective_slab_key": "608f3b74533b6201",
+  "year": 1991,
+  "manufacturer": "FLEER",
+  "set": "PRO VISIONS",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "2",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298184570764|0",
+    "title": "1991 FLEER PRO-VISIONS #2 MICHAEL JORDAN PSA 8",
+    "price": 79.97,
+    "shipping": 5.99,
+    "total": 85.96
+   },
+   {
+    "item_id": "v1|307095490869|0",
+    "title": "1991 FLEER PRO-VISIONS #2 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|307095472989|0",
+    "title": "1991 FLEER PRO-VISIONS #2 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307095491318|0",
+  "title": "1991 UD #69 MICHAEL JORDAN PSA 8",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1991|UPPER DECK|BASE|None|#69|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "9a26dd39f66f611d",
+  "effective_slab_key": "63098d22c11c8aa1",
+  "year": 1991,
+  "manufacturer": "UPPER DECK",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "69",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298407449589|0",
+    "title": "1991 UD #69 MICHAEL JORDAN PSA 8",
+    "price": 39.0,
+    "shipping": 5.99,
+    "total": 44.99
+   },
+   {
+    "item_id": "v1|306917888155|0",
+    "title": "1991 UD #69 MICHAEL JORDAN PSA 8",
+    "price": 90.0,
+    "shipping": 5.99,
+    "total": 95.99
+   },
+   {
+    "item_id": "v1|117330528314|0",
+    "title": "1991 UD #69 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|298544656376|0",
+    "title": "1991 UD #69 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|307095491318|0",
+    "title": "1991 UD #69 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298544656425|0",
+  "title": "1992 UD MVP #67 MICHAEL JORDAN PSA 9",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1992|UPPER DECK|BASE|MVP|#67|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "af5777f6f9de95be",
+  "effective_slab_key": "0dd14aa78503796b",
+  "year": 1992,
+  "manufacturer": "UPPER DECK",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "67",
+  "parallel": "MVP",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117316966537|0",
+    "title": "1992 UD MVP #67 MICHAEL JORDAN PSA 9",
+    "price": 60.0,
+    "shipping": 5.99,
+    "total": 65.99
+   },
+   {
+    "item_id": "v1|117141773741|0",
+    "title": "1992 UD MVP #67 MICHAEL JORDAN PSA 9",
+    "price": 94.45,
+    "shipping": 5.99,
+    "total": 100.44
+   },
+   {
+    "item_id": "v1|298544656425|0",
+    "title": "1992 UD MVP #67 MICHAEL JORDAN PSA 9",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298544669882|0",
+  "title": "1992 FLEER #32 MICHAEL JORDAN PSA 9",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1992|FLEER|BASE|None|#32|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "3db43e058ce05255",
+  "effective_slab_key": "19499ae5342e5b19",
+  "year": 1992,
+  "manufacturer": "FLEER",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "32",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307037071677|0",
+    "title": "1992 FLEER #32 MICHAEL JORDAN PSA 9",
+    "price": 60.0,
+    "shipping": 5.99,
+    "total": 65.99
+   },
+   {
+    "item_id": "v1|298382725234|0",
+    "title": "1992 FLEER #32 MICHAEL JORDAN PSA 9",
+    "price": 250.0,
+    "shipping": 5.99,
+    "total": 255.99
+   },
+   {
+    "item_id": "v1|298544669882|0",
+    "title": "1992 FLEER #32 MICHAEL JORDAN PSA 9",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117330558241|0",
+  "title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+  "asking_price": 523.0,
+  "shipping": 5.99,
+  "effective_identity": "1993|UPPER DECK|BASE|None|#466|NUMERIC:7|BASKETBALL",
+  "effective_card_key": "1c6c8a60b0ac3b23",
+  "effective_slab_key": "54363325ddaf88d8",
+  "year": 1993,
+  "manufacturer": "UPPER DECK",
+  "set": "BASE",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "466",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "7",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|297694280202|0",
+    "title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+    "price": 97.77,
+    "shipping": 5.99,
+    "total": 103.75999999999999
+   },
+   {
+    "item_id": "v1|117330546284|0",
+    "title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|117330558241|0",
+    "title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+    "price": 523.0,
+    "shipping": 5.99,
+    "total": 528.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298388071229|0",
+  "title": "1993 HOOPS JORDAN/WILKINS/MALONE #283 SCORING LEADERS PSA 10",
+  "asking_price": 699.0,
+  "shipping": 5.99,
+  "effective_identity": "1993|HOOPS|BASE|None|#283|NUMERIC:10|BASKETBALL",
+  "effective_card_key": "ab8d8483413cc246",
+  "effective_slab_key": "938fa6f831f2e598",
+  "year": 1993,
+  "manufacturer": "HOOPS",
+  "set": "BASE",
+  "subject": "SCORING LEADERS",
+  "card_number": "283",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307055502646|0",
+    "title": "1993 HOOPS JORDAN/WILKINS/MALONE #283 SCORING LEADERS PSA 10",
+    "price": 129.99,
+    "shipping": 5.99,
+    "total": 135.98000000000002
+   },
+   {
+    "item_id": "v1|117230827080|0",
+    "title": "1993 HOOPS JORDAN/WILKINS/MALONE #283 SCORING LEADERS PSA 10",
+    "price": 325.0,
+    "shipping": 5.99,
+    "total": 330.99
+   },
+   {
+    "item_id": "v1|298388071229|0",
+    "title": "1993 HOOPS JORDAN/WILKINS/MALONE #283 SCORING LEADERS PSA 10",
+    "price": 699.0,
+    "shipping": 5.99,
+    "total": 704.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298543520510|0",
+  "title": "1993 UD PRO VIEW 3-D #23 MICHAEL JORDAN PSA 9",
+  "asking_price": 125.0,
+  "shipping": 5.99,
+  "effective_identity": "1993|UPPER DECK|PRO VIEW 3 D|None|#23|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "56bc0b29e90544ca",
+  "effective_slab_key": "e68a4647c588d13e",
+  "year": 1993,
+  "manufacturer": "UPPER DECK",
+  "set": "PRO VIEW 3 D",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "23",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306507200658|0",
+    "title": "1993 UD PRO VIEW 3-D #23 MICHAEL JORDAN PSA 9",
+    "price": 74.99,
+    "shipping": 5.99,
+    "total": 80.97999999999999
+   },
+   {
+    "item_id": "v1|298543520510|0",
+    "title": "1993 UD PRO VIEW 3-D #23 MICHAEL JORDAN PSA 9",
+    "price": 125.0,
+    "shipping": 5.99,
+    "total": 130.99
+   },
+   {
+    "item_id": "v1|117261437253|0",
+    "title": "1993 UD PRO VIEW 3-D #23 MICHAEL JORDAN PSA 9",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298544668693|0",
+  "title": "1993 SKYBOX PREMIUM #45 MICHAEL JORDAN PSA 7",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1993|SKYBOX|PREMIUM|None|#45|NUMERIC:7|BASKETBALL",
+  "effective_card_key": "ab7c96c8b53c6ba6",
+  "effective_slab_key": "24cedd8749004afc",
+  "year": 1993,
+  "manufacturer": "SKYBOX",
+  "set": "PREMIUM",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "45",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "7",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117253501315|0",
+    "title": "1993 SKYBOX PREMIUM #45 MICHAEL JORDAN PSA 7",
+    "price": 46.99,
+    "shipping": 5.99,
+    "total": 52.980000000000004
+   },
+   {
+    "item_id": "v1|298544668693|0",
+    "title": "1993 SKYBOX PREMIUM #45 MICHAEL JORDAN PSA 7",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|117330569085|0",
+    "title": "1993 SKYBOX PREMIUM #45 MICHAEL JORDAN PSA 7",
+    "price": 523.0,
+    "shipping": 5.99,
+    "total": 528.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307095495253|0",
+  "title": "1993 ULTRA #30 MICHAEL JORDAN PSA 8",
+  "asking_price": 423.0,
+  "shipping": 5.99,
+  "effective_identity": "1993|FLEER|ULTRA|None|#30|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "7c6881f13c52aa0c",
+  "effective_slab_key": "b1c59e6ff2ec4fb0",
+  "year": 1993,
+  "manufacturer": "FLEER",
+  "set": "ULTRA",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "30",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117305894573|0",
+    "title": "1993 ULTRA #30 MICHAEL JORDAN PSA 8",
+    "price": 49.0,
+    "shipping": 5.99,
+    "total": 54.99
+   },
+   {
+    "item_id": "v1|307095495253|0",
+    "title": "1993 ULTRA #30 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|117330523465|0",
+    "title": "1993 ULTRA #30 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   },
+   {
+    "item_id": "v1|298544668308|0",
+    "title": "1993 ULTRA #30 MICHAEL JORDAN PSA 8",
+    "price": 423.0,
+    "shipping": 5.99,
+    "total": 428.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306981381523|0",
+  "title": "1995 METAL #212 MICHAEL JORDAN PSA 8",
+  "asking_price": 215.0,
+  "shipping": 5.99,
+  "effective_identity": "1995|FLEER|METAL|None|#212|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "1dc05d79975dc53d",
+  "effective_slab_key": "2ee670957a426154",
+  "year": 1995,
+  "manufacturer": "FLEER",
+  "set": "METAL",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "212",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117319262080|0",
+    "title": "1995 METAL #212 MICHAEL JORDAN PSA 8",
+    "price": 100.0,
+    "shipping": 5.99,
+    "total": 105.99
+   },
+   {
+    "item_id": "v1|306981381523|0",
+    "title": "1995 METAL #212 MICHAEL JORDAN PSA 8",
+    "price": 215.0,
+    "shipping": 5.99,
+    "total": 220.99
+   },
+   {
+    "item_id": "v1|117330569901|0",
+    "title": "1995 METAL #212 MICHAEL JORDAN PSA 8",
+    "price": 523.0,
+    "shipping": 5.99,
+    "total": 528.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298544674763|0",
+  "title": "1997 STADIUM CLUB #118 MICHAEL JORDAN PSA 7",
+  "asking_price": 523.0,
+  "shipping": 5.99,
+  "effective_identity": "1997|TOPPS|STADIUM CLUB|None|#118|NUMERIC:7|BASKETBALL",
+  "effective_card_key": "8a4b1ba4eaadb9c7",
+  "effective_slab_key": "c2455739ff5f1a00",
+  "year": 1997,
+  "manufacturer": "TOPPS",
+  "set": "STADIUM CLUB",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "118",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "7",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298520585117|0",
+    "title": "1997 STADIUM CLUB #118 MICHAEL JORDAN PSA 7",
+    "price": 79.99,
+    "shipping": 5.99,
+    "total": 85.97999999999999
+   },
+   {
+    "item_id": "v1|116719679279|0",
+    "title": "1997 STADIUM CLUB #118 MICHAEL JORDAN PSA 7",
+    "price": 225.0,
+    "shipping": 5.99,
+    "total": 230.99
+   },
+   {
+    "item_id": "v1|298544674763|0",
+    "title": "1997 STADIUM CLUB #118 MICHAEL JORDAN PSA 7",
+    "price": 523.0,
+    "shipping": 5.99,
+    "total": 528.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306971032786|0",
+  "title": "1998 UD CENTURY LEGENDS #87 MICHAEL JORDAN PSA 9",
+  "asking_price": 469.69,
+  "shipping": 5.99,
+  "effective_identity": "1998|UPPER DECK|CENTURY LEGENDS|None|#87|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "94a599b0028ad186",
+  "effective_slab_key": "17845cf31c4f2f11",
+  "year": 1998,
+  "manufacturer": "UPPER DECK",
+  "set": "CENTURY LEGENDS",
+  "subject": "MICHAEL JORDAN",
+  "card_number": "87",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117107931745|0",
+    "title": "1998 UD CENTURY LEGENDS #87 MICHAEL JORDAN PSA 9",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   },
+   {
+    "item_id": "v1|306971032786|0",
+    "title": "1998 UD CENTURY LEGENDS #87 MICHAEL JORDAN PSA 9",
+    "price": 469.69,
+    "shipping": 5.99,
+    "total": 475.68
+   },
+   {
+    "item_id": "v1|117313901587|0",
+    "title": "1998 UD CENTURY LEGENDS #87 MICHAEL JORDAN PSA 9",
+    "price": 775.0,
+    "shipping": 5.99,
+    "total": 780.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306575683628|0",
+  "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 147/199 PSA 10",
+  "asking_price": 100.0,
+  "shipping": 5.99,
+  "effective_identity": "2005|TOPPS|FINEST|X-FRACTOR|#112|NUMERIC:10|/199|BASKETBALL",
+  "effective_card_key": "2d767f5afd6d8c50",
+  "effective_slab_key": "8fcba845ca080bc3",
+  "year": 2005,
+  "manufacturer": "TOPPS",
+  "set": "FINEST",
+  "subject": "GERALD GREEN",
+  "card_number": "112",
+  "parallel": "X-FRACTOR",
+  "serial_num": 147,
+  "print_run": 199,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306085105275|0",
+    "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 33/199 PSA 10",
+    "price": 50.0,
+    "shipping": 5.99,
+    "total": 55.99
+   },
+   {
+    "item_id": "v1|306085105578|0",
+    "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 129/199 PSA 10",
+    "price": 55.0,
+    "shipping": 5.99,
+    "total": 60.99
+   },
+   {
+    "item_id": "v1|306575683628|0",
+    "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 147/199 PSA 10",
+    "price": 100.0,
+    "shipping": 5.99,
+    "total": 105.99
+   },
+   {
+    "item_id": "v1|306030870170|0",
+    "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 50/199 PSA 10",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298146364325|0",
+  "title": "2011 BOWMAN CHROME PROSPECTS #BCP99 PAUL GOLDSCHMIDT PSA 9",
+  "asking_price": 50.0,
+  "shipping": 5.99,
+  "effective_identity": "2011|BOWMAN|CHROME PROSPECTS|None|#BCP99|NUMERIC:9|BASEBALL",
+  "effective_card_key": "4cd1c07dd813bfae",
+  "effective_slab_key": "9d700d6de467f1a3",
+  "year": 2011,
+  "manufacturer": "BOWMAN",
+  "set": "CHROME PROSPECTS",
+  "subject": "PAUL GOLDSCHMIDT",
+  "card_number": "BCP99",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306712939216|0",
+    "title": "2011 BOWMAN CHROME PROSPECTS #BCP99 PAUL GOLDSCHMIDT PSA 9",
+    "price": 24.99,
+    "shipping": 5.99,
+    "total": 30.979999999999997
+   },
+   {
+    "item_id": "v1|298146364325|0",
+    "title": "2011 BOWMAN CHROME PROSPECTS #BCP99 PAUL GOLDSCHMIDT PSA 9",
+    "price": 50.0,
+    "shipping": 5.99,
+    "total": 55.99
+   },
+   {
+    "item_id": "v1|117113659013|0",
+    "title": "2011 BOWMAN CHROME PROSPECTS #BCP99 PAUL GOLDSCHMIDT PSA 9",
+    "price": 160.0,
+    "shipping": 5.99,
+    "total": 165.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306190117422|0",
+  "title": "2011 BOWMAN CHROME GOLD REFRACTOR #151 ALEX RODRIGUEZ 34/50 PSA 9",
+  "asking_price": 395.0,
+  "shipping": 5.99,
+  "effective_identity": "2011|BOWMAN|CHROME|GOLD REFRACTOR|#151|NUMERIC:9|/50|BASEBALL",
+  "effective_card_key": "294e812150d20da0",
+  "effective_slab_key": "bbe7a01a0ec73089",
+  "year": 2011,
+  "manufacturer": "BOWMAN",
+  "set": "CHROME",
+  "subject": "ALEX RODRIGUEZ",
+  "card_number": "151",
+  "parallel": "GOLD REFRACTOR",
+  "serial_num": 34,
+  "print_run": 50,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306641207281|0",
+    "title": "2011 BOWMAN CHROME GOLD REFRACTOR #151 ALEX RODRIGUEZ 6/50 PSA 9",
+    "price": 199.0,
+    "shipping": 5.99,
+    "total": 204.99
+   },
+   {
+    "item_id": "v1|305978858650|0",
+    "title": "2011 BOWMAN CHROME GOLD REFRACTOR #151 ALEX RODRIGUEZ 26/50 PSA 9",
+    "price": 295.0,
+    "shipping": 5.99,
+    "total": 300.99
+   },
+   {
+    "item_id": "v1|306190117422|0",
+    "title": "2011 BOWMAN CHROME GOLD REFRACTOR #151 ALEX RODRIGUEZ 34/50 PSA 9",
+    "price": 395.0,
+    "shipping": 5.99,
+    "total": 400.99
+   },
+   {
+    "item_id": "v1|298168673230|0",
+    "title": "2011 BOWMAN CHROME GOLD REFRACTOR #151 ALEX RODRIGUEZ 22/50 PSA 9",
+    "price": 495.0,
+    "shipping": 5.99,
+    "total": 500.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298509952879|0",
+  "title": "2014 PANINI SELECT BLUE PRIZM #26 JAMES HARDEN 92/249 PSA 10",
+  "asking_price": 550.0,
+  "shipping": 5.99,
+  "effective_identity": "2014|PANINI|SELECT|BLUE PRIZM|#26|NUMERIC:10|/249|BASKETBALL",
+  "effective_card_key": "cfa6eee9d967d9ac",
+  "effective_slab_key": "1e1039b5f3cce054",
+  "year": 2014,
+  "manufacturer": "PANINI",
+  "set": "SELECT",
+  "subject": "JAMES HARDEN",
+  "card_number": "26",
+  "parallel": "BLUE PRIZM",
+  "serial_num": 92,
+  "print_run": 249,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117126560115|0",
+    "title": "2014 PANINI SELECT BLUE PRIZM #26 JAMES HARDEN 142/249 PSA 10",
+    "price": 299.0,
+    "shipping": 5.99,
+    "total": 304.99
+   },
+   {
+    "item_id": "v1|117302617618|0",
+    "title": "2014 PANINI SELECT BLUE PRIZM #26 JAMES HARDEN 226/249 PSA 10",
+    "price": 399.0,
+    "shipping": 5.99,
+    "total": 404.99
+   },
+   {
+    "item_id": "v1|298509952879|0",
+    "title": "2014 PANINI SELECT BLUE PRIZM #26 JAMES HARDEN 92/249 PSA 10",
+    "price": 550.0,
+    "shipping": 5.99,
+    "total": 555.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306564595993|0",
+  "title": "2016 PANINI PRIZM RC SIGNATURES HYPER PRIZM #23 PASCAL SIAKAM #/10 PSA 10 AUTO",
+  "asking_price": 19999.0,
+  "shipping": 5.99,
+  "effective_identity": "2016|PANINI|PRIZM ROOKIE SIGNATURES|HYPER PRIZM|#23|NUMERIC:10|/10|BASKETBALL",
+  "effective_card_key": "1667322b5952cb3c",
+  "effective_slab_key": "13da0a6a05cf2c16",
+  "year": 2016,
+  "manufacturer": "PANINI",
+  "set": "PRIZM ROOKIE SIGNATURES",
+  "subject": "PASCAL SIAKAM",
+  "card_number": "23",
+  "parallel": "HYPER PRIZM",
+  "serial_num": null,
+  "print_run": 10,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117075748774|0",
+    "title": "2016 PANINI PRIZM RC SIGNATURES HYPER PRIZM #23 PASCAL SIAKAM #/10 PSA 10 AUTO",
+    "price": 8987.0,
+    "shipping": 5.99,
+    "total": 8992.99
+   },
+   {
+    "item_id": "v1|298099608098|0",
+    "title": "2016 PANINI PRIZM RC SIGNATURES HYPER PRIZM #23 PASCAL SIAKAM #/10 PSA 10 AUTO",
+    "price": 8987.8,
+    "shipping": 5.99,
+    "total": 8993.789999999999
+   },
+   {
+    "item_id": "v1|306564595993|0",
+    "title": "2016 PANINI PRIZM RC SIGNATURES HYPER PRIZM #23 PASCAL SIAKAM #/10 PSA 10 AUTO",
+    "price": 19999.0,
+    "shipping": 5.99,
+    "total": 20004.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307007698538|0",
+  "title": "2016 CALBEE 2015 ALL-STARS #AS-06 SHOHEI OHTANI ROOKIE RC PSA 10",
+  "asking_price": 999.99,
+  "shipping": 5.99,
+  "effective_identity": "2016|CALBEE|2015 ALL STARS|None|#AS-06|NUMERIC:10|BASEBALL",
+  "effective_card_key": "73456694ca15940a",
+  "effective_slab_key": "13ad46911778352c",
+  "year": 2016,
+  "manufacturer": "CALBEE",
+  "set": "2015 ALL STARS",
+  "subject": "SHOHEI OHTANI",
+  "card_number": "AS-06",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117329579398|0",
+    "title": "2016 CALBEE 2015 ALL-STARS #AS-06 SHOHEI OHTANI PSA 10",
+    "price": 659.0,
+    "shipping": 5.99,
+    "total": 664.99
+   },
+   {
+    "item_id": "v1|307007698538|0",
+    "title": "2016 CALBEE 2015 ALL-STARS #AS-06 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 999.99,
+    "shipping": 5.99,
+    "total": 1005.98
+   },
+   {
+    "item_id": "v1|298311827108|0",
+    "title": "2016 CALBEE 2015 ALL-STARS #AS-06 SHOHEI OHTANI PSA 10",
+    "price": 3800.0,
+    "shipping": 5.99,
+    "total": 3805.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306417771465|0",
+  "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+  "asking_price": 79000.0,
+  "shipping": 5.99,
+  "effective_identity": "2017|TOPPS|ALLEN & GINTER|None|#58|NUMERIC:10+AUTO8|BASEBALL",
+  "effective_card_key": "8c7d01b4b4df7251",
+  "effective_slab_key": "e2e7729967541a74",
+  "year": 2017,
+  "manufacturer": "TOPPS",
+  "set": "ALLEN & GINTER",
+  "subject": "EFREN REYES",
+  "card_number": "58",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": "8",
+  "group_members": [
+   {
+    "item_id": "v1|297498953859|0",
+    "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+    "price": 79000.0,
+    "shipping": 5.99,
+    "total": 79005.99
+   },
+   {
+    "item_id": "v1|306417771465|0",
+    "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+    "price": 79000.0,
+    "shipping": 5.99,
+    "total": 79005.99
+   },
+   {
+    "item_id": "v1|297498942295|0",
+    "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+    "price": 41449.0,
+    "shipping": 5.99,
+    "total": 41454.99
+   },
+   {
+    "item_id": "v1|116707832372|0",
+    "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+    "price": 79000.0,
+    "shipping": 5.99,
+    "total": 79005.99
+   },
+   {
+    "item_id": "v1|116707835887|0",
+    "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+    "price": 89999.0,
+    "shipping": 5.99,
+    "total": 90004.99
+   },
+   {
+    "item_id": "v1|297498942957|0",
+    "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+    "price": 61999.0,
+    "shipping": 5.99,
+    "total": 62004.99
+   },
+   {
+    "item_id": "v1|116707832456|0",
+    "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+    "price": 79000.0,
+    "shipping": 5.99,
+    "total": 79005.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298544831895|0",
+  "title": "2018 PANINI PRIZM SILVER PRIZM #279 DEANDRE AYTON PSA 10",
+  "asking_price": 225.0,
+  "shipping": 5.99,
+  "effective_identity": "2018|PANINI|PRIZM|SILVER PRIZM|#279|NUMERIC:10|BASKETBALL",
+  "effective_card_key": "4e6d60d683e57874",
+  "effective_slab_key": "9f38530256d7b190",
+  "year": 2018,
+  "manufacturer": "PANINI",
+  "set": "PRIZM",
+  "subject": "DEANDRE AYTON",
+  "card_number": "279",
+  "parallel": "SILVER PRIZM",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|116997003464|0",
+    "title": "2018 PANINI PRIZM SILVER PRIZM #279 DEANDRE AYTON ROOKIE RC PSA 10",
+    "price": 33.0,
+    "shipping": 5.99,
+    "total": 38.99
+   },
+   {
+    "item_id": "v1|117265502088|0",
+    "title": "2018 PANINI PRIZM SILVER PRIZM #279 DEANDRE AYTON ROOKIE RC PSA 10",
+    "price": 69.99,
+    "shipping": 5.99,
+    "total": 75.97999999999999
+   },
+   {
+    "item_id": "v1|298544831895|0",
+    "title": "2018 PANINI PRIZM SILVER PRIZM #279 DEANDRE AYTON PSA 10",
+    "price": 225.0,
+    "shipping": 5.99,
+    "total": 230.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306900945155|0",
+  "title": "2018 LEAF PREMIER ROOKIES #PR-02 SHOHEI OHTANI ROOKIE RC PSA 10",
+  "asking_price": 650.0,
+  "shipping": 5.99,
+  "effective_identity": "2018|LEAF|PREMIER ROOKIES|None|#PR-02|NUMERIC:10|BASEBALL",
+  "effective_card_key": "e20e896464f96695",
+  "effective_slab_key": "534555b48bf8cc5a",
+  "year": 2018,
+  "manufacturer": "LEAF",
+  "set": "PREMIER ROOKIES",
+  "subject": "SHOHEI OHTANI",
+  "card_number": "PR-02",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298519016442|0",
+    "title": "2018 LEAF PREMIER ROOKIES #PR-02 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 149.99,
+    "shipping": 5.99,
+    "total": 155.98000000000002
+   },
+   {
+    "item_id": "v1|306900945155|0",
+    "title": "2018 LEAF PREMIER ROOKIES #PR-02 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 650.0,
+    "shipping": 5.99,
+    "total": 655.99
+   },
+   {
+    "item_id": "v1|306900941153|0",
+    "title": "2018 LEAF PREMIER ROOKIES #PR-02 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 650.0,
+    "shipping": 5.99,
+    "total": 655.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306909410630|0",
+  "title": "2018 BOWMAN'S BEST REFRACTOR #1 SHOHEI OHTANI ROOKIE RC PSA 10",
+  "asking_price": 5999.0,
+  "shipping": 5.99,
+  "effective_identity": "2018|BOWMAN|BEST|REFRACTOR|#1|NUMERIC:10|BASEBALL",
+  "effective_card_key": "6d0c957c5b44a829",
+  "effective_slab_key": "a8c6342af435a3cf",
+  "year": 2018,
+  "manufacturer": "BOWMAN",
+  "set": "BEST",
+  "subject": "SHOHEI OHTANI",
+  "card_number": "1",
+  "parallel": "REFRACTOR",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298512725559|0",
+    "title": "2018 BOWMAN'S BEST REFRACTOR #1 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 1999.95,
+    "shipping": 5.99,
+    "total": 2005.94
+   },
+   {
+    "item_id": "v1|298525666977|0",
+    "title": "2018 BOWMAN'S BEST REFRACTOR #1 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 2000.0,
+    "shipping": 5.99,
+    "total": 2005.99
+   },
+   {
+    "item_id": "v1|117231790634|0",
+    "title": "2018 BOWMAN'S BEST REFRACTOR #1 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 2200.0,
+    "shipping": 5.99,
+    "total": 2205.99
+   },
+   {
+    "item_id": "v1|306909410630|0",
+    "title": "2018 BOWMAN'S BEST REFRACTOR #1 SHOHEI OHTANI ROOKIE RC PSA 10",
+    "price": 5999.0,
+    "shipping": 5.99,
+    "total": 6004.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306977321999|0",
+  "title": "2019 PANINI DONRUSS OPTIC #158 ZION WILLIAMSON ROOKIE RC PSA 10",
+  "asking_price": 200.0,
+  "shipping": 5.99,
+  "effective_identity": "2019|PANINI|DONRUSS OPTIC|None|#158|NUMERIC:10|BASKETBALL",
+  "effective_card_key": "0c8a275abdb8bb11",
+  "effective_slab_key": "f60a0a69138e5654",
+  "year": 2019,
+  "manufacturer": "PANINI",
+  "set": "DONRUSS OPTIC",
+  "subject": "ZION WILLIAMSON",
+  "card_number": "158",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298340677086|0",
+    "title": "2019 PANINI DONRUSS OPTIC #158 ZION WILLIAMSON ROOKIE RC PSA 10",
+    "price": 29.99,
+    "shipping": 5.99,
+    "total": 35.98
+   },
+   {
+    "item_id": "v1|117311871970|0",
+    "title": "2019 PANINI DONRUSS OPTIC #158 ZION WILLIAMSON ROOKIE RC PSA 10",
+    "price": 88.0,
+    "shipping": 5.99,
+    "total": 93.99
+   },
+   {
+    "item_id": "v1|306977321999|0",
+    "title": "2019 PANINI DONRUSS OPTIC #158 ZION WILLIAMSON ROOKIE RC PSA 10",
+    "price": 200.0,
+    "shipping": 5.99,
+    "total": 205.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307095634461|0",
+  "title": "2019 PANINI MOSAIC #8 LEBRON JAMES PSA 10",
+  "asking_price": 225.0,
+  "shipping": 5.99,
+  "effective_identity": "2019|PANINI|MOSAIC|None|#8|NUMERIC:10|BASKETBALL",
+  "effective_card_key": "c288440c6b6f60a2",
+  "effective_slab_key": "f6a56ab6d7aaf8e0",
+  "year": 2019,
+  "manufacturer": "PANINI",
+  "set": "MOSAIC",
+  "subject": "LEBRON JAMES",
+  "card_number": "8",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117172925048|0",
+    "title": "2019 PANINI MOSAIC #8 LEBRON JAMES PSA 10",
+    "price": 55.0,
+    "shipping": 5.99,
+    "total": 60.99
+   },
+   {
+    "item_id": "v1|298500231693|0",
+    "title": "2019 PANINI MOSAIC #8 LEBRON JAMES PSA 10",
+    "price": 200.0,
+    "shipping": 5.99,
+    "total": 205.99
+   },
+   {
+    "item_id": "v1|307095634461|0",
+    "title": "2019 PANINI MOSAIC #8 LEBRON JAMES PSA 10",
+    "price": 225.0,
+    "shipping": 5.99,
+    "total": 230.99
+   },
+   {
+    "item_id": "v1|116818193391|0",
+    "title": "2019 PANINI MOSAIC #8 LEBRON JAMES PSA 10",
+    "price": 550.0,
+    "shipping": 5.99,
+    "total": 555.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298278946915|0",
+  "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #80 LUCA GHIOTTO 24/25 PSA 8",
+  "asking_price": 295.0,
+  "shipping": 5.99,
+  "effective_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|ORANGE|#80|NUMERIC:8|/25|RACING",
+  "effective_card_key": "d911f9a6a3fc64a7",
+  "effective_slab_key": "27bed8cc2863635b",
+  "year": 2020,
+  "manufacturer": "TOPPS",
+  "set": "CHROME FORMULA 1 SAPPHIRE EDITION",
+  "subject": "LUCA GHIOTTO",
+  "card_number": "80",
+  "parallel": "ORANGE",
+  "serial_num": 24,
+  "print_run": 25,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307085679017|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #80 LUCA GHIOTTO 4/25 PSA 8",
+    "price": 195.0,
+    "shipping": 5.99,
+    "total": 200.99
+   },
+   {
+    "item_id": "v1|117171757125|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #80 LUCA GHIOTTO 15/25 PSA 8",
+    "price": 295.0,
+    "shipping": 5.99,
+    "total": 300.99
+   },
+   {
+    "item_id": "v1|298278946915|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #80 LUCA GHIOTTO 24/25 PSA 8",
+    "price": 295.0,
+    "shipping": 5.99,
+    "total": 300.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306912075747|0",
+  "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #64 DAN TICKTUM 13/25 PSA 8",
+  "asking_price": 295.0,
+  "shipping": 5.99,
+  "effective_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|ORANGE|#64|NUMERIC:8|/25|RACING",
+  "effective_card_key": "eb6c4bf7ce8e502c",
+  "effective_slab_key": "04fbcb1512f74c1c",
+  "year": 2020,
+  "manufacturer": "TOPPS",
+  "set": "CHROME FORMULA 1 SAPPHIRE EDITION",
+  "subject": "DAN TICKTUM",
+  "card_number": "64",
+  "parallel": "ORANGE",
+  "serial_num": 13,
+  "print_run": 25,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298532780691|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #64 DAN TICKTUM 19/25 PSA 8",
+    "price": 195.0,
+    "shipping": 5.99,
+    "total": 200.99
+   },
+   {
+    "item_id": "v1|117321911870|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #64 DAN TICKTUM 25/25 PSA 8",
+    "price": 195.0,
+    "shipping": 5.99,
+    "total": 200.99
+   },
+   {
+    "item_id": "v1|306912075638|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #64 DAN TICKTUM 20/25 PSA 8",
+    "price": 295.0,
+    "shipping": 5.99,
+    "total": 300.99
+   },
+   {
+    "item_id": "v1|306912075747|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION ORANGE #64 DAN TICKTUM 13/25 PSA 8",
+    "price": 295.0,
+    "shipping": 5.99,
+    "total": 300.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306942391283|0",
+  "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 GIULIANO ALESI 7/50 PSA 8",
+  "asking_price": 150.0,
+  "shipping": 5.99,
+  "effective_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|GOLD|#52|NUMERIC:8|/50|RACING",
+  "effective_card_key": "d49632e76abc5204",
+  "effective_slab_key": "cf065a6bca6ffdde",
+  "year": 2020,
+  "manufacturer": "TOPPS",
+  "set": "CHROME FORMULA 1 SAPPHIRE EDITION",
+  "subject": "GIULIANO ALESI",
+  "card_number": "52",
+  "parallel": "GOLD",
+  "serial_num": 7,
+  "print_run": 50,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117197928888|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 GIULIANO ALESI 35/50 PSA 8",
+    "price": 125.0,
+    "shipping": 5.99,
+    "total": 130.99
+   },
+   {
+    "item_id": "v1|306942391283|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 GIULIANO ALESI 7/50 PSA 8",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   },
+   {
+    "item_id": "v1|306912070879|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 GIULIANO ALESI 43/50 PSA 8",
+    "price": 200.0,
+    "shipping": 5.99,
+    "total": 205.99
+   },
+   {
+    "item_id": "v1|306912070834|0",
+    "title": "2020 TOPPS CHROME FORMULA 1 SAPPHIRE EDITION GOLD #52 GIULIANO ALESI 14/50 PSA 8",
+    "price": 195.0,
+    "shipping": 5.99,
+    "total": 200.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306417077149|0",
+  "title": "2021 PANINI PRIZM VAR-SILVER PRIZM #V334 JUSTIN FIELDS PSA 10",
+  "asking_price": 124.99,
+  "shipping": 5.99,
+  "effective_identity": "2021|PANINI|PRIZM|VARIATION-SILVER PRIZM|#V334|NUMERIC:10|FOOTBALL",
+  "effective_card_key": "28fc5dd97bfe585b",
+  "effective_slab_key": "0e1a8ba5e8e141a1",
+  "year": 2021,
+  "manufacturer": "PANINI",
+  "set": "PRIZM",
+  "subject": "JUSTIN FIELDS",
+  "card_number": "V334",
+  "parallel": "VARIATION-SILVER PRIZM",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117124562302|0",
+    "title": "2021 PANINI PRIZM VAR-SILVER PRIZM #V334 JUSTIN FIELDS PSA 10",
+    "price": 99.99,
+    "shipping": 5.99,
+    "total": 105.97999999999999
+   },
+   {
+    "item_id": "v1|306417077149|0",
+    "title": "2021 PANINI PRIZM VAR-SILVER PRIZM #V334 JUSTIN FIELDS PSA 10",
+    "price": 124.99,
+    "shipping": 5.99,
+    "total": 130.98
+   },
+   {
+    "item_id": "v1|298177936818|0",
+    "title": "2021 PANINI PRIZM VAR-SILVER PRIZM #V334 JUSTIN FIELDS PSA 10",
+    "price": 590.0,
+    "shipping": 5.99,
+    "total": 595.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307045790828|0",
+  "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #245 SHOHEI OHTANI PSA 10",
+  "asking_price": 3200.0,
+  "shipping": 5.99,
+  "effective_identity": "2021|TOPPS|HERITAGE|CHROME-BLUE SPARKLE REFRACTOR|#245|NUMERIC:10|BASEBALL",
+  "effective_card_key": "0ccc2c8f171b53b5",
+  "effective_slab_key": "258c45ae836a2f0a",
+  "year": 2021,
+  "manufacturer": "TOPPS",
+  "set": "HERITAGE",
+  "subject": "SHOHEI OHTANI",
+  "card_number": "245",
+  "parallel": "CHROME-BLUE SPARKLE REFRACTOR",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117312968525|0",
+    "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #245 SHOHEI OHTANI PSA 10",
+    "price": 700.0,
+    "shipping": 5.99,
+    "total": 705.99
+   },
+   {
+    "item_id": "v1|307045790828|0",
+    "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #245 SHOHEI OHTANI PSA 10",
+    "price": 3200.0,
+    "shipping": 5.99,
+    "total": 3205.99
+   },
+   {
+    "item_id": "v1|306929188607|0",
+    "title": "2021 TOPPS HERITAGE CHROME-BLUE SPARKLE REFRACTOR #245 SHOHEI OHTANI PSA 10",
+    "price": 2500.0,
+    "shipping": 5.99,
+    "total": 2505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306105391673|0",
+  "title": "2022 PANINI PRIZM MONOPOLY #63 CHET HOLMGREN ROOKIE RC 425/500 PSA 10",
+  "asking_price": 225.0,
+  "shipping": 5.99,
+  "effective_identity": "2022|PANINI|PRIZM MONOPOLY|GOLD MONEY SHIMMER|#63|NUMERIC:10|/500|BASKETBALL",
+  "effective_card_key": "7dc9285e3d774de3",
+  "effective_slab_key": "c639a8cb35a74613",
+  "year": 2022,
+  "manufacturer": "PANINI",
+  "set": "PRIZM MONOPOLY",
+  "subject": "CHET HOLMGREN",
+  "card_number": "63",
+  "parallel": "GOLD MONEY SHIMMER",
+  "serial_num": 425,
+  "print_run": 500,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117071057330|0",
+    "title": "2022 PANINI PRIZM MONOPOLY #63 CHET HOLMGREN ROOKIE RC 110/500 PSA 10",
+    "price": 150.0,
+    "shipping": 5.99,
+    "total": 155.99
+   },
+   {
+    "item_id": "v1|306105391673|0",
+    "title": "2022 PANINI PRIZM MONOPOLY #63 CHET HOLMGREN ROOKIE RC 425/500 PSA 10",
+    "price": 225.0,
+    "shipping": 5.99,
+    "total": 230.99
+   },
+   {
+    "item_id": "v1|117330706023|0",
+    "title": "2022 PANINI PRIZM MONOPOLY #63 CHET HOLMGREN ROOKIE RC 242/500 PSA 10",
+    "price": 275.0,
+    "shipping": 5.99,
+    "total": 280.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298544784209|0",
+  "title": "2023 PANINI PRIZM UFC RED PRIZM #200 HASBULLA MAGOMEDOV 22/199 PSA 9",
+  "asking_price": 550.0,
+  "shipping": 5.99,
+  "effective_identity": "2023|PANINI|PRIZM UFC|RED PRIZM|#200|NUMERIC:9|/199|MMA",
+  "effective_card_key": "c2ea477922739b8f",
+  "effective_slab_key": "2d898c4a99f1ff3e",
+  "year": 2023,
+  "manufacturer": "PANINI",
+  "set": "PRIZM UFC",
+  "subject": "HASBULLA MAGOMEDOV",
+  "card_number": "200",
+  "parallel": "RED PRIZM",
+  "serial_num": 22,
+  "print_run": 199,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117330662328|0",
+    "title": "2023 PANINI PRIZM UFC RED PRIZM #200 HASBULLA MAGOMEDOV 168/199 PSA 9",
+    "price": 428.0,
+    "shipping": 5.99,
+    "total": 433.99
+   },
+   {
+    "item_id": "v1|298544784209|0",
+    "title": "2023 PANINI PRIZM UFC RED PRIZM #200 HASBULLA MAGOMEDOV 22/199 PSA 9",
+    "price": 550.0,
+    "shipping": 5.99,
+    "total": 555.99
+   },
+   {
+    "item_id": "v1|298521785389|0",
+    "title": "2023 PANINI PRIZM UFC RED PRIZM #200 HASBULLA MAGOMEDOV 188/199 PSA 9",
+    "price": 900.0,
+    "shipping": 5.99,
+    "total": 905.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306852423561|0",
+  "title": "2023 PANINI DONRUSS OPTIC PINK #247 ANTHONY RICHARDSON PSA 10",
+  "asking_price": 375.0,
+  "shipping": 5.99,
+  "effective_identity": "2023|PANINI|DONRUSS OPTIC|PINK|#247|NUMERIC:10|FOOTBALL",
+  "effective_card_key": "4b54db0bdd99d5a3",
+  "effective_slab_key": "3b6f768cbfe1bf15",
+  "year": 2023,
+  "manufacturer": "PANINI",
+  "set": "DONRUSS OPTIC",
+  "subject": "ANTHONY RICHARDSON",
+  "card_number": "247",
+  "parallel": "PINK",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306425621962|0",
+    "title": "2023 PANINI DONRUSS OPTIC PINK #247 ANTHONY RICHARDSON PSA 10",
+    "price": 50.0,
+    "shipping": 5.99,
+    "total": 55.99
+   },
+   {
+    "item_id": "v1|306852423561|0",
+    "title": "2023 PANINI DONRUSS OPTIC PINK #247 ANTHONY RICHARDSON PSA 10",
+    "price": 375.0,
+    "shipping": 5.99,
+    "total": 380.99
+   },
+   {
+    "item_id": "v1|117117281305|0",
+    "title": "2023 PANINI DONRUSS OPTIC PINK #247 ANTHONY RICHARDSON PSA 10",
+    "price": 570.0,
+    "shipping": 5.99,
+    "total": 575.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306926770518|0",
+  "title": "2023 BOWMAN UNIVERSITY CHROME AUTO-REFRACTOR #200 DRAKE MAYE 494/499 PSA 10",
+  "asking_price": 1200.0,
+  "shipping": 5.99,
+  "effective_identity": "2023|BOWMAN|UNIVERSITY CHROME|AUTOGRAPH-REFRACTOR|#200|NUMERIC:10|/499|FOOTBALL",
+  "effective_card_key": "82a3bdc39dfdadfe",
+  "effective_slab_key": "1ca1bba1f1dddf86",
+  "year": 2023,
+  "manufacturer": "BOWMAN",
+  "set": "UNIVERSITY CHROME",
+  "subject": "DRAKE MAYE",
+  "card_number": "200",
+  "parallel": "AUTOGRAPH-REFRACTOR",
+  "serial_num": 494,
+  "print_run": 499,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298266385932|0",
+    "title": "2023 BOWMAN UNIVERSITY CHROME AUTO-REFRACTOR #200 DRAKE MAYE 40/499 PSA 10",
+    "price": 750.0,
+    "shipping": 5.99,
+    "total": 755.99
+   },
+   {
+    "item_id": "v1|306926770518|0",
+    "title": "2023 BOWMAN UNIVERSITY CHROME AUTO-REFRACTOR #200 DRAKE MAYE 494/499 PSA 10",
+    "price": 1200.0,
+    "shipping": 5.99,
+    "total": 1205.99
+   },
+   {
+    "item_id": "v1|306758357144|0",
+    "title": "2023 BOWMAN UNIVERSITY CHROME AUTO-REFRACTOR #200 DRAKE MAYE 87/499 PSA 10",
+    "price": 1225.0,
+    "shipping": 5.99,
+    "total": 1230.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306953491657|0",
+  "title": "2023 PANINI PRIZM #343 ANTHONY RICHARDSON PSA 10",
+  "asking_price": 180.0,
+  "shipping": 5.99,
+  "effective_identity": "2023|PANINI|PRIZM|None|#343|NUMERIC:10|FOOTBALL",
+  "effective_card_key": "ad33332a94137137",
+  "effective_slab_key": "b47f92f1ae17e8b0",
+  "year": 2023,
+  "manufacturer": "PANINI",
+  "set": "PRIZM",
+  "subject": "ANTHONY RICHARDSON",
+  "card_number": "343",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306428604639|0",
+    "title": "2023 PANINI PRIZM #343 ANTHONY RICHARDSON PSA 10",
+    "price": 30.0,
+    "shipping": 5.99,
+    "total": 35.99
+   },
+   {
+    "item_id": "v1|298344777919|0",
+    "title": "2023 PANINI PRIZM #343 ANTHONY RICHARDSON PSA 10",
+    "price": 180.0,
+    "shipping": 5.99,
+    "total": 185.99
+   },
+   {
+    "item_id": "v1|306953491657|0",
+    "title": "2023 PANINI PRIZM #343 ANTHONY RICHARDSON PSA 10",
+    "price": 180.0,
+    "shipping": 5.99,
+    "total": 185.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307010202693|0",
+  "title": "2023-24 TOPPS FINEST UEFA CLUB COMPETITIONS #50 LAMINE YAMAL 182/250 PSA 9",
+  "asking_price": 899.0,
+  "shipping": 5.99,
+  "effective_identity": "2023|TOPPS|FINEST UEFA CLUB COMPETITIONS|BLUE/AQUA VAPORWAVE|#50|NUMERIC:9|/250|SOCCER",
+  "effective_card_key": "2ba13f01286eb327",
+  "effective_slab_key": "3196a55473832e8d",
+  "year": 2023,
+  "manufacturer": "TOPPS",
+  "set": "FINEST UEFA CLUB COMPETITIONS",
+  "subject": "LAMINE YAMAL",
+  "card_number": "50",
+  "parallel": "BLUE/AQUA VAPORWAVE",
+  "serial_num": 182,
+  "print_run": 250,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298508111275|0",
+    "title": "2023-24 TOPPS FINEST UEFA CLUB COMPETITIONS #50 LAMINE YAMAL 55/250 PSA 9",
+    "price": 375.0,
+    "shipping": 5.99,
+    "total": 380.99
+   },
+   {
+    "item_id": "v1|117326043672|0",
+    "title": "2023-24 TOPPS FINEST UEFA CLUB COMPETITIONS #50 LAMINE YAMAL 17/250 PSA 9",
+    "price": 659.0,
+    "shipping": 5.99,
+    "total": 664.99
+   },
+   {
+    "item_id": "v1|307010202693|0",
+    "title": "2023-24 TOPPS FINEST UEFA CLUB COMPETITIONS #50 LAMINE YAMAL 182/250 PSA 9",
+    "price": 899.0,
+    "shipping": 5.99,
+    "total": 904.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117117277814|0",
+  "title": "2024 PANINI PRIZM WNBA WNBA LOGO PRIZM #143 CAMERON BRINK PSA 8",
+  "asking_price": 75.0,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|PRIZM WNBA|WNBA LOGO PRIZM|#143|NUMERIC:8|BASKETBALL",
+  "effective_card_key": "02d49073eeee093b",
+  "effective_slab_key": "b4cfaa0d7f18d3e6",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "PRIZM WNBA",
+  "subject": "CAMERON BRINK",
+  "card_number": "143",
+  "parallel": "WNBA LOGO PRIZM",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "8",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307036816262|0",
+    "title": "2024 PANINI PRIZM WNBA WNBA LOGO PRIZM #143 CAMERON BRINK PSA 8",
+    "price": 39.99,
+    "shipping": 5.99,
+    "total": 45.980000000000004
+   },
+   {
+    "item_id": "v1|117117277814|0",
+    "title": "2024 PANINI PRIZM WNBA WNBA LOGO PRIZM #143 CAMERON BRINK PSA 8",
+    "price": 75.0,
+    "shipping": 5.99,
+    "total": 80.99
+   },
+   {
+    "item_id": "v1|116701488442|0",
+    "title": "2024 PANINI PRIZM WNBA WNBA LOGO PRIZM #143 CAMERON BRINK ROOKIE RC PSA 8",
+    "price": 299.0,
+    "shipping": 5.99,
+    "total": 304.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|117138651191|0",
+  "title": "2024 TOPPS CHROME UPDATE SP-ORANGE SPECKLE #USC150 ELLY DE LA CRUZ 18/25 PSA 10",
+  "asking_price": 1299.0,
+  "shipping": 5.99,
+  "effective_identity": "2024|TOPPS|CHROME UPDATE|SP-ORANGE SPECKLE|#USC150|NUMERIC:10|/25|BASEBALL",
+  "effective_card_key": "803609b57459c416",
+  "effective_slab_key": "664d5b718c60cc50",
+  "year": 2024,
+  "manufacturer": "TOPPS",
+  "set": "CHROME UPDATE",
+  "subject": "ELLY DE LA CRUZ",
+  "card_number": "USC150",
+  "parallel": "SP-ORANGE SPECKLE",
+  "serial_num": 18,
+  "print_run": 25,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117155322999|0",
+    "title": "2024 TOPPS CHROME UPDATE SP-ORANGE SPECKLE #USC150 ELLY DE LA CRUZ 24/25 PSA 10",
+    "price": 575.0,
+    "shipping": 5.99,
+    "total": 580.99
+   },
+   {
+    "item_id": "v1|116985157190|0",
+    "title": "2024 TOPPS CHROME UPDATE SP-ORANGE SPECKLE #USC150 ELLY DE LA CRUZ 19/25 PSA 10",
+    "price": 675.0,
+    "shipping": 5.99,
+    "total": 680.99
+   },
+   {
+    "item_id": "v1|117138651191|0",
+    "title": "2024 TOPPS CHROME UPDATE SP-ORANGE SPECKLE #USC150 ELLY DE LA CRUZ 18/25 PSA 10",
+    "price": 1299.0,
+    "shipping": 5.99,
+    "total": 1304.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|297528086982|0",
+  "title": "2024 PANINI PRIZM #400 JJ MCCARTHY PSA 7",
+  "asking_price": 97.97,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|PRIZM|None|#400|NUMERIC:7|FOOTBALL",
+  "effective_card_key": "3785234cecc8bb38",
+  "effective_slab_key": "057cc32e1feb0218",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "PRIZM",
+  "subject": "JJ MCCARTHY",
+  "card_number": "400",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "7",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306330681435|0",
+    "title": "2024 PANINI PRIZM #400 JJ MCCARTHY ROOKIE RC PSA 7",
+    "price": 15.0,
+    "shipping": 5.99,
+    "total": 20.990000000000002
+   },
+   {
+    "item_id": "v1|116811936262|0",
+    "title": "2024 PANINI PRIZM #400 JJ MCCARTHY PSA 7",
+    "price": 32.99,
+    "shipping": 5.99,
+    "total": 38.980000000000004
+   },
+   {
+    "item_id": "v1|297528086982|0",
+    "title": "2024 PANINI PRIZM #400 JJ MCCARTHY PSA 7",
+    "price": 97.97,
+    "shipping": 5.99,
+    "total": 103.96
+   }
+  ]
+ },
+ {
+  "item_id": "v1|297697607302|0",
+  "title": "2024 BOWMAN DRAFT CHROME-REFRACTOR #BDC13 CHRISTIAN MOORE PSA 10",
+  "asking_price": 169.99,
+  "shipping": 5.99,
+  "effective_identity": "2024|BOWMAN|DRAFT|CHROME-REFRACTOR|#BDC13|NUMERIC:10|BASEBALL",
+  "effective_card_key": "6648ac2937283080",
+  "effective_slab_key": "3ee7b31e254ea3ed",
+  "year": 2024,
+  "manufacturer": "BOWMAN",
+  "set": "DRAFT",
+  "subject": "CHRISTIAN MOORE",
+  "card_number": "BDC13",
+  "parallel": "CHROME-REFRACTOR",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298194631483|0",
+    "title": "2024 BOWMAN DRAFT CHROME-REFRACTOR #BDC13 CHRISTIAN MOORE PSA 10",
+    "price": 49.99,
+    "shipping": 5.99,
+    "total": 55.980000000000004
+   },
+   {
+    "item_id": "v1|297697607302|0",
+    "title": "2024 BOWMAN DRAFT CHROME-REFRACTOR #BDC13 CHRISTIAN MOORE PSA 10",
+    "price": 169.99,
+    "shipping": 5.99,
+    "total": 175.98000000000002
+   },
+   {
+    "item_id": "v1|116651181009|0",
+    "title": "2024 BOWMAN DRAFT CHROME-REFRACTOR #BDC13 CHRISTIAN MOORE PSA 10",
+    "price": 199.99,
+    "shipping": 5.99,
+    "total": 205.98000000000002
+   },
+   {
+    "item_id": "v1|297516857283|0",
+    "title": "2024 BOWMAN DRAFT CHROME-REFRACTOR #BDC13 CHRISTIAN MOORE PSA 10",
+    "price": 199.99,
+    "shipping": 5.99,
+    "total": 205.98000000000002
+   }
+  ]
+ },
+ {
+  "item_id": "v1|297711604305|0",
+  "title": "2024 CONTENDERS AUTO #106 JOE MILTON III PSA 10",
+  "asking_price": 499.99,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|CONTENDERS|AUTOGRAPH|#106|NUMERIC:10|FOOTBALL",
+  "effective_card_key": "ade9c51d91294bbe",
+  "effective_slab_key": "2bc5369f635698ad",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "CONTENDERS",
+  "subject": "JOE MILTON III",
+  "card_number": "106",
+  "parallel": "AUTOGRAPH",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 1,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298298586088|0",
+    "title": "2024 CONTENDERS AUTO #106 JOE MILTON III PSA 10",
+    "price": 199.0,
+    "shipping": 5.99,
+    "total": 204.99
+   },
+   {
+    "item_id": "v1|297711604305|0",
+    "title": "2024 CONTENDERS AUTO #106 JOE MILTON III PSA 10",
+    "price": 499.99,
+    "shipping": 5.99,
+    "total": 505.98
+   },
+   {
+    "item_id": "v1|116718498308|0",
+    "title": "2024 CONTENDERS AUTO #106 JOE MILTON III PSA 10",
+    "price": 1200.0,
+    "shipping": 5.99,
+    "total": 1205.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298349022480|0",
+  "title": "2024 PANINI DONRUSS HOLO GREEN LASER #243 BRONNY JAMES JR. PSA 9",
+  "asking_price": 149.99,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|DONRUSS|HOLO GREEN LASER|#243|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "74623392a1404492",
+  "effective_slab_key": "a426f5e2873e8b1d",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "DONRUSS",
+  "subject": "BRONNY JAMES JR",
+  "card_number": "243",
+  "parallel": "HOLO GREEN LASER",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117330223603|0",
+    "title": "2024 PANINI DONRUSS HOLO GREEN LASER #243 BRONNY JAMES JR. PSA 9",
+    "price": 25.0,
+    "shipping": 5.99,
+    "total": 30.990000000000002
+   },
+   {
+    "item_id": "v1|298349022480|0",
+    "title": "2024 PANINI DONRUSS HOLO GREEN LASER #243 BRONNY JAMES JR. PSA 9",
+    "price": 149.99,
+    "shipping": 5.99,
+    "total": 155.98000000000002
+   },
+   {
+    "item_id": "v1|117212783723|0",
+    "title": "2024 PANINI DONRUSS HOLO GREEN LASER #243 BRONNY JAMES JR. PSA 9",
+    "price": 249.99,
+    "shipping": 5.99,
+    "total": 255.98000000000002
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306434204931|0",
+  "title": "2024 BOWMAN CHROME UNIVERSITY CAMPUS ICONS #CI1 COOPER FLAGG PSA 9",
+  "asking_price": 288.88,
+  "shipping": 5.99,
+  "effective_identity": "2024|BOWMAN|CHROME UNIVERSITY CAMPUS ICONS|None|#CI1|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "53f059218504a584",
+  "effective_slab_key": "4a08c081c8970bdf",
+  "year": 2024,
+  "manufacturer": "BOWMAN",
+  "set": "CHROME UNIVERSITY CAMPUS ICONS",
+  "subject": "COOPER FLAGG",
+  "card_number": "CI1",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117021068165|0",
+    "title": "2024 BOWMAN CHROME UNIVERSITY CAMPUS ICONS #CI1 COOPER FLAGG PSA 9",
+    "price": 39.99,
+    "shipping": 5.99,
+    "total": 45.980000000000004
+   },
+   {
+    "item_id": "v1|298241027561|0",
+    "title": "2024 BOWMAN CHROME UNIVERSITY CAMPUS ICONS #CI1 COOPER FLAGG PSA 9",
+    "price": 50.0,
+    "shipping": 5.99,
+    "total": 55.99
+   },
+   {
+    "item_id": "v1|116823645770|0",
+    "title": "2024 BOWMAN CHROME UNIVERSITY CAMPUS ICONS #CI1 COOPER FLAGG PSA 9",
+    "price": 249.99,
+    "shipping": 5.99,
+    "total": 255.98000000000002
+   },
+   {
+    "item_id": "v1|306434204931|0",
+    "title": "2024 BOWMAN CHROME UNIVERSITY CAMPUS ICONS #CI1 COOPER FLAGG PSA 9",
+    "price": 288.88,
+    "shipping": 5.99,
+    "total": 294.87
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306704116968|0",
+  "title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK PSA 10",
+  "asking_price": 155.0,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|PRIZM WNBA|ICE|#143|NUMERIC:10|BASKETBALL",
+  "effective_card_key": "8a1829fbf3a7940e",
+  "effective_slab_key": "c875703a42143f46",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "PRIZM WNBA",
+  "subject": "CAMERON BRINK",
+  "card_number": "143",
+  "parallel": "ICE",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117243910845|0",
+    "title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK PSA 10",
+    "price": 70.0,
+    "shipping": 5.99,
+    "total": 75.99
+   },
+   {
+    "item_id": "v1|306704116968|0",
+    "title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK PSA 10",
+    "price": 155.0,
+    "shipping": 5.99,
+    "total": 160.99
+   },
+   {
+    "item_id": "v1|306412513021|0",
+    "title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK PSA 10",
+    "price": 700.0,
+    "shipping": 5.99,
+    "total": 705.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306763273985|0",
+  "title": "2024 PANINI PRIZM FIREWORKS #24 JAYDEN DANIELS PSA 10",
+  "asking_price": 1000.0,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|PRIZM FIREWORKS|None|#24|NUMERIC:10|FOOTBALL",
+  "effective_card_key": "162082f5dd89a4d3",
+  "effective_slab_key": "e481967be8608037",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "PRIZM FIREWORKS",
+  "subject": "JAYDEN DANIELS",
+  "card_number": "24",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306878929744|0",
+    "title": "2024 PANINI PRIZM FIREWORKS #24 JAYDEN DANIELS PSA 10",
+    "price": 60.0,
+    "shipping": 5.99,
+    "total": 65.99
+   },
+   {
+    "item_id": "v1|116750075818|0",
+    "title": "2024 PANINI PRIZM FIREWORKS #24 JAYDEN DANIELS PSA 10",
+    "price": 95.0,
+    "shipping": 5.99,
+    "total": 100.99
+   },
+   {
+    "item_id": "v1|306467592737|0",
+    "title": "2024 PANINI PRIZM FIREWORKS #24 JAYDEN DANIELS PSA 10",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   },
+   {
+    "item_id": "v1|298020923731|0",
+    "title": "2024 PANINI PRIZM FIREWORKS #24 JAYDEN DANIELS PSA 10",
+    "price": 1000.0,
+    "shipping": 5.99,
+    "total": 1005.99
+   },
+   {
+    "item_id": "v1|306763273985|0",
+    "title": "2024 PANINI PRIZM FIREWORKS #24 JAYDEN DANIELS PSA 10",
+    "price": 1000.0,
+    "shipping": 5.99,
+    "total": 1005.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307008867017|0",
+  "title": "2024 TOPPS NOW BLUE #D3 DRAKE MAYE 34/49 PSA 10",
+  "asking_price": 750.0,
+  "shipping": 5.99,
+  "effective_identity": "2024|TOPPS|NOW|BLUE|#D3|NUMERIC:10|/49|FOOTBALL",
+  "effective_card_key": "e8cdd9fd82f98976",
+  "effective_slab_key": "48b425318bcf8fc1",
+  "year": 2024,
+  "manufacturer": "TOPPS",
+  "set": "NOW",
+  "subject": "DRAKE MAYE",
+  "card_number": "D3",
+  "parallel": "BLUE",
+  "serial_num": 34,
+  "print_run": 49,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298329385826|0",
+    "title": "2024 TOPPS NOW BLUE #D3 DRAKE MAYE 42/49 PSA 10",
+    "price": 450.0,
+    "shipping": 5.99,
+    "total": 455.99
+   },
+   {
+    "item_id": "v1|307008867017|0",
+    "title": "2024 TOPPS NOW BLUE #D3 DRAKE MAYE 34/49 PSA 10",
+    "price": 750.0,
+    "shipping": 5.99,
+    "total": 755.99
+   },
+   {
+    "item_id": "v1|297869084994|0",
+    "title": "2024 TOPPS NOW BLUE #D3 DRAKE MAYE 29/49 PSA 10",
+    "price": 1000.0,
+    "shipping": 5.99,
+    "total": 1005.99
+   },
+   {
+    "item_id": "v1|306771324392|0",
+    "title": "2024 TOPPS NOW BLUE #D3 DRAKE MAYE ROOKIE RC 28/49 PSA 10",
+    "price": 1000.0,
+    "shipping": 5.99,
+    "total": 1005.99
+   },
+   {
+    "item_id": "v1|306749060596|0",
+    "title": "2024 TOPPS NOW BLUE #D3 DRAKE MAYE 15/49 PSA 10",
+    "price": 950.0,
+    "shipping": 5.99,
+    "total": 955.99
+   },
+   {
+    "item_id": "v1|297945861707|0",
+    "title": "2024 TOPPS NOW BLUE #D3 DRAKE MAYE ROOKIE RC 24/49 PSA 10",
+    "price": 1899.0,
+    "shipping": 5.99,
+    "total": 1904.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307075619100|0",
+  "title": "2024 PANINI DONRUSS ROOKIE GRIDIRON KINGS #3 DRAKE MAYE PSA 9",
+  "asking_price": 179.0,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|DONRUSS ROOKIE GRIDIRON KINGS|None|#3|NUMERIC:9|FOOTBALL",
+  "effective_card_key": "f9c37a499a987720",
+  "effective_slab_key": "f451a9f07173975b",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "DONRUSS ROOKIE GRIDIRON KINGS",
+  "subject": "DRAKE MAYE",
+  "card_number": "3",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298434596712|0",
+    "title": "2024 PANINI DONRUSS ROOKIE GRIDIRON KINGS #3 DRAKE MAYE PSA 9",
+    "price": 29.0,
+    "shipping": 5.99,
+    "total": 34.99
+   },
+   {
+    "item_id": "v1|117289497949|0",
+    "title": "2024 PANINI DONRUSS ROOKIE GRIDIRON KINGS #3 DRAKE MAYE PSA 9",
+    "price": 79.99,
+    "shipping": 5.99,
+    "total": 85.97999999999999
+   },
+   {
+    "item_id": "v1|307075619100|0",
+    "title": "2024 PANINI DONRUSS ROOKIE GRIDIRON KINGS #3 DRAKE MAYE PSA 9",
+    "price": 179.0,
+    "shipping": 5.99,
+    "total": 184.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307095682119|0",
+  "title": "2024 PANINI PRIZM RED ICE #222 JARED MCCAIN PSA 9",
+  "asking_price": 255.0,
+  "shipping": 5.99,
+  "effective_identity": "2024|PANINI|PRIZM|RED ICE|#222|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "c70672734601a83e",
+  "effective_slab_key": "abbdc9fd3218fd3d",
+  "year": 2024,
+  "manufacturer": "PANINI",
+  "set": "PRIZM",
+  "subject": "JARED MCCAIN",
+  "card_number": "222",
+  "parallel": "RED ICE",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298319036314|0",
+    "title": "2024 PANINI PRIZM RED ICE #222 JARED MCCAIN PSA 9",
+    "price": 34.95,
+    "shipping": 5.99,
+    "total": 40.940000000000005
+   },
+   {
+    "item_id": "v1|307095681608|0",
+    "title": "2024 PANINI PRIZM RED ICE #222 JARED MCCAIN PSA 9",
+    "price": 255.0,
+    "shipping": 5.99,
+    "total": 260.99
+   },
+   {
+    "item_id": "v1|307095682119|0",
+    "title": "2024 PANINI PRIZM RED ICE #222 JARED MCCAIN PSA 9",
+    "price": 255.0,
+    "shipping": 5.99,
+    "total": 260.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|298041011637|0",
+  "title": "2025 TOPPS NOW #7SP ROKI SASAKI/SHOHEI OHTANI/YOSHINOBU YAMAMOTO PSA 9",
+  "asking_price": 1600.0,
+  "shipping": 5.99,
+  "effective_identity": "2025|TOPPS|NOW|None|#7SP|NUMERIC:9|BASEBALL",
+  "effective_card_key": "4171c402e3f6095a",
+  "effective_slab_key": "e0ebc05fe8d84766",
+  "year": 2025,
+  "manufacturer": "TOPPS",
+  "set": "NOW",
+  "subject": "ROKI SASAKI/SHOHEI OHTANI/YOSHINOBU YAMAMOTO",
+  "card_number": "7SP",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|306892244297|0",
+    "title": "2025 TOPPS NOW #7SP ROKI SASAKI/SHOHEI OHTANI/YOSHINOBU YAMAMOTO PSA 9",
+    "price": 435.0,
+    "shipping": 5.99,
+    "total": 440.99
+   },
+   {
+    "item_id": "v1|117025209669|0",
+    "title": "2025 TOPPS NOW #7SP ROKI SASAKI/SHOHEI OHTANI/YOSHINOBU YAMAMOTO PSA 9",
+    "price": 1800.0,
+    "shipping": 5.99,
+    "total": 1805.99
+   },
+   {
+    "item_id": "v1|298041011637|0",
+    "title": "2025 TOPPS NOW #7SP ROKI SASAKI/SHOHEI OHTANI/YOSHINOBU YAMAMOTO PSA 9",
+    "price": 1600.0,
+    "shipping": 5.99,
+    "total": 1605.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306571479992|0",
+  "title": "2025 BOWMAN SCOUTS' TOP 100 #BTP74 PJ MORLANDO PSA 9",
+  "asking_price": 72.5,
+  "shipping": 5.99,
+  "effective_identity": "2025|BOWMAN|SCOUTS TOP 100|None|#BTP74|NUMERIC:9|BASEBALL",
+  "effective_card_key": "83676aad90558490",
+  "effective_slab_key": "6dac8eeba60c43d8",
+  "year": 2025,
+  "manufacturer": "BOWMAN",
+  "set": "SCOUTS TOP 100",
+  "subject": "PJ MORLANDO",
+  "card_number": "BTP74",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|116746225757|0",
+    "title": "2025 BOWMAN SCOUTS' TOP 100 #BTP74 PJ MORLANDO PSA 9",
+    "price": 15.0,
+    "shipping": 5.99,
+    "total": 20.990000000000002
+   },
+   {
+    "item_id": "v1|116849371634|0",
+    "title": "2025 BOWMAN SCOUTS' TOP 100 #BTP74 PJ MORLANDO PSA 9",
+    "price": 72.5,
+    "shipping": 5.99,
+    "total": 78.49
+   },
+   {
+    "item_id": "v1|306571479992|0",
+    "title": "2025 BOWMAN SCOUTS' TOP 100 #BTP74 PJ MORLANDO PSA 9",
+    "price": 72.5,
+    "shipping": 5.99,
+    "total": 78.49
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306627276905|0",
+  "title": "2025 BOWMAN ROCKSTAR ROOKIES #RR16 JACOB WILSON PSA 10",
+  "asking_price": 149.99,
+  "shipping": 5.99,
+  "effective_identity": "2025|BOWMAN|ROCKSTAR ROOKIES|None|#RR16|NUMERIC:10|BASEBALL",
+  "effective_card_key": "a65ecc1e9c932867",
+  "effective_slab_key": "97f3ec54827f5986",
+  "year": 2025,
+  "manufacturer": "BOWMAN",
+  "set": "ROCKSTAR ROOKIES",
+  "subject": "JACOB WILSON",
+  "card_number": "RR16",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|117308091110|0",
+    "title": "2025 BOWMAN ROCKSTAR ROOKIES #RR16 JACOB WILSON PSA 10",
+    "price": 37.79,
+    "shipping": 5.99,
+    "total": 43.78
+   },
+   {
+    "item_id": "v1|306627276905|0",
+    "title": "2025 BOWMAN ROCKSTAR ROOKIES #RR16 JACOB WILSON PSA 10",
+    "price": 149.99,
+    "shipping": 5.99,
+    "total": 155.98000000000002
+   },
+   {
+    "item_id": "v1|297649266029|0",
+    "title": "2025 BOWMAN ROCKSTAR ROOKIES #RR16 JACOB WILSON PSA 10",
+    "price": 250.0,
+    "shipping": 5.99,
+    "total": 255.99
+   },
+   {
+    "item_id": "v1|116804753462|0",
+    "title": "2025 BOWMAN ROCKSTAR ROOKIES #RR16 JACOB WILSON PSA 10",
+    "price": 250.0,
+    "shipping": 5.99,
+    "total": 255.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306949583070|0",
+  "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+  "asking_price": 400.0,
+  "shipping": 5.99,
+  "effective_identity": "2025|TOPPS|NOW|None|#906|NUMERIC:10|BASEBALL",
+  "effective_card_key": "db5b30a483ec25c0",
+  "effective_slab_key": "391d1a6258265fa2",
+  "year": 2025,
+  "manufacturer": "TOPPS",
+  "set": "NOW",
+  "subject": "SHOHEI OHTANI",
+  "card_number": "906",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307075436220|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 59.79,
+    "shipping": 5.99,
+    "total": 65.78
+   },
+   {
+    "item_id": "v1|298357679627|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 64.99,
+    "shipping": 5.99,
+    "total": 70.97999999999999
+   },
+   {
+    "item_id": "v1|117146763031|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 80.0,
+    "shipping": 5.99,
+    "total": 85.99
+   },
+   {
+    "item_id": "v1|298314854995|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 100.0,
+    "shipping": 5.99,
+    "total": 105.99
+   },
+   {
+    "item_id": "v1|298334058000|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|306949583070|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|117325496337|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   },
+   {
+    "item_id": "v1|117325496512|0",
+    "title": "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306972998992|0",
+  "title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+  "asking_price": 400.0,
+  "shipping": 5.99,
+  "effective_identity": "2025|TOPPS|BASE|RAINBOW FOILBOARD|#201|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "6e8edbcdeeff4a6d",
+  "effective_slab_key": "86ac42b0b8e9acaf",
+  "year": 2025,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "COOPER FLAGG",
+  "card_number": "201",
+  "parallel": "RAINBOW FOILBOARD",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298525641279|0",
+    "title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+    "price": 125.0,
+    "shipping": 5.99,
+    "total": 130.99
+   },
+   {
+    "item_id": "v1|298376747872|0",
+    "title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+    "price": 350.0,
+    "shipping": 5.99,
+    "total": 355.99
+   },
+   {
+    "item_id": "v1|306972998992|0",
+    "title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|298376821545|0",
+    "title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   },
+   {
+    "item_id": "v1|117227553124|0",
+    "title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   },
+   {
+    "item_id": "v1|298376756859|0",
+    "title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307003000827|0",
+  "title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+  "asking_price": 144.0,
+  "shipping": 5.99,
+  "effective_identity": "2025|TOPPS|BASE|HOLO FOIL|#201|NUMERIC:9|BASKETBALL",
+  "effective_card_key": "436fe85c268e7108",
+  "effective_slab_key": "072e020032211908",
+  "year": 2025,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "COOPER FLAGG",
+  "card_number": "201",
+  "parallel": "HOLO FOIL",
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "9",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298538151737|0",
+    "title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+    "price": 120.0,
+    "shipping": 5.99,
+    "total": 125.99
+   },
+   {
+    "item_id": "v1|307003000827|0",
+    "title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+    "price": 144.0,
+    "shipping": 5.99,
+    "total": 149.99
+   },
+   {
+    "item_id": "v1|307002999950|0",
+    "title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+    "price": 155.0,
+    "shipping": 5.99,
+    "total": 160.99
+   },
+   {
+    "item_id": "v1|117227552914|0",
+    "title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+    "price": 450.0,
+    "shipping": 5.99,
+    "total": 455.99
+   },
+   {
+    "item_id": "v1|298376747255|0",
+    "title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+    "price": 450.0,
+    "shipping": 5.99,
+    "total": 455.99
+   },
+   {
+    "item_id": "v1|298376820680|0",
+    "title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307021030433|0",
+  "title": "2025 TOPPS NOW FORMULA 1 #86 LANDO NORRIS PSA 10",
+  "asking_price": 500.0,
+  "shipping": 5.99,
+  "effective_identity": "2025|TOPPS|NOW FORMULA 1|None|#86|NUMERIC:10|RACING",
+  "effective_card_key": "1e592f0e1111f49e",
+  "effective_slab_key": "7e867744b436f2ec",
+  "year": 2025,
+  "manufacturer": "TOPPS",
+  "set": "NOW FORMULA 1",
+  "subject": "LANDO NORRIS",
+  "card_number": "86",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298450420259|0",
+    "title": "2025 TOPPS NOW FORMULA 1 #86 LANDO NORRIS PSA 10",
+    "price": 104.99,
+    "shipping": 5.99,
+    "total": 110.97999999999999
+   },
+   {
+    "item_id": "v1|117264744554|0",
+    "title": "2025 TOPPS NOW FORMULA 1 #86 LANDO NORRIS PSA 10",
+    "price": 114.99,
+    "shipping": 5.99,
+    "total": 120.97999999999999
+   },
+   {
+    "item_id": "v1|307021029549|0",
+    "title": "2025 TOPPS NOW FORMULA 1 #86 LANDO NORRIS PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|307021030433|0",
+    "title": "2025 TOPPS NOW FORMULA 1 #86 LANDO NORRIS PSA 10",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   },
+   {
+    "item_id": "v1|307021029834|0",
+    "title": "2025 TOPPS NOW FORMULA 1 #86 LANDO NORRIS PSA 10",
+    "price": 450.0,
+    "shipping": 5.99,
+    "total": 455.99
+   },
+   {
+    "item_id": "v1|307021030206|0",
+    "title": "2025 TOPPS NOW FORMULA 1 #86 LANDO NORRIS PSA 10",
+    "price": 450.0,
+    "shipping": 5.99,
+    "total": 455.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307023672532|0",
+  "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+  "asking_price": 400.0,
+  "shipping": 5.99,
+  "effective_identity": "2025|TOPPS|NOW OFFSEASON|None|#OS-4|NUMERIC:10|BASEBALL",
+  "effective_card_key": "125868fcf7fc7f29",
+  "effective_slab_key": "f156dcce800d5dbd",
+  "year": 2025,
+  "manufacturer": "TOPPS",
+  "set": "NOW OFFSEASON",
+  "subject": "PAUL SKENES",
+  "card_number": "OS-4",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|307083839536|0",
+    "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+    "price": 50.0,
+    "shipping": 5.99,
+    "total": 55.99
+   },
+   {
+    "item_id": "v1|117267418631|0",
+    "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+    "price": 54.99,
+    "shipping": 5.99,
+    "total": 60.980000000000004
+   },
+   {
+    "item_id": "v1|117277858343|0",
+    "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+    "price": 59.99,
+    "shipping": 5.99,
+    "total": 65.98
+   },
+   {
+    "item_id": "v1|298450379500|0",
+    "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|307023672532|0",
+    "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|117267410121|0",
+    "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|307023671237|0",
+    "title": "2025 TOPPS NOW OFFSEASON #OS-4 PAUL SKENES PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|307093015116|0",
+  "title": "2025 TOPPS NOW #903 SHOHEI OHTANI PSA 10",
+  "asking_price": 120.0,
+  "shipping": 5.99,
+  "effective_identity": "2025|TOPPS|NOW|None|#903|NUMERIC:10|BASEBALL",
+  "effective_card_key": "4b672862ca4bc55a",
+  "effective_slab_key": "d0e1c4bebbeca6e0",
+  "year": 2025,
+  "manufacturer": "TOPPS",
+  "set": "NOW",
+  "subject": "SHOHEI OHTANI",
+  "card_number": "903",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298406728220|0",
+    "title": "2025 TOPPS NOW #903 SHOHEI OHTANI PSA 10",
+    "price": 75.0,
+    "shipping": 5.99,
+    "total": 80.99
+   },
+   {
+    "item_id": "v1|307093015116|0",
+    "title": "2025 TOPPS NOW #903 SHOHEI OHTANI PSA 10",
+    "price": 120.0,
+    "shipping": 5.99,
+    "total": 125.99
+   },
+   {
+    "item_id": "v1|117215448932|0",
+    "title": "2025 TOPPS NOW #903 SHOHEI OHTANI PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|306962637637|0",
+    "title": "2025 TOPPS NOW #903 SHOHEI OHTANI PSA 10",
+    "price": 400.0,
+    "shipping": 5.99,
+    "total": 405.99
+   },
+   {
+    "item_id": "v1|307090119604|0",
+    "title": "2025 TOPPS NOW #903 SHOHEI OHTANI PSA 10",
+    "price": 500.0,
+    "shipping": 5.99,
+    "total": 505.99
+   }
+  ]
+ },
+ {
+  "item_id": "v1|306906854221|0",
+  "title": "2026 TOPPS #1 AARON JUDGE PSA 10",
+  "asking_price": 1900.0,
+  "shipping": 5.99,
+  "effective_identity": "2026|TOPPS|BASE|None|#1|NUMERIC:10|BASEBALL",
+  "effective_card_key": "324aba7a611a86cc",
+  "effective_slab_key": "3aafa16e3f168772",
+  "year": 2026,
+  "manufacturer": "TOPPS",
+  "set": "BASE",
+  "subject": "AARON JUDGE",
+  "card_number": "1",
+  "parallel": null,
+  "serial_num": null,
+  "print_run": null,
+  "psa_grade": "10",
+  "grade_type": "NUMERIC",
+  "qualifier": null,
+  "is_auto": 0,
+  "auto_grade": null,
+  "group_members": [
+   {
+    "item_id": "v1|298366364841|0",
+    "title": "2026 TOPPS #1 AARON JUDGE PSA 10",
+    "price": 430.0,
+    "shipping": 5.99,
+    "total": 435.99
+   },
+   {
+    "item_id": "v1|306906849566|0",
+    "title": "2026 TOPPS #1 AARON JUDGE PSA 10",
+    "price": 1800.0,
+    "shipping": 5.99,
+    "total": 1805.99
+   },
+   {
+    "item_id": "v1|306906854221|0",
+    "title": "2026 TOPPS #1 AARON JUDGE PSA 10",
+    "price": 1900.0,
+    "shipping": 5.99,
+    "total": 1905.99
+   }
+  ]
+ }
+]

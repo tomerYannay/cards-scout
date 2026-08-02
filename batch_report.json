@@ -1,0 +1,91 @@
+{
+ "batch_id": "c0ed66ff0bef44da",
+ "totals": {
+  "candidates": 2,
+  "completed": 2,
+  "unique": 100,
+  "accepted": 56,
+  "rejected": 37,
+  "review": 7
+ },
+ "decisions": {
+  "PASS": 2
+ },
+ "reason_codes": {
+  "PASS_AT_OR_ABOVE_MARKET": 2
+ },
+ "candidates": [
+  {
+   "batch_id": "c0ed66ff0bef44da",
+   "run_id": "0d90a2723e604af0",
+   "status": "completed",
+   "candidate_id": "v1|306972998992|0",
+   "candidate_title": "2025 TOPPS RAINBOW FOILBOARD #201 COOPER FLAGG PSA 9",
+   "listing_url": "https://www.ebay.com/itm/306972998992?hash=item4779043d50:g:Q1MAAeSw~YdqG293",
+   "listing_active": true,
+   "unique_comps": 50,
+   "accepted": 29,
+   "rejected": 18,
+   "review_required": 3,
+   "priced_accepted": 29,
+   "query_tiers_of_accepted": [
+    "STRICT"
+   ],
+   "decision": {
+    "decision": "PASS",
+    "reason": "PASS_AT_OR_ABOVE_MARKET",
+    "asking_price": 400.0,
+    "median_market_total": 81.0,
+    "gross_gap": -319.0,
+    "gross_pct": -393.8271604938272,
+    "comp_count": 29,
+    "min_total": 49.03,
+    "max_total": 130.0,
+    "dispersion": 2.6514378951662247,
+    "confidence": "HIGH",
+    "most_recent_sale": "2026-07-30",
+    "downgrade_reason": null,
+    "basis": "gross opportunity before taxes, import costs, marketplace fees and resale costs"
+   },
+   "suspicious_flags": [
+    "DISPERSION_2.65x"
+   ]
+  },
+  {
+   "batch_id": "c0ed66ff0bef44da",
+   "run_id": "d4b785d0fb7e4172",
+   "status": "completed",
+   "candidate_id": "v1|307003000827|0",
+   "candidate_title": "2025 TOPPS HOLO FOIL #201 COOPER FLAGG PSA 9",
+   "listing_url": "https://www.ebay.com/itm/307003000827?hash=item477ace07fb:g:eiEAAeSwAdhqL3WY",
+   "listing_active": true,
+   "unique_comps": 50,
+   "accepted": 27,
+   "rejected": 19,
+   "review_required": 4,
+   "priced_accepted": 27,
+   "query_tiers_of_accepted": [
+    "STRICT"
+   ],
+   "decision": {
+    "decision": "PASS",
+    "reason": "PASS_AT_OR_ABOVE_MARKET",
+    "asking_price": 144.0,
+    "median_market_total": 88.0,
+    "gross_gap": -56.0,
+    "gross_pct": -63.63636363636363,
+    "comp_count": 27,
+    "min_total": 55.0,
+    "max_total": 224.99,
+    "dispersion": 4.090727272727273,
+    "confidence": "HIGH",
+    "most_recent_sale": "2026-07-17",
+    "downgrade_reason": null,
+    "basis": "gross opportunity before taxes, import costs, marketplace fees and resale costs"
+   },
+   "suspicious_flags": [
+    "DISPERSION_4.09x"
+   ]
+  }
+ ]
+}

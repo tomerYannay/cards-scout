@@ -1,0 +1,84 @@
+# --- Secrets and credentials -------------------------------------------------
+# Never commit API keys, OAuth tokens or cookies. eBay credentials live in
+# ~/.cards-scout.env (outside the repo) and are read from the environment.
+.env
+.env.*
+*.env
+!*.env.example
+.cards-scout.env
+secrets.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*_token
+*_token.json
+token.json
+cookies.json
+*.cookies
+
+# Playwright browser profile: holds the logged-in eBay session (cookies,
+# local storage, cache). Recreate by logging in once; see
+# PLAYWRIGHT_PRODUCT_RESEARCH.md.
+data/playwright/ebay-profile/
+**/*-profile/
+.playwright/
+playwright-report/
+.auth/
+
+# --- Generated dataset -------------------------------------------------------
+# cards.db is rebuilt from the eBay API; see README.md "Recreating cards.db".
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# --- Python ------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Editors / OS ------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Local tooling state -----------------------------------------------------
+.claude/settings.local.json
+
+# --- Temporary / reproducible runtime output ---------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Ad-hoc debug captures from the Playwright collector. Real audit artifacts
+# (*_unclassified.json) are tracked; throwaway screenshots are not.
+data/playwright/artifacts/check_*.png
+data/playwright/artifacts/check_*.html
+data/playwright/artifacts/debug_*

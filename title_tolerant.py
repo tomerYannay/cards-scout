@@ -18,6 +18,7 @@ a year, set, player, card number, grade or grader.
 
 import re
 
+import card_vocab
 import parse
 
 # --- provenance ------------------------------------------------------------
@@ -220,6 +221,58 @@ def find_player_before_number(text, surnames):
     return " ".join(run)
 
 
+# Team names that CONTAIN a parallel colour word. Without these, "Chicago White
+# Sox" reads as the WHITE parallel and "Boston Red Sox" as RED. General hobby
+# grammar, not a seller quirk.
+COLOUR_TEAM_PHRASES = (
+    "RED SOX", "WHITE SOX", "BLUE JAYS", "GREEN BAY", "RED WINGS",
+    "BLACK HAWKS", "BLACKHAWKS", "RED RAIDERS", "GOLDEN STATE",
+    "GOLDEN KNIGHTS", "BLUE JACKETS", "SILVER KNIGHTS", "REDS", "REDSKINS",
+    "BROWNS", "WHITECAPS", "BLUES", "ORANGE BOWL",
+)
+
+
+def find_parallel(text, athlete=None, grade_raw=None, year_raw=None):
+    """(parallel, ambiguous) - only a parallel the title explicitly states.
+
+    Extraction itself is delegated to parse._extract_parallel, the same
+    authoritative routine the canonical parser and comp matching use, so the
+    vocabulary cannot drift into a second list.
+
+    What this adds is the SPAN. Run over a whole freeform title, that routine
+    reads "Chicago White Sox" as the WHITE parallel and "Los Angeles Rams" as
+    nothing at all only by luck. So the player, the team words, the grade, the
+    year and the card number are removed first, and only what remains can name
+    a parallel.
+
+    Nothing is inferred from design, set, price, rarity or a serial number: a
+    parallel is returned only when its own words are present.
+    """
+    span = text.upper()
+    for phrase in COLOUR_TEAM_PHRASES:
+        span = span.replace(phrase, " ")
+    for chunk in (grade_raw, year_raw):
+        if chunk:
+            span = span.replace(chunk.upper(), " ")
+    for word in (athlete or "").split():
+        span = re.sub(rf"\b{re.escape(word)}\b", " ", span)
+    for word in card_vocab.TEAM_CITY | card_vocab.LEAGUE_SPORT:
+        span = re.sub(rf"\b{re.escape(word)}\b", " ", span)
+    span = _HASH_NUM.sub(" ", span)
+    span = _SERIAL.sub(" ", span)
+    span = re.sub(rf"\b({'|'.join(GRADERS)})\s*\d+(?:\.5)?\b", " ", span)
+    parallel, _rem = parse._extract_parallel(re.sub(r"\s+", " ", span))
+    if not parallel:
+        return None, False
+    # Two distinct colours is two competing readings, not one compound
+    # parallel. Refuse rather than pick.
+    colours = [c for c in parse.PARALLEL_COLORS
+               if re.search(rf"\b{c}\b", parallel)]
+    if len(colours) > 1:
+        return None, True
+    return parallel, False
+
+
 def find_manufacturer(text):
     """A known manufacturer anywhere in the title, or None if two disagree."""
     found = []
@@ -242,7 +295,7 @@ def extract(title, surnames=None):
     out = {"year": None, "year_raw": None, "grader": None, "grade_value": None,
            "grade_raw": None, "card_number": None, "card_number_raw": None,
            "serial_num": None, "print_run": None, "is_auto": 0,
-           "athlete": None, "manufacturer": None,
+           "athlete": None, "manufacturer": None, "parallel": None,
            "provenance": TOLERANT, "ambiguity": []}
 
     year, year_raw = find_year(text)
@@ -266,6 +319,10 @@ def extract(title, surnames=None):
     out["athlete"] = find_player(text, year_raw, out["grade_raw"], surnames)
     if not out["athlete"]:
         out["athlete"] = find_player_before_number(text, surnames)
+    out["parallel"], par_ambiguous = find_parallel(
+        text, out["athlete"], out["grade_raw"], year_raw)
+    if par_ambiguous:
+        out["ambiguity"].append("two competing parallel readings")
     if out["ambiguity"]:
         out["provenance"] = AMBIGUOUS
     return out
@@ -315,3 +372,46 @@ def parse_tolerant(title, surnames=None):
     if got["ambiguity"]:
         return result["fields"], AMBIGUOUS, got["ambiguity"]
     return got, TOLERANT, []
+
+
+# --------------------------------------------------------------------------
+# Seller-year disagreement: a diagnostic, never a correction
+# --------------------------------------------------------------------------
+# Checkpoint candidate 13 was titled "Graded 2022 Bowman Jackson Holliday #BS6"
+# but every comp calls the card 2023, so 47 of 50 were correctly rejected on
+# year and the candidate ended with no evidence. Our parse of the title is
+# right; the SELLER's year is wrong.
+#
+# This reports that shape. It never rewrites the candidate year, never accepts
+# the rejected comps, and never feeds a valuation - a title is not outvoted by
+# a search result.
+YEAR_DISAGREEMENT = "candidate_year_disagreement"
+MIN_DISAGREEING_COMPS = 5          # one or two rows prove nothing
+MIN_DISAGREEMENT_SHARE = 0.80      # near-unanimous, not merely a majority
+
+
+def year_disagreement(candidate_year, rejected_years, accepted_count=0):
+    """Flag when otherwise-matching comps consistently name one other year.
+
+    `rejected_years` are the years parsed from comps rejected ONLY on year.
+    Returns None unless the evidence is both plentiful and near-unanimous.
+    """
+    if accepted_count or not candidate_year or not rejected_years:
+        return None
+    counts = {}
+    for y in rejected_years:
+        if y:
+            counts[y] = counts.get(y, 0) + 1
+    if not counts:
+        return None
+    total = sum(counts.values())
+    year, n = max(counts.items(), key=lambda kv: kv[1])
+    if n < MIN_DISAGREEING_COMPS or n / total < MIN_DISAGREEMENT_SHARE:
+        return None
+    if year == candidate_year:
+        return None
+    return {"flag": YEAR_DISAGREEMENT, "candidate_year": candidate_year,
+            "observed_year": year, "supporting_comps": n,
+            "year_distribution": dict(sorted(counts.items())),
+            "action": "manual review only - the candidate year is not rewritten "
+                      "and these comps remain rejected"}

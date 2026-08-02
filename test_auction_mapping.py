@@ -311,3 +311,25 @@ class TestPaginationCeiling(unittest.TestCase):
         b = sorted(list(reversed(items)), key=lambda x: x["itemId"])[:cap]
         self.assertEqual(a, b)
         self.assertEqual(len(a), cap)
+
+
+class TestSearchResponseIsFullyAvailable(unittest.TestCase):
+    """A silently-ignored filter is only visible in the response `warnings`.
+
+    The Gate C verification request discarded everything except itemSummaries
+    and total, so the one field that could have proved whether itemEndDate was
+    applied was thrown away in-process. The client does return the whole body -
+    the loss was in the probe script - so any future probe must retain it.
+    """
+
+    def test_search_page_returns_the_whole_response_body(self):
+        import inspect
+        src = inspect.getsource(ebay_api.search_page)
+        self.assertIn("return resp.json()", src)
+        self.assertNotIn("itemSummaries", src)
+
+    def test_a_warnings_key_would_be_reachable(self):
+        body = {"total": 5, "itemSummaries": [], "warnings": [
+            {"errorId": 12001, "message": "The filter is not supported"}]}
+        self.assertEqual(len(body.get("warnings") or []), 1)
+        self.assertIn("not supported", body["warnings"][0]["message"])

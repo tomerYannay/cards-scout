@@ -1,0 +1,162 @@
+{
+ "verified_at": "2026-08-02T17:26:37.647113+00:00",
+ "authorized_data_gets": 2,
+ "data_gets_used": 1,
+ "request_2_getItem": "NOT MADE - request 1 did not meet the pass criterion",
+ "request_1": {
+  "endpoint": "buy/browse/v1/item_summary/search",
+  "category_ids": "212",
+  "limit": 10,
+  "offset": 0,
+  "sort": "endingSoonest",
+  "filter": [
+   "buyingOptions:{AUCTION}",
+   "itemEndDate:[2026-08-02T17:24:24.000Z..2026-08-03T17:24:24.000Z]",
+   "priceCurrency:USD"
+  ],
+  "window_start_utc": "2026-08-02T17:24:24.000Z",
+  "window_end_utc": "2026-08-03T17:24:24.000Z",
+  "window_seconds": 86400,
+  "http_status": 200,
+  "items_returned": 10,
+  "ebay_total_reported": 2430520
+ },
+ "validation": {
+  "all_items_genuine_auction_or_hybrid": true,
+  "all_end_times_within_window": true,
+  "items_outside_window": 0,
+  "earliest_end": "2026-08-02T17:24:55.000Z",
+  "latest_end": "2026-08-02T17:24:58.000Z",
+  "returned_span_seconds": 3,
+  "unfiltered_total_26min_earlier": 2429379,
+  "filtered_total": 2430520,
+  "total_delta_pct": 0.047,
+  "filter_proven_applied": false,
+  "reason": "Every returned item lies inside the window, but all ten end within 3 seconds of the window START, which sort=endingSoonest produces on its own. The reported total is statistically identical to the unfiltered total taken 26 minutes earlier, whereas a genuine 24-hour restriction on 2.43M auctions should cut it to a small fraction. Membership is therefore explained entirely by the sort and is not evidence the filter was applied.",
+  "capture_gap": "The response `warnings` array was available in-process and was not inspected or persisted. That is where an ignored or unsupported filter would be reported."
+ },
+ "items": [
+  {
+   "item_id": "v1|358834708927|0",
+   "item_end_date": "2026-08-02T17:24:55.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "AUCTION"
+   ],
+   "current_bid_price": "0.99",
+   "fixed_asking_price": null,
+   "shipping_cost_type": "FIXED"
+  },
+  {
+   "item_id": "v1|358846407660|0",
+   "item_end_date": "2026-08-02T17:24:55.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "FIXED_PRICE",
+    "AUCTION"
+   ],
+   "current_bid_price": "4.00",
+   "fixed_asking_price": "8.00",
+   "shipping_cost_type": "CALCULATED"
+  },
+  {
+   "item_id": "v1|377371548914|0",
+   "item_end_date": "2026-08-02T17:24:55.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "AUCTION"
+   ],
+   "current_bid_price": "4.25",
+   "fixed_asking_price": null,
+   "shipping_cost_type": "CALCULATED"
+  },
+  {
+   "item_id": "v1|398217231635|0",
+   "item_end_date": "2026-08-02T17:24:55.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "current_bid_price": "0.90",
+   "fixed_asking_price": null,
+   "shipping_cost_type": "CALCULATED"
+  },
+  {
+   "item_id": "v1|206443075995|0",
+   "item_end_date": "2026-08-02T17:24:56.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "AUCTION"
+   ],
+   "current_bid_price": "28.00",
+   "fixed_asking_price": null,
+   "shipping_cost_type": "FIXED"
+  },
+  {
+   "item_id": "v1|287485500773|0",
+   "item_end_date": "2026-08-02T17:24:56.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "current_bid_price": "0.99",
+   "fixed_asking_price": null,
+   "shipping_cost_type": "FIXED"
+  },
+  {
+   "item_id": "v1|398217231673|0",
+   "item_end_date": "2026-08-02T17:24:56.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "FIXED_PRICE",
+    "AUCTION"
+   ],
+   "current_bid_price": "0.99",
+   "fixed_asking_price": "14.99",
+   "shipping_cost_type": "FIXED"
+  },
+  {
+   "item_id": "v1|307087781456|0",
+   "item_end_date": "2026-08-02T17:24:57.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "FIXED_PRICE",
+    "AUCTION"
+   ],
+   "current_bid_price": "0.01",
+   "fixed_asking_price": "0.99",
+   "shipping_cost_type": "FIXED"
+  },
+  {
+   "item_id": "v1|407099899866|0",
+   "item_end_date": "2026-08-02T17:24:57.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "current_bid_price": "0.31",
+   "fixed_asking_price": null,
+   "shipping_cost_type": "CALCULATED"
+  },
+  {
+   "item_id": "v1|127995094566|0",
+   "item_end_date": "2026-08-02T17:24:58.000Z",
+   "within_window": true,
+   "raw_buying_options": [
+    "AUCTION"
+   ],
+   "current_bid_price": "2.99",
+   "fixed_asking_price": null,
+   "shipping_cost_type": "CALCULATED"
+  }
+ ],
+ "decision": "REVISE_API_QUERY",
+ "next_probe_requirements": [
+  "displace the window into the future (start = now+12h, end = now+36h) so an ignored filter is distinguishable from an applied one",
+  "persist and report the response `warnings` array",
+  "keep sort=endingSoonest only as a tiebreak, never as the window definition"
+ ]
+}

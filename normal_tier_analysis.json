@@ -1,0 +1,186 @@
+[
+ {
+  "candidate_id": "v1|117330558241|0",
+  "title": "1993 UD #466 MICHAEL JORDAN PSA 7",
+  "strict_query": "1993 MICHAEL JORDAN UPPER DECK #466 PSA 7",
+  "normal_query": "1993 MICHAEL JORDAN UPPER DECK 466 PSA 7",
+  "surface_difference": [
+   "#466",
+   "466"
+  ],
+  "normal_issued": false,
+  "strict_rows": 50,
+  "normal_rows": null,
+  "normal_unique_raw_rows": null,
+  "normal_unique_accepted": null,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 50,
+    "accepted": 35
+   }
+  }
+ },
+ {
+  "candidate_id": "v1|298264618164|0",
+  "title": "1984 TOPPS #490 CAL RIPKEN JR. PSA 8",
+  "strict_query": "1984 CAL RIPKEN JR TOPPS #490 PSA 8",
+  "normal_query": "1984 CAL RIPKEN JR TOPPS 490 PSA 8",
+  "surface_difference": [
+   "#490",
+   "490"
+  ],
+  "normal_issued": false,
+  "strict_rows": 50,
+  "normal_rows": null,
+  "normal_unique_raw_rows": null,
+  "normal_unique_accepted": null,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 50,
+    "accepted": 43
+   }
+  }
+ },
+ {
+  "candidate_id": "v1|298292151257|0",
+  "title": "1981 TOPPS #194 ART MONK PSA 6",
+  "strict_query": "1981 ART MONK TOPPS #194 PSA 6",
+  "normal_query": "1981 ART MONK TOPPS 194 PSA 6",
+  "surface_difference": [
+   "#194",
+   "194"
+  ],
+  "normal_issued": false,
+  "strict_rows": 50,
+  "normal_rows": null,
+  "normal_unique_raw_rows": null,
+  "normal_unique_accepted": null,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 50,
+    "accepted": 42
+   }
+  }
+ },
+ {
+  "candidate_id": "v1|297924700955|0",
+  "title": "1990 FLEER UPDATE #U-92 GARY PAYTON ROOKIE RC PSA 9 AUTO 10",
+  "strict_query": "1990 GARY PAYTON FLEER UPDATE #U-92 auto 10 PSA 9",
+  "normal_query": "1990 GARY PAYTON FLEER UPDATE U-92 auto 10 PSA 9",
+  "surface_difference": [
+   "#U-92",
+   "U-92"
+  ],
+  "normal_issued": false,
+  "strict_rows": 50,
+  "normal_rows": null,
+  "normal_unique_raw_rows": null,
+  "normal_unique_accepted": null,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 50,
+    "accepted": 45
+   }
+  }
+ },
+ {
+  "candidate_id": "v1|306417771465|0",
+  "title": "2017 ALLEN & GINTER #58 EFREN REYES PSA 10 AUTO 8",
+  "strict_query": "2017 EFREN REYES TOPPS ALLEN & GINTER #58 auto 8 PSA 10",
+  "normal_query": "2017 EFREN REYES TOPPS ALLEN & GINTER 58 auto 8 PSA 10",
+  "surface_difference": [
+   "#58",
+   "58"
+  ],
+  "normal_issued": true,
+  "strict_rows": 1,
+  "normal_rows": 1,
+  "normal_unique_raw_rows": 0,
+  "normal_unique_accepted": 0,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 1,
+    "accepted": 0
+   }
+  }
+ },
+ {
+  "candidate_id": "v1|306575683628|0",
+  "title": "2005 FINEST X-FRACTOR #112 GERALD GREEN 147/199 PSA 10",
+  "strict_query": "2005 GERALD GREEN TOPPS FINEST #112 X-FRACTOR /199 PSA 10",
+  "normal_query": "2005 GERALD GREEN TOPPS FINEST 112 X-FRACTOR /199 PSA 10",
+  "surface_difference": [
+   "#112",
+   "112"
+  ],
+  "normal_issued": true,
+  "strict_rows": 0,
+  "normal_rows": 0,
+  "normal_unique_raw_rows": 0,
+  "normal_unique_accepted": 0,
+  "rows_by_tier": {}
+ },
+ {
+  "candidate_id": "v1|306704116968|0",
+  "title": "2024 PANINI PRIZM WNBA ICE #143 CAMERON BRINK PSA 10",
+  "strict_query": "2024 CAMERON BRINK PANINI PRIZM WNBA #143 ICE PSA 10",
+  "normal_query": "2024 CAMERON BRINK PANINI PRIZM WNBA 143 ICE PSA 10",
+  "surface_difference": [
+   "#143",
+   "143"
+  ],
+  "normal_issued": false,
+  "strict_rows": 50,
+  "normal_rows": null,
+  "normal_unique_raw_rows": null,
+  "normal_unique_accepted": null,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 50,
+    "accepted": 24
+   }
+  }
+ },
+ {
+  "candidate_id": "v1|117183556887|0",
+  "title": "1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC",
+  "strict_query": "1981 JACK NICKLAUS DONRUSS GOLF #13 PSA 9 OC",
+  "normal_query": "1981 JACK NICKLAUS DONRUSS GOLF 13 PSA 9 OC",
+  "surface_difference": [
+   "#13",
+   "13"
+  ],
+  "normal_issued": false,
+  "strict_rows": 30,
+  "normal_rows": null,
+  "normal_unique_raw_rows": null,
+  "normal_unique_accepted": null,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 30,
+    "accepted": 23
+   }
+  }
+ },
+ {
+  "candidate_id": "v1|117233440832|0",
+  "title": "1967 TOPPS #430 PETE ROSE PSA 8 OC",
+  "strict_query": "1967 PETE ROSE TOPPS #430 PSA 8 OC",
+  "normal_query": "1967 PETE ROSE TOPPS 430 PSA 8 OC",
+  "surface_difference": [
+   "#430",
+   "430"
+  ],
+  "normal_issued": true,
+  "strict_rows": 6,
+  "normal_rows": 6,
+  "normal_unique_raw_rows": 0,
+  "normal_unique_accepted": 0,
+  "rows_by_tier": {
+   "STRICT": {
+    "rows": 6,
+    "accepted": 5
+   }
+  }
+ }
+]

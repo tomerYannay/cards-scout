@@ -2016,3 +2016,35 @@ class TestRawArtifactIsNotHollow(unittest.TestCase):
             back = json.load(open(p))
         self.assertEqual(len(back["rows"]), len(rows))
         self.assertTrue(back["rows"], "artifact must not be hollow")
+
+
+class TestBatchLabelling(unittest.TestCase):
+    """One invocation must group all its candidates under the requested label."""
+
+    def test_requested_label_is_used(self):
+        self.assertEqual(pw.batch_label("pilot9"), "pilot9")
+
+    def test_absent_label_falls_back_to_a_generated_id(self):
+        got = pw.batch_label(None)
+        self.assertEqual(len(got), 16)
+        self.assertNotEqual(got, pw.batch_label(None))
+
+    def test_blank_label_is_not_used_as_a_label(self):
+        for blank in ("", "   "):
+            self.assertEqual(len(pw.batch_label(blank)), 16)
+
+    def test_every_candidate_in_one_run_shares_the_label(self):
+        """Two candidates written under one label are groupable by it."""
+        conn = db.connect(":memory:")
+        label = pw.batch_label("pilot9")
+        for cid in ("v1|1|0", "v1|2|0"):
+            conn.execute(
+                "INSERT INTO pr_runs (candidate_id, status, run_id, batch_id) "
+                "VALUES (?,?,?,?)", (cid, "completed", pw.new_run_id(), label))
+        conn.commit()
+        rows = conn.execute(
+            "SELECT candidate_id FROM pr_runs WHERE batch_id=?", (label,)).fetchall()
+        self.assertEqual({r[0] for r in rows}, {"v1|1|0", "v1|2|0"})
+        # run_ids stay distinct; only the batch label is shared.
+        runs = {r[0] for r in conn.execute("SELECT run_id FROM pr_runs")}
+        self.assertEqual(len(runs), 2)

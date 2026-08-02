@@ -368,6 +368,16 @@ def new_run_id():
     return uuid.uuid4().hex[:16]
 
 
+def batch_label(requested):
+    """The label every candidate in one invocation is stored under.
+
+    `--batch-id` used to be read only by --report and --audit-accepted, while
+    the collector always minted a fresh id, so the candidates of a labelled run
+    could not be grouped afterwards by the label their operator gave them.
+    """
+    return (requested or "").strip() or new_run_id()
+
+
 def reclassify_comps(conn, cid, cand, only_ids=None, run_id=None):
     """Re-decide every stored row for this candidate via the comp classifier.
 
@@ -672,7 +682,7 @@ def do_collect(args):
         return
     mode = "attached Chrome" if args.connect_existing else (
         "headed" if args.headed else "headless")
-    batch_id = new_run_id()
+    batch_id = batch_label(args.batch_id)
     print(f"collecting {len(todo)} candidate(s), one at a time, {mode}")
     print(f"batch {batch_id}")
     sync_playwright = load_playwright()

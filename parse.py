@@ -114,8 +114,24 @@ GRADE_AUTH_RE = re.compile(r"PSA\s*(AUTHENTIC(?:\s+ALTERED)?|AUTH)\b")
 # PSA qualifiers: MC miscut, OC off-centre, ST stain, MK marked, PD print defect.
 # A qualifier materially lowers value, so it is part of slab identity.
 QUALIFIERS = ("MC", "OC", "ST", "MK", "PD")
+
+# The word PSA prints beside the number - "PSA 8 NM-MT (OC)". It belongs to the
+# grade expression, so a qualifier behind one is still attached to the grade.
+# A closed whitelist: nothing else may separate the number from the qualifier.
+_GRADE_WORDS = ("GEM", "MT", "MINT", "NM", "EX", "VG", "GD", "GOOD", "POOR",
+                "PR", "FR", "AUTHENTIC", "AUTH")
+_QUAL = "|".join(QUALIFIERS)
+_GW = "|".join(_GRADE_WORDS)
+
+# Sellers write the qualifier bare or bracketed, spaced or not:
+#   "PSA 9 OC"   "PSA 9 (OC)"   "PSA 8(OC)"   "PSA 8 NM-MT (OC)"
+# A bracketed qualifier must be closed, so "PSA 8 (ST. LOUIS CARDINALS)" cannot
+# read as the ST qualifier, and a bare one may not be followed by a full stop
+# for the same reason. Titles are uppercased by normalize() before matching.
 QUALIFIER_RE = re.compile(
-    rf"PSA\s*(?:10|[1-9](?:\.5)?)\s+({'|'.join(QUALIFIERS)})\b")
+    rf"PSA\s*(?:10|[1-9](?:\.5)?)"
+    rf"(?:[\s-]+(?:{_GW})\b)*"
+    rf"(?:\s*\(\s*({_QUAL})\s*\)|\s+({_QUAL})\b(?!\.))")
 
 # A separate autograph grade: "PSA 9 AUTO 10", "PSA AUTHENTIC AUTO 9",
 # "PSA 8 AUTO AUTHENTIC". Bare "AUTO" (no grade) only marks the card as signed,
@@ -212,7 +228,8 @@ def _find_grade(text):
     10 must never be read as the card grade.
     """
     qual = QUALIFIER_RE.search(text)
-    qualifier = qual.group(1) if qual else None
+    # Group 1 is the bracketed form, group 2 the bare one; only one can match.
+    qualifier = (qual.group(1) or qual.group(2)) if qual else None
 
     auto = AUTO_GRADE_RE.search(text)
     auto_grade = None

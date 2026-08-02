@@ -600,3 +600,111 @@ class TestBoundaryVsIdentityChange(unittest.TestCase):
         bad, _ = self.e.sets_reconcile("CHROME CHAMPIONS LEAGUE",
                                        "CHROME UEFA EUROPA LEAGUE")
         self.assertFalse(bad)
+
+
+class TestParenthesizedQualifier(unittest.TestCase):
+    """Sellers bracket the qualifier: "PSA 8 (OC)", "PSA 9(OC)", "PSA 8 NM-MT (OC)".
+
+    The old pattern required whitespace and no bracket, so every bracketed form
+    parsed as "no qualifier" - not absent evidence but misread evidence. All 21
+    such rows in the pilot corpus were real OC cards.
+    """
+
+    def q(self, title):
+        return fields(title)["grade_qualifier"]
+
+    # --- positive: bracket spacing ---------------------------------------
+    def test_spaced_bracket(self):
+        self.assertEqual(self.q("1967 Topps #430 Pete Rose PSA 8 (OC)"), "OC")
+
+    def test_unspaced_bracket(self):
+        self.assertEqual(self.q("1967 Topps #430 Pete Rose PSA 8(OC)"), "OC")
+
+    def test_padded_inside_bracket(self):
+        self.assertEqual(self.q("1967 Topps #430 Pete Rose PSA 8 ( OC )"), "OC")
+
+    def test_bare_form_still_works(self):
+        self.assertEqual(self.q("1981 DONRUSS GOLF #13 JACK NICKLAUS PSA 9 OC"),
+                         "OC")
+
+    # --- positive: every qualifier, bracketed and bare -------------------
+    def test_each_qualifier_bracketed(self):
+        for qual in parse.QUALIFIERS:
+            self.assertEqual(self.q(f"1990 Topps #1 Some Player PSA 7 ({qual})"),
+                             qual, qual)
+
+    def test_each_qualifier_bare(self):
+        for qual in parse.QUALIFIERS:
+            self.assertEqual(self.q(f"1990 Topps #1 Some Player PSA 7 {qual}"),
+                             qual, qual)
+
+    def test_each_qualifier_unspaced_bracket(self):
+        for qual in parse.QUALIFIERS:
+            self.assertEqual(self.q(f"1990 Topps #1 Some Player PSA 7({qual})"),
+                             qual, qual)
+
+    # --- positive: grade shapes ------------------------------------------
+    def test_decimal_grade(self):
+        self.assertEqual(self.q("1990 Topps #1 Some Player PSA 8.5 (PD)"), "PD")
+        self.assertEqual(self.q("1990 Topps #1 Some Player PSA 1.5 OC"), "OC")
+
+    def test_grade_ten(self):
+        self.assertEqual(self.q("1990 Topps #1 Some Player PSA 10 (OC)"), "OC")
+
+    def test_psa_grade_itself_is_unaffected(self):
+        f = fields("1967 Topps #430 Pete Rose PSA 8 (OC)")
+        self.assertEqual(f["grade_value"], "8")
+        self.assertEqual(f["grade_type"], "NUMERIC")
+
+    # --- positive: a PSA grade WORD may sit between number and qualifier --
+    def test_grade_word_between_number_and_qualifier(self):
+        for title in ("1967 Topps Set-Break #430 Pete Rose PSA 8 NM-MT (OC)",
+                      "1981 Donruss Golf #13 Jack Nicklaus RC PSA 9 MINT (OC)",
+                      "1981 Donruss Golf Jack Nicklaus #13 PSA 9 Mint(OC)"):
+            self.assertEqual(self.q(title), "OC", title)
+
+    # --- case ------------------------------------------------------------
+    def test_lowercase_and_mixed_case(self):
+        self.assertEqual(self.q("1990 topps #1 some player psa 7 (mc)"), "MC")
+        self.assertEqual(self.q("Year 1981 Donruss Golf Nicklaus #13 Psa 9 (Oc)"),
+                         "OC")
+
+    # --- negative: unrelated brackets ------------------------------------
+    def test_team_in_brackets_is_not_the_st_qualifier(self):
+        """"(St. Louis Cardinals)" must never read as ST."""
+        self.assertIsNone(
+            self.q("1967 Topps #430 Pete Rose PSA 8 (St. Louis Cardinals)"))
+
+    def test_unrelated_bracket_after_the_grade(self):
+        for title in ("1990 Topps #1 Some Player PSA 9 (Reprint)",
+                      "1990 Topps #1 Some Player PSA 9 (Rare)",
+                      "1990 Topps #1 Some Player PSA 9 (RC)"):
+            self.assertIsNone(self.q(title), title)
+
+    def test_multiple_parenthetical_expressions(self):
+        self.assertIsNone(
+            self.q("1990 Topps #1 Some Player PSA 9 (Reprint) (Rare)"))
+        self.assertEqual(
+            self.q("1990 Topps #1 Some Player PSA 9 (OC) (Rookie)"), "OC")
+
+    def test_grade_label_in_brackets_is_not_a_qualifier(self):
+        self.assertIsNone(self.q("1990 Topps #1 Some Player PSA 9 Mint (Gem)"))
+
+    # --- negative: the letters appearing elsewhere -----------------------
+    def test_qualifier_letters_inside_a_name(self):
+        self.assertIsNone(self.q("1990 Topps #1 OCTAVIO DOTEL PSA 9"))
+        self.assertIsNone(self.q("1995 Topps #7 MARK MCGWIRE PSA 8"))
+
+    def test_qualifier_before_the_grade_is_not_read(self):
+        """Only a qualifier attached to the grade counts."""
+        self.assertIsNone(self.q("1990 Topps OC Special #1 Some Player PSA 9"))
+
+    def test_no_qualifier_stays_none(self):
+        for title in ("1967 Topps #430 Pete Rose PSA 8",
+                      "1967 Topps #430 Pete Rose PSA 8 NM-MT",
+                      "2025 TOPPS NOW #906 SHOHEI OHTANI PSA 10"):
+            self.assertIsNone(self.q(title), title)
+
+    def test_unbracketed_and_unspaced_is_not_invented(self):
+        """"PSA 8OC" does not occur in 149,789 corpus titles; not supported."""
+        self.assertIsNone(self.q("1967 Topps #430 Pete Rose PSA 8OC"))

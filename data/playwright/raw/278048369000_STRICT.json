@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|127804836900|0",
+ "run_id": "c02f677a8df1411d",
+ "batch_id": "gateB-checkpoint",
+ "query": "2022 PAOLO BANCHERO PANINI #RPS1 PSA 10",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-02T16:10:17.978692+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|127804836900|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-5c6ab95a27",
+   "raw_title": "2022 Panini Instant RPS1 Paolo Banchero RC Rookie RPS First Look PSA 10",
+   "sold_price": "24.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Apr 16, 2024",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 2022 PAOLO BANCHERO PANINI #RPS1 PSA 10",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-02T16:10:17.978576+00:00",
+   "raw_text": ", preview full size image 2022 Panini Instant RPS1 Paolo Banchero RC Rookie RPS First Look PSA 10 2022 Panini Instant RPS1 Paolo Banchero RC Rookie RPS First Look PSA 10 Edit Exclude listing $24.00 Auction $5.00 0% Free shipping 1 $24.00 5 Apr 16, 2024"
+  }
+ ],
+ "legacy_table_rows": []
+}

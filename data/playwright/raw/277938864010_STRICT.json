@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|127793886401|0",
+ "run_id": "900fe9252c0f4c1e",
+ "batch_id": "gateB-checkpoint",
+ "query": "2018 JUAN SOTO LEAF #15 /25 PSA 9",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-02T16:10:04.573142+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|127793886401|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-3cc83c3d04",
+   "raw_title": "2018 Leaf Valiant Rising Stock Navy #JS2 Juan Soto RC Rookie AUTO 15/25 PSA 9",
+   "sold_price": "121.5",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Mar 26, 2026",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 2018 JUAN SOTO LEAF #15 /25 PSA 9",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-02T16:10:04.573025+00:00",
+   "raw_text": ", preview full size image 2018 Leaf Valiant Rising Stock Navy #JS2 Juan Soto RC Rookie AUTO 15/25 PSA 9 2018 Leaf Valiant Rising Stock Navy #JS2 Juan Soto RC Rookie AUTO 15/25 PSA 9 Edit Exclude listing $121.50 Auction $5.50 0% Free shipping 1 $121.50 22 Mar 26, 2026"
+  }
+ ],
+ "legacy_table_rows": []
+}

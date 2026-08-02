@@ -189,9 +189,23 @@ class TestStoredEvidenceUnchanged(unittest.TestCase):
                          "WHERE accepted=1 AND total_price IS NULL").fetchone()[0]
         self.assertEqual(n, 0)
 
-    def test_the_corpus_is_intact(self):
+    def test_the_93_run_baseline_is_preserved(self):
+        """The corpus grows as new checkpoints run; the baseline must not shrink.
+
+        Asserting a fixed row count would fail on every legitimate collection,
+        so this pins what actually matters: the original 93 researched
+        candidates are all still present with their evidence.
+        """
+        import json
         conn = db.connect()
-        self.assertEqual(
+        baseline = {c["item_id"] for c in json.load(open("pilot_candidates.json"))}
+        self.assertEqual(len(baseline), 93)
+        researched = {r[0] for r in conn.execute(
+            "SELECT DISTINCT candidate_id FROM pr_runs")}
+        self.assertTrue(baseline <= researched)
+        self.assertGreaterEqual(
             conn.execute("SELECT COUNT(*) FROM sold_comps").fetchone()[0], 3128)
-        self.assertEqual(
-            conn.execute("SELECT COUNT(*) FROM pr_runs").fetchone()[0], 93)
+        rows = conn.execute(
+            "SELECT COUNT(*) FROM sold_comps WHERE candidate_item_id IN "
+            "(%s)" % ",".join("?" * len(baseline)), sorted(baseline)).fetchone()[0]
+        self.assertEqual(rows, 3128)

@@ -1,0 +1,16 @@
+{
+ "candidate_id": "v1|377178146508|0",
+ "run_id": "5cd815d79d6f48ce",
+ "batch_id": "gateB-checkpoint",
+ "query": "2003 CHRIS PAUL UPPER DECK #45 PSA 9",
+ "level": "STRICT",
+ "page_state": "research_ready",
+ "collected_at": "2026-08-02T16:11:07.323368+00:00",
+ "date_range": "last 3 year",
+ "row_count": 0,
+ "completion_status": "no_results",
+ "source": "none",
+ "header": null,
+ "rows": [],
+ "legacy_table_rows": []
+}

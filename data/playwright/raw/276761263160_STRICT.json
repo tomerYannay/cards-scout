@@ -1,0 +1,16 @@
+{
+ "candidate_id": "v1|127676126316|0",
+ "run_id": "1eaa631e55ee4eea",
+ "batch_id": "gateB-checkpoint",
+ "query": "2025 DOMINIQUE MALONGA PANINI #63 /5 PSA 8",
+ "level": "STRICT",
+ "page_state": "research_ready",
+ "collected_at": "2026-08-02T16:09:41.924582+00:00",
+ "date_range": "last 3 year",
+ "row_count": 0,
+ "completion_status": "no_results",
+ "source": "none",
+ "header": null,
+ "rows": [],
+ "legacy_table_rows": []
+}

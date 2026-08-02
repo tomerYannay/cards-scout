@@ -1,0 +1,126 @@
+{
+ "generated_at": "2026-08-02T15:31:27.735282+00:00",
+ "bounds": {
+  "category": "212 / leaf 261328 singles",
+  "price_min": 50,
+  "price_max": 1000,
+  "max_per_seller": 400
+ },
+ "per_seller": {
+  "gograded": {
+   "observed": 400,
+   "retained": 400,
+   "singles": 365,
+   "non_singles": 35,
+   "names_a_grader": 156,
+   "identity_complete": 0,
+   "identity_complete_pct": 0.0,
+   "price_median": 89.99,
+   "price_min": 54.99,
+   "price_max": 99.99,
+   "price_anomalies": 0,
+   "grade_distribution": {},
+   "grader_distribution": {
+    "none": 209,
+    "PSA": 154,
+    "BGS": 2
+   },
+   "cohorts": {}
+  },
+  "iconssports": {
+   "observed": 400,
+   "retained": 400,
+   "singles": 400,
+   "non_singles": 0,
+   "names_a_grader": 324,
+   "identity_complete": 0,
+   "identity_complete_pct": 0.0,
+   "price_median": 89.99,
+   "price_min": 54.99,
+   "price_max": 499.99,
+   "price_anomalies": 0,
+   "grade_distribution": {},
+   "grader_distribution": {
+    "PSA": 176,
+    "SGC": 82,
+    "none": 76,
+    "BGS": 66
+   },
+   "cohorts": {}
+  },
+  "millcreeksports": {
+   "observed": 400,
+   "retained": 400,
+   "singles": 380,
+   "non_singles": 20,
+   "names_a_grader": 73,
+   "identity_complete": 0,
+   "identity_complete_pct": 0.0,
+   "price_median": 89.0,
+   "price_min": 59.0,
+   "price_max": 99.0,
+   "price_anomalies": 0,
+   "grade_distribution": {},
+   "grader_distribution": {
+    "none": 307,
+    "CGC": 51,
+    "PSA": 19,
+    "BGS": 3
+   },
+   "cohorts": {}
+  },
+  "shophofsm": {
+   "observed": 400,
+   "retained": 400,
+   "singles": 396,
+   "non_singles": 4,
+   "names_a_grader": 334,
+   "identity_complete": 0,
+   "identity_complete_pct": 0.0,
+   "price_median": 82.5,
+   "price_min": 52.5,
+   "price_max": 99.99,
+   "price_anomalies": 0,
+   "grade_distribution": {},
+   "grader_distribution": {
+    "PSA": 328,
+    "none": 62,
+    "SGC": 6
+   },
+   "cohorts": {}
+  },
+  "sports-cards-forever": {
+   "observed": 400,
+   "retained": 400,
+   "singles": 400,
+   "non_singles": 0,
+   "names_a_grader": 400,
+   "identity_complete": 399,
+   "identity_complete_pct": 99.8,
+   "price_median": 74.01,
+   "price_min": 50.49,
+   "price_max": 99.96,
+   "price_anomalies": 0,
+   "grade_distribution": {
+    "9": 369,
+    "8": 26,
+    "10": 2,
+    "8.5": 1,
+    "7": 1
+   },
+   "grader_distribution": {
+    "PSA": 400
+   },
+   "cohorts": {
+    "base": 399
+   }
+  }
+ },
+ "totals": {
+  "observed": 2000,
+  "singles": 1941,
+  "non_singles": 59,
+  "names_a_grader": 1287,
+  "identity_complete": 399
+ }
+}

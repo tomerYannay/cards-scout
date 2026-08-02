@@ -48,7 +48,8 @@ def get_token():
     return resp.json()["access_token"]
 
 
-def search_page(token, filters, category_ids, offset, sort=None):
+def search_page(token, filters, category_ids, offset, sort=None, q=None):
+    """One page of item summaries. `q` adds a keyword term to the filters."""
     global request_count
     request_count += 1
     params = {
@@ -59,6 +60,8 @@ def search_page(token, filters, category_ids, offset, sort=None):
     }
     if sort:
         params["sort"] = sort
+    if q:
+        params["q"] = q
     resp = requests.get(
         SEARCH_URL,
         headers={

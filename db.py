@@ -20,6 +20,13 @@ CREATE TABLE IF NOT EXISTS listings (
     url           TEXT,
     fetched_at    TEXT NOT NULL,
     active        INTEGER NOT NULL DEFAULT 1,
+    -- Seller identity is discovery provenance, not card identity. It never
+    -- takes part in slab/card grouping: two sellers offering the same slab are
+    -- two listings in one group, never one merged record.
+    seller             TEXT,
+    seller_feedback_pct  REAL,
+    seller_feedback_score INTEGER,
+    discovery_run_id   TEXT,
     raw           TEXT NOT NULL
 );
 """
@@ -206,6 +213,11 @@ def connect(path=DB_PATH):
     cols = {r["name"] for r in conn.execute("PRAGMA table_info(listings)")}
     if "active" not in cols:
         conn.execute("ALTER TABLE listings ADD COLUMN active INTEGER NOT NULL DEFAULT 1")
+    for col, kind in (("seller", "TEXT"), ("seller_feedback_pct", "REAL"),
+                      ("seller_feedback_score", "INTEGER"),
+                      ("discovery_run_id", "TEXT")):
+        if col not in cols:
+            conn.execute(f"ALTER TABLE listings ADD COLUMN {col} {kind}")
     pr = {r["name"] for r in conn.execute("PRAGMA table_info(pr_runs)")}
     if pr:
         for col in ("rows_seen", "review_required", "run_id", "batch_id"):
@@ -256,16 +268,26 @@ def reset_parse_tables(conn):
     conn.commit()
 
 
-def deactivate_stale(conn, run_start):
+def deactivate_stale(conn, run_start, sellers=None):
     """Mark listings not seen in this run as inactive.
 
     Only ever called after a run finishes cleanly - a partial crawl would
     otherwise deactivate listings that are still live.
+
+    `sellers` scopes the sweep to the sellers this run actually crawled.
+    Without it, discovering a NEW seller would mark every PSA listing inactive,
+    because none of them was seen in that run. A row whose seller is NULL
+    (collected before seller identity was persisted) is only ever swept by an
+    unscoped call, so legacy data cannot be silently retired by a crawl of
+    somebody else's inventory.
     """
-    cur = conn.execute(
-        "UPDATE listings SET active = 0 WHERE fetched_at < ? AND active = 1",
-        (run_start,),
-    )
+    sql = "UPDATE listings SET active = 0 WHERE fetched_at < ? AND active = 1"
+    params = [run_start]
+    if sellers:
+        names = sorted(sellers)
+        sql += f" AND seller IN ({','.join('?' * len(names))})"
+        params += names
+    cur = conn.execute(sql, params)
     conn.commit()
     return cur.rowcount
 
@@ -276,19 +298,29 @@ def upsert_listings(conn, rows):
         """INSERT OR REPLACE INTO listings
            (item_id, title, price, currency, shipping_cost, buying_option,
             bid_count, end_time, category_id, condition, url, fetched_at,
-            active, raw)
+            active, seller, seller_feedback_pct, seller_feedback_score,
+            discovery_run_id, raw)
            VALUES (:item_id, :title, :price, :currency, :shipping_cost,
                    :buying_option, :bid_count, :end_time, :category_id,
-                   :condition, :url, :fetched_at, 1, :raw)""",
+                   :condition, :url, :fetched_at, 1, :seller,
+                   :seller_feedback_pct, :seller_feedback_score,
+                   :discovery_run_id, :raw)""",
         rows,
     )
     conn.commit()
     return len(rows)
 
 
-def to_row(item, fetched_at):
-    """Flatten one Browse API item_summary into a listings row."""
+def to_row(item, fetched_at, run_id=None):
+    """Flatten one Browse API item_summary into a listings row.
+
+    Seller identity is copied out of the raw payload into its own columns so
+    discovery can be filtered and audited per seller. A missing or blank
+    username stays NULL - never guessed, never defaulted to the seller we
+    happened to be crawling.
+    """
     price = item.get("price") or {}
+    seller = item.get("seller") or {}
     shipping = (item.get("shippingOptions") or [{}])[0].get("shippingCost") or {}
     options = item.get("buyingOptions") or []
     return {
@@ -304,8 +336,19 @@ def to_row(item, fetched_at):
         "condition": item.get("condition"),
         "url": item.get("itemWebUrl"),
         "fetched_at": fetched_at,
+        "seller": seller.get("username"),
+        "seller_feedback_pct": _num(seller.get("feedbackPercentage")),
+        "seller_feedback_score": _int(seller.get("feedbackScore")),
+        "discovery_run_id": run_id,
         "raw": json.dumps(item, separators=(",", ":")),
     }
+
+
+def _int(value):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
 
 
 def _num(value):

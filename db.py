@@ -388,11 +388,16 @@ def shipping_state_of(option):
     """KNOWN / CALCULATED_UNKNOWN / NOT_RETURNED - never a zero substitute."""
     if not option:
         return SHIPPING_NOT_RETURNED, None
+    # CALCULATED decides first, even when a cost value is present. Calculated
+    # shipping is priced from the buyer's address, and with no address supplied
+    # eBay still fills in a default-destination figure - often 0.00. Reading it
+    # as the real cost is exactly the zero substitute this function forbids.
+    # getItem returned CALCULATED/0.00 for an item search reported as FIXED/0.00.
+    if str(option.get("shippingCostType") or "").upper() == "CALCULATED":
+        return SHIPPING_CALCULATED_UNKNOWN, None
     cost = (option.get("shippingCost") or {}).get("value")
     if cost not in (None, ""):
         return SHIPPING_KNOWN, _num(cost)
-    if str(option.get("shippingCostType") or "").upper() == "CALCULATED":
-        return SHIPPING_CALCULATED_UNKNOWN, None
     return SHIPPING_NOT_RETURNED, None
 
 
@@ -412,7 +417,12 @@ def to_row(item, fetched_at, run_id=None):
     bid = item.get("currentBidPrice") or {}
     sale_format = normalize_sale_format(options)
     ship_state, ship_value = shipping_state_of(ship_opt)
-    fixed_price = _num(price.get("value"))
+    # `price` only means "asking price" when the listing actually offers a
+    # fixed-price purchase. On an auction-only item getItem still populates it,
+    # mirroring the current bid (observed: bid 3.99 and price 3.99 on the same
+    # AUCTION_ONLY item), which would invent a Buy It Now that does not exist.
+    fixed_price = (_num(price.get("value")) if "FIXED_PRICE" in options
+                   else None)
     bid_price = _num(bid.get("value"))
     # A completed acquisition price exists only for a fixed-price purchase with
     # known shipping. A current bid is a changing market state, not a price
@@ -430,7 +440,10 @@ def to_row(item, fetched_at, run_id=None):
         "title": item.get("title", ""),
         "price": _num(price.get("value")),
         "currency": price.get("currency"),
-        "shipping_cost": _num(shipping.get("value")),
+        # Mirrors ship_value, not the raw payload: this column is what
+        # candidate_cost() adds to the asking price, so a calculated
+        # default-destination figure here silently understates the real cost.
+        "shipping_cost": ship_value,
         "buying_option": ",".join(options),
         "bid_count": item.get("bidCount"),
         "end_time": item.get("itemEndDate"),

@@ -1,0 +1,408 @@
+{
+  "phase": "gate_c_verification_2_displaced_window",
+  "authorization": {
+    "max_data_gets": 2,
+    "data_gets_used": 2,
+    "request_2_condition": "request 1 passed completely"
+  },
+  "request_1": {
+    "frozen_preflight_utc": "2026-08-02T17:28:46.000Z",
+    "window_start_utc": "2026-08-03T05:28:46.000Z",
+    "window_end_utc": "2026-08-04T05:28:46.000Z",
+    "duration_seconds": 86400,
+    "displacement_hours": {
+      "start": 12,
+      "end": 36
+    },
+    "sanitized_request_parameters": {
+      "category_ids": "212",
+      "filter": "buyingOptions:{AUCTION},itemEndDate:[2026-08-03T05:28:46.000Z..2026-08-04T05:28:46.000Z],priceCurrency:USD",
+      "limit": 10,
+      "offset": 0,
+      "sort": "endingSoonest"
+    },
+    "filters_transmitted": [
+      "buyingOptions:{AUCTION}",
+      "itemEndDate:[2026-08-03T05:28:46.000Z..2026-08-04T05:28:46.000Z]",
+      "priceCurrency:USD"
+    ],
+    "authorization_header": "Bearer <REDACTED>",
+    "http_status": 200,
+    "response": {
+      "total": 333296,
+      "limit": 10,
+      "offset": 0
+    },
+    "next_present": true,
+    "href_present": true,
+    "warnings": [
+      {
+        "errorId": 12002,
+        "domain": "API_BROWSE",
+        "category": "REQUEST",
+        "message": "The priceCurrency filter value is invalid. For the valid values, refer to the API call documentation.",
+        "parameters": [
+          {
+            "name": "fieldName",
+            "value": "priceCurrency"
+          },
+          {
+            "name": "filterValue",
+            "value": "USD"
+          }
+        ]
+      },
+      {
+        "errorId": 12012,
+        "domain": "API_BROWSE",
+        "category": "REQUEST",
+        "message": "A valid 'price' filter and a valid 'priceCurrency' filter is necessary to filter based on price."
+      }
+    ],
+    "errors": [],
+    "items": [
+      {
+        "itemId": "v1|407100929986|0",
+        "buyingOptions": [
+          "FIXED_PRICE",
+          "AUCTION"
+        ],
+        "normalized_sale_format": "AUCTION_WITH_FIXED_PRICE_OPTION",
+        "itemEndDate": "2026-08-03T05:28:46.000Z",
+        "hours_after_preflight": 12.0,
+        "inside_window": true,
+        "currentBidPrice": "1.49",
+        "price": "2.99",
+        "bidCount": 0,
+        "shippingCostType": "CALCULATED",
+        "shippingCost": null,
+        "shipping_state": "CALCULATED_UNKNOWN"
+      },
+      {
+        "itemId": "v1|336710243332|0",
+        "buyingOptions": [
+          "AUCTION",
+          "BEST_OFFER"
+        ],
+        "normalized_sale_format": "AUCTION_ONLY",
+        "itemEndDate": "2026-08-03T05:28:47.000Z",
+        "hours_after_preflight": 12.0003,
+        "inside_window": true,
+        "currentBidPrice": "3.99",
+        "price": null,
+        "bidCount": 0,
+        "shippingCostType": "FIXED",
+        "shippingCost": "0.00",
+        "shipping_state": "KNOWN"
+      },
+      {
+        "itemId": "v1|336710243345|0",
+        "buyingOptions": [
+          "AUCTION",
+          "BEST_OFFER"
+        ],
+        "normalized_sale_format": "AUCTION_ONLY",
+        "itemEndDate": "2026-08-03T05:28:48.000Z",
+        "hours_after_preflight": 12.0006,
+        "inside_window": true,
+        "currentBidPrice": "0.99",
+        "price": null,
+        "bidCount": 0,
+        "shippingCostType": "CALCULATED",
+        "shippingCost": null,
+        "shipping_state": "CALCULATED_UNKNOWN"
+      },
+      {
+        "itemId": "v1|407100930016|0",
+        "buyingOptions": [
+          "AUCTION",
+          "BEST_OFFER"
+        ],
+        "normalized_sale_format": "AUCTION_ONLY",
+        "itemEndDate": "2026-08-03T05:28:50.000Z",
+        "hours_after_preflight": 12.0011,
+        "inside_window": true,
+        "currentBidPrice": "0.99",
+        "price": null,
+        "bidCount": 0,
+        "shippingCostType": "CALCULATED",
+        "shippingCost": null,
+        "shipping_state": "CALCULATED_UNKNOWN"
+      },
+      {
+        "itemId": "v1|298535704537|0",
+        "buyingOptions": [
+          "AUCTION",
+          "BEST_OFFER"
+        ],
+        "normalized_sale_format": "AUCTION_ONLY",
+        "itemEndDate": "2026-08-03T05:28:51.000Z",
+        "hours_after_preflight": 12.0014,
+        "inside_window": true,
+        "currentBidPrice": "20.00",
+        "price": null,
+        "bidCount": 0,
+        "shippingCostType": "CALCULATED",
+        "shippingCost": null,
+        "shipping_state": "CALCULATED_UNKNOWN"
+      },
+      {
+        "itemId": "v1|800395616053|0",
+        "buyingOptions": [
+          "AUCTION"
+        ],
+        "normalized_sale_format": "AUCTION_ONLY",
+        "itemEndDate": "2026-08-03T05:28:51.000Z",
+        "hours_after_preflight": 12.0014,
+        "inside_window": true,
+        "currentBidPrice": "2.25",
+        "price": null,
+        "bidCount": 2,
+        "shippingCostType": "FIXED",
+        "shippingCost": "4.95",
+        "shipping_state": "KNOWN"
+      },
+      {
+        "itemId": "v1|800414284474|0",
+        "buyingOptions": [
+          "FIXED_PRICE",
+          "AUCTION"
+        ],
+        "normalized_sale_format": "AUCTION_WITH_FIXED_PRICE_OPTION",
+        "itemEndDate": "2026-08-03T05:28:51.000Z",
+        "hours_after_preflight": 12.0014,
+        "inside_window": true,
+        "currentBidPrice": "75.00",
+        "price": "150.00",
+        "bidCount": 0,
+        "shippingCostType": "CALCULATED",
+        "shippingCost": null,
+        "shipping_state": "CALCULATED_UNKNOWN"
+      },
+      {
+        "itemId": "v1|358848718581|0",
+        "buyingOptions": [
+          "FIXED_PRICE",
+          "AUCTION"
+        ],
+        "normalized_sale_format": "AUCTION_WITH_FIXED_PRICE_OPTION",
+        "itemEndDate": "2026-08-03T05:28:52.000Z",
+        "hours_after_preflight": 12.0017,
+        "inside_window": true,
+        "currentBidPrice": "3.99",
+        "price": "6.99",
+        "bidCount": 0,
+        "shippingCostType": "FIXED",
+        "shippingCost": "0.00",
+        "shipping_state": "KNOWN"
+      },
+      {
+        "itemId": "v1|800414284954|0",
+        "buyingOptions": [
+          "AUCTION",
+          "BEST_OFFER"
+        ],
+        "normalized_sale_format": "AUCTION_ONLY",
+        "itemEndDate": "2026-08-03T05:28:53.000Z",
+        "hours_after_preflight": 12.0019,
+        "inside_window": true,
+        "currentBidPrice": "1.00",
+        "price": null,
+        "bidCount": 0,
+        "shippingCostType": "CALCULATED",
+        "shippingCost": null,
+        "shipping_state": "CALCULATED_UNKNOWN"
+      },
+      {
+        "itemId": "v1|158123346861|0",
+        "buyingOptions": [
+          "FIXED_PRICE",
+          "AUCTION"
+        ],
+        "normalized_sale_format": "AUCTION_WITH_FIXED_PRICE_OPTION",
+        "itemEndDate": "2026-08-03T05:28:54.000Z",
+        "hours_after_preflight": 12.0022,
+        "inside_window": true,
+        "currentBidPrice": "89.99",
+        "price": "129.99",
+        "bidCount": 0,
+        "shippingCostType": "CALCULATED",
+        "shippingCost": null,
+        "shipping_state": "CALCULATED_UNKNOWN"
+      }
+    ],
+    "validation": {
+      "1_http_200": true,
+      "2_genuine_auction_or_hybrid": "10/10",
+      "3_reliable_absolute_end_date": "10/10",
+      "4_inside_requested_interval": "10/10",
+      "5_earliest_lead_hours": 12.0,
+      "6_no_warning_about_itemEndDate": true,
+      "7_itemEndDate_transmitted_verbatim": "itemEndDate:[2026-08-03T05:28:46.000Z..2026-08-04T05:28:46.000Z]",
+      "8_mapper_round_trip_isolated_db": "PASS (10/10, all invariants)",
+      "result": "PASS"
+    },
+    "total_analysis": {
+      "unfiltered_baseline": 2429379,
+      "same_day_window_prior_probe": 2430520,
+      "displaced_window_this_probe": 333296,
+      "share_of_baseline_pct": 13.72,
+      "reflects_displaced_window": true,
+      "warnings_explain_prior_total": false,
+      "note": "The prior near-unfiltered total remains unexplained; the only warnings concern priceCurrency, not itemEndDate. Enforcement is therefore established independently of total, by the end-time distribution: every item ends at +12.00h, the window's lower bound. Unfiltered endingSoonest returns items ending in seconds, as the prior probe demonstrated empirically."
+    }
+  },
+  "request_2": {
+    "selection_rule": "first returned item whose normalized format is AUCTION_ONLY",
+    "selected_position": 2,
+    "item_id": "v1|336710243332|0",
+    "http_status": 200,
+    "search_vs_getitem": [
+      [
+        "item id",
+        "v1|336710243332|0",
+        "v1|336710243332|0"
+      ],
+      [
+        "active / ended",
+        "active (in search)",
+        "itemEndDate=2026-08-03T05:28:47.000Z"
+      ],
+      [
+        "raw buyingOptions",
+        "['AUCTION', 'BEST_OFFER']",
+        "['AUCTION', 'BEST_OFFER']"
+      ],
+      [
+        "normalized format",
+        "AUCTION_ONLY",
+        "AUCTION_ONLY"
+      ],
+      [
+        "currentBidPrice",
+        "3.99",
+        "3.99"
+      ],
+      [
+        "fixed asking price",
+        "None",
+        "3.99"
+      ],
+      [
+        "bidCount",
+        "0",
+        "None"
+      ],
+      [
+        "itemEndDate",
+        "2026-08-03T05:28:47.000Z",
+        "2026-08-03T05:28:47.000Z"
+      ],
+      [
+        "shipping type",
+        "FIXED",
+        "CALCULATED"
+      ],
+      [
+        "shipping cost",
+        "0.00",
+        "0.00"
+      ],
+      [
+        "shipping_state (mapper)",
+        "('KNOWN', 0.0)",
+        "('KNOWN', 0.0)"
+      ]
+    ],
+    "reserve_field_paths_probed": [
+      "reservePriceMet",
+      "reservePrice",
+      "minimumPriceToBid",
+      "priceDisplayCondition"
+    ],
+    "reserve_keys_found_anywhere": [],
+    "getitem_top_level_keys": [
+      "additionalImages",
+      "adultOnly",
+      "buyingOptions",
+      "categoryId",
+      "categoryIdPath",
+      "categoryPath",
+      "condition",
+      "conditionDescriptors",
+      "conditionId",
+      "currentBidPrice",
+      "description",
+      "eligibleForInlineCheckout",
+      "enabledForGuestCheckout",
+      "estimatedAvailabilities",
+      "image",
+      "immediatePay",
+      "itemCreationDate",
+      "itemEndDate",
+      "itemId",
+      "itemLocation",
+      "itemWebUrl",
+      "legacyItemId",
+      "listingMarketplaceId",
+      "localizedAspects",
+      "lotSize",
+      "minimumPriceToBid",
+      "paymentMethods",
+      "price",
+      "primaryProductReviewRating",
+      "priorityListing",
+      "returnTerms",
+      "seller",
+      "shipToLocations",
+      "shippingOptions",
+      "shortDescription",
+      "taxes",
+      "title",
+      "topRatedBuyingExperience",
+      "uniqueBidderCount"
+    ],
+    "reserve_classification": "RESERVE_NOT_EXPOSED",
+    "reserve_note": "No reserve field exists anywhere in the getItem body. minimumPriceToBid equals the current bid and describes the next valid bid increment, not a reserve. Absence stays UNKNOWN and is never read as 'no reserve' or 'reserve met'."
+  },
+  "defects_found_and_fixed": [
+    {
+      "id": "priceCurrency_unpaired",
+      "evidence": "warnings 12002 and 12012 on every auction query",
+      "impact": "the filter was silently rejected; no results were affected",
+      "fix": "fetch_listings.auction_filters emits priceCurrency only with a price clause"
+    },
+    {
+      "id": "calculated_shipping_read_as_known",
+      "evidence": "getItem returned CALCULATED/0.00 where search returned FIXED/0.00",
+      "impact": "409 of 150,639 persisted raw payloads pair CALCULATED with a cost; 0 are researched candidates and 0 recorded 0.0, so no candidate cost was understated and the 0 BUY / 0 WATCH conclusion is unaffected",
+      "fix": "db.shipping_state_of returns CALCULATED_UNKNOWN regardless of any value present; db.to_row mirrors ship_value into shipping_cost, which is the column candidate_cost() reads"
+    },
+    {
+      "id": "phantom_fixed_asking_price",
+      "evidence": "getItem on an AUCTION_ONLY item returned price 3.99 == bid 3.99",
+      "impact": "would invent a Buy It Now on an auction-only listing",
+      "fix": "db.to_row sets fixed_asking_price only when FIXED_PRICE is offered"
+    }
+  ],
+  "decision": "REVISE_AUCTION_MAPPING",
+  "integrity": {
+    "data_gets": 2,
+    "oauth_posts": 2,
+    "getitem_calls": 1,
+    "product_research": 0,
+    "browser_automation": 0,
+    "purchases_bids_watchlist_seller_contact": 0,
+    "main_db_mutations": 0,
+    "persistence_validated_in": "isolated temporary database, deleted after use",
+    "row_counts_before_after": {
+      "listings": 150639,
+      "cards": 145441,
+      "sold_comps": 4763,
+      "pr_runs": 153,
+      "tierb": 352,
+      "baseline_93_comps": 3128
+    },
+    "tests": 787
+  }
+}

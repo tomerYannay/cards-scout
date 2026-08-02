@@ -110,11 +110,15 @@ def ending_window_filter(start, hours=24):
 
 def auction_filters(start, hours=24, price_min=None, price_max=None):
     """Every filter clause for one bounded ending-soon auction query."""
-    out = [AUCTION_FILTER, ending_window_filter(start, hours), "priceCurrency:USD"]
+    out = [AUCTION_FILTER, ending_window_filter(start, hours)]
     if price_min is not None or price_max is not None:
         lo = 0 if price_min is None else price_min
         out.append(f"price:[{lo}..{price_max}]" if price_max is not None
                    else f"price:[{lo}]")
+        # eBay rejects priceCurrency on its own (warning 12002/12012): it is
+        # only meaningful alongside a price clause. Sending it unpaired had no
+        # effect except to make every response carry a warning.
+        out.append("priceCurrency:USD")
     return out
 
 

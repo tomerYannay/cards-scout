@@ -1,8 +1,8 @@
 """Auction representation, mapped from ten real sanitized probe items.
 
 The Gate C probe established by observation that an auction states its price in
-currentBidPrice and never in `price`; that CALCULATED shipping returns no value
-at discovery; that bidCount is always present and legitimately 0; and that no
+currentBidPrice and never in `price`; that CALCULATED shipping usually returns
+no value at discovery, and its value must be refused even when one is present; that bidCount is always present and legitimately 0; and that no
 reserve field is returned at all. These tests pin that behaviour.
 
 Run:  python -m unittest -v test_auction_mapping
@@ -333,3 +333,96 @@ class TestSearchResponseIsFullyAvailable(unittest.TestCase):
             {"errorId": 12001, "message": "The filter is not supported"}]}
         self.assertEqual(len(body.get("warnings") or []), 1)
         self.assertIn("not supported", body["warnings"][0]["message"])
+
+
+class TestGateCVerificationDefects(unittest.TestCase):
+    """Three defects the displaced-window verification exposed.
+
+    All three were invisible until a real response was compared field by field
+    against getItem for the same item id (v1|336710243332|0).
+    """
+
+    def test_price_currency_is_not_sent_without_a_price_clause(self):
+        """eBay rejected a lone priceCurrency with warnings 12002 and 12012."""
+        start = dt.datetime(2026, 8, 3, 5, 28, 46, tzinfo=dt.timezone.utc)
+        plain = fl.auction_filters(start)
+        self.assertFalse([f for f in plain if f.startswith("priceCurrency")],
+                         "priceCurrency must be omitted when no price clause is sent")
+
+    def test_price_currency_accompanies_a_price_clause(self):
+        start = dt.datetime(2026, 8, 3, 5, 28, 46, tzinfo=dt.timezone.utc)
+        banded = fl.auction_filters(start, price_min=10, price_max=50)
+        self.assertIn("price:[10..50]", banded)
+        self.assertIn("priceCurrency:USD", banded)
+
+    def test_calculated_shipping_with_a_zero_cost_is_not_known(self):
+        """getItem returned CALCULATED/0.00 where search returned FIXED/0.00.
+
+        A calculated cost with no buyer address is a default-destination
+        figure, and 0.00 is the most dangerous possible placeholder.
+        """
+        state, value = db.shipping_state_of(
+            {"shippingCostType": "CALCULATED",
+             "shippingCost": {"value": "0.00", "currency": "USD"}})
+        self.assertEqual(state, db.SHIPPING_CALCULATED_UNKNOWN)
+        self.assertIsNone(value)
+
+    def test_calculated_shipping_with_a_nonzero_cost_is_still_unknown(self):
+        state, value = db.shipping_state_of(
+            {"shippingCostType": "CALCULATED",
+             "shippingCost": {"value": "7.20", "currency": "USD"}})
+        self.assertEqual(state, db.SHIPPING_CALCULATED_UNKNOWN)
+        self.assertIsNone(value)
+
+    def test_genuinely_free_fixed_shipping_stays_known(self):
+        state, value = db.shipping_state_of(
+            {"shippingCostType": "FIXED",
+             "shippingCost": {"value": "0.00", "currency": "USD"}})
+        self.assertEqual(state, db.SHIPPING_KNOWN)
+        self.assertEqual(value, 0.0)
+
+    def test_calculated_shipping_yields_no_provisional_bid_total(self):
+        row = db.to_row({"itemId": "v1|1|0", "title": "t",
+                         "buyingOptions": ["AUCTION"],
+                         "currentBidPrice": {"value": "20.00", "currency": "USD"},
+                         "shippingOptions": [{"shippingCostType": "CALCULATED",
+                                              "shippingCost": {"value": "0.00"}}]},
+                        "2026-08-02T17:28:46.000Z")
+        self.assertEqual(row["shipping_state"], db.SHIPPING_CALCULATED_UNKNOWN)
+        self.assertIsNone(row["provisional_bid_total"])
+        self.assertIsNone(row["shipping_cost"])
+
+    def test_auction_only_item_never_gains_a_fixed_asking_price(self):
+        """The getItem body for an AUCTION_ONLY item mirrors the bid in `price`."""
+        row = db.to_row({"itemId": "v1|336710243332|0", "title": "t",
+                         "buyingOptions": ["AUCTION", "BEST_OFFER"],
+                         "currentBidPrice": {"value": "3.99", "currency": "USD"},
+                         "price": {"value": "3.99", "currency": "USD"},
+                         "shippingOptions": [{"shippingCostType": "FIXED",
+                                              "shippingCost": {"value": "0.00"}}]},
+                        "2026-08-02T17:28:46.000Z")
+        self.assertEqual(row["sale_format"], db.AUCTION_ONLY)
+        self.assertIsNone(row["fixed_asking_price"])
+        self.assertEqual(row["current_bid_price"], 3.99)
+        self.assertIsNone(row["acquisition_total"])
+
+    def test_hybrid_still_keeps_both_prices(self):
+        row = db.to_row({"itemId": "v1|2|0", "title": "t",
+                         "buyingOptions": ["FIXED_PRICE", "AUCTION"],
+                         "currentBidPrice": {"value": "75.00", "currency": "USD"},
+                         "price": {"value": "150.00", "currency": "USD"},
+                         "shippingOptions": [{"shippingCostType": "FIXED",
+                                              "shippingCost": {"value": "0.00"}}]},
+                        "2026-08-02T17:28:46.000Z")
+        self.assertEqual(row["sale_format"], db.AUCTION_WITH_FIXED)
+        self.assertEqual(row["fixed_asking_price"], 150.00)
+        self.assertEqual(row["current_bid_price"], 75.00)
+        self.assertIsNone(row["acquisition_total"])
+
+    def test_reserve_stays_unknown_after_getitem_showed_no_reserve_field(self):
+        """getItem exposed no reserve field at all - absence is not 'no reserve'."""
+        row = db.to_row({"itemId": "v1|3|0", "title": "t",
+                         "buyingOptions": ["AUCTION"],
+                         "currentBidPrice": {"value": "3.99"}},
+                        "2026-08-02T17:28:46.000Z")
+        self.assertEqual(row["reserve_state"], db.RESERVE_UNKNOWN)

@@ -31,9 +31,13 @@ class TestCanonicalUntouched(unittest.TestCase):
         self.assertEqual(prov, tt.CANONICAL)
         self.assertEqual(amb, [])
 
-    def test_canonical_fields_are_identical_to_parse_title(self):
+    def test_canonical_fields_preserve_every_parse_title_value(self):
+        """Only `grader` is added, derived; nothing parse.py produced changes."""
         f, _prov, _amb = P(self.CANON)
-        self.assertEqual(f, parse.parse_title(self.CANON)["fields"])
+        original = parse.parse_title(self.CANON)["fields"]
+        for k, v in original.items():
+            self.assertEqual(f[k], v, k)
+        self.assertEqual(set(f) - set(original), {"grader"})
 
     def test_canonical_slab_key_is_unchanged(self):
         f, _p, _a = P(self.CANON)
@@ -220,3 +224,49 @@ class TestFiltersUnweakened(unittest.TestCase):
         """The parser does not silently accept a lot as a single card."""
         f, _p, _a = P("2023 TOPPS SILVER PACK BLUE/150 GUNNAR HENDERSON RC PSA 9")
         self.assertIsNotNone(f)          # parsing a title is not admission
+
+
+class TestCanonicalFieldShape(unittest.TestCase):
+    """A canonical parse must expose the same keys as a tolerant one.
+
+    parse.py leaves PSA implicit, so `grader` was None on every canonical row.
+    is_complete() requires it, so 399 valid identities were being reported as
+    graderless - a field-shape mismatch, not an identity defect.
+    """
+
+    CANON = "1974 TOPPS #116 NATE WILLIAMS PSA 9 Mint 81383525"
+
+    def test_canonical_rows_expose_a_grader(self):
+        f, prov, _ = P(self.CANON)
+        self.assertEqual(prov, tt.CANONICAL)
+        self.assertEqual(f["grader"], "PSA")
+
+    def test_the_grader_is_derived_not_invented(self):
+        """Only stated where the canonical parser actually found a PSA grade."""
+        raw = parse.parse_title("1974 TOPPS #116 NATE WILLIAMS")["fields"]
+        self.assertIsNone(tt.normalize_canonical(raw).get("grader"))
+
+    def test_a_rival_grader_never_becomes_psa(self):
+        for t in ("1974 TOPPS #116 NATE WILLIAMS SGC 9",
+                  "1974 TOPPS #116 NATE WILLIAMS BGS 9.5"):
+            f, _prov, _a = P(t)
+            self.assertNotEqual(f.get("grader"), "PSA", t)
+
+    def test_canonical_rows_now_satisfy_is_complete(self):
+        f, _prov, _a = P(self.CANON)
+        self.assertTrue(tt.is_complete(f))
+
+    def test_normalization_changes_nothing_else(self):
+        raw = parse.parse_title(self.CANON)["fields"]
+        norm = tt.normalize_canonical(raw)
+        for k, v in raw.items():
+            if k != "grader":
+                self.assertEqual(norm[k], v, k)
+
+    def test_both_dicts_agree_on_the_required_keys(self):
+        f_canon, _p, _a = P(self.CANON)
+        f_tol = tt.extract("Graded 2025 Topps Now Alex Ovechkin #29 Card PSA 10",
+                           SUR)
+        for k in tt.REQUIRED:
+            self.assertIn(k, f_canon, k)
+            self.assertIn(k, f_tol, k)

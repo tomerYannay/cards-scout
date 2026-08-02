@@ -262,6 +262,26 @@ def extract(title, surnames=None):
 REQUIRED = ("year", "grader", "grade_value", "card_number", "athlete")
 
 
+def normalize_canonical(fields):
+    """Give a canonical parse the same field shape as a tolerant one.
+
+    parse.py never emits `grader`: PSA is implicit there, because GRADE_NUM_RE
+    matches only a literal PSA token and rival graders are excluded outright.
+    So a canonical NUMERIC grade did come from PSA - but a consumer reading
+    `grader` off both dicts saw None for every canonical row, which made
+    `is_complete` reject 399 perfectly good identities and reported
+    sports-cards-forever as having zero graders.
+
+    The value is derived, not invented: it is stated only where the canonical
+    parser actually found a PSA grade.
+    """
+    out = dict(fields)
+    if out.get("grader") is None and out.get("grade_type") == "NUMERIC" \
+            and out.get("grade_value"):
+        out["grader"] = "PSA"
+    return out
+
+
 def is_complete(fields):
     """Every component a sold-comp query needs, and no ambiguity."""
     return (not fields.get("ambiguity")
@@ -278,7 +298,7 @@ def parse_tolerant(title, surnames=None):
     result = parse.parse_title(title)
     conf = result["conf"]
     if parse.RANK[parse.identity_confidence(conf)] >= parse.RANK[parse.MEDIUM]:
-        return result["fields"], CANONICAL, []
+        return normalize_canonical(result["fields"]), CANONICAL, []
     got = extract(title, surnames)
     if got["ambiguity"]:
         return result["fields"], AMBIGUOUS, got["ambiguity"]

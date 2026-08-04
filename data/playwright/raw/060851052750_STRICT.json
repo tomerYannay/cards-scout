@@ -1,0 +1,16 @@
+{
+ "candidate_id": "v1|306085105275|0",
+ "run_id": "234e6a906d4d4ca1",
+ "batch_id": "gateD_b2",
+ "query": "2005 GERALD GREEN TOPPS FINEST #112 X-FRACTOR /199 PSA 10",
+ "level": "STRICT",
+ "page_state": "research_ready",
+ "collected_at": "2026-08-04T18:25:34.998252+00:00",
+ "date_range": "last 3 year",
+ "row_count": 0,
+ "completion_status": "no_results",
+ "source": "none",
+ "header": null,
+ "rows": [],
+ "legacy_table_rows": []
+}

@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|306641207281|0",
+ "run_id": "eba9b907aeb245e0",
+ "batch_id": "gateD_b2",
+ "query": "2011 ALEX RODRIGUEZ BOWMAN CHROME #151 GOLD REFRACTOR /50 PSA 9",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-04T18:26:05.268149+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|306641207281|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "127925940426-6d10e6fbb8",
+   "raw_title": "2011 Bowman Chrome Alex Rodriguez Gold Refractor #/50 New York Yankees PSA 9",
+   "sold_price": "182.5",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Jun 21, 2026",
+   "condition": "",
+   "source_reference": "https://www.ebay.com/itm/127925940426?nordt=true&orig_cvip=true&rt=nc",
+   "notes": "Product Research query [STRICT]: 2011 ALEX RODRIGUEZ BOWMAN CHROME #151 GOLD REFRACTOR /50 PSA 9",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-04T18:26:05.268113+00:00",
+   "raw_text": ", preview full size image 2011 Bowman Chrome Alex Rodriguez Gold Refractor #/50 New York Yankees PSA 9 2011 Bowman Chrome Alex Rodriguez Gold Refractor #/50 New York Yankees PSA 9 Edit Sell Similar Exclude listing $182.50 Auction $4.99 0% Free shipping 1 $182.50 16 Jun 21, 2026"
+  }
+ ],
+ "legacy_table_rows": []
+}

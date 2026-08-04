@@ -1,0 +1,1451 @@
+{
+  "phase": "phase2_fixed_price_validation_pilot",
+  "version": 1,
+  "cohort_artifact": "pilot_candidates_v3.json",
+  "cohort_sha256": "95f18793c7c0e9822111b5494c30a1b5da5f1605603b2845b3b1207fd8ed9d3d",
+  "preflight": "all 12 mechanical checks passed",
+  "funnel": {
+    "selected": 18,
+    "evidence_reused": 2,
+    "research_attempted": 16,
+    "research_completed": 16,
+    "research_failed": 0,
+    "sufficient_exact_comps": 6,
+    "valuation_passed_non_pass": 1,
+    "currently_actionable_alerts": 0
+  },
+  "decisions": {
+    "BUY": 0,
+    "WATCH": 1,
+    "PASS": 17,
+    "EXCLUDED": 0
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "cand_id": "v1|117330223603|0",
+      "listing_url": "https://www.ebay.com/itm/117330223603?hash=item1b516d21f3:g:bSQAAeSwimlqawSg",
+      "canonical_identity": "2024|PANINI|DONRUSS|HOLO GREEN LASER|#243|NUMERIC:9|BASKETBALL",
+      "slab_key": "a426f5e2873e8b1d",
+      "current_ask": 25.0,
+      "shipping": 5.99,
+      "acquisition_total": 30.990000000000002,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 3,
+      "accepted": 2,
+      "rejected": 2,
+      "review_required": 0,
+      "rejection_reasons": [
+        "print run 99 != None"
+      ],
+      "accepted_comps": [
+        {
+          "date": "2025-12-28",
+          "total": 10.5
+        },
+        {
+          "date": "2025-12-28",
+          "total": 10.5
+        }
+      ],
+      "newest_accepted_comp": "2025-12-28",
+      "newest_comp_age_days": 219,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "LOW",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 2,
+      "cand_id": "v1|307083839536|0",
+      "listing_url": "https://www.ebay.com/itm/307083839536?hash=item477f9f8830:g:Ns0AAeSw2~5qY6~Q",
+      "canonical_identity": "2025|TOPPS|NOW OFFSEASON|None|#OS-4|NUMERIC:10|BASEBALL",
+      "slab_key": "f156dcce800d5dbd",
+      "current_ask": 50.0,
+      "shipping": 5.99,
+      "acquisition_total": 55.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 50,
+      "accepted": 49,
+      "rejected": 0,
+      "review_required": 1,
+      "rejection_reasons": [
+        "card number None != OS-4 (field absent from title, not a conflict)"
+      ],
+      "accepted_comps": [
+        {
+          "date": "2026-02-11",
+          "total": 36.0
+        },
+        {
+          "date": "2026-02-25",
+          "total": 40.9
+        },
+        {
+          "date": "2026-02-26",
+          "total": 41.0
+        },
+        {
+          "date": "2026-03-06",
+          "total": 37.0
+        },
+        {
+          "date": "2026-03-09",
+          "total": 37.0
+        },
+        {
+          "date": "2026-03-10",
+          "total": 35.0
+        },
+        {
+          "date": "2026-03-14",
+          "total": 35.0
+        },
+        {
+          "date": "2026-03-15",
+          "total": 35.0
+        },
+        {
+          "date": "2026-03-15",
+          "total": 35.0
+        },
+        {
+          "date": "2026-03-15",
+          "total": 39.99
+        },
+        {
+          "date": "2026-03-16",
+          "total": 39.99
+        },
+        {
+          "date": "2026-03-18",
+          "total": 42.0
+        },
+        {
+          "date": "2026-03-20",
+          "total": 35.0
+        },
+        {
+          "date": "2026-03-26",
+          "total": 44.99
+        },
+        {
+          "date": "2026-03-29",
+          "total": 44.99
+        },
+        {
+          "date": "2026-03-30",
+          "total": 39.5
+        },
+        {
+          "date": "2026-04-04",
+          "total": 45.0
+        },
+        {
+          "date": "2026-04-04",
+          "total": 49.99
+        },
+        {
+          "date": "2026-04-09",
+          "total": 51.0
+        },
+        {
+          "date": "2026-04-11",
+          "total": 42.5
+        },
+        {
+          "date": "2026-04-16",
+          "total": 45.0
+        },
+        {
+          "date": "2026-04-17",
+          "total": 32.0
+        },
+        {
+          "date": "2026-04-17",
+          "total": 43.0
+        },
+        {
+          "date": "2026-04-18",
+          "total": 49.99
+        },
+        {
+          "date": "2026-04-23",
+          "total": 49.99
+        },
+        {
+          "date": "2026-04-24",
+          "total": 34.04
+        },
+        {
+          "date": "2026-04-24",
+          "total": 37.07
+        },
+        {
+          "date": "2026-04-24",
+          "total": 36.85
+        },
+        {
+          "date": "2026-04-24",
+          "total": 42.0
+        },
+        {
+          "date": "2026-04-26",
+          "total": 30.0
+        },
+        {
+          "date": "2026-04-26",
+          "total": 36.01
+        },
+        {
+          "date": "2026-04-26",
+          "total": 40.0
+        },
+        {
+          "date": "2026-04-26",
+          "total": 31.85
+        },
+        {
+          "date": "2026-04-26",
+          "total": 21.5
+        },
+        {
+          "date": "2026-04-26",
+          "total": 26.51
+        },
+        {
+          "date": "2026-05-02",
+          "total": 45.04
+        },
+        {
+          "date": "2026-05-02",
+          "total": 49.99
+        },
+        {
+          "date": "2026-05-03",
+          "total": 49.99
+        },
+        {
+          "date": "2026-05-05",
+          "total": 54.01
+        },
+        {
+          "date": "2026-05-08",
+          "total": 65.0
+        },
+        {
+          "date": "2026-05-13",
+          "total": 49.99
+        },
+        {
+          "date": "2026-05-13",
+          "total": 45.0
+        },
+        {
+          "date": "2026-05-17",
+          "total": 37.75
+        },
+        {
+          "date": "2026-05-21",
+          "total": 33.0
+        },
+        {
+          "date": "2026-05-21",
+          "total": 56.0
+        },
+        {
+          "date": "2026-05-24",
+          "total": 43.0
+        },
+        {
+          "date": "2026-05-27",
+          "total": 47.5
+        },
+        {
+          "date": "2026-06-17",
+          "total": 56.0
+        },
+        {
+          "date": "2026-07-05",
+          "total": 52.99
+        }
+      ],
+      "newest_accepted_comp": "2026-07-05",
+      "newest_comp_age_days": 30,
+      "p25": 35.5,
+      "median": 41.0,
+      "p75": 48.745000000000005,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": 41.0,
+      "headroom_pct_gross": -36.5609756097561,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": 3.0232558139534884,
+      "confidence": "HIGH",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "PASS_AT_OR_ABOVE_MARKET",
+      "blockers": [
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 3,
+      "cand_id": "v1|298298586088|0",
+      "listing_url": "https://www.ebay.com/itm/298298586088?hash=item4573fb33e8:g:aocAAeSwb-Jp~S3m",
+      "canonical_identity": "2024|PANINI|CONTENDERS|AUTOGRAPH|#106|NUMERIC:10|FOOTBALL",
+      "slab_key": "2bc5369f635698ad",
+      "current_ask": 199.0,
+      "shipping": 5.99,
+      "acquisition_total": 204.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 5,
+      "accepted": 0,
+      "rejected": 3,
+      "review_required": 2,
+      "rejection_reasons": [
+        "parallel/set differs - comp is ['BLUE'], candidate is not",
+        "raw/ungraded - no PSA grade in title",
+        "card number None != 106 (field absent from title, not a conflict)"
+      ],
+      "accepted_comps": [],
+      "newest_accepted_comp": null,
+      "newest_comp_age_days": null,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "NONE",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 4,
+      "cand_id": "v1|306428604639|0",
+      "listing_url": "https://www.ebay.com/itm/306428604639?hash=item47589170df:g:amsAAeSwpvFojjV-",
+      "canonical_identity": "2023|PANINI|PRIZM|None|#343|NUMERIC:10|FOOTBALL",
+      "slab_key": "b47f92f1ae17e8b0",
+      "current_ask": 30.0,
+      "shipping": 5.99,
+      "acquisition_total": 35.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 50,
+      "accepted": 32,
+      "rejected": 31,
+      "review_required": 3,
+      "rejection_reasons": [
+        "print run 400 != None",
+        "autograph status differs (comp=True, candidate=False)",
+        "parallel/set differs - comp is ['NEON', 'PULSAR'], candidate is not",
+        "parallel/set differs - comp is ['SILVER'], candidate is not",
+        "parallel/set differs - comp is ['RED'], candidate is not",
+        "parallel/set differs - comp is ['ORANGE'], candidate is not",
+        "card number None != 343 (field absent from title, not a conflict)",
+        "parallel/set differs - comp is ['WAVE'], candidate is not",
+        "parallel/set differs - comp is ['DISCO', 'ORANGE'], candidate is not",
+        "print run 149 != None",
+        "parallel/set differs - comp is ['PINK'], candidate is not",
+        "PSA grade 9 != 10",
+        "print run 175 != None",
+        "lot - title describes more than one graded card"
+      ],
+      "accepted_comps": [
+        {
+          "date": "2024-04-14",
+          "total": 69.99
+        },
+        {
+          "date": "2024-04-14",
+          "total": 69.99
+        },
+        {
+          "date": "2024-04-16",
+          "total": 63.5
+        },
+        {
+          "date": "2024-04-16",
+          "total": 63.5
+        },
+        {
+          "date": "2024-04-28",
+          "total": 66.6
+        },
+        {
+          "date": "2024-04-28",
+          "total": 66.6
+        },
+        {
+          "date": "2024-05-05",
+          "total": 63.0
+        },
+        {
+          "date": "2024-05-05",
+          "total": 63.0
+        },
+        {
+          "date": "2024-05-08",
+          "total": 70.0
+        },
+        {
+          "date": "2024-05-08",
+          "total": 70.0
+        },
+        {
+          "date": "2024-05-29",
+          "total": 160.0
+        },
+        {
+          "date": "2024-05-29",
+          "total": 160.0
+        },
+        {
+          "date": "2024-06-05",
+          "total": 64.88
+        },
+        {
+          "date": "2024-06-05",
+          "total": 64.88
+        },
+        {
+          "date": "2024-06-13",
+          "total": 60.0
+        },
+        {
+          "date": "2024-06-13",
+          "total": 60.0
+        },
+        {
+          "date": "2024-07-02",
+          "total": 69.99
+        },
+        {
+          "date": "2024-07-02",
+          "total": 69.99
+        },
+        {
+          "date": "2024-08-03",
+          "total": 62.55
+        },
+        {
+          "date": "2024-08-03",
+          "total": 62.55
+        },
+        {
+          "date": "2024-08-23",
+          "total": 59.37
+        },
+        {
+          "date": "2024-08-23",
+          "total": 59.37
+        },
+        {
+          "date": "2024-08-31",
+          "total": 73.25
+        },
+        {
+          "date": "2024-08-31",
+          "total": 73.25
+        },
+        {
+          "date": "2024-10-05",
+          "total": 26.0
+        },
+        {
+          "date": "2024-10-05",
+          "total": 26.0
+        },
+        {
+          "date": "2025-01-26",
+          "total": 48.33
+        },
+        {
+          "date": "2025-01-26",
+          "total": 48.33
+        },
+        {
+          "date": "2025-04-18",
+          "total": 18.5
+        },
+        {
+          "date": "2025-04-18",
+          "total": 18.5
+        },
+        {
+          "date": "2025-05-15",
+          "total": 25.0
+        },
+        {
+          "date": "2025-05-15",
+          "total": 25.0
+        }
+      ],
+      "newest_accepted_comp": "2025-05-15",
+      "newest_comp_age_days": 446,
+      "p25": 51.09,
+      "median": 63.25,
+      "p75": 69.99,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": 63.25,
+      "headroom_pct_gross": 43.09881422924901,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": 8.64864864864865,
+      "confidence": "HIGH",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "WATCH",
+      "reason": "BUY_DISCOUNT_AT_OR_ABOVE_25",
+      "blockers": [
+        "comps_stale_446d",
+        "DOWNGRADED_HIGH_DISPERSION",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 5,
+      "cand_id": "v1|116746225757|0",
+      "listing_url": "https://www.ebay.com/itm/116746225757?hash=item1b2e9e085d:g:tkIAAeSwb7JoqOFR",
+      "canonical_identity": "2025|BOWMAN|SCOUTS TOP 100|None|#BTP74|NUMERIC:9|BASEBALL",
+      "slab_key": "6dac8eeba60c43d8",
+      "current_ask": 15.0,
+      "shipping": 5.99,
+      "acquisition_total": 20.990000000000002,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 1,
+      "accepted": 2,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [
+        {
+          "date": "2025-08-21",
+          "total": 5.0
+        },
+        {
+          "date": "2025-08-21",
+          "total": 5.0
+        }
+      ],
+      "newest_accepted_comp": "2025-08-21",
+      "newest_comp_age_days": 348,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "LOW",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 6,
+      "cand_id": "v1|306085105275|0",
+      "listing_url": "https://www.ebay.com/itm/306085105275?hash=item4744180e7b:g:eHgAAOSw25JnoCdN",
+      "canonical_identity": "2005|TOPPS|FINEST|X-FRACTOR|#112|NUMERIC:10|/199|BASKETBALL",
+      "slab_key": "8fcba845ca080bc3",
+      "current_ask": 50.0,
+      "shipping": 5.99,
+      "acquisition_total": 55.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [],
+      "newest_accepted_comp": null,
+      "newest_comp_age_days": null,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "NONE",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 7,
+      "cand_id": "v1|306641207281|0",
+      "listing_url": "https://www.ebay.com/itm/306641207281?hash=item47653d7ff1:g:NV0AAeSwysppMJvg",
+      "canonical_identity": "2011|BOWMAN|CHROME|GOLD REFRACTOR|#151|NUMERIC:9|/50|BASEBALL",
+      "slab_key": "bbe7a01a0ec73089",
+      "current_ask": 199.0,
+      "shipping": 5.99,
+      "acquisition_total": 204.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 1,
+      "accepted": 0,
+      "rejected": 0,
+      "review_required": 1,
+      "rejection_reasons": [
+        "card number None != 151 (field absent from title, not a conflict)"
+      ],
+      "accepted_comps": [],
+      "newest_accepted_comp": null,
+      "newest_comp_age_days": null,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "NONE",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 8,
+      "cand_id": "v1|117155322999|0",
+      "listing_url": "https://www.ebay.com/itm/117155322999?hash=item1b47005c77:g:TsMAAeSwU9Bp56Ii",
+      "canonical_identity": "2024|TOPPS|CHROME UPDATE|SP-ORANGE SPECKLE|#USC150|NUMERIC:10|/25|BASEBALL",
+      "slab_key": "664d5b718c60cc50",
+      "current_ask": 575.0,
+      "shipping": 5.99,
+      "acquisition_total": 580.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 4,
+      "accepted": 2,
+      "rejected": 2,
+      "review_required": 1,
+      "rejection_reasons": [
+        "card number None != USC150 (field absent from title, not a conflict)",
+        "parallel/set differs - comp is ['REFRACTOR'], candidate is not"
+      ],
+      "accepted_comps": [
+        {
+          "date": "2025-01-23",
+          "total": 801.0
+        },
+        {
+          "date": "2025-01-23",
+          "total": 801.0
+        }
+      ],
+      "newest_accepted_comp": "2025-01-23",
+      "newest_comp_age_days": 558,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "LOW",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "comps_stale_558d",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 9,
+      "cand_id": "v1|307072155008|0",
+      "listing_url": "https://www.ebay.com/itm/307072155008?hash=item477eed3d80:g:TdYAAeSwJuVqQyBI",
+      "canonical_identity": "1968|TOPPS|BASE|None|#230|NUMERIC:3+MC|BASEBALL",
+      "slab_key": "cd2e7f538aafc31e",
+      "current_ask": 50.0,
+      "shipping": 5.99,
+      "acquisition_total": 55.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 1,
+      "accepted": 2,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [
+        {
+          "date": "2024-02-14",
+          "total": 39.99
+        },
+        {
+          "date": "2024-02-14",
+          "total": 39.99
+        }
+      ],
+      "newest_accepted_comp": "2024-02-14",
+      "newest_comp_age_days": 902,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "LOW",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "comps_stale_902d",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 10,
+      "cand_id": "v1|117126560115|0",
+      "listing_url": "https://www.ebay.com/itm/117126560115?hash=item1b45497973:g:qlkAAeSw-2Bp0hGs",
+      "canonical_identity": "2014|PANINI|SELECT|BLUE PRIZM|#26|NUMERIC:10|/249|BASKETBALL",
+      "slab_key": "1e1039b5f3cce054",
+      "current_ask": 299.0,
+      "shipping": 5.99,
+      "acquisition_total": 304.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 2,
+      "accepted": 2,
+      "rejected": 0,
+      "review_required": 1,
+      "rejection_reasons": [
+        "card number None != 26 (field absent from title, not a conflict)"
+      ],
+      "accepted_comps": [
+        {
+          "date": "2026-02-22",
+          "total": 30.26
+        },
+        {
+          "date": "2026-02-22",
+          "total": 21.51
+        }
+      ],
+      "newest_accepted_comp": "2026-02-22",
+      "newest_comp_age_days": 163,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "LOW",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 11,
+      "cand_id": "v1|117197928888|0",
+      "listing_url": "https://www.ebay.com/itm/117197928888?hash=item1b498a79b8:g:P0sAAeSw73lqCF64",
+      "canonical_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|GOLD|#52|NUMERIC:8|/50|RACING",
+      "slab_key": "cf065a6bca6ffdde",
+      "current_ask": 125.0,
+      "shipping": 5.99,
+      "acquisition_total": 130.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [],
+      "newest_accepted_comp": null,
+      "newest_comp_age_days": null,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "NONE",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 12,
+      "cand_id": "v1|117321911870|0",
+      "listing_url": "https://www.ebay.com/itm/117321911870?hash=item1b50ee4e3e:g:de8AAeSwAY9qZNp8",
+      "canonical_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|ORANGE|#64|NUMERIC:8|/25|RACING",
+      "slab_key": "04fbcb1512f74c1c",
+      "current_ask": 195.0,
+      "shipping": 5.99,
+      "acquisition_total": 200.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 1,
+      "accepted": 0,
+      "rejected": 0,
+      "review_required": 1,
+      "rejection_reasons": [
+        "card number None != 64 (field absent from title, not a conflict)"
+      ],
+      "accepted_comps": [],
+      "newest_accepted_comp": null,
+      "newest_comp_age_days": null,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "NONE",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 13,
+      "cand_id": "v1|307085679017|0",
+      "listing_url": "https://www.ebay.com/itm/307085679017?hash=item477fbb99a9:g:IQoAAeSwPGtqZNoY",
+      "canonical_identity": "2020|TOPPS|CHROME FORMULA 1 SAPPHIRE EDITION|ORANGE|#80|NUMERIC:8|/25|RACING",
+      "slab_key": "27bed8cc2863635b",
+      "current_ask": 195.0,
+      "shipping": 5.99,
+      "acquisition_total": 200.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [],
+      "newest_accepted_comp": null,
+      "newest_comp_age_days": null,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "NONE",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 14,
+      "cand_id": "v1|298507603731|0",
+      "listing_url": "https://www.ebay.com/itm/298507603731?hash=item4580708f13:g:DMoAAeSwROhqV9qK",
+      "canonical_identity": "1967|TOPPS|BASE|None|#200|NUMERIC:5+MC|BASEBALL",
+      "slab_key": "cd489d876d5ebb3b",
+      "current_ask": 169.99,
+      "shipping": 5.99,
+      "acquisition_total": 175.98000000000002,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 3,
+      "accepted": 4,
+      "rejected": 1,
+      "review_required": 0,
+      "rejection_reasons": [
+        "raw/ungraded - no PSA grade in title"
+      ],
+      "accepted_comps": [
+        {
+          "date": "2025-10-11",
+          "total": 61.06
+        },
+        {
+          "date": "2025-10-11",
+          "total": 61.06
+        },
+        {
+          "date": "2026-01-28",
+          "total": 127.5
+        },
+        {
+          "date": "2026-01-28",
+          "total": 127.5
+        }
+      ],
+      "newest_accepted_comp": "2026-01-28",
+      "newest_comp_age_days": 188,
+      "p25": 61.06,
+      "median": 94.28,
+      "p75": 127.5,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": 94.28,
+      "headroom_pct_gross": -86.65676707679255,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": 2.0881100556829346,
+      "confidence": "MEDIUM",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "PASS_AT_OR_ABOVE_MARKET",
+      "blockers": [
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 15,
+      "cand_id": "v1|306983053493|0",
+      "listing_url": "https://www.ebay.com/itm/306983053493?hash=item47799da8b5:g:P6YAAeSwQYJqIcbJ",
+      "canonical_identity": "1972|TOPPS|BASE|None|#49|NUMERIC:4+MK|BASEBALL",
+      "slab_key": "0dcb055f290bd3f3",
+      "current_ask": 45.0,
+      "shipping": 5.99,
+      "acquisition_total": 50.99,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 2,
+      "accepted": 4,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [
+        {
+          "date": "2024-08-29",
+          "total": 31.0
+        },
+        {
+          "date": "2024-08-29",
+          "total": 31.0
+        },
+        {
+          "date": "2025-11-23",
+          "total": 22.0
+        },
+        {
+          "date": "2025-11-23",
+          "total": 22.0
+        }
+      ],
+      "newest_accepted_comp": "2025-11-23",
+      "newest_comp_age_days": 254,
+      "p25": 22.0,
+      "median": 26.5,
+      "p75": 31.0,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": 26.5,
+      "headroom_pct_gross": -92.41509433962266,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": 1.4090909090909092,
+      "confidence": "MEDIUM",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "PASS_AT_OR_ABOVE_MARKET",
+      "blockers": [
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 16,
+      "cand_id": "v1|298425204935|0",
+      "listing_url": "https://www.ebay.com/itm/298425204935?hash=item457b8740c7:g:lYgAAeSwG11qMrC9",
+      "canonical_identity": "1959|TOPPS|BASE|None|#350|NUMERIC:4+MC|BASEBALL",
+      "slab_key": "a304f2fdf0488062",
+      "current_ask": 102.3,
+      "shipping": 5.99,
+      "acquisition_total": 108.28999999999999,
+      "acquisition_total_complete": true,
+      "evidence": "newly_researched",
+      "rows_found": 1,
+      "accepted": 2,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [
+        {
+          "date": "2023-12-16",
+          "total": 27.0
+        },
+        {
+          "date": "2023-12-16",
+          "total": 27.0
+        }
+      ],
+      "newest_accepted_comp": "2023-12-16",
+      "newest_comp_age_days": 962,
+      "p25": null,
+      "median": null,
+      "p75": null,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": null,
+      "headroom_pct_gross": null,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": null,
+      "confidence": "LOW",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "INSUFFICIENT_EVIDENCE",
+      "blockers": [
+        "insufficient_exact_comps",
+        "comps_stale_962d",
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 17,
+      "cand_id": "v1|117234602404|0",
+      "listing_url": "https://www.ebay.com/itm/117234602404?hash=item1b4bba11a4:g:oicAAOSwLypnaz6u",
+      "canonical_identity": "1990|HOOPS|BASE|SHOWS MICHAEL JORDAN|#223|NUMERIC:8|BASKETBALL",
+      "slab_key": "c26f072b3d651db3",
+      "current_ask": 49.99,
+      "shipping": 5.99,
+      "acquisition_total": 55.980000000000004,
+      "acquisition_total_complete": true,
+      "evidence": "reused",
+      "rows_found": 0,
+      "accepted": 34,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [
+        {
+          "date": "2023-12-05",
+          "total": 26.79
+        },
+        {
+          "date": "2024-01-04",
+          "total": 43.9
+        },
+        {
+          "date": "2024-02-06",
+          "total": 17.25
+        },
+        {
+          "date": "2024-02-24",
+          "total": 26.490000000000002
+        },
+        {
+          "date": "2024-04-06",
+          "total": 32.0
+        },
+        {
+          "date": "2024-04-24",
+          "total": 20.98
+        },
+        {
+          "date": "2024-04-29",
+          "total": 17.25
+        },
+        {
+          "date": "2024-05-04",
+          "total": 20.95
+        },
+        {
+          "date": "2024-06-01",
+          "total": 16.95
+        },
+        {
+          "date": "2024-06-10",
+          "total": 23.05
+        },
+        {
+          "date": "2024-08-03",
+          "total": 13.5
+        },
+        {
+          "date": "2024-09-27",
+          "total": 17.95
+        },
+        {
+          "date": "2024-11-12",
+          "total": 22.65
+        },
+        {
+          "date": "2025-01-19",
+          "total": 21.009999999999998
+        },
+        {
+          "date": "2025-01-19",
+          "total": 20.939999999999998
+        },
+        {
+          "date": "2025-02-07",
+          "total": 19.2
+        },
+        {
+          "date": "2025-02-27",
+          "total": 19.32
+        },
+        {
+          "date": "2025-09-07",
+          "total": 25.990000000000002
+        },
+        {
+          "date": "2025-09-28",
+          "total": 13.95
+        },
+        {
+          "date": "2025-11-19",
+          "total": 20.490000000000002
+        },
+        {
+          "date": "2025-11-22",
+          "total": 25.990000000000002
+        },
+        {
+          "date": "2025-11-28",
+          "total": 40.849999999999994
+        },
+        {
+          "date": "2025-12-16",
+          "total": 35.99
+        },
+        {
+          "date": "2026-01-14",
+          "total": 14.52
+        },
+        {
+          "date": "2026-01-27",
+          "total": 16.77
+        },
+        {
+          "date": "2026-02-10",
+          "total": 13.0
+        },
+        {
+          "date": "2026-03-30",
+          "total": 27.36
+        },
+        {
+          "date": "2026-04-05",
+          "total": 22.0
+        },
+        {
+          "date": "2026-04-08",
+          "total": 19.490000000000002
+        },
+        {
+          "date": "2026-04-17",
+          "total": 28.72
+        },
+        {
+          "date": "2026-04-18",
+          "total": 25.990000000000002
+        },
+        {
+          "date": "2026-05-24",
+          "total": 31.990000000000002
+        },
+        {
+          "date": "2026-07-03",
+          "total": 19.95
+        },
+        {
+          "date": "2026-07-04",
+          "total": 36.99
+        }
+      ],
+      "newest_accepted_comp": "2026-07-04",
+      "newest_comp_age_days": 31,
+      "p25": 17.775,
+      "median": 20.994999999999997,
+      "p75": 26.9325,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": 20.994999999999997,
+      "headroom_pct_gross": -166.6349130745416,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": 3.376923076923077,
+      "confidence": "HIGH",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "PASS_AT_OR_ABOVE_MARKET",
+      "blockers": [
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    },
+    {
+      "rank": 18,
+      "cand_id": "v1|297199541740|0",
+      "listing_url": "https://www.ebay.com/itm/297199541740?hash=item4532791dec:g:6w4AAeSwB9Fn93L~",
+      "canonical_identity": "1989|BOWMAN|BASE|None|#220|NUMERIC:9|BASEBALL",
+      "slab_key": "3ba3ae78da845b3f",
+      "current_ask": 75.0,
+      "shipping": 5.99,
+      "acquisition_total": 80.99,
+      "acquisition_total_complete": true,
+      "evidence": "reused",
+      "rows_found": 0,
+      "accepted": 37,
+      "rejected": 0,
+      "review_required": 0,
+      "rejection_reasons": [],
+      "accepted_comps": [
+        {
+          "date": "2023-08-21",
+          "total": 37.0
+        },
+        {
+          "date": "2023-08-24",
+          "total": 24.93
+        },
+        {
+          "date": "2023-08-29",
+          "total": 40.5
+        },
+        {
+          "date": "2023-09-05",
+          "total": 29.99
+        },
+        {
+          "date": "2023-09-24",
+          "total": 44.99
+        },
+        {
+          "date": "2023-10-03",
+          "total": 23.5
+        },
+        {
+          "date": "2023-10-16",
+          "total": 25.0
+        },
+        {
+          "date": "2023-11-14",
+          "total": 24.25
+        },
+        {
+          "date": "2023-11-26",
+          "total": 26.0
+        },
+        {
+          "date": "2024-01-11",
+          "total": 32.5
+        },
+        {
+          "date": "2024-02-02",
+          "total": 22.12
+        },
+        {
+          "date": "2024-02-17",
+          "total": 31.0
+        },
+        {
+          "date": "2024-02-24",
+          "total": 33.99
+        },
+        {
+          "date": "2024-03-07",
+          "total": 29.86
+        },
+        {
+          "date": "2024-03-17",
+          "total": 36.29
+        },
+        {
+          "date": "2024-03-19",
+          "total": 35.99
+        },
+        {
+          "date": "2024-04-28",
+          "total": 34.99
+        },
+        {
+          "date": "2024-05-02",
+          "total": 27.99
+        },
+        {
+          "date": "2024-05-28",
+          "total": 36.0
+        },
+        {
+          "date": "2024-06-20",
+          "total": 49.95
+        },
+        {
+          "date": "2024-07-26",
+          "total": 31.46
+        },
+        {
+          "date": "2024-09-30",
+          "total": 33.77
+        },
+        {
+          "date": "2024-10-09",
+          "total": 32.95
+        },
+        {
+          "date": "2024-11-13",
+          "total": 32.89
+        },
+        {
+          "date": "2024-11-16",
+          "total": 47.5
+        },
+        {
+          "date": "2024-12-03",
+          "total": 24.99
+        },
+        {
+          "date": "2025-01-31",
+          "total": 30.5
+        },
+        {
+          "date": "2025-03-22",
+          "total": 32.44
+        },
+        {
+          "date": "2025-04-16",
+          "total": 39.9
+        },
+        {
+          "date": "2025-09-14",
+          "total": 30.0
+        },
+        {
+          "date": "2026-01-09",
+          "total": 35.67
+        },
+        {
+          "date": "2026-01-17",
+          "total": 43.44
+        },
+        {
+          "date": "2026-03-19",
+          "total": 41.25
+        },
+        {
+          "date": "2026-06-02",
+          "total": 42.8
+        },
+        {
+          "date": "2026-06-16",
+          "total": 43.84
+        },
+        {
+          "date": "2026-07-01",
+          "total": 48.44
+        },
+        {
+          "date": "2026-07-19",
+          "total": 44.99
+        }
+      ],
+      "newest_accepted_comp": "2026-07-19",
+      "newest_comp_age_days": 16,
+      "p25": 29.924999999999997,
+      "median": 33.77,
+      "p75": 40.875,
+      "percentile_method": "statistics.quantiles(n=4, method='exclusive'), idx0=p25 idx2=p75",
+      "conservative_valuation_policy_median": 33.77,
+      "headroom_pct_gross": -139.82824992596977,
+      "headroom_after_buffers": "identical - the policy basis is gross, before taxes, import costs, marketplace fees and resale costs",
+      "comp_dispersion_max_over_min": 2.258137432188065,
+      "confidence": "HIGH",
+      "listing_eligibility_verification": "NOT RE-VERIFIED LIVE - no candidate reached actionable status, so no request was spent re-checking one",
+      "decision": "PASS",
+      "reason": "PASS_AT_OR_ABOVE_MARKET",
+      "blockers": [
+        "active_status_from_last_crawl_not_reverified_live"
+      ]
+    }
+  ],
+  "dominant_failure_category": "candidate-population selection",
+  "evidence_for_that_category": {
+    "insufficient_comp_candidates": 12,
+    "of_those_product_research_returned_zero_rows": 3,
+    "of_those_returned_1_to_5_rows": 9,
+    "of_those_returned_more_than_5_rows": 0,
+    "total_comps_rejected_across_all_12": 7,
+    "total_review_required_across_all_12": 6,
+    "serial_numbered_parallels_among_the_12": 7,
+    "qualifier_graded_vintage_among_the_12": 2,
+    "conclusion": "the failure is upstream of matching. Product Research itself returned almost nothing for these identities, and only 7 comps were rejected across all twelve, so the matcher is not discarding usable evidence - the identities have no market. The lone WATCH was checked directly: zero of its 34 rejected comps are newer than 365 days, so its staleness is real absence, not recall loss."
+  },
+  "root_cause": "intra-slab dispersion was used as the screening prior. Wide asking-price dispersion arises precisely where no established market price exists, so the prior systematically selects illiquid identities - serial-numbered parallels and qualifier-graded vintage - which cannot be valued at all.",
+  "anomalies_recorded_not_actioned": [
+    {
+      "id": "product_research_row_cap",
+      "detail": "candidates 2 and 4 both returned exactly 50 rows, the table cap. Whether that table is date-sorted is unverified, so freshness readings on capped candidates may be incomplete.",
+      "invalidates_pilot": false,
+      "why_not": "the single WATCH is downgraded for 8.65x dispersion regardless of its comp age, so no alert outcome turns on this"
+    },
+    {
+      "id": "lazer_parallel_comps",
+      "detail": "two accepted comps for rank 4 are titled Lazer, a distinct Prizm parallel; removing them leaves the median and the decision unchanged",
+      "invalidates_pilot": false
+    }
+  ],
+  "decision": "ONE_TARGETED_FIX_AND_REPEAT_ONCE",
+  "recommended_single_bounded_fix": {
+    "change": "replace intra-slab dispersion with observed comp liquidity as the screening prior: rank groups by how many accepted comps the identity already has, or by a cheap proxy for salability such as base/non-serial-numbered cards of high-volume subjects, and drop identities that returned no_results before spending research again",
+    "why_bounded": "it changes the ordering input only; grouping, eligibility, matching, freshness, dispersion and valuation rules are untouched",
+    "not_implemented": true
+  },
+  "integrity": {
+    "listings": 152134,
+    "cards": 145837,
+    "sold_comps": 6216,
+    "pr_runs": 229,
+    "tierb": 352,
+    "sold_comps_added": 124,
+    "pr_runs_added": 16,
+    "baseline_93_comps": 3128,
+    "live_ebay_api_requests": 0,
+    "product_research_candidates": 16,
+    "purchases_bids_offers_watchlist_seller_contact": 0
+  }
+}

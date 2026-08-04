@@ -1,0 +1,124 @@
+{
+  "phase": "fixed_price_cheapest_peer_counterfactual",
+  "mode": "offline, read-only; no live requests, no browser automation, no database mutation",
+  "percentile_method": "statistics.quantiles(data, n=4, method='exclusive'), index 0 = p25, index 2 = p75",
+  "principle": "Product Research comps value the verified slab identity, not the active listing that happened to represent it. Evidence is reused only where the full canonical slab_key is identical.",
+  "peer_eligibility_gates": [
+    "exact full slab_key equality",
+    "active",
+    "genuine fixed asking price (FIXED_PRICE_ONLY)",
+    "shipping_state = KNOWN",
+    "USD proven on price, bid and shipping",
+    "single-card leaf category 261328",
+    "parse_status = ok (no unresolved identity ambiguity)",
+    "acquisition_total present and complete - price alone is never substituted"
+  ],
+  "data_note": "no legacy listing row has shipping_state or acquisition_total persisted, so both were recomputed in memory from each stored raw payload with the current mapper. Nothing was written back.",
+  "results": {
+    "researched_fixed_price_candidates": 153,
+    "in_an_active_peer_group": 117,
+    "with_an_eligible_cheapest_peer": 93,
+    "no_eligible_peer": 24,
+    "researched_listing_was_already_cheapest_eligible": 0,
+    "researched_listing_was_not_cheapest": 93,
+    "peer_listings_rejected": {
+      "identity_ambiguous_parse_failed": 638,
+      "no_genuine_fixed_price": 42
+    },
+    "cheapest_peer_strictly_cheaper": "93 of 93",
+    "median_acquisition_total_reduction": 196.0,
+    "max_acquisition_total_reduction": 69173.01000000001
+  },
+  "rescored_outcomes_of_the_93": {
+    "below_conservative_market_10pct_or_more": 1,
+    "within_10pct_of_market": 1,
+    "above_market": 74,
+    "excluded_insufficient_or_unreliable_comps": 17,
+    "decisions": {
+      "WATCH": 1,
+      "PASS": 92
+    },
+    "reasons": {
+      "PASS_AT_OR_ABOVE_MARKET": 75,
+      "INSUFFICIENT_EVIDENCE": 17,
+      "BUY_DISCOUNT_AT_OR_ABOVE_25_downgraded": 1
+    }
+  },
+  "surviving_provisional_opportunities": [
+    {
+      "researched_item_id": "v1|306953491657|0",
+      "researched_price": 180.0,
+      "researched_acquisition_total": 185.99,
+      "cheapest_peer_item_id": "v1|306428604639|0",
+      "cheapest_peer_price": 30.0,
+      "cheapest_peer_shipping": 5.99,
+      "cheapest_peer_acquisition_total": 35.99,
+      "canonical_identity": "2023 PANINI PRIZM #343 ANTHONY RICHARDSON, base (parallel None), PSA NUMERIC 10, no qualifier, no autograph, no serial/print run",
+      "slab_key": "71218ea9ff3cffca",
+      "slab_key_identical_to_researched_candidate": true,
+      "accepted_comp_count": 16,
+      "p25": 51.09,
+      "median": 63.25,
+      "p75": 69.99,
+      "p75_over_p25": 1.37,
+      "max_over_min_dispersion": 8.65,
+      "conservative_valuation_policy_median": 63.25,
+      "gross_headroom_vs_median_pct": 43.1,
+      "gross_headroom_vs_p25_pct": 29.6,
+      "fee_or_risk_buffer": "none - the policy basis is explicitly gross, before taxes, import costs, marketplace fees and resale costs, so headroom before and after buffer are identical",
+      "decision": "WATCH (downgraded from BUY)",
+      "unresolved_blockers": [
+        "DOWNGRADED_HIGH_DISPERSION - accepted comps span 8.65x",
+        "comps are stale: newest accepted sale 2025-05-15, 446 days old against a 365-day limit",
+        "active status is from the last crawl and was not re-verified, so the $30 listing may no longer exist or may no longer be at this price",
+        "two accepted comps ($160.00 and $48.33) are titled Lazer, a distinct Prizm parallel, against a base-card candidate",
+        "same seller lists an identical slab at $30 and $180, which is unexplained and may indicate a difference not captured by the parsed identity"
+      ],
+      "status": "PROVISIONAL - not actionable"
+    }
+  ],
+  "parallel_leakage_finding": {
+    "detail": "2 of 16 accepted comps are Lazer parallels matched to a base card. Removing them leaves n=14, median $63.25 unchanged, dispersion 8.65x -> 3.96x, headroom 43.1% unchanged.",
+    "changes_the_conclusion": false,
+    "note": "still above the 2.5x dispersion limit, so the WATCH downgrade holds either way. Reported because it is a comp-matching gap, not because it alters this result."
+  },
+  "why_apparent_opportunities_disappear": {
+    "no_eligible_peer_at_all": 24,
+    "peer_rejected_identity_ambiguous_parse_failed": 638,
+    "peer_rejected_no_genuine_fixed_price": 42,
+    "rescored_but_still_above_market": 74,
+    "rescored_but_insufficient_comps": 17,
+    "summary": "92 of the 93 rescored candidates remain PASS. Re-pointing at the cheapest peer removes a large and systematic cost error but does not by itself create opportunities: the cards are mostly priced above market across every listing of the same slab."
+  },
+  "selection_redesign": {
+    "smallest_deterministic_change": [
+      "form exact verified slab groups on the full canonical slab_key first",
+      "within each group choose the member with the lowest complete acquisition_total among eligible members only",
+      "tie-break deterministically on item_id ascending",
+      "rank groups for research order by intra-slab dispersion, used only as a screening prior and never as evidence of market value",
+      "Product Research still makes the valuation decision",
+      "identity provenance selects the group, never the member",
+      "research one listing per exact slab identity unless its evidence is stale or otherwise unusable"
+    ],
+    "concrete_edit": "export_pilot.build currently takes cand_id from peers.affected_groups, which keys on Tier B provenance. It would instead pick the cheapest eligible member of the same group. That is one function, and the eligibility gates above already exist in db.to_row and db.is_usd."
+  },
+  "evidence_storage_recommendation": {
+    "question": "should Product Research evidence be keyed by slab identity rather than cand_id?",
+    "recommendation": "resolve at read time, no schema change",
+    "why": "sold_comps.candidate_item_id already joins to cards.item_id, which carries slab_key, so comps can be gathered by slab identity with a join today. Where Tier B re-keyed an identity, the join must use effective_slab_key rather than the raw parse. Adding a slab_key column to sold_comps would duplicate a derived value and would go stale the next time an identity is re-keyed.",
+    "guard": "reuse only on exact full slab_key equality; never across partial, failed, legacy or differently qualified identities"
+  },
+  "integrity": {
+    "live_requests": 0,
+    "browser_automation": 0,
+    "db_mutations": 0,
+    "code_changed": false,
+    "listings": 152134,
+    "cards": 145837,
+    "sold_comps": 6092,
+    "pr_runs": 213,
+    "tierb": 352,
+    "baseline_93_comps": 3128
+  },
+  "decision": "READY_FOR_CHEAPEST_PEER_SELECTION_IMPLEMENTATION"
+}

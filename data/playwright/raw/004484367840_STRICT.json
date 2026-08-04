@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|800448436784|0",
+ "run_id": "a82eb2e3f1894c81",
+ "batch_id": "s4sc_b1",
+ "query": "2006 DEREK JETER YANKEES UPPER DECK #307 PSA 9",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-04T18:58:39.930047+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|800448436784|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "pr-78f0ba8965",
+   "raw_title": "2006 UPPER DECK SPECIAL F/X RED #307 DEREK JETER 25/50 PSA 9",
+   "sold_price": "77.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Mar 15, 2026",
+   "condition": "",
+   "source_reference": "",
+   "notes": "Product Research query [STRICT]: 2006 DEREK JETER YANKEES UPPER DECK #307 PSA 9",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "AUCTION",
+   "collected_at": "2026-08-04T18:58:39.930011+00:00",
+   "raw_text": ", preview full size image 2006 UPPER DECK SPECIAL F/X RED #307 DEREK JETER 25/50 PSA 9 2006 UPPER DECK SPECIAL F/X RED #307 DEREK JETER 25/50 PSA 9 Edit Exclude listing $77.00 Auction $5.99 0% Free shipping 1 $77.00 37 Mar 15, 2026"
+  }
+ ],
+ "legacy_table_rows": []
+}

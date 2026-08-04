@@ -1,0 +1,87 @@
+{
+  "track": "seller_validation_comc",
+  "phase": "tier_b_identity_resolution_trial",
+  "version": 1,
+  "seller": "comc_consignment",
+  "accounting_clarifications": {
+    "1_the_36_getitem_requests": {
+      "explanation": "an exploratory probe of 6 items established quantity, catalog and variation behaviour; a 30-item run used the SAME item_id ordering and therefore re-fetched those 6. 36 requests, 30 distinct items. The 6 were superseded and every coverage figure reported came from the 30-item run.",
+      "requests": 36,
+      "distinct_items": 30,
+      "redundant": 6
+    },
+    "2_strength_of_the_coverage_claim": "30/30 complete aspect coverage is SAMPLE EVIDENCE from 30 of 254 apparent PSA listings (11.8%), taken in item_id order rather than randomly. It is not proof that every COMC PSA listing is resolvable.",
+    "3_eligibility_funnel": {
+      "collected_unique_listings": 3052,
+      "raw_or_non_psa_by_title": 2798,
+      "apparent_psa_listings": 254,
+      "unresolved_by_title_only_parsing": 254,
+      "resolved_identities_parse_status_ok": 0,
+      "currently_eligible_identities": 0,
+      "arithmetic_check": "2,798 + 254 = 3,052, equals the collected total"
+    },
+    "4_shipping_context": {
+      "observed": "shippingCostType FIXED, value 4.99, currency USD on 400 of 400 sampled payloads; itemLocation country US on 400 of 400",
+      "request_context": "Authorization plus X-EBAY-C-MARKETPLACE-ID=EBAY_US only; no X-EBAY-C-ENDUSERCTX delivery postal code or country was sent",
+      "assessment": "a flat domestic US rate of the FIXED type, not destination-dependent, collected under exactly the same context as every prior seller in this project. Shipping completeness is established.",
+      "blocker": false
+    },
+    "material_defect_found": false
+  },
+  "tier_b_trial": {
+    "authorized_budget": 100,
+    "spent": 10,
+    "why_stopped_early": "the failure is structural in the established path, not sample-specific, so a further 90 requests would repeat a known outcome",
+    "method": "the established path unchanged: ebay_api.get_item -> enrich.ASPECT_MAP -> enrich.compare -> enrich.effective_fields -> parse.make_keys -> enrich.classify. No COMC-specific shortcut was added.",
+    "results": {
+      "attempted": 10,
+      "getitem_completed": 10,
+      "failed": 0,
+      "aspect_Player_Athlete_present": 10,
+      "effective_athlete_resolved": 0,
+      "all_mandatory_components_resolved": 0,
+      "classifications": {
+        "quarantined_material_conflict": 9,
+        "identity_rekey_required": 1
+      }
+    }
+  },
+  "root_cause": {
+    "statement": "enrich.effective_fields treats athlete as Tier A only and never lets Tier B supply it - its docstring states that Tier A-only facts are carried through untouched because getItem's silence proves nothing. That is correct for the PSA store, whose titles always carry the player. COMC titles place the player between the set and the card number with no delimiter, so Tier A extracts athlete on 0 of 254 listings, and Tier B is structurally barred from filling it.",
+    "consequence": "athlete is a component of card_key and therefore of slab_key, so no COMC identity can be fully resolved by the established path. This holds for the whole seller, not merely the sample: Tier A athlete coverage is 0 of 254.",
+    "aspect_data_is_present": "Player/Athlete was correct and populated on 10 of 10 trial items and 30 of 30 earlier samples; the data exists, the established merge simply does not consume it for identity"
+  },
+  "what_was_not_done": {
+    "targeted_psa_discovery": "not run - cohort construction is impossible while identity cannot resolve, so no discovery requests were spent",
+    "remaining_tier_b_budget": 90,
+    "product_research": 0,
+    "sold_comp_collection": 0,
+    "valuation": 0,
+    "parser_or_merge_changes": 0
+  },
+  "cohort": {
+    "unique_eligible_effective_slab_keys": 0,
+    "active_groups_with_multiple_listings": 0,
+    "proposed_cohort_size": 0,
+    "candidates": []
+  },
+  "coverage_context": {
+    "apparent_psa_listings": 254,
+    "tier_a_athlete_coverage": "0/254",
+    "epid_coverage": "2,943/3,052 (96.4%), 2,926 distinct",
+    "comc_terminal_code_coverage": "3,052/3,052 (100%)",
+    "identifiers_note": "ePID and the COMC code remain diagnostic only; neither may replace the effective full slab_key or justify evidence matching"
+  },
+  "isolation": {
+    "database": "data/seller_comc.db (gitignored)",
+    "production_writes": 0,
+    "psa_4sc_and_prior_comc_artifacts_modified": 0
+  },
+  "requests_this_phase": {
+    "search": 0,
+    "getitem": 10,
+    "oauth": 1,
+    "product_research": 0
+  },
+  "decision": "COMC_TIERB_IDENTITY_RESOLUTION_NOT_VALIDATED_STOP"
+}

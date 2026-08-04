@@ -83,9 +83,10 @@ def band_filters(low, high, sellers):
 # base filter, so shallow pagination would only ever see the next few seconds.
 # An absolute bounded range is required.
 #
-# NOT YET VERIFIED LIVE: the probe sent no itemEndDate filter, so the syntax
-# below follows the documented Browse contract but has not been observed to
-# work. Treat a Gate C pilot's first call as the verification.
+# VERIFIED LIVE 2026-08-02: a window displaced to preflight+12h..+36h returned
+# ten auctions all ending at +12.00h exactly, the window's lower bound, where an
+# unfiltered endingSoonest query returns items ending in seconds. The response
+# carried no warning naming itemEndDate. The filter is enforced.
 AUCTION_FILTER = "buyingOptions:{AUCTION}"
 ENDING_SOONEST = "endingSoonest"
 
@@ -109,17 +110,54 @@ def ending_window_filter(start, hours=24):
 
 
 def auction_filters(start, hours=24, price_min=None, price_max=None):
-    """Every filter clause for one bounded ending-soon auction query."""
+    """Every filter clause for one bounded ending-soon auction query.
+
+    priceCurrency is emitted only alongside a price clause. Sent on its own it
+    is rejected outright - observed warnings 12002 and 12012 - and rejected
+    silently, so a query that looked currency-restricted was not. Without a
+    price band the currency is enforced in the application layer instead, by
+    `db.is_usd`, which refuses to value a non-USD listing at all.
+    """
     out = [AUCTION_FILTER, ending_window_filter(start, hours)]
     if price_min is not None or price_max is not None:
         lo = 0 if price_min is None else price_min
         out.append(f"price:[{lo}..{price_max}]" if price_max is not None
                    else f"price:[{lo}]")
-        # eBay rejects priceCurrency on its own (warning 12002/12012): it is
-        # only meaningful alongside a price clause. Sending it unpaired had no
-        # effect except to make every response carry a warning.
         out.append("priceCurrency:USD")
     return out
+
+
+class QueryRejected(RuntimeError):
+    """eBay accepted the request but rejected part of the query."""
+
+
+def assert_query_accepted(response, filters=()):
+    """Raise unless the response carries no warnings and no errors.
+
+    A rejected filter still returns HTTP 200 with a full result set, which is
+    indistinguishable from success unless the warnings are read. Gate C's
+    correctness rests entirely on itemEndDate being applied, so any warning
+    fails the pilot rather than being logged and passed over.
+    """
+    errors = response.get("errors") or []
+    if errors:
+        raise QueryRejected(f"eBay returned errors: {_describe(errors)}")
+    warnings = response.get("warnings") or []
+    if warnings:
+        raise QueryRejected(
+            f"eBay warned about this query, so the filters cannot be assumed "
+            f"applied: {_describe(warnings)} (filters sent: {list(filters)})")
+
+
+def _describe(entries):
+    return "; ".join(
+        f"{e.get('errorId')} {e.get('message')}" for e in entries)
+
+
+def usd_only(items):
+    """Split discovery results into USD and non-USD. Never converts."""
+    keep = [i for i in items if db.is_usd(i)]
+    return keep, [i for i in items if not db.is_usd(i)]
 
 
 def label_for(low, high):

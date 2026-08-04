@@ -365,6 +365,31 @@ RESERVE_KNOWN_NOT_MET = "KNOWN_NOT_MET"
 RESERVE_UNKNOWN = "UNKNOWN"
 
 
+VALUATION_CURRENCY = "USD"
+
+
+def item_currencies(item):
+    """Every currency this item states, across price, bid and shipping."""
+    opt = (item.get("shippingOptions") or [{}])[0] or {}
+    seen = set()
+    for money in (item.get("price"), item.get("currentBidPrice"),
+                  opt.get("shippingCost")):
+        cur = (money or {}).get("currency")
+        if cur:
+            seen.add(str(cur).upper())
+    return seen
+
+
+def is_usd(item):
+    """True only when every stated currency is USD.
+
+    An item that states no currency at all is not USD by assumption - it is
+    unproven, and unproven never becomes a valuation input.
+    """
+    seen = item_currencies(item)
+    return bool(seen) and seen == {VALUATION_CURRENCY}
+
+
 def normalize_sale_format(buying_options):
     """Observed buyingOptions -> one normalized format.
 
@@ -385,20 +410,35 @@ def normalize_sale_format(buying_options):
 
 
 def shipping_state_of(option):
-    """KNOWN / CALCULATED_UNKNOWN / NOT_RETURNED - never a zero substitute."""
+    """KNOWN / CALCULATED_UNKNOWN / NOT_RETURNED - never a zero substitute.
+
+    KNOWN requires the response to *prove* a fixed cost. The rule per
+    representation, deliberately conservative in every ambiguous case:
+
+      option absent or empty        -> NOT_RETURNED,       None
+      shippingCostType CALCULATED   -> CALCULATED_UNKNOWN, None  (any value)
+      shippingCostType FIXED + value-> KNOWN,               value (0.00 = free)
+      shippingCostType FIXED, no value -> NOT_RETURNED,     None
+      type absent or unrecognised   -> NOT_RETURNED,        None
+
+    CALCULATED decides before any value is read: calculated shipping is priced
+    from the buyer's address, and with no address supplied eBay still fills in
+    a default-destination figure - often 0.00. getItem returned CALCULATED/0.00
+    for the same item search reported as FIXED/0.00. Only FIXED distinguishes
+    genuinely free shipping from that placeholder, so an absent or unrecognised
+    type is never enough to call a cost known.
+    """
     if not option:
         return SHIPPING_NOT_RETURNED, None
-    # CALCULATED decides first, even when a cost value is present. Calculated
-    # shipping is priced from the buyer's address, and with no address supplied
-    # eBay still fills in a default-destination figure - often 0.00. Reading it
-    # as the real cost is exactly the zero substitute this function forbids.
-    # getItem returned CALCULATED/0.00 for an item search reported as FIXED/0.00.
-    if str(option.get("shippingCostType") or "").upper() == "CALCULATED":
+    kind = str(option.get("shippingCostType") or "").upper()
+    if kind == "CALCULATED":
         return SHIPPING_CALCULATED_UNKNOWN, None
+    if kind != "FIXED":
+        return SHIPPING_NOT_RETURNED, None
     cost = (option.get("shippingCost") or {}).get("value")
-    if cost not in (None, ""):
-        return SHIPPING_KNOWN, _num(cost)
-    return SHIPPING_NOT_RETURNED, None
+    if cost in (None, ""):
+        return SHIPPING_NOT_RETURNED, None
+    return SHIPPING_KNOWN, _num(cost)
 
 
 def to_row(item, fetched_at, run_id=None):
@@ -424,21 +464,30 @@ def to_row(item, fetched_at, run_id=None):
     fixed_price = (_num(price.get("value")) if "FIXED_PRICE" in options
                    else None)
     bid_price = _num(bid.get("value"))
+    # Every downstream comparison - comps, candidate_cost, the gap percentage -
+    # is denominated in USD and applies no conversion. A non-USD listing must
+    # therefore never acquire a total, however complete its other fields are.
+    usd = is_usd(item)
     # A completed acquisition price exists only for a fixed-price purchase with
     # known shipping. A current bid is a changing market state, not a price
     # anyone has paid, so it never becomes an acquisition total.
-    if sale_format == FIXED_PRICE_ONLY and fixed_price is not None \
+    if usd and sale_format == FIXED_PRICE_ONLY and fixed_price is not None \
             and ship_state == SHIPPING_KNOWN:
         acq_total, acq_complete = fixed_price + (ship_value or 0.0), 1
     else:
         acq_total, acq_complete = None, 0
     provisional = (bid_price + ship_value
-                   if bid_price is not None and ship_state == SHIPPING_KNOWN
+                   if usd and bid_price is not None
+                   and ship_state == SHIPPING_KNOWN
                    else None)
     return {
         "item_id": item.get("itemId"),
         "title": item.get("title", ""),
-        "price": _num(price.get("value")),
+        # Mirrors fixed_asking_price, not the raw payload. final_report, peers
+        # and candidate_cost all read this column as an asking price, so an
+        # auction-only listing must leave it NULL rather than publish the
+        # current bid under a column every consumer treats as a price.
+        "price": fixed_price,
         "currency": price.get("currency"),
         # Mirrors ship_value, not the raw payload: this column is what
         # candidate_cost() adds to the asking price, so a calculated

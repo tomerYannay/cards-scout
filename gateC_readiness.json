@@ -1,0 +1,119 @@
+{
+  "phase": "gate_c_offline_readiness",
+  "live_requests_made": 0,
+  "mapping_corrections_confirmed": {
+    "auction_only_price_mirror": "price and fixed_asking_price both NULL; current_bid_price holds the bid",
+    "hybrid_prices_distinct": "current_bid_price 75.00 / fixed_asking_price 150.00",
+    "fixed_price_only_unchanged": "price 120.00, acquisition_total 125.50 with 5.50 shipping",
+    "acquisition_total_null_for_active_auctions": true,
+    "minimum_price_to_bid_never_read": "no column takes its value; reserve stays UNKNOWN",
+    "bid_count_missing_stays_null": true,
+    "bid_count_zero_stays_zero": true
+  },
+  "shipping_rules": {
+    "option absent/empty": "NOT_RETURNED, cost NULL",
+    "CALCULATED + 0.00": "CALCULATED_UNKNOWN, cost NULL, no totals",
+    "CALCULATED + positive": "CALCULATED_UNKNOWN, cost NULL, no totals",
+    "FIXED + 0.00": "KNOWN, 0.0 - the only representation that proves free shipping",
+    "FIXED + positive": "KNOWN, that value",
+    "FIXED, no value": "NOT_RETURNED, cost NULL",
+    "type absent or unrecognised": "NOT_RETURNED, cost NULL"
+  },
+  "query_strategy": {
+    "chosen": "A - price-banded",
+    "reason": "333,296 results in one 24-hour window is 33x the 10,000 paging ceiling, so a band is required to page any slice exhaustively; the band is derived from researched-candidate comp coverage, not invented to satisfy the API",
+    "price_currency_rule": "emitted only alongside a price clause; never alone",
+    "no_band_fallback": "omit priceCurrency, enforce USD via db.is_usd in the application layer",
+    "warnings_policy": "fetch_listings.assert_query_accepted raises QueryRejected on any warning or error"
+  },
+  "capacity_plan": {
+    "window_hours": 24,
+    "window": "frozen at run start T0 .. T0+24h, timezone-aware UTC",
+    "band": [
+      50.0,
+      1000.0
+    ],
+    "band_justification": "every $50-$1000 bucket resolved >=1 accepted comp for 78-100% of its researched candidates; 135 of 153 researched candidates fall inside it",
+    "sub_bands": 64,
+    "bands_served": 10,
+    "bands_excluded_unpageable": [],
+    "max_search_requests": 40,
+    "planned_pages": 10,
+    "max_discovery_items": 2000,
+    "max_frozen_candidates": 60,
+    "over_ceiling_behavior": "geometric split until under 10,000; a band still over the ceiling at minimum width is returned as excluded and never queried - never truncated",
+    "band_selection": "evenly spaced by index across the full range, never an ascending prefix, so the pilot does not spend itself on the cheapest sub-bands",
+    "candidate_selection": "sorted by end_time then item_id; never by price or apparent attractiveness",
+    "deduplication": "against existing listings.item_id and against already researched identities, plus within-run identity collapse",
+    "served_bands": [
+      [
+        50.0,
+        52.4
+      ],
+      [
+        66.21,
+        69.38
+      ],
+      [
+        87.68,
+        91.88
+      ],
+      [
+        121.68,
+        127.51
+      ],
+      [
+        161.14,
+        168.86
+      ],
+      [
+        223.61,
+        234.32
+      ],
+      [
+        296.11,
+        310.3
+      ],
+      [
+        392.13,
+        410.92
+      ],
+      [
+        544.16,
+        570.24
+      ],
+      [
+        720.61,
+        755.14
+      ]
+    ],
+    "coverage_claim": "60 auction candidates sampled from $50.00-$755.14 across a single 24-hour ending window, bounded by a 60-candidate cap. It sampled 10 of 64 sub-bands, so parts of the range were never queried. This is not a representative sample of the 24-hour auction market and no market-wide conclusion may be drawn from it."
+  },
+  "reserve_policy": {
+    "state": "RESERVE_UNKNOWN on every auction row",
+    "blocks_discovery": false,
+    "blocks_product_research": false,
+    "allows": "a clearly labelled PROVISIONAL research result only",
+    "improves_ranking": false,
+    "blocks_actionable_buy_watch": true,
+    "absence_means_no_reserve": false,
+    "minimum_price_to_bid_used_for_reserve": false
+  },
+  "decision": "READY_FOR_BOUNDED_GATE_C_PILOT",
+  "integrity": {
+    "ebay_data_gets": 0,
+    "oauth_calls": 0,
+    "product_research": 0,
+    "browser_automation": 0,
+    "db_mutations": 0,
+    "row_counts": {
+      "listings": 150639,
+      "cards": 145441,
+      "sold_comps": 4763,
+      "pr_runs": 153,
+      "tierb": 352,
+      "baseline_93_comps": 3128
+    },
+    "tests": 845
+  }
+}

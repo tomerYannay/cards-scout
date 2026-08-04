@@ -1,0 +1,69 @@
+{
+  "phase": "gate_c_pilot_attempt_1",
+  "outcome": "STOPPED_ON_STOP_CONDITION",
+  "stop_condition": "a query filter is rejected or ignored",
+  "T0": "2026-08-04T16:39:55.000Z",
+  "window_requested": [
+    "2026-08-04T16:39:55.000Z",
+    "2026-08-05T16:39:55.000Z"
+  ],
+  "window_duration_seconds": 86400,
+  "plan": {
+    "sub_bands": 64,
+    "served": 10,
+    "excluded": 0,
+    "pages_planned": 10,
+    "max_items": 2000,
+    "max_candidates": 60
+  },
+  "requests": {
+    "ebay_data_gets": 1,
+    "oauth_posts": 2,
+    "rate_limit_checks": 1,
+    "product_research": 0,
+    "browser_automation": 0
+  },
+  "quota_remaining_before": 5000,
+  "first_query": {
+    "band": [
+      50.0,
+      52.4
+    ],
+    "filters": [
+      "buyingOptions:{AUCTION}",
+      "itemEndDate:[2026-08-04T16:39:55.000Z..2026-08-05T16:39:55.000Z]",
+      "price:[50.0..52.4]",
+      "priceCurrency:USD"
+    ],
+    "http_status": 200,
+    "warning": {
+      "errorId": 12002,
+      "category": "REQUEST",
+      "message": "The itemEndDate filter value is invalid. For the valid values, refer to the API call documentation."
+    },
+    "action": "QueryRejected raised; discovery aborted before any persistence"
+  },
+  "root_cause": "eBay refuses an itemEndDate range whose start is not sufficiently in the future. The authorized T0..T0+24h window starts at the moment of the request and is rejected outright.",
+  "retroactive_explanation": "This closes the previously unexplained result from the 2026-08-02 17:24 probe. That probe also used a start-at-now window, so its itemEndDate filter was rejected the same way and the query ran unfiltered - which is exactly why its total (2,430,520) matched the unfiltered baseline (2,429,379) and why endingSoonest returned items ending seconds later. Its warnings array, which was discarded in-process, would have said so.",
+  "proven_acceptable_window": "start = now + 12h, end = now + 36h (verified 2026-08-02T17:28:46Z, total 333,296, all ten items ending at exactly +12.00h)",
+  "unproven": "any lead between 0 and 12 hours",
+  "defect_fixed": {
+    "what": "gate_c_plan.assert_window_acceptable / WindowRejected",
+    "why": "a doomed window is now refused locally instead of spending a request and relying on the warnings array being read",
+    "scope_change": false
+  },
+  "database": {
+    "mutations": 0,
+    "gateC_rows_written": 0,
+    "listings": 150639,
+    "cards": 145441,
+    "sold_comps": 4763,
+    "pr_runs": 153,
+    "tierb": 352,
+    "baseline_93_comps": 3128
+  },
+  "candidates_frozen": 0,
+  "comps_collected": 0,
+  "coverage_claim": "No bands were queried, so this pilot establishes nothing about the auction market.",
+  "decision": "AWAIT_WINDOW_AUTHORIZATION"
+}

@@ -437,3 +437,42 @@ class TestReservePolicy(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestWindowAcceptability(unittest.TestCase):
+    """eBay rejected a T0..T0+24h window with warning 12002.
+
+    The Gate C pilot's first query was refused outright, which also explains
+    the earlier unexplained near-unfiltered total of 2,430,520: that probe used
+    the same start-at-now window, so its filter was dropped and it measured the
+    unfiltered market.
+    """
+
+    NOW = dt.datetime(2026, 8, 4, 16, 39, 55, tzinfo=dt.timezone.utc)
+
+    def test_a_window_starting_now_is_refused_locally(self):
+        with self.assertRaises(plan.WindowRejected):
+            plan.window(self.NOW, now=self.NOW)
+
+    def test_a_window_starting_in_the_past_is_refused(self):
+        with self.assertRaises(plan.WindowRejected):
+            plan.window(self.NOW - dt.timedelta(hours=1), now=self.NOW)
+
+    def test_an_unproven_short_lead_is_refused(self):
+        with self.assertRaises(plan.WindowRejected):
+            plan.window(self.NOW + dt.timedelta(hours=1), now=self.NOW)
+
+    def test_the_proven_twelve_hour_lead_is_accepted(self):
+        start, end = plan.window(self.NOW + plan.PROVEN_WINDOW_LEAD, now=self.NOW)
+        self.assertEqual((end - start).total_seconds(), 86400)
+
+    def test_displaced_window_matches_the_verified_probe_shape(self):
+        start, end = plan.displaced_window(self.NOW)
+        self.assertEqual(start, self.NOW + dt.timedelta(hours=12))
+        self.assertEqual(end, self.NOW + dt.timedelta(hours=36))
+        plan.assert_window_acceptable(start, self.NOW)
+
+    def test_validation_is_skipped_when_no_now_is_supplied(self):
+        """Offline planning against a fixed historical T0 stays possible."""
+        start, end = plan.window(self.NOW)
+        self.assertEqual((end - start).total_seconds(), 86400)

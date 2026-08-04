@@ -23,6 +23,33 @@ import fetch_listings as fl
 # displaced form stays available and is what proved the filter is enforced.
 WINDOW_HOURS = 24
 
+# eBay rejects an itemEndDate range whose start is not far enough in the
+# future: a T0..T0+24h window returned warning 12002, "The itemEndDate filter
+# value is invalid", and was dropped. Only a start displaced by 12 hours has
+# ever been observed to be accepted. Anything between is unproven, so the guard
+# admits only the lead that is known to work.
+PROVEN_WINDOW_LEAD = dt.timedelta(hours=12)
+
+
+class WindowRejected(ValueError):
+    """The window would be rejected by eBay, so it is never sent."""
+
+
+def assert_window_acceptable(start, now):
+    """Fail locally rather than spending a request on a doomed query."""
+    if start < now + PROVEN_WINDOW_LEAD:
+        raise WindowRejected(
+            f"itemEndDate start {start.isoformat()} is less than "
+            f"{PROVEN_WINDOW_LEAD} ahead of {now.isoformat()}; eBay rejected "
+            f"such a window with warning 12002 and only a 12-hour lead is "
+            f"proven to be accepted")
+
+
+def displaced_window(now, hours=WINDOW_HOURS, lead=PROVEN_WINDOW_LEAD):
+    """The proven-acceptable window: now+lead .. now+lead+hours."""
+    start = now + lead
+    return start, start + dt.timedelta(hours=hours)
+
 # --- price band -----------------------------------------------------------
 # Motivated by the 153 researched candidates, not chosen to satisfy the API:
 # every $50-$1000 bucket resolved at least one accepted comp for 78-100% of its
@@ -43,9 +70,14 @@ MIN_BAND_WIDTH = 1.0            # narrower than this, splitting has failed
 BAND_INCOMPLETE = "INCOMPLETE_BAND_EXCLUDED"
 
 
-def window(start, hours=WINDOW_HOURS):
-    """The frozen (start, end) pair. Rejects naive datetimes via iso_utc."""
+def window(start, hours=WINDOW_HOURS, now=None):
+    """The frozen (start, end) pair. Rejects naive datetimes via iso_utc.
+
+    Pass `now` to have the window validated against what eBay will accept.
+    """
     fl.iso_utc(start)
+    if now is not None:
+        assert_window_acceptable(start, now)
     return start, start + dt.timedelta(hours=hours)
 
 

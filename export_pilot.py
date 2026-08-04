@@ -15,7 +15,13 @@ import parse
 import peers
 
 
-def build(conn):
+def build(conn, selection_log=None):
+    """Freeze one candidate per exact slab identity.
+
+    `selection_log`, when given, receives one entry per group recording which
+    member was chosen, which member identity provenance would have chosen, and
+    why every other member was rejected.
+    """
     enrich.load_surnames(conn)
     groups = peers.affected_groups(conn)
     members = peers.group_members(conn, list(groups))
@@ -24,16 +30,38 @@ def build(conn):
         by_group.setdefault(m["slab_key"], []).append(m)
     eff = peers.effective_for(conn, [m["item_id"] for m in members])
 
-    out = []
+    out, seen_identities = [], set()
+    log = selection_log if selection_log is not None else []
     for slab, ms in by_group.items():
-        cand_id = groups[slab]
+        provenance_id = groups[slab]
         ids = [m["item_id"] for m in ms]
-        if peers.classify_group(ids, eff, cand_id) != "confirmed_same_identity":
+        if peers.classify_group(ids, eff, provenance_id) != "confirmed_same_identity":
             continue
+        group_slab = eff[provenance_id]["eff_slab"]
+        # One candidate per exact slab identity: two original slab groups can
+        # resolve to the same effective identity, and researching both would
+        # spend the expensive stage twice on one card.
+        if group_slab in seen_identities:
+            continue
+        # Identity provenance settled the group. It does not get to pick the
+        # member: a candidate is the cheapest fully eligible listing of the
+        # exact same slab, by complete acquisition_total.
+        cand_id, cand_total, rejected = peers.cheapest_eligible(ms, eff, group_slab)
+        if cand_id is None:
+            log.append({"slab": group_slab, "selected": None,
+                        "rejected": rejected})
+            continue
+        seen_identities.add(group_slab)
+        log.append({
+            "slab": group_slab, "selected": cand_id,
+            "acquisition_total": cand_total,
+            "provenance_representative": provenance_id,
+            "changed": cand_id != provenance_id, "rejected": rejected})
         e = eff[cand_id]
         f, row = e["eff"], e["row"]
         out.append({
             "item_id": cand_id,
+            "acquisition_total": cand_total,
             "title": row["title"],
             "asking_price": row["price"],
             "shipping": row["shipping_cost"],
@@ -58,6 +86,10 @@ def build(conn):
                  "price": m["price"], "shipping": m["shipping_cost"],
                  "total": peers.total(m)}
                 for m in ms],
+            # Screening prior only: how far apart this slab's active asking
+            # prices sit. Never evidence of market value - Product Research
+            # and the valuation policy remain the deciding stage.
+            "intra_slab_dispersion": peers.dispersion_of(ms),
         })
     out.sort(key=lambda c: (c["year"] or 0, c["item_id"]))
     return out

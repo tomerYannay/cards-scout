@@ -27,6 +27,9 @@ import db
 import ebay_api
 import enrich
 import parse
+# The one leaf category that is a single graded card; its siblings under 212
+# are Lots, Sets and Sealed Boxes.
+from fetch_listings import EXPECTED_LEAF_CATEGORY as SINGLES_LEAF
 
 # Hard backstop on requests per run. Raised from 120 once the scope widened
 # from the 31 re-keyed groups to every group with a settled candidate: the 69
@@ -61,9 +64,102 @@ def group_members(conn, slabs):
     q = ",".join("?" * len(slabs))
     return conn.execute(f"""
         SELECT c.slab_key, c.item_id, c.print_run, c.auto_grade,
-               c.grade_qualifier, l.title, l.price, l.shipping_cost
+               c.grade_qualifier, c.parse_status, l.title, l.price,
+               l.shipping_cost, l.active, l.raw
         FROM cards c JOIN listings l USING (item_id)
         WHERE l.active = 1 AND c.slab_key IN ({q})""", list(slabs)).fetchall()
+
+
+# Tier B outcomes that leave an identity too unsettled to represent its group.
+UNSETTLED = ("not_enriched", "held_for_parallel_resolution",
+             "quarantined_material_conflict")
+
+
+def member_cost(row):
+    """Complete acquisition_total for a listing, or (None, reasons).
+
+    Recomputed from the stored raw payload because no legacy row has
+    shipping_state or acquisition_total persisted. Price alone is never
+    substituted: an incomplete cost disqualifies the member outright.
+    """
+    reasons = []
+    try:
+        item = json.loads(row["raw"] or "{}")
+    except (TypeError, ValueError):
+        return None, ["unreadable_payload"]
+    if not item:
+        return None, ["no_payload"]
+    mapped = db.to_row(item, "")
+    if not row["active"]:
+        reasons.append("not_active")
+    if mapped["sale_format"] != db.FIXED_PRICE_ONLY:
+        reasons.append("no_genuine_fixed_price")
+    if mapped["shipping_state"] != db.SHIPPING_KNOWN:
+        reasons.append("shipping_" + str(mapped["shipping_state"]))
+    if not db.is_usd(item):
+        reasons.append("usd_not_proven")
+    if SINGLES_LEAF not in (item.get("leafCategoryIds") or []):
+        reasons.append("not_single_card")
+    if mapped["acquisition_total"] is None \
+            or not mapped["acquisition_total_complete"]:
+        reasons.append("acquisition_total_incomplete")
+    return (None, reasons) if reasons else (mapped["acquisition_total"], [])
+
+
+def eligible_members(members, eff, group_slab):
+    """(eligible, rejected) for one exact slab group.
+
+    A member represents the group only on exact equality of the *effective*
+    slab key. Identity provenance decides membership and confidence; it never
+    decides which member is chosen.
+    """
+    ok, rejected = [], []
+    for row in members:
+        iid = row["item_id"]
+        entry = eff.get(iid) or {}
+        if entry.get("eff_slab") != group_slab:
+            rejected.append((iid, "different_slab_identity"))
+            continue
+        if entry.get("cls") in UNSETTLED:
+            rejected.append((iid, "identity_" + entry["cls"]))
+            continue
+        cost, why = member_cost(row)
+        if why:
+            rejected.append((iid, why[0]))
+            continue
+        ok.append((cost, iid, row))
+    return ok, rejected
+
+
+def cheapest_eligible(members, eff, group_slab):
+    """The eligible member with the lowest acquisition_total.
+
+    Ties break on item_id ascending so the same input always yields the same
+    candidate. Returns (item_id, acquisition_total, rejected) or (None, None,
+    rejected) when the group has no eligible member.
+    """
+    ok, rejected = eligible_members(members, eff, group_slab)
+    if not ok:
+        return None, None, rejected
+    cost, iid, _row = min(ok, key=lambda e: (e[0], e[1]))
+    return iid, cost, rejected
+
+
+def comps_for_slab(conn, eff_slab):
+    """Accepted comps for an identity, resolved at read time.
+
+    Joins through the Tier B effective slab key rather than storing it on
+    sold_comps: the key is derived, and a copy would go stale the moment an
+    identity is re-keyed. Exact equality only - evidence is never borrowed
+    across partial, failed or differently qualified identities.
+    """
+    if not eff_slab:
+        return []
+    return conn.execute(
+        """SELECT s.* FROM sold_comps s
+           JOIN tierb t ON t.item_id = s.candidate_item_id
+           WHERE t.effective_slab_key = ? AND s.accepted = 1""",
+        (eff_slab,)).fetchall()
 
 
 def build_plan(conn):
@@ -491,3 +587,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def dispersion_of(members):
+    """Ratio of dearest to cheapest active total in a slab group.
+
+    A screening prior for deciding which groups are worth researching first.
+    It is never evidence of market value: it compares asking prices to each
+    other, and a group of identically overpriced listings looks calm.
+    """
+    totals = [total(m) for m in members if (m["price"] or 0) > 0]
+    return round(max(totals) / min(totals), 3) if totals else None

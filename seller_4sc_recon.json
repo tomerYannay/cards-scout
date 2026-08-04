@@ -1,0 +1,176 @@
+{
+  "track": "seller_validation_4_sharp_corners",
+  "version": 1,
+  "phase_reached": "Phase 3 - cohort construction",
+  "outcome": "COHORT_EMPTY_EVIDENCE_REUSE_GATE",
+  "seller": {
+    "verified_username": "4_sharp_corners",
+    "store_url_convention": "https://www.ebay.com/usr/4_sharp_corners",
+    "feedback_pct": 100.0,
+    "feedback_score": 673618,
+    "verification_method": "found in our own persisted listings (17 rows captured incidentally by the Gate C auction run), then confirmed live: sellers:{4_sharp_corners} in category 212 returned 6,930 with no warning and every returned item carried that exact username"
+  },
+  "username_guessing_hazard": {
+    "detail": "an invalid username makes eBay emit warning 'A seller username provided in the request filters is invalid' and DROP the filter, returning the whole marketplace. Guesses '4-sharp-corners' and '4sharpcorners_' returned 106,013,379 and 106,949,727 items this way. Every probe was re-run through assert_query_accepted, which turns that into a hard failure.",
+    "guessed_names_that_exist_but_sell_no_sports_cards": [
+      "4sharpcorners",
+      "foursharpcorners",
+      "sharpcorners",
+      "4scards"
+    ],
+    "guessed_names_rejected_as_invalid": [
+      "sharpcorners4",
+      "4sharpcornerscards",
+      "4sharpcornersllc"
+    ]
+  },
+  "reconnaissance": {
+    "category_212_total": 6930,
+    "fixed_price": 6930,
+    "auction_filter_reported": 14435,
+    "auction_anomaly": "buyingOptions:{AUCTION} reported 14,435 against a 6,930 population with no warning - impossible for a subset. Disregarded in favour of mapped items: all 6,991 collected rows normalize to FIXED_PRICE_ONLY, so the seller is 100% fixed price.",
+    "singles_leaf_261328": 6881,
+    "lots_261329": 0,
+    "sets_261330": 0,
+    "price_bands_singles_fixed": {
+      "0-25": 2404,
+      "25-50": 3578,
+      "50-100": 727,
+      "100-250": 233,
+      "250-500": 37,
+      "500-1000": 6,
+      "1000-5000": 2,
+      "5000+": 3
+    },
+    "under_1000": 6874
+  },
+  "collection": {
+    "method": "Browse item_summary/search, sellers + buyingOptions:{FIXED_PRICE}, leaf 261328, 200/page, offset paging",
+    "search_requests_total": 52,
+    "oauth_posts": 4,
+    "rate_limit_checks": 1,
+    "collected": 7000,
+    "unique": 6991,
+    "sale_format": {
+      "FIXED_PRICE_ONLY": 6991
+    },
+    "shipping_state": {
+      "KNOWN": 6991
+    },
+    "leaf_category": {
+      "261328": 6991
+    },
+    "usd_proven": "7000/7000",
+    "distinct_sellers_returned": [
+      "4_sharp_corners"
+    ]
+  },
+  "population_profile": {
+    "grading_company": {
+      "PSA": 6966,
+      "none_or_raw": 13,
+      "BGS": 8,
+      "SGC": 4
+    },
+    "psa_grade_distribution": {
+      "10": 4178,
+      "9": 2241,
+      "8": 395,
+      "7": 50,
+      "8.5": 30,
+      "6": 27,
+      "AUTHENTIC": 23,
+      "5": 8,
+      "7.5": 5,
+      "3": 2,
+      "4": 1,
+      "6.5": 1
+    },
+    "aspect_coverage_pct": {
+      "year": 100.0,
+      "set": 100.0,
+      "subject": 96.2,
+      "card_number": 97.1,
+      "parallel": 10.0,
+      "grader_grade_type": 99.9,
+      "grade": 99.9,
+      "qualifier": 0.3,
+      "serial_number": 0.0,
+      "print_run": 1.5,
+      "auto_grade": 0.1,
+      "autograph_flagged": 0.6
+    },
+    "parse_status": {
+      "ok": 5888,
+      "failed": 1044,
+      "partial": 34
+    }
+  },
+  "seller_specific_differences": [
+    "100% fixed price; the PSA store population is also fixed price, so the auction exclusion costs nothing here",
+    "every listing returns FIXED shipping with a value, so shipping_state is KNOWN on 6,991 of 6,991 - the PSA store sample was likewise all FIXED",
+    "parse success 84.5% vs 82.3% for the PSA store: the existing parser transfers without seller-specific rules",
+    "titles carry team names and RC/HOF tokens the PSA store often omits; slab_key already ignores them, confirmed by 96 identities matching the PSA store's Tier A keys across the two sellers",
+    "23 PSA AUTHENTIC listings exist and are excluded as non-numeric grades",
+    "no lots and no sets: leaf 261329 and 261330 both return 0"
+  ],
+  "eligibility_funnel": {
+    "active_isolated_listings": 6966,
+    "excluded_ambiguous_slab_identity_parse_not_ok": 1078,
+    "excluded_authentic_or_non_numeric_grade": 13,
+    "excluded_acquisition_total_ge_1000": 2,
+    "excluded_auction": 0,
+    "excluded_lots": 0,
+    "excluded_raw": 25,
+    "excluded_unresolved_shipping": 0,
+    "eligible_listings": 5873,
+    "unique_eligible_effective_slab_identities": 5872
+  },
+  "evidence_reuse_gate": {
+    "rule": "exact effective full slab_key equality against production tierb.effective_slab_key, deduplicated on unique comp identity, >=3 unique accepted priced comps, newest within 365 days",
+    "production_distinct_effective_slab_keys": 109,
+    "production_effective_keys_with_accepted_comps": 85,
+    "4sc_distinct_tier_a_slab_keys_parse_ok": 5887,
+    "overlap_with_production_effective_keys": 0,
+    "overlap_with_production_effective_keys_carrying_comps": 0,
+    "identities_with_reusable_evidence": 0,
+    "cross_check_looser_tier_a_match": {
+      "overlap_with_production_tier_a_slab_keys": 96,
+      "of_those_carrying_accepted_comps": 1,
+      "note": "reported only as a cross-check; the specified gate is the effective key and was not relaxed"
+    }
+  },
+  "proposed_cohort_size": 0,
+  "blocker": {
+    "stage": "evidence reuse",
+    "statement": "The seller is identified and the population is material - 5,873 eligible fixed-price graded singles across 5,872 unique slab identities, all USD with known shipping. The pilot cannot proceed as scoped because our sold-comp evidence base covers only 85 identities, all derived from the PSA store's re-keyed groups, and none of them appears in this seller's inventory. Phase 3 requires reusable evidence and forbids both new Product Research and evidence-poor fillers, so the cohort is empty.",
+    "not_a_defect": "the gate behaved correctly; there is simply no intersection"
+  },
+  "isolation": {
+    "database": "data/seller_4sc.db",
+    "production_reads": "read-only URI connection for comp lookup",
+    "production_writes": 0,
+    "production_counts_before_and_after": {
+      "listings": 152134,
+      "cards": 145837,
+      "sold_comps": 6216,
+      "pr_runs": 229,
+      "tierb": 352,
+      "baseline_93_comps": 3128
+    }
+  },
+  "safety": {
+    "purchases": 0,
+    "bids": 0,
+    "offers": 0,
+    "watchlist_changes": 0,
+    "seller_contact": 0,
+    "product_research": 0,
+    "browser_automation": 0,
+    "auction_engine_work": 0,
+    "alert_delivery": 0,
+    "scheduler_changes": 0,
+    "threshold_changes": 0,
+    "psa_artifacts_modified": 0
+  }
+}

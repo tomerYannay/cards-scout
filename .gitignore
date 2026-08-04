@@ -82,3 +82,6 @@ temp/
 data/playwright/artifacts/check_*.png
 data/playwright/artifacts/check_*.html
 data/playwright/artifacts/debug_*
+
+# Isolated per-seller collections - never commit a database
+data/*.db

@@ -1,0 +1,185 @@
+{
+  "track": "seller_validation_comc",
+  "phase": "reconnaissance_and_isolated_collection",
+  "version": 1,
+  "seller": {
+    "verified_username": "comc_consignment",
+    "store_url_convention": "https://www.ebay.com/usr/comc_consignment",
+    "verification_signals": [
+      "already present in our own production listings (2 rows from an earlier crawl)",
+      "accepted seller-filter query: no warnings, and all 20 sampled items returned username comc_consignment with no other username present"
+    ],
+    "usernames_tested": {
+      "comc_consignment": "accepted, consistent usernames",
+      "comc": "filter rejected/dropped",
+      "comccards": "filter rejected/dropped",
+      "comc_cards": "filter rejected/dropped",
+      "comcconsignment": "filter rejected/dropped"
+    },
+    "filter_safety": "every probe ran through assert_query_accepted; a rejected or silently dropped seller filter is a hard failure, never a result"
+  },
+  "total_plausibility": {
+    "category_212_unfiltered": 103047702,
+    "leaf_261328_unfiltered": 101798650,
+    "comc_in_212": 21274910,
+    "comc_in_261328": 21274910,
+    "comc_212_fixed_price": 21274910,
+    "comc_212_auction": 12467,
+    "assessment": "the seller total is a plausible subset of the category but is clearly saturated - identical across three different narrowings - so it is treated as an order-of-magnitude indicator, not a population count. The population cannot be enumerated: it exceeds the 10,000 offset cap by three orders of magnitude, so Phase 3 is a bounded stratified sample."
+  },
+  "collection": {
+    "method": "Browse item_summary/search, sellers + buyingOptions:{FIXED_PRICE}, leaf 261328, 8 price bands x 2 pages x 200",
+    "time_window_utc": [
+      "2026-08-04T19:11:30.000Z",
+      "2026-08-04T19:12:01.000Z"
+    ],
+    "search_requests": 16,
+    "getitem_requests": 36,
+    "seller_probe_requests": 9,
+    "plausibility_requests": 6,
+    "oauth_posts": 6,
+    "rows_returned": 3200,
+    "unique_item_ids": 3052,
+    "duplicates": 148,
+    "duplicate_explanation": "offset paging over a very large, actively changing inventory returns some items on more than one page",
+    "band_totals_reported": {
+      "$0-10": 18203929,
+      "$10-20": 1560807,
+      "$20-35": 640595,
+      "$35-60": 416054,
+      "$60-100": 129278,
+      "$100-200": 112342,
+      "$200-500": 42500,
+      "$500-1000": 9815
+    },
+    "sampling_bias": "each band was capped at 2 pages, so the sample reflects eBay's default ordering within each band and is not random"
+  },
+  "population_profile": {
+    "denominator_A_collected_unique": 3052,
+    "sale_format": {
+      "FIXED_PRICE_ONLY": 3052
+    },
+    "shipping_state": {
+      "KNOWN": 3052
+    },
+    "shipping_cost": {
+      "FIXED $4.99": 3052
+    },
+    "currency": {
+      "USD": 3052
+    },
+    "leaf_category": {
+      "261328": 3052
+    },
+    "sellers_returned": [
+      "comc_consignment"
+    ],
+    "grading_over_A": {
+      "no_grader_raw": 2748,
+      "PSA": 254,
+      "BGS": 25,
+      "SGC": 10,
+      "CSG": 5,
+      "TAG": 5,
+      "CGC": 4,
+      "BVG": 1
+    },
+    "graded_share_pct": 10.0,
+    "psa_share_pct": 8.3,
+    "raw_share_pct": 90.0,
+    "denominator_B_psa_cards_written": 254,
+    "psa_grade_over_B": {
+      "10": 83,
+      "9": 66,
+      "8": 48,
+      "5": 11,
+      "2": 11,
+      "6": 10,
+      "1": 6,
+      "7": 4,
+      "3": 4,
+      "2.5": 2,
+      "1.5": 2,
+      "8.5": 2
+    },
+    "grade_type_over_B": {
+      "NUMERIC": 251,
+      "AUTHENTIC": 1,
+      "null": 2
+    }
+  },
+  "title_parser_coverage_over_B": {
+    "year": 99.2,
+    "set": 100.0,
+    "subject_player": 0.0,
+    "card_number": 39.8,
+    "parallel": 48.4,
+    "grade_type": 99.2,
+    "grade": 99.2,
+    "qualifier": 0.0,
+    "serial": 35.0,
+    "print_run": 35.0,
+    "auto_grade": 0.0,
+    "parse_status": {
+      "ok": 0,
+      "partial": 54,
+      "failed": 200
+    },
+    "finding": "the COMC title format is YEAR SET [PARALLEL] [SERIAL] PLAYER #NUMBER PSA GRADE [FLAGS] CODE. The player name sits between the set and the card number with no delimiter, so the existing parser absorbs it into set_name - subject extraction is 0 of 254 and parse_status ok is 0 of 254."
+  },
+  "aspect_coverage_over_30_getitem_psa_listings": {
+    "Player/Athlete": 100.0,
+    "Grade": 100.0,
+    "Professional Grader": 100.0,
+    "Card Number": 100.0,
+    "Parallel/Variety": 100.0,
+    "Set": 100.0,
+    "Season": 100.0,
+    "Features": 73.3,
+    "Autographed": 0.0,
+    "Certification Number": 0.0,
+    "finding": "every identity field the slab key needs is present and clean in localizedAspects on 30 of 30, so identity is fully resolvable through the project's existing Tier B enrichment path even though titles fail"
+  },
+  "comc_specific_risks": {
+    "1_multiple_consignors_pricing_same_card": "not observable through the eBay API; each eBay listing is a distinct item id with quantity 1, so separate consignor copies would appear as separate listings, which the cheapest-per-slab_key rule already handles",
+    "2_one_listing_multiple_copies": "no - estimatedAvailableQuantity is 1 on 30 of 30 and lotSize is 0 on 30 of 30",
+    "3_resolves_to_a_specific_physical_slab": "yes - quantity 1, no variations, distinct item id and image per listing",
+    "4_simultaneous_listing_on_comc_com": "not determinable without COMC.com access; see limitation below",
+    "5_systematic_markup_vs_comc_com": "not determinable; see limitation below",
+    "6_displayed_shipping_complete": "yes - FIXED $4.99 on 3,052 of 3,052 collected and 30 of 30 getItem samples; acquisition_total is computable",
+    "7_destination_dependent_shipping": "no - no CALCULATED shipping observed",
+    "8_cheapest_per_slab_key_still_valid": "yes, given quantity 1 and one physical slab per listing",
+    "9_titles_omit_identity_fields": "yes, materially - subject is absent from the parse on 100% of graded listings and only aspects recover it",
+    "10_catalog_identifiers": "epid present on 2,943 of 3,052 (96.4%), 2,926 distinct, 16 shared by more than one listing; and every title ends with a short alphanumeric COMC internal code on 3,052 of 3,052. Both are worth preserving if this seller is ever integrated."
+  },
+  "comc_com_limitation": "no authorized unauthenticated read-only project path to COMC.com exists, so risks 4 and 5 were not investigated and no COMC.com request was made. Reported as a limitation without changing scope.",
+  "eligibility_funnel": {
+    "denominator_collected_active": 3052,
+    "raw_or_non_psa_no_card_row": 2798,
+    "unresolved_slab_identity_parse_not_ok": 254,
+    "eligible": 0,
+    "unique_effective_slab_keys": 0,
+    "note": "zero is a consequence of title-only identity resolution, not of the listings themselves: shipping, currency, format, quantity and category all pass on 100% of the sample"
+  },
+  "evidence_overlap": {
+    "production_identities_with_accepted_comps": 85,
+    "eligible_comc_identities": 0,
+    "overlap_exact": 0,
+    "passing_sufficiency": 0,
+    "passing_freshness": 0,
+    "passing_both": 0,
+    "proposed_cohort_size": 0,
+    "cohort": [],
+    "diagnostic_only_loose_tier_a_overlap": 0,
+    "gate": "exact effective full slab_key equality only; no Tier A, partial or fuzzy match was used for anything but the diagnostic line"
+  },
+  "isolation": {
+    "database": "data/seller_comc.db (gitignored)",
+    "production_writes": 0,
+    "production_reads": "read-only URI connection",
+    "psa_and_4sc_artifacts_modified": 0,
+    "pre_existing_comc_rows_in_production": 2
+  },
+  "decision": "COMC_READY_FOR_BOUNDED_RESEARCH_PILOT",
+  "decision_precondition": "any pilot must first resolve identity through the existing Tier B aspect enrichment path. Title-only parsing yields zero usable identities on this seller, so a title-driven cohort is impossible. No reusable sold-comp evidence overlaps this seller, so a pilot would also require new Product Research."
+}

@@ -38,10 +38,22 @@ def classify(title):
     return "psa", None
 
 
-def build(conn, parsed_at):
-    rows = conn.execute(
-        "SELECT item_id, title FROM listings WHERE active = 1"
-    ).fetchall()
+def build(conn, parsed_at, run_id=None):
+    """Parse active listings into `cards`.
+
+    `run_id` scopes the parse to one discovery run. The parser has changed
+    since the existing rows were written - qualifiers, tolerant titles - so an
+    unscoped re-parse would silently rewrite identities the researched cohort
+    and the 93-candidate baseline already depend on.
+    """
+    if run_id:
+        rows = conn.execute(
+            "SELECT item_id, title FROM listings "
+            "WHERE active = 1 AND discovery_run_id = ?", (run_id,)).fetchall()
+    else:
+        rows = conn.execute(
+            "SELECT item_id, title FROM listings WHERE active = 1"
+        ).fetchall()
 
     card_rows, issue_rows = [], []
     counts = collections.Counter()

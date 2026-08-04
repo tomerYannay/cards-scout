@@ -366,6 +366,13 @@ class TestCandidateSelection(unittest.TestCase):
         self.assertIn("not a representative sample", claim)
         self.assertIn("no market-wide conclusion", claim)
 
+    def test_coverage_claim_does_not_say_the_next_24_hours(self):
+        """The window is displaced by 12h, so that phrase would be false."""
+        claim = plan.coverage_claim([(50, 1000)], [], 60)
+        self.assertIn("research-actionable auction window", claim)
+        self.assertIn("not the next 24 hours", claim)
+        self.assertIn("ending between 12 and 36 hours", claim)
+
     def test_coverage_claim_reports_excluded_bands(self):
         claim = plan.coverage_claim([(50, 1000)], [(50, 52)], 60)
         self.assertIn("excluded as unpageable", claim)

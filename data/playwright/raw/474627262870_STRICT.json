@@ -1,0 +1,16 @@
+{
+ "candidate_id": "v1|147462726287|0",
+ "run_id": "0c205d4824f242ff",
+ "batch_id": "gateC_b3",
+ "query": "2022 JUAN SOTO TOPPS NOW #42A /99 auto PSA 9",
+ "level": "STRICT",
+ "page_state": "research_ready",
+ "collected_at": "2026-08-04T16:59:55.226937+00:00",
+ "date_range": "last 3 year",
+ "row_count": 0,
+ "completion_status": "no_results",
+ "source": "none",
+ "header": null,
+ "rows": [],
+ "legacy_table_rows": []
+}

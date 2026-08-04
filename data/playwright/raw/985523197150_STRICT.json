@@ -1,0 +1,16 @@
+{
+ "candidate_id": "v1|298552319715|0",
+ "run_id": "740eff2b176443ac",
+ "batch_id": "gateC_b1",
+ "query": "2025 JAXSON DART PANINI DONRUSS OPTIC UPTOWN #11 PSA 8",
+ "level": "STRICT",
+ "page_state": "research_ready",
+ "collected_at": "2026-08-04T16:54:02.363535+00:00",
+ "date_range": "last 3 year",
+ "row_count": 0,
+ "completion_status": "no_results",
+ "source": "none",
+ "header": null,
+ "rows": [],
+ "legacy_table_rows": []
+}

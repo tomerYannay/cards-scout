@@ -1,0 +1,158 @@
+{
+  "queries": [
+    {
+      "band": [
+        50.0,
+        52.4
+      ],
+      "total": 1756,
+      "returned": 200,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[50.0..52.4]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        66.21,
+        69.38
+      ],
+      "total": 235,
+      "returned": 200,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[66.21..69.38]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        87.68,
+        91.88
+      ],
+      "total": 545,
+      "returned": 200,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[87.68..91.88]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        121.68,
+        127.51
+      ],
+      "total": 519,
+      "returned": 200,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[121.68..127.51]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        161.14,
+        168.86
+      ],
+      "total": 122,
+      "returned": 122,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[161.14..168.86]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        223.61,
+        234.32
+      ],
+      "total": 254,
+      "returned": 200,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[223.61..234.32]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        296.11,
+        310.3
+      ],
+      "total": 444,
+      "returned": 200,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[296.11..310.3]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        392.13,
+        410.92
+      ],
+      "total": 294,
+      "returned": 200,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[392.13..410.92]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        544.16,
+        570.24
+      ],
+      "total": 82,
+      "returned": 82,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[544.16..570.24]",
+        "priceCurrency:USD"
+      ]
+    },
+    {
+      "band": [
+        720.61,
+        755.14
+      ],
+      "total": 80,
+      "returned": 80,
+      "filters": [
+        "buyingOptions:{AUCTION}",
+        "itemEndDate:[2026-08-05T04:49:34.000Z..2026-08-06T04:49:34.000Z]",
+        "price:[720.61..755.14]",
+        "priceCurrency:USD"
+      ]
+    }
+  ],
+  "excluded": [],
+  "requests": 10,
+  "non_usd_excluded": 0,
+  "duplicate_in_run": 0,
+  "non_singles_excluded": 189,
+  "T0": "2026-08-04T16:49:34.000Z",
+  "start": "2026-08-05T04:49:34.000Z",
+  "end": "2026-08-06T04:49:34.000Z",
+  "run_id": "gateC_20260804T164934.000Z",
+  "sub_bands": 64,
+  "served": 10,
+  "pre_excluded": [],
+  "items": 1495,
+  "rows_written": 1495
+}

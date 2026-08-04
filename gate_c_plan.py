@@ -217,8 +217,12 @@ def coverage_claim(served, excluded, selected_count, total_bands=None):
     note = (f" {len(excluded)} band(s) were excluded as unpageable and are "
             f"absent from these results." if excluded else "")
     return (f"{selected_count} auction candidates sampled from "
-            f"${lo:,.2f}-${hi:,.2f} across a single {WINDOW_HOURS}-hour ending "
-            f"window, bounded by a {MAX_FROZEN_CANDIDATES}-candidate cap."
-            f"{sampled}{note} This is not a representative sample of the "
-            f"24-hour auction market and no market-wide conclusion may be "
-            f"drawn from it.")
+            f"${lo:,.2f}-${hi:,.2f} across a single {WINDOW_HOURS}-hour "
+            f"research-actionable auction window, covering auctions ending "
+            f"between {int(PROVEN_WINDOW_LEAD.total_seconds() // 3600)} and "
+            f"{int(PROVEN_WINDOW_LEAD.total_seconds() // 3600) + WINDOW_HOURS} "
+            f"hours after the frozen run start, bounded by a "
+            f"{MAX_FROZEN_CANDIDATES}-candidate cap.{sampled}{note} It is not "
+            f"the next 24 hours of the market, it is not a representative "
+            f"sample of the auction market, and no market-wide conclusion may "
+            f"be drawn from it.")

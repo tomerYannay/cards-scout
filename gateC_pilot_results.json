@@ -1,0 +1,548 @@
+{
+  "phase": "gate_c_pilot",
+  "outcome": "COMPLETED",
+  "T0": "2026-08-04T16:49:34.000Z",
+  "window": [
+    "2026-08-05T04:49:34.000Z",
+    "2026-08-06T04:49:34.000Z"
+  ],
+  "window_duration_seconds": 86400,
+  "window_description": "research-actionable auction window: auctions ending between 12 and 36 hours after the frozen run start",
+  "run_id": "gateC_20260804T164934.000Z",
+  "bands": {
+    "sub_bands": 64,
+    "served": 10,
+    "split_during_run": 0,
+    "excluded": [],
+    "band_totals": [
+      {
+        "band": [
+          50.0,
+          52.4
+        ],
+        "total": 1756,
+        "returned": 200
+      },
+      {
+        "band": [
+          66.21,
+          69.38
+        ],
+        "total": 235,
+        "returned": 200
+      },
+      {
+        "band": [
+          87.68,
+          91.88
+        ],
+        "total": 545,
+        "returned": 200
+      },
+      {
+        "band": [
+          121.68,
+          127.51
+        ],
+        "total": 519,
+        "returned": 200
+      },
+      {
+        "band": [
+          161.14,
+          168.86
+        ],
+        "total": 122,
+        "returned": 122
+      },
+      {
+        "band": [
+          223.61,
+          234.32
+        ],
+        "total": 254,
+        "returned": 200
+      },
+      {
+        "band": [
+          296.11,
+          310.3
+        ],
+        "total": 444,
+        "returned": 200
+      },
+      {
+        "band": [
+          392.13,
+          410.92
+        ],
+        "total": 294,
+        "returned": 200
+      },
+      {
+        "band": [
+          544.16,
+          570.24
+        ],
+        "total": 82,
+        "returned": 82
+      },
+      {
+        "band": [
+          720.61,
+          755.14
+        ],
+        "total": 80,
+        "returned": 80
+      }
+    ]
+  },
+  "requests": {
+    "ebay_discovery_pages": 10,
+    "cap": 40,
+    "oauth_posts": 2,
+    "rate_limit_checks": 1,
+    "product_research_candidates": 60,
+    "browser_batches": 6
+  },
+  "discovery": {
+    "items_kept": 1495,
+    "cap": 2000,
+    "rows_written": 1495,
+    "non_singles_excluded": 189,
+    "non_usd_excluded": 0,
+    "duplicate_in_run": 0
+  },
+  "identity": {
+    "psa_parsed": 396,
+    "parse_ok": 104,
+    "parse_partial": 16,
+    "parse_failed": 276,
+    "excluded_non_psa": 1099,
+    "identity_eligible": 104,
+    "selection_rule": "parse_status=ok and slab_key present - stricter than the existing cohort, which included 57 failed-parse candidates",
+    "dedup_prior_item_ids": 0,
+    "dedup_researched_identities": 0,
+    "rejected_over_cap": 44
+  },
+  "frozen_candidates": 60,
+  "research": {
+    "completed": 32,
+    "insufficient_comps": 15,
+    "no_results": 13,
+    "failed": 0,
+    "accepted": 528,
+    "rejected": 570,
+    "review_required": 231,
+    "rows_total": 1329,
+    "candidates_with_accepted_comps": 36
+  },
+  "provisional_opportunities": [
+    {
+      "item_id": "v1|366573356973|0",
+      "title": "1983 TOPPS #329 RANDY NIEMANN PIRATES PSA 10",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 224.99,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:13:00.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 5,
+      "conservative_valuation_median": 249.99,
+      "lowest_accepted_comp": 49.99,
+      "provisional_cost_bid_plus_known_shipping": 232.99,
+      "provisional_margin_pct": 6.8,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|800429191574|0",
+      "title": "2000 FLEER TRADITION #353 CAL RIPKEN JR. ORIOLES HOF PSA 10",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 399.99,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:22:30.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 1,
+      "conservative_valuation_median": 430.0,
+      "lowest_accepted_comp": 430.0,
+      "provisional_cost_bid_plus_known_shipping": 406.24,
+      "provisional_margin_pct": 5.5,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|267740724945|0",
+      "title": "2024 TOPPS FINEST #62 DRAKE MAYE RC PATRIOTS PSA 10",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 68.0,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:36:30.000Z",
+      "bid_count": 6,
+      "accepted_comp_count": 17,
+      "conservative_valuation_median": 67.75,
+      "lowest_accepted_comp": 20.0,
+      "provisional_cost_bid_plus_known_shipping": 74.25,
+      "provisional_margin_pct": -9.6,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|327279500540|0",
+      "title": "1964 Topps Set-Break #440 Bob Clemente PSA 5 EX",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 228.5,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:24:00.000Z",
+      "bid_count": 3,
+      "accepted_comp_count": 7,
+      "conservative_valuation_median": 211.05,
+      "lowest_accepted_comp": 170.3,
+      "provisional_cost_bid_plus_known_shipping": 234.45,
+      "provisional_margin_pct": -11.1,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|287490465540|0",
+      "title": "2024 Donruss #308 Michael Penix Jr. Optic Preview-Pink Rated Rookie PSA 10",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 50.0,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-05T05:58:10.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 25,
+      "conservative_valuation_median": 49.99,
+      "lowest_accepted_comp": 29.0,
+      "provisional_cost_bid_plus_known_shipping": 56.0,
+      "provisional_margin_pct": -12.0,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|327279500552|0",
+      "title": "1970 Topps Set-Break #712 Nolan Ryan PSA 6 EX-MT",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 568.4,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:30:00.000Z",
+      "bid_count": 1,
+      "accepted_comp_count": 14,
+      "conservative_valuation_median": 432.445,
+      "lowest_accepted_comp": 301.0,
+      "provisional_cost_bid_plus_known_shipping": 574.35,
+      "provisional_margin_pct": -32.8,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|327279500526|0",
+      "title": "1961 Topps Set-Break #  2 Roger Maris PSA 5 EX",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 167.48,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:18:00.000Z",
+      "bid_count": 1,
+      "accepted_comp_count": 8,
+      "conservative_valuation_median": 124.25,
+      "lowest_accepted_comp": 93.44,
+      "provisional_cost_bid_plus_known_shipping": 173.42999999999998,
+      "provisional_margin_pct": -39.6,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|327279500519|0",
+      "title": "1959 Topps Set-Break #163 Sandy Koufax PSA 6 EX-MT",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 404.34,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:11:00.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 13,
+      "conservative_valuation_median": 255.0,
+      "lowest_accepted_comp": 187.5,
+      "provisional_cost_bid_plus_known_shipping": 410.28999999999996,
+      "provisional_margin_pct": -60.9,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|178354262982|0",
+      "title": "2023-24 Panini Prizm Ausar Thompson #178 Red Sparkle Prizm RC PSA 10 And SILVER",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 299.0,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-05T14:18:23.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 3,
+      "conservative_valuation_median": 132.0,
+      "lowest_accepted_comp": 82.0,
+      "provisional_cost_bid_plus_known_shipping": 304.85,
+      "provisional_margin_pct": -130.9,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|298535000397|0",
+      "title": "2023 Panini Prizm #311 Bryce Young Hyper Rookie RC /175 PSA 10 Panthers",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 229.0,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-05T22:13:51.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 3,
+      "conservative_valuation_median": 100.0,
+      "lowest_accepted_comp": 85.0,
+      "provisional_cost_bid_plus_known_shipping": 234.2,
+      "provisional_margin_pct": -134.2,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|137562588333|0",
+      "title": "1987 Topps #757 Nolan Ryan ASTROS HOF PSA 10 GEM MINT",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 225.5,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:43:01.000Z",
+      "bid_count": 19,
+      "accepted_comp_count": 28,
+      "conservative_valuation_median": 98.485,
+      "lowest_accepted_comp": 55.0,
+      "provisional_cost_bid_plus_known_shipping": 232.5,
+      "provisional_margin_pct": -136.1,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|366573380916|0",
+      "title": "2017 PANINI SCORE SIGNATURE AUTO #373 CHRISTIAN McCAFFREY RC PSA 10",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 399.99,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:31:00.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 1,
+      "conservative_valuation_median": 152.5,
+      "lowest_accepted_comp": 152.5,
+      "provisional_cost_bid_plus_known_shipping": 406.24,
+      "provisional_margin_pct": -166.4,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|377385159974|0",
+      "title": "2019 Topps Chrome Shohei Ohtani Refractor #1 Angels PSA 10 GEM MINT",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 227.5,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:40:00.000Z",
+      "bid_count": 26,
+      "accepted_comp_count": 3,
+      "conservative_valuation_median": 82.05,
+      "lowest_accepted_comp": 69.0,
+      "provisional_cost_bid_plus_known_shipping": 232.49,
+      "provisional_margin_pct": -183.4,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|147462024843|0",
+      "title": "1992-93 Upper Deck - Shaquille O'Neal #1 (RC) PSA 8 NM MT HOF Magic GOAT Shaq",
+      "sale_format": "AUCTION_WITH_FIXED_PRICE_OPTION",
+      "current_bid": 50.0,
+      "fixed_asking_price": 125.0,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-05T11:10:53.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 36,
+      "conservative_valuation_median": 15.5,
+      "lowest_accepted_comp": 5.5,
+      "provisional_cost_bid_plus_known_shipping": 50.0,
+      "provisional_margin_pct": -222.6,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|117329603321|0",
+      "title": "2019-20 Upper Deck - Ud Canvas Young Guns Cale Makar #C94 (RC) PSA 10",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 725.0,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-05T23:03:27.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 28,
+      "conservative_valuation_median": 225.0,
+      "lowest_accepted_comp": 162.56,
+      "provisional_cost_bid_plus_known_shipping": 752.63,
+      "provisional_margin_pct": -234.5,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|128000519064|0",
+      "title": "2009-10 Upper Deck Draft Edition Rookie #34 Stephen Curry (RC) PSA 9 ( 8471)",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 400.0,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-05T15:29:27.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 15,
+      "conservative_valuation_median": 90.0,
+      "lowest_accepted_comp": 61.0,
+      "provisional_cost_bid_plus_known_shipping": 407.0,
+      "provisional_margin_pct": -352.2,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    },
+    {
+      "item_id": "v1|267742499939|0",
+      "title": "2003 TOPPS PRISTINE #16 FRANK THOMAS WHITE SOX HOF POP 6 PSA 10",
+      "sale_format": "AUCTION_ONLY",
+      "current_bid": 224.99,
+      "fixed_asking_price": null,
+      "shipping_state": "KNOWN",
+      "reserve_state": "UNKNOWN",
+      "end_time": "2026-08-06T00:54:30.000Z",
+      "bid_count": 0,
+      "accepted_comp_count": 1,
+      "conservative_valuation_median": 50.0,
+      "lowest_accepted_comp": 50.0,
+      "provisional_cost_bid_plus_known_shipping": 231.24,
+      "provisional_margin_pct": -362.5,
+      "unresolved_blockers": [
+        "reserve_UNKNOWN",
+        "current_bid_is_not_an_executable_price",
+        "no_bids_yet_current_bid_is_the_opening_price"
+      ],
+      "status": "PROVISIONAL_RESEARCH_ONLY"
+    }
+  ],
+  "actionable_buy_or_watch": 0,
+  "decisions": "every candidate PASS; auctions returned NO_ASKING_PRICE because no auction carries an executable price, and the two hybrids with a genuine fixed price returned PASS_AT_OR_ABOVE_MARKET",
+  "anomalies": [
+    {
+      "id": "opening_price_not_market_price",
+      "detail": "46 of 60 frozen candidates have bid_count 0, including both positive-margin candidates, and 1,136 of 1,495 discovered auctions. Their current bid is the seller's opening price, not a contested market price, so a positive margin against it says nothing about the price the auction will actually reach.",
+      "affects": "valuation interpretation"
+    },
+    {
+      "id": "thin_comp_support_on_positive_margins",
+      "detail": "the two positive margins rest on 5 and 1 accepted comps; the single-comp case is not a valuation at all",
+      "affects": "valuation interpretation"
+    }
+  ],
+  "warnings_or_mapping_inconsistencies": "none - no response warning was returned by any of the 10 queries",
+  "coverage_claim": "60 auction candidates sampled from $50.00-$755.14 across a single 24-hour research-actionable auction window, covering auctions ending between 12 and 36 hours after the frozen run start, bounded by a 60-candidate cap. It sampled 10 of 64 sub-bands, so parts of the range were never queried. It is not the next 24 hours of the market, it is not a representative sample of the auction market, and no market-wide conclusion may be drawn from it.",
+  "database": {
+    "listings_before": 150639,
+    "listings_after": 152134,
+    "cards_before": 145441,
+    "cards_after": 145837,
+    "sold_comps_before": 4763,
+    "sold_comps_after": 6092,
+    "pr_runs_before": 153,
+    "pr_runs_after": 213,
+    "tierb": 352,
+    "baseline_93_comps": 3128,
+    "auction_rows_with_acquisition_total": 0
+  },
+  "external_actions": {
+    "bids": 0,
+    "purchases": 0,
+    "offers": 0,
+    "watchlist_changes": 0,
+    "listing_modifications": 0,
+    "seller_contacts": 0,
+    "orders_placed_or_simulated": 0
+  }
+}

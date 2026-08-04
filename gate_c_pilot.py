@@ -85,7 +85,11 @@ def main(argv=None):
     args = ap.parse_args(argv)
 
     T0 = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
-    start, end = plan.window(T0, now=T0)
+    # Displaced by the proven 12-hour lead: a window starting at T0 is rejected
+    # outright (warning 12002), and an auction ending within minutes could not
+    # be researched in time to be a useful candidate anyway.
+    start, end = plan.displaced_window(T0)
+    plan.assert_window_acceptable(start, T0)
     bands, pre_excluded = plan.split_band(plan.BAND_MIN, plan.BAND_MAX, 333_296)
     served = plan.plan_requests(bands)
     run_id = "gateC_" + fl.iso_utc(T0).replace(":", "").replace("-", "")

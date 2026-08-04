@@ -1,0 +1,37 @@
+{
+ "candidate_id": "v1|298542564244|0",
+ "run_id": "39a62f20d3f34f26",
+ "batch_id": "gateC_b2",
+ "query": "2025 KYLIAN MBAPPE PANINI DONRUSS ROAD TO WORLD CUP AUTO #KM BLUE PSA 9",
+ "level": "STRICT",
+ "page_state": "results_ok",
+ "collected_at": "2026-08-04T16:57:30.322572+00:00",
+ "date_range": "last 3 year",
+ "row_count": 1,
+ "completion_status": "insufficient_comps",
+ "source": "records",
+ "header": null,
+ "rows": [
+  {
+   "candidate_item_id": "v1|298542564244|0",
+   "query_tier": "STRICT",
+   "source": "EBAY_PRODUCT_RESEARCH",
+   "source_item_id": "298542564244-ab801f27a3",
+   "raw_title": "2025 PANINI DONRUSS ROAD ROAD TO WORLD CUP AUTO BLUE #KM KYLIAN MBAPPE /99 PSA 9",
+   "sold_price": "570.0",
+   "shipping": "0.0",
+   "currency": "USD",
+   "sale_date": "Jul 29, 2026",
+   "condition": "",
+   "source_reference": "https://www.ebay.com/itm/298542564244?nordt=true&orig_cvip=true&rt=nc",
+   "notes": "Product Research query [STRICT]: 2025 KYLIAN MBAPPE PANINI DONRUSS ROAD TO WORLD CUP AUTO #KM BLUE PSA 9",
+   "best_offer_indicator": "false",
+   "displayed_original_price": "",
+   "actual_price_known": "true",
+   "sale_type": "",
+   "collected_at": "2026-08-04T16:57:30.322534+00:00",
+   "raw_text": ", preview full size image 2025 PANINI DONRUSS ROAD ROAD TO WORLD CUP AUTO BLUE #KM KYLIAN MBAPPE /99 PSA 9 2025 PANINI DONRUSS ROAD ROAD TO WORLD CUP AUTO BLUE #KM KYLIAN MBAPPE /99 PSA 9 Edit Sell Similar $570.00 Free shipping 9 43 - Jul 29, 2026"
+  }
+ ],
+ "legacy_table_rows": []
+}

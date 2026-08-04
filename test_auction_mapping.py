@@ -199,12 +199,31 @@ class TestFixedPriceUnchanged(unittest.TestCase):
         self.assertEqual(r["acquisition_total_complete"], 0)
 
     def test_the_live_database_still_reads(self):
+        """The fixed-price population survives every later run.
+
+        These were exact counts until the Gate C pilot added 1,495 auction
+        rows, which is growth by design. What matters is that the pre-auction
+        population is never lost or rewritten, so the floor is asserted and the
+        legacy rows are counted by the property that defines them: an auction
+        has no `price`, so every row carrying one is a fixed-price row.
+        """
         conn = db.connect()
         n = conn.execute("SELECT COUNT(*) FROM listings").fetchone()[0]
-        self.assertEqual(n, 150639)
+        self.assertGreaterEqual(n, 150639)
         legacy = conn.execute(
             "SELECT COUNT(*) FROM listings WHERE price IS NOT NULL").fetchone()[0]
-        self.assertEqual(legacy, 150639)
+        self.assertGreaterEqual(legacy, 150639)
+        auctions = conn.execute(
+            "SELECT COUNT(*) FROM listings WHERE sale_format IN (?, ?)",
+            (db.AUCTION_ONLY, db.AUCTION_WITH_FIXED)).fetchone()[0]
+        self.assertEqual(n - legacy, auctions - self.hybrids(conn))
+
+    @staticmethod
+    def hybrids(conn):
+        """Hybrids are auctions that do carry a genuine fixed price."""
+        return conn.execute(
+            "SELECT COUNT(*) FROM listings WHERE sale_format = ?",
+            (db.AUCTION_WITH_FIXED,)).fetchone()[0]
 
 
 class TestRoundTrip(unittest.TestCase):

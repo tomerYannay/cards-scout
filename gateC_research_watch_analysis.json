@@ -25,7 +25,9 @@
       "min_accepted_comps": 5,
       "max_iqr_ratio": 2.0,
       "min_headroom_pct": 25,
-      "conservative_valuation_statistic": "p25"
+      "conservative_valuation_statistic": "p25",
+      "percentile_algorithm": "statistics.quantiles(data, n=4) from the Python standard library, method='exclusive' (the default), taking index 0 as p25 and index 2 as p75",
+      "percentile_determinism_note": "The interpolation method changes the value. For the Niemann set [49.99, 219.99, 249.99, 249.99, 255.00], method='exclusive' yields p25=134.99 and p75=252.495, while method='inclusive' (and numpy's default 'linear') yields p25=219.99 and p75=249.99. The exclusion is unaffected because the $232.99 cost floor exceeds both p25 values. The method does however also change the p75/p25 range ratio for this candidate, 1.87 under exclusive against 1.14 under inclusive, so any future evaluation must state its method rather than rely on a library default."
     }
   },
   "results_on_the_60": {

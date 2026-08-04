@@ -1,0 +1,102 @@
+{
+  "phase": "research_watch_offline_design",
+  "live_requests": 0,
+  "browser_automation": 0,
+  "db_mutations": 0,
+  "source_data": "gateC pilot, 60 frozen candidates, 1,329 researched comp rows",
+  "rule": {
+    "name": "RESEARCH_WATCH",
+    "meaning": "this auction merits monitoring or later re-evaluation; it is not an executable price, not a purchase recommendation and not an actionable BUY",
+    "conditions_all_required": [
+      "accepted_comp_count >= 5",
+      "p75/p25 of accepted comps <= 2.0",
+      "conservative_valuation = p25 of accepted comps (not the median)",
+      "cost_floor = current_bid + shipping when shipping is KNOWN, otherwise current_bid alone and explicitly a floor",
+      "cost_floor < conservative_valuation",
+      "headroom = (p25 - cost_floor) / p25 >= 25%"
+    ],
+    "mandatory_display": [
+      "reserve UNKNOWN shown as an unresolved blocker",
+      "current bid or opening price labelled provisional",
+      "unknown shipping never treated as zero and the total marked a floor",
+      "never labelled simply WATCH"
+    ],
+    "thresholds": {
+      "min_accepted_comps": 5,
+      "max_iqr_ratio": 2.0,
+      "min_headroom_pct": 25,
+      "conservative_valuation_statistic": "p25"
+    }
+  },
+  "results_on_the_60": {
+    "qualifying_research_watch": 0,
+    "exclusions": {
+      "no_accepted_comps": 24,
+      "bid_already_at_or_above_conservative_valuation": 21,
+      "comp_range_too_wide": 7,
+      "only_1_accepted_comp": 4,
+      "only_3_accepted_comps": 3,
+      "headroom_below_25pct": 1
+    },
+    "best_candidate": {
+      "title": "1992 Topps Stadium Club Beam Team #20 David Robinson",
+      "headroom_pct": 15,
+      "verdict": "excluded, below threshold"
+    }
+  },
+  "two_positive_margin_candidates": [
+    {
+      "title": "1983 Topps #329 Randy Niemann PSA 10",
+      "median_margin_pct": 6.8,
+      "accepted_comps": 5,
+      "comps": [
+        50,
+        220,
+        250,
+        250,
+        255
+      ],
+      "p25": 134.99,
+      "cost_floor": 232.99,
+      "headroom_vs_p25_pct": -72.6,
+      "classification": "NOT RESEARCH_WATCH",
+      "why": "the +6.8% margin came from the median; against the conservative p25 the bid is 72.6% above valuation. One $50 sale drags p25 far below the median, which is exactly what a conservative statistic is for."
+    },
+    {
+      "title": "2000 Fleer Tradition #353 Cal Ripken Jr. PSA 10",
+      "median_margin_pct": 5.5,
+      "accepted_comps": 1,
+      "classification": "NOT RESEARCH_WATCH",
+      "why": "a single accepted comp cannot establish a valuation"
+    }
+  ],
+  "negative_margin_candidates_recheck": {
+    "should_any_be_rechecked": false,
+    "why": "an auction price only rises, so a candidate already at or above conservative valuation can never become attractive. This is a deterministic permanent exclusion, not a deferred decision."
+  },
+  "no_valuation_candidates": {
+    "count": 24,
+    "handling": "never RESEARCH_WATCH and never rechecked. Absent comps are absent evidence, and a recheck refreshes price only - it does not re-run Product Research, so it cannot create a valuation."
+  },
+  "max_recheck_candidates_from_this_pilot": 0,
+  "recheck_design_if_authorized": {
+    "scope": "existing RESEARCH_WATCH candidates only, never all discovered auctions",
+    "interval": "90 minutes before end_time (within the 60-120 minute band)",
+    "cap": 25,
+    "fields_refreshed": [
+      "active/ended status",
+      "current bid",
+      "bid count",
+      "end time",
+      "genuine fixed asking price if present",
+      "shipping representation"
+    ],
+    "product_research": "not rerun while slab identity and accepted comps are unchanged",
+    "after_refresh": "recompute headroom against the unchanged conservative valuation",
+    "dedup": "one alert per item_id per state change; previous bid, previous bid count and previous observation time recorded on every alert"
+  },
+  "structural_finding": "A recheck can only ever reduce headroom, never create it, because auction prices only rise. RESEARCH_WATCH membership decided at discovery is therefore an upper bound and a later recheck can only remove candidates. With 0 qualifying at discovery there is nothing for a recheck to act on, and 59 of the 60 exclusions are for reasons a recheck cannot change: missing comps, insufficient comps, wide comp ranges, or a price already above valuation.",
+  "scope_note": "Bidding is outside the authorized scope, so no auction can be acquired by this project as currently scoped regardless of what a recheck finds. That is a scope fact, not a permanent verdict on auctions.",
+  "defects_found": "none - the extreme negative margins were verified against source comps (Cale Makar UD Canvas #C94 PSA 10: 28 accepted CANVAS comps, median $225, opening bid $725) and reflect genuine above-market openings, not identity or parallel leakage",
+  "decision": "AUCTION_RECHECK_NOT_USEFUL"
+}
